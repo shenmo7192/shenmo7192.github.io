@@ -78,9 +78,9 @@ theme = "dream"
   # collapseBySummary = true
 
    [params.advanced]
-     customCSS = ["https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css","css/amber-icon.css","https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"]
+     customCSS = ["https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css","css/amber-icon.css"]
      customJSBefore = []
-     customJS = ["js/autoload.js","js/bilibili-img.js","https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js","https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"]
+     customJS = ["js/autoload.js","js/bilibili-img.js"]
 
   # [params.experimental]
      jsDate = true
