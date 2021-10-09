@@ -6,11 +6,11 @@ theme = "dream"
 
  copyright = "shenmo"
 
- #googleAnalytics = "G-LH45F8QHB6"
+#googleAnalytics = "G-LH45F8QHB6"
 
 # disqusShortname = ""
 
-# enableRobotsTXT = true
+ enableRobotsTXT = true
 
 [params]
   background = "#f7f7f7"
@@ -26,7 +26,7 @@ theme = "dream"
    dark404 = true
 
   author = "shenmo"
-   description = "沫"
+  description = "沫"
   avatar = "/img/avatar.jpeg"
   headerTitle = "shenmo的世界"
   motto = "安柏单推人~"
@@ -89,5 +89,3 @@ theme = "dream"
  [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
-   
