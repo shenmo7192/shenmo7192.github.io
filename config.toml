@@ -4,7 +4,7 @@ defaultContentLanguage = "zh"
 title = "shenmo的世界"
 theme = "dream"
 
- copyright = "本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议\n非商业转载必须注明出处并署名，转载后的文章同样受CC-BY-NC-SA-4.0限制；不可商业转载"
+ copyright = "本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议"
 
 #googleAnalytics = "G-LH45F8QHB6"
 
