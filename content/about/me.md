@@ -5,22 +5,76 @@ lastmod: 2021-10-09T19:16:38+08:00
 draft: false
 ---
 
-星火应用商店项目Leader
+星火应用商店项目 Leader
+  <div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	 <img class="ava" src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633868669142.png" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://gitee.com/deepin-community-store/spark-store">星火应用商店</a> 
+        </div> 
+        <div class="info">
+         第三方Linux应用商店
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+		 
+		 
 
-安柏单推人
 
-MinecraftBE 服务器交流群：913146678
-https://jq.qq.com/?_wv=1027&k=bbAHpP6d
+Minecraft BE 服务器交流群：913146678
+<div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	 <img class="ava" src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633868669136.png" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://jq.qq.com/?_wv=1027&k=bbAHpP6d">点击加入QQ群</a> 
+        </div> 
+        <div class="info">
+         shenmo服务器
+		 </div>
+		 </div>
+		 </div>
+		 </div>
 
 
+bilibili:
 
-bilibili账号：[戳这里](https://space.bilibili.com/151990660)
+<div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	 <img class="ava" src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633869153285.jpg" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://space.bilibili.com/151990660">神末shenmo</a> 
+        </div> 
+        <div class="info">
+         深度科技论坛一枚小白版主QAQ~
+		 </div>
+		 </div>
+		 </div>
+		 </div>
 
-深度论坛账号：[戳这里](https://bbs.deepin.org/zh/user/223313)
 
----
+深度论坛账号：
 
-**友链**
+<div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	 <img class="ava" src="https://avatar.cdn.deepin.com/public/avatar/2021/06/28/20-22-43-99f32bff.png" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://bbs.deepin.org/zh/user/223313">神末shenmo</a> 
+        </div> 
+        <div class="info">
+         星火首席爆料官~
+		 </div>
+		 </div>
+		 </div>
+		 </div>
 
   <div class="post-body"> 
    <div id="links"> 
@@ -98,39 +152,4 @@ bilibili账号：[戳这里](https://space.bilibili.com/151990660)
       	float:left;
       }
      </style> 
-    <div class="links-content"> 
-     <div class="link-navigation"> 
-      <div class="card"> 
-       <img class="ava" src="https://img11.360buyimg.com/ddimg/jfs/t1/199313/28/4759/36424/6124e67aE6b16b6da/c23322e4a0242148.jpg" /> 
-       <div class="card-header"> 
-        <div> 
-         <a href="https://www.cnblogs.com/maicss/">Maicss's Blog</a> 
-        </div> 
-        <div class="info">
-         wonderful to have a beginner's mind.
-        </div> 
-       </div> 
-      </div>
-     </div> 
-    </div> 
-   </div> 
-  </div>
   
-  
-  <div class="links-content"> 
-     <div class="link-navigation"> 
-      <div class="card"> 
-       <img class="ava" src="https://crisq.tk/images/logo@2x.png" /> 
-       <div class="card-header"> 
-        <div> 
-         <a href="https://crisq.tk/">CRIS的小站</a> 
-        </div> 
-        <div class="info">
-         Superbia.
-        </div> 
-       </div> 
-      </div>
-     </div> 
-    </div> 
-   </div> 
-  </div>

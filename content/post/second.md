@@ -11,7 +11,7 @@ cover: https://z3.ax1x.com/2021/10/02/4bdqJK.gif
 categories:
   - 啥都有
 tags:
-  - 闲聊
+  - Linux
 # nolastmod: true
 draft: false
 ---

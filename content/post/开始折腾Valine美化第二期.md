@@ -11,7 +11,7 @@ cover: https://images3.freesion.com/535/5d/5ddf6d8f1f0a571bac9cded203accd07.png
 categories:
   - 啥都有
 tags:
-  - 闲聊
+  - 折腾博客
 # nolastmod: true
 draft: false
 ---
