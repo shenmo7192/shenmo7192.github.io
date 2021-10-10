@@ -5,7 +5,7 @@ lastmod: 2021-10-10T20:35:46+08:00
 author: shenmo
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site
-cover: /img/Icey-view.png
+cover: https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633871642677.png
 # images:
 #   - /img/cover.jpg
 categories:
@@ -15,7 +15,6 @@ tags:
 # nolastmod: true
 draft: false
 ---
-
 已经在QQ空间里发布了链接，互加友链的请求就来了。然而，我的博客主题不支持友链，也就是说，我还是需要手改主题......
 <!--more-->
 
