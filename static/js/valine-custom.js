@@ -1,5 +1,5 @@
 new Valine({
-    el:'vcomment',
+    el:'#vcomments',
 placeholder: "期待你的回复哦ヽ(✿ﾟ▽ﾟ)ノ\n在邮件栏目填写QQ邮箱可以获取QQ头像哦~\n可以使用markdown哦～",
 enableQQ:true,
 
