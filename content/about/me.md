@@ -7,6 +7,9 @@ draft: false
 
 星火应用商店项目Leader，安柏单推人
 
-<!--more-->
+喜欢玩MC
 
+bilibili账号：[戳这里](https://space.bilibili.com/151990660)
+
+深度论坛账号：[戳这里](https://bbs.deepin.org/zh/user/223313)
 
