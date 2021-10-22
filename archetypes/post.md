@@ -5,7 +5,7 @@ lastmod: {{ .Date }}
 author: shenmo
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site
-cover: /img/Icey-view.png
+# cover: /img/Icey-view.png
 # images:
 #   - /img/cover.jpg
 categories:
