@@ -9,9 +9,9 @@ cover: https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/for
 # images:
 #   - /img/cover.jpg
 categories:
-  - 星火公告
+  - 啥都有
 tags:
-  - 闲聊
+  - 星火公告
 # nolastmod: true
 draft: false
 ---
