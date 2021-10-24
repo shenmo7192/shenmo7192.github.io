@@ -22,7 +22,7 @@ draft: false
 
 [软件包投递标准](https://superendermansm.gitee.io/post/must-know-before-upload/)
 
-[反馈已上架应用问题（暂定）](https://gitee.com/deepin-community-store/json)
+[反馈已上架应用问题（暂定）](https://www.deepinos.org/)
 
 
 [申请软件包下架](https://gitee.com/deepin-community-store/software_-issue)
