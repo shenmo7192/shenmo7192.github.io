@@ -73,16 +73,19 @@ theme = "dream"
   # hasTwitterEmbed = true
    reversePostAndAside = true
    shareInAside = true
-  # fixedNav = true
+   fixedNav = false
   # collapsibleTags = true
   # collapseBySummary = true
+
+
+enableRobotsTXT = true
 
    [params.advanced]
      customCSS = ["https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.3/css/all.min.css","css/amber-icon.css"]
      customJSBefore = []
      customJS = ["js/autoload.js"]
 
-  # [params.experimental]
+   [params.experimental]
      jsDate = true
      jsDateFormat = "yyyy年MM月dd日"
 

@@ -1,7 +1,7 @@
 ---
 title: 使wine QQ不用宋体的方法
-date: 2021-10-27T20:34:39+08:00
-lastmod: 2021-10-27T20:34:39+08:00
+date: 2021-10-27T15:15:00+08:00
+lastmod: 2021-10-27T15:15:00+08:00
 author: shenmo
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site
