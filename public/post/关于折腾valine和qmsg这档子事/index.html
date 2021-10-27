@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>关于折腾Hugo和Valine和Qmsg这档子事 | shenmo的世界</title>
+    
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+
+
+
+<meta name="author" content="shenmo" />
+<meta name="description" content="沫" />
+
+
+
+<meta name="generator" content="Hugo 0.88.1" />
+
+<link rel="canonical" href="https://superendermansm.gitee.io/post/%E5%85%B3%E4%BA%8E%E6%8A%98%E8%85%BEvaline%E5%92%8Cqmsg%E8%BF%99%E6%A1%A3%E5%AD%90%E4%BA%8B/" />
+
+
+<meta property="og:title" content="关于折腾Hugo和Valine和Qmsg这档子事" />
+<meta property="og:description" content="经过了昨天的折腾，我总算选定了hugo作为我的博客生成器
+原因很简单，在Windows上，Hexo需要装一整个nodejs环境，而hugo是go写成的，不仅执行效率高，而且文件小，单个文件不到100M，直接就可以使用" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://superendermansm.gitee.io/post/%E5%85%B3%E4%BA%8E%E6%8A%98%E8%85%BEvaline%E5%92%8Cqmsg%E8%BF%99%E6%A1%A3%E5%AD%90%E4%BA%8B/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-10-08T21:49:34+08:00" />
+<meta property="article:modified_time" content="2021-10-08T21:49:34+08:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="关于折腾Hugo和Valine和Qmsg这档子事"/>
+<meta name="twitter:description" content="经过了昨天的折腾，我总算选定了hugo作为我的博客生成器
+原因很简单，在Windows上，Hexo需要装一整个nodejs环境，而hugo是go写成的，不仅执行效率高，而且文件小，单个文件不到100M，直接就可以使用"/>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+<link rel="stylesheet" href="/css/icomoon.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/overlayscrollbars@1.13.1/css/OverlayScrollbars.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css">
+<link rel="stylesheet" href="/css/site.css" />
+
+<style>
+  .ui.header a:not(.item, .ui.button):hover {
+    text-decoration: underline;
+  }
+
+  
+  a:not(.item, .ui.button) {
+    color: seagreen !important;
+  }
+  
+
+  
+  .inverted a:not(.item, .ui.button) {
+     color: darkseagreen !important;
+  }
+  
+
+  
+  body.default {
+    
+    background-color: #f7f7f7;
+    
+
+    
+    background-image: url(/img/background.png);
+    
+  }
+  
+
+  
+  body.dark {
+    
+    background-color: black;
+    
+
+    
+    background-image: url(/img/wallpaper.jpg);
+    
+  }
+  
+</style>
+
+
+    
+
+
+
+<link rel="stylesheet" data-highlight href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/gruvbox-light.min.css" />
+
+
+
+
+
+
+
+<script src='//cdn.jsdelivr.net/gh/HCLonely/Valine@latest/dist/Valine.min.js'></script>
+
+
+
+
+
+    
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    
+    <link rel="stylesheet" href="/css/amber-icon.css" />
+    
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?89f492e7db36b5fcf8f284f63d74bac8";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+  </head>
+
+  <body class="default">
+    
+<nav class="ui secondary menu dream-menu dream-nav">
+
+  <a class="item dream-flip-toggle" title="翻转！">
+    <i class="large link bullseye icon"></i>
+  </a>
+  <a class="item" href="https://superendermansm.gitee.io" title="首页">
+    <i class="large link home icon"></i>
+  </a>
+  
+  <a class="item" onclick="themeSwitch(event)">
+    <i class="large link icon theme-switch"></i>
+  </a>
+  
+  
+  <a class="item" title="搜索" onclick="toggleSearch(event)">
+    <i class="large link search icon"></i>
+  </a>
+  
+</nav>
+
+    <div class="flip-container">
+      <div class="flipper">
+        <section class="front">
+          <div class="dream-max-width">
+            
+<div class="ui relaxed centered grid dream-grid dream-grid-single"style="flex-direction: row-reverse;">
+  
+  
+  
+  
+
+  
+  <aside class="sixteen wide mobile sixteen wide tablet three wide computer column dream-single-aside">
+    
+    <div class="ui segment toc">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#heading">？？？</a></li>
+    <li><a href="#这是什么东西">这是什么东西？？？？？？</a></li>
+  </ul>
+</nav>
+    </div>
+    
+
+    
+    <div class="ui segment">
+  <button
+    class="ui circular icon button save-as-image"
+    title="保存为图片"
+    onclick="savePostAsImg()">
+    <i class="save icon"></i>
+  </button>
+  <a href="https://twitter.com/intent/tweet?text=%e5%85%b3%e4%ba%8e%e6%8a%98%e8%85%beHugo%e5%92%8cValine%e5%92%8cQmsg%e8%bf%99%e6%a1%a3%e5%ad%90%e4%ba%8b&url=https%3a%2f%2fsuperendermansm.gitee.io%2fpost%2f%25E5%2585%25B3%25E4%25BA%258E%25E6%258A%2598%25E8%2585%25BEvaline%25E5%2592%258Cqmsg%25E8%25BF%2599%25E6%25A1%25A3%25E5%25AD%2590%25E4%25BA%258B%2f" class="ui circular twitter icon button">
+    <i class="twitter icon"></i>
+  </a>
+  <a href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fsuperendermansm.gitee.io%2fpost%2f%25E5%2585%25B3%25E4%25BA%258E%25E6%258A%2598%25E8%2585%25BEvaline%25E5%2592%258Cqmsg%25E8%25BF%2599%25E6%25A1%25A3%25E5%25AD%2590%25E4%25BA%258B%2f" class="ui circular facebook icon button">
+    <i class="facebook icon"></i>
+  </a>
+</div>
+
+    
+  </aside>
+  
+  <div class="sixteen wide mobile sixteen wide tablet ten wide computer column markdown-body dream-single" id="dream-save-post-as-img">
+    <section class="ui top attached segment">
+      <header>
+        <h1 class="ui large header">关于折腾Hugo和Valine和Qmsg这档子事<span class="sub header">
+            <span class="left">
+              @
+              
+                
+                  shenmo
+                
+              
+
+              | 
+                  <span data-format="luxon">2021-10-08T21:49:34&#43;08:00</span>
+                
+
+              | 2 分钟阅读
+
+              
+              | 更新于
+                
+                  <span data-format="luxon">2021-10-08T21:49:34&#43;08:00</span>
+                
+              
+            </span>
+
+            
+          </span>
+        </h1>
+      </header>
+
+      <article class="main">
+        
+        <img class="cover" src="https://valine.js.org/images/valine.png" />
+        
+
+        <p>经过了昨天的折腾，我总算选定了hugo作为我的博客生成器</p>
+<p>原因很简单，在Windows上，Hexo需要装一整个nodejs环境，而hugo是go写成的，不仅执行效率高，而且文件小，单个文件不到100M，直接就可以使用</p>
+<p>首先就是尝试主题了</p>
+<p>说实话，我一直不太能接受hugo的审美，试了几个经典的主题，比如even，还有各种衍生的，最终还是觉得wordpress一样的大列表比较适合我</p>
+<p>结果找到了类似wordpress的主题，又觉得丑（话说我到现在也没弄明白wordpress怎么配置比较好。。。我好像确实不太适合整这个）</p>
+<p>最后选定了dreams主题（现在的主题）作为我的博客主题</p>
+<p>虽然有很多地方的本地化做的不好（其实是人家作者不需要），比如支持twitter,youtube,facebook,stackoverflow，但是不支持知乎，微博，b站。。。</p>
+<p>只支持google分析，不支持百度分析/友盟+，而加了谷歌分析那国内就无法访问了</p>
+<p>更别提gitee审核资格审核了一整天。。。</p>
+<p>最后还是选定了dreams，可能是因为这是这几个主题里我唯一折腾得比较明白的了（低情商：功能少）</p>
+<p>期间折腾了尝试用友盟替代google，然而友盟的官方统计方案是在页面后面添加一段html。。。</p>
+<p>我用hugo怎么实现？</p>
+<p>不好意思，没有教程:-(</p>
+<p>尝试了手动添加分享按钮，不好意思，不会。。。</p>
+<p>最后还是像我之前的wordpress博客一样，姑且是能用了，但是很多地方都是将就。。。</p>
+<p>我最终选择了&quot;dreams&quot;作为我的hugo博客主题</p>
+<p>但是，折腾才刚刚开始&hellip;..</p>
+<p>首先我打开了Valine的官网<a href="https://valine.js.org/">https://valine.js.org</a></p>
+<p>按照官方的“快速开始”进行了配置</p>
+<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633701207218.png" alt="enter description here"></p>
+<hr>
+<p>首先进入LeanCloud，创建应用</p>
+<p>按照官方的快速开始，我获取了appid和app key</p>
+<p>接下来。。。怎么做？</p>
+<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633701334953.png" alt="enter description here"></p>
+<h2 id="heading">？？？</h2>
+<p>这个意思是想让我把这一段插到自己的网页里吗?</p>
+<p>可是我使用的是hugo自动生成啊！怎么设置才能每次都插入啊？（刚才提到的友盟统计加不上去就是同样的原因）</p>
+<p>然后呢？再往下一步</p>
+<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633703302575.png" alt="enter description here"></p>
+<h2 id="这是什么东西">这是什么东西？？？？？？</h2>
+<p>这是改源码？还是改网页？还是有什么我不知道的config？？？</p>
+<p>下一步，有npm部署方式</p>
+<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633703368039.png" alt="enter description here"></p>
+<p>复制粘贴大法</p>
+<p><code>npm install valine --save</code></p>
+<p>然后</p>
+<p><code>nodejs</code></p>
+<p>复制粘贴</p>
+<pre tabindex="0"><code>import Valine from 'valine';
+</code></pre><p>报错。。。</p>
+<p>复制粘贴</p>
+<pre tabindex="0"><code>
+// Use import
+import Valine from 'valine';
+// or Use require
+const Valine = require('valine');
+
+new Valine({
+    el:'#vcomments',
+    // other config
+})
+
+</code></pre><p>报错。。。</p>
+<p>这有什么用嘛！！！官方给出的快速部署，根本都不解释这个东西怎么用！</p>
+<p>这是什么语言？在哪里执行？用什么方法部署？是连接到云上操作还是怎么样？</p>
+<p>我感觉接下来给的这几步和获取api key根本没有关系啊！！！这都是什么鬼啊！！</p>
+<p>HTML片段姑且是看懂了</p>
+<p>接下来呢？配置？？？？</p>
+<p>初始化对象是什么？</p>
+<p>是，我是不知道，但是作为一个合格的新手指引，至少要告诉我们这个东西是在哪里执行的啊！</p>
+<p>就且看直接百度“初始化对象”能搜到什么</p>
+<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633703772779.png" alt="enter description here"></p>
+<p>不同的语言都有结果</p>
+<p>而且显然不是我所需要的</p>
+<p>还有这个</p>
+<pre tabindex="0"><code>1.3 成员变量的初始化和代码块的执行顺序,是由它们的声明顺序决定的,按顺序依次初始化或执行,但均在构造器方法之前执行。 在此例中,我们在创建Villa对象时,会先试着创建...
+2.当有static成员时
+3.静态成员变量只会被初始化一次,静态化代码块只会被执行一次,在该类第一次被JVM加载时
+4.会先加载父类字节码,再加载子类字节码,如果有创建某类的实例对象,也是在该类的父类..
+</code></pre><p><strong>这都什么跟什么啊！！！</strong></p>
+<p>我需要准备什么环境？这是什么语言的术语？这是在shell里执行的命令吗？还是是nodejs执行的？需要写成脚本还是直接输入?</p>
+<p>怎么安装？安装到哪？是给出的云平台还是自己的电脑？云平台能执行什么？是读取什么部署的？</p>
+<p><strong>我怎么知道啊</strong></p>
+<p>我就算再敷衍，给人家指令的时候都要告诉他从终端输入啊！</p>
+<p>这给了个什么啊！根本不知道再哪里输入，也不知道在哪里配置</p>
+<p>这只能说</p>
+<p><strong>懂得都懂，不懂的那就不懂吧！</strong></p>
+<hr>
+<p>再次百度</p>
+<p><code>hugo valine</code>
+结果出现了</p>
+<p><a href="https://www.bilibili.com/video/av84392015">https://www.bilibili.com/video/av84392015</a></p>
+<p>bilibili上有“手把手”的教程，通过的是valine-admin</p>
+<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633702293717.png" alt="enter description here"></p>
+<p>问题来了</p>
+<p>我使用的不是这个主题。。。</p>
+<p>啊这</p>
+<p><strong>However</strong></p>
+<p>我在我的主题的config.toml中找到了相关的参数</p>
+<pre tabindex="0"><code>#valine = true
+   LEANCLOUD_APP_ID = &quot;&quot;
+   LEANCLOUD_APP_KEY = &quot;&quot;
+   VALINE_LANGUAGE = &quot;&quot;
+
+</code></pre><p>相比教程，我使用的主题支持的选项少得多</p>
+<p>先这样吧！</p>
+<p>解除注释，添加appid</p>
+<p>好的，然后呢？咋部署？</p>
+<p>找百度找到了这个
+<a href="https://blog.csdn.net/u012208219/article/details/106883083/">https://blog.csdn.net/u012208219/article/details/106883083/</a></p>
+<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633702746095.png" alt=""></p>
+<p>按照步骤一步步来</p>
+<p>首先搞一个可爱的Qmsg酱（这个小姐姐一下把我的心情搞好了不少）</p>
+<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633702805788.png" alt="enter description here"></p>
+<p>然后</p>
+<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633702827250.png" alt="enter description here"></p>
+<p>获取api key</p>
+<p>不得不说这个教程确实非常详细</p>
+<p>看起来这个版本的admin面板功能很多啊！</p>
+<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633704964783.png" alt="enter description here">
+（这里只展示一部分）</p>
+<p><strong>接下来是重头戏了</strong></p>
+<p><strong>部署</strong></p>
+<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633702900413.png" alt="enter description here"></p>
+<p>当我复制粘贴到LeanCloud操作界面后点击部署</p>
+<p>结果显示私有仓库需要ssh来操作</p>
+<p>心里一凉</p>
+<p>之前在gitee出现过类似的提示</p>
+<p>除了私有仓库之外，还有一种可能，那就是</p>
+<p>我忐忑地点开了链接</p>
+<p>果不其然</p>
+<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633703051508.png" alt="enter description here"></p>
+<p><strong>404</strong></p>
+<p>然后转到用户页</p>
+<p><a href="https://github.com/DreamyTZK">https://github.com/DreamyTZK</a></p>
+<p>结果还是</p>
+<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633703144061.png" alt="enter description here"></p>
+<p>完了，这回完的很彻底了</p>
+<p>不仅作者删库跑路</p>
+<p>就连作者的主页都没了</p>
+<p>跑了和尚，连庙都跑了！</p>
+<p>没有Valine-admin，我怎么配置啊？官方的部署根本看不懂啊！</p>
+<p>github搜索valine-admin，找到本家了</p>
+<p><a href="https://hub.fastgit.org/DesertsP/Valine-Admin">https://hub.fastgit.org/DesertsP/Valine-Admin</a></p>
+<p>然而</p>
+<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633704413016.png" alt="enter description here"></p>
+<p>支持的太少了</p>
+<p>QQ提醒没有，邮箱提醒模板没有，评论管理后端没有。。。</p>
+<p>我连原版都没法deploy，自己根本不可能添加这些功能啊！</p>
+<p><strong>但是</strong></p>
+<p>之前有知乎大佬讲过，可以用gitee拉取github的仓库来加速下载</p>
+<p>然而，有时候我pull了之后一直不删</p>
+<p>也就是说</p>
+<p><strong>有可能在码云有这个valine-admin-server的源码！</strong></p>
+<p>找了半天，只找到了这个</p>
+<p><a href="https://gitee.com/xiaozhidage/Valine-Admin-Server">https://gitee.com/xiaozhidage/Valine-Admin-Server</a></p>
+<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633704724887.png" alt="enter description here"></p>
+<p>这是一个私人定制魔改版</p>
+<p>然而，能找到的只有这个了</p>
+<p>硬着头皮上吧！fork！</p>
+<p><a href="https://gitee.com/superendermansm/valin-admin">https://gitee.com/superendermansm/valin-admin</a></p>
+<p>接着按教程走，又踩坑了！</p>
+<p>后台管理设置</p>
+<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633705030744.png" alt="enter description here"></p>
+<p>备案域名&hellip;&hellip;</p>
+<p>我的shenmo.tech并没有备案。。。</p>
+<p>打开xinnet</p>
+<p>进行备案操作</p>
+<p>结果需要备案服务号</p>
+<p>之前工信部丧心病狂地对于备案反复横跳，现在变成了主机提供商备案</p>
+<p>心里一凉</p>
+<p>我是xinnet购买域名，在腾讯云有主机</p>
+<p>而主机并不是我的名字，因为要白嫖学生机</p>
+<p>所以不能在腾讯云备案</p>
+<p>新网想要获取备案服务号，必须在新网有云主机或者付费企业邮箱&hellip;&hellip;</p>
+<p>理直气壮地拒绝备案啊！</p>
+<p>我觉得这个规定就是不合理的！我想要用serverless的服务，不就是我买不起云主机的意思么。。。。。。</p>
+<p>所以我就和没有自己域名一样，只能放弃后台管理了（后来发现原来魔改版魔改的部分主要就在于后台管理，正好让我把魔改的部分错过了）</p>
+<p>终于部署完成了！</p>
+<p>正好gitee来消息，我的gitee page审核通过了！</p>
+<p>直接部署好吧</p>
+<p>找一个文章直接回复就是这个</p>
+<p><a href="https://superendermansm.gitee.io/posts/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/">https://superendermansm.gitee.io/posts/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/</a></p>
+<p>没错就是这个文章（现在你没看到评论是因为我在调试结束后删除了所有测试用的回复）</p>
+<p>结果没有收到邮件</p>
+<p>查看日志出现smtp错误。。。只有Qmsg成功发送</p>
+<p>行吧，我就把smtp从网易邮箱换成了域名邮（就是我的shenmo@spark-app.store）</p>
+<p>反正是自己给自己发邮件</p>
+<p>折腾完了，准备再发一个评论测试，发现还有一点不对</p>
+<p><strong>为什么我没有收到QQ消息？</strong></p>
+<p>明明日志里面显示成功发送了！</p>
+<p>一看Qmsg控制台</p>
+<p>好家伙
+<img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633705580284.png" alt="enter description here"></p>
+<p>只要有链接就算是恶意推广。。。</p>
+<p>咨询站长</p>
+<p>只要是捐赠版Qmsg就可以无视这个规则</p>
+<p>获取捐赠版的Qmsg需要自有QQ号（怪不得没有审查，自己提供QQ嘛）和捐赠200+RMB
+好家伙，我有200块直接租一个wordpress不香吗？我为什么用gitee page你心里没点ac数吗？</p>
+<p>只好尝试改代码把url屏蔽</p>
+<p>假期的时候曾经改过miari色图插件的json（星火的应用详情也是json），也算是对改这类字符串拼接的东西有点经验（色图+链接确实容易被冻结）</p>
+<p>但是说实话，对一个自己都不知道啥语言的代码直接手撸，之前没有过</p>
+<p>提交记录如下</p>
+<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633705883629.png" alt="enter description here"></p>
+<p>改完好家伙，直接挂。。。</p>
+<p>无论我发什么，都不会有任何邮箱或者QQ发送</p>
+<p>甚至都没有尝试！</p>
+<p>在日志里只记录了回复者的ip和未找到屏蔽词，根本没有尝试发送邮件/QQ的log！！！</p>
+<p>马上回滚代码！</p>
+<p>没用！还是没有尝试</p>
+<p>百度，无用，这个valine-admin-server作者都删库跑路了，哪有什么相关的东西？</p>
+<p>直接百度valine，出来的博客园和csdn都是千篇一律的东西</p>
+<p>插一句，我就很奇怪了，这是有kpi考核吗还是什么？为什么同一篇文章持续不断地被人转载以至于塞满整个搜索结果？为什么从几年前一直到最近都有人发布？而且有的转载甚至连排版都有问题！有的转载甚至有明显的不属于他的博客系统的内容！</p>
+<p>这都什么？</p>
+<p>更蛋疼的是，给出的配置文件位置都是适配hexo的。。。</p>
+<p>现在我尝到当时选定方案不成熟时的苦果了，人家hexo的生态好，就像现在wordpress的占有率仍然吊打一众博客生成器，人家来的早功能全，还有wordpress大学等一系列社区支持，选择一个小众的博客生成器，那没有相关文档就是必然的了</p>
+<p>更何况我好死不死用了一个已经弃坑甚至连文档也只有一篇博客的admin-server&hellip;..</p>
+<p>反复刷新，尝试找valine的代码，找不到。valine-admin-server的仓库里找不到valine的release本体。。。我不清楚这个评论系统到底是怎么被部署的。。。</p>
+<p>一筹莫展的时候，我突然发现，本地开的hugo服务器上回复的内容，会被处理！</p>
+<p>赶紧看Qmsg，果然有被拦截的消息！</p>
+<p>刷新手机，果然在垃圾箱找到了邮件提醒</p>
+<p>回滚到手改代码版本，成功了！</p>
+<p>看来我改的没问题</p>
+<p>那问题出在哪？</p>
+<p>我的目光逐渐盯到了“域名白名单”，也就是&quot;web安全域名&quot;</p>
+<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633706861957.png" alt="enter description here"></p>
+<p>我在本地调试的时候显然是localhost，这就是白名单之内的</p>
+<p>那在码云端调试的时候，既然无法触发，那就是这里设置有误！</p>
+<p><strong>神末式解决问题方法：既然这个东西暂时没用，而且影响到了问题的解决，那就砍掉！</strong></p>
+<p>于是清空整个白名单，转为全部放行</p>
+<p>刷新，回复，无效</p>
+<p>只有接收到评论的log，没有Email/QQ</p>
+<p>这时候看到了这个</p>
+<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633707038726.png" alt="enter description here"></p>
+<p>三分钟，等就是了</p>
+<p>半个小时过去了</p>
+<p>疯狂刷新中。。。</p>
+<p>没有任何作用！！！</p>
+<p>心里烦躁，真心难受</p>
+<p>到底是哪里出了问题？？？怎么调都调不通！还没有代码可以看！到底这狗b玩意是怎么部署到服务器的啊！</p>
+<p>这时候我突然发现，在线的页面和本地页面有一个细微的不同</p>
+<p>在线页面的回复框的邮箱处，填写了我的真实邮箱</p>
+<p>而本地的是瞎写的</p>
+<p>等等，我似乎在代码里看到&hellip;..</p>
+<p>赶紧打开码云</p>
+<pre tabindex="0"><code>// 提醒站长
+exports.notice = (comment) =&gt; {
+  // 站长自己发的评论不需要通知
+</code></pre><p>虽然不知道怎么实现的，但是确实</p>
+<p><strong>站长的评论回复是不会通知的！</strong></p>
+<p>在线上更改了个瞎写的邮箱后</p>
+<p>正常通知了！</p>
+<p>然而，心里一点都没有高兴，没有茅塞顿开，也没有柳暗花明又一村</p>
+<p>只有</p>
+<p><strong>抓狂</strong></p>
+<p>这么长时间干了啥？一点用也没有啊！瞎打转！</p>
+<p>出去吃完饭，平复心情，已经八点多了。。。</p>
+<p>从下午开始，已经快6个小时了。。。其中多长时间是被这个破玩意耽误了呢？</p>
+<p>回来之后，开始下一项工作：Valine美化</p>
+<hr>
+<p>别人家的博客：有看板娘，有特色鼠标光标，可以用各种表情包</p>
+<p>我的博客：朴素，简陋，只能发经典表情包</p>
+<hr>
+<p>百度很多的好玩的插件都是在html后面或者前面挂一段代码。。。</p>
+<p>我不会啊！谁能告诉我hugo应该怎么配置才能这样做？？？</p>
+<p>那自定义表情包呢？</p>
+<p>不是我不想，但是Valine的官方文档长这样</p>
+<p>举例：bilibili自定义表情包</p>
+<pre tabindex="0"><code>举个栗子
+
+比如我们要用Bilibili的表情包(效果可以在评论区查看):
+
+new Valine({
+    el:'#vcomment',
+    appId:'&lt;Your_APP_ID&gt;',
+    appKey:'&lt;Your_APP_KEY&gt;',
+
+    // 设置Bilibili表情包地址
+    emojiCDN: '//i0.hdslb.com/bfs/emote/', 
+    // 表情title和图片映射
+    emojiMaps: {
+        &quot;tv_doge&quot;: &quot;6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png&quot;,
+        &quot;tv_亲亲&quot;: &quot;a8111ad55953ef5e3be3327ef94eb4a39d535d06.png&quot;,
+        &quot;tv_偷笑&quot;: &quot;bb690d4107620f1c15cff29509db529a73aee261.png&quot;,
+        &quot;tv_再见&quot;: &quot;180129b8ea851044ce71caf55cc8ce44bd4a4fc8.png&quot;,
+        &quot;tv_冷漠&quot;: &quot;b9cbc755c2b3ee43be07ca13de84e5b699a3f101.png&quot;,
+        &quot;tv_发怒&quot;: &quot;34ba3cd204d5b05fec70ce08fa9fa0dd612409ff.png&quot;,
+        &quot;tv_发财&quot;: &quot;34db290afd2963723c6eb3c4560667db7253a21a.png&quot;,
+        &quot;tv_可爱&quot;: &quot;9e55fd9b500ac4b96613539f1ce2f9499e314ed9.png&quot;,
+        &quot;tv_吐血&quot;: &quot;09dd16a7aa59b77baa1155d47484409624470c77.png&quot;,
+        &quot;tv_呆&quot;: &quot;fe1179ebaa191569b0d31cecafe7a2cd1c951c9d.png&quot;,
+        &quot;tv_呕吐&quot;: &quot;9f996894a39e282ccf5e66856af49483f81870f3.png&quot;,
+        &quot;tv_困&quot;: &quot;241ee304e44c0af029adceb294399391e4737ef2.png&quot;,
+        &quot;tv_坏笑&quot;: &quot;1f0b87f731a671079842116e0991c91c2c88645a.png&quot;,
+        &quot;tv_大佬&quot;: &quot;093c1e2c490161aca397afc45573c877cdead616.png&quot;,
+        &quot;tv_大哭&quot;: &quot;23269aeb35f99daee28dda129676f6e9ea87934f.png&quot;,
+        &quot;tv_委屈&quot;: &quot;d04dba7b5465779e9755d2ab6f0a897b9b33bb77.png&quot;,
+        &quot;tv_害羞&quot;: &quot;a37683fb5642fa3ddfc7f4e5525fd13e42a2bdb1.png&quot;,
+        &quot;tv_尴尬&quot;: &quot;7cfa62dafc59798a3d3fb262d421eeeff166cfa4.png&quot;,
+        &quot;tv_微笑&quot;: &quot;70dc5c7b56f93eb61bddba11e28fb1d18fddcd4c.png&quot;,
+        &quot;tv_思考&quot;: &quot;90cf159733e558137ed20aa04d09964436f618a1.png&quot;,
+        &quot;tv_惊吓&quot;: &quot;0d15c7e2ee58e935adc6a7193ee042388adc22af.png&quot;,
+        // ... 更多表情
+    } 
+})
+
+</code></pre><h1 id="这是啥在哪用写在哪">这是啥？在哪用？写在哪？？？</h1>
+<p>完全没有任何可操作性！</p>
+<p>只好问百度</p>
+<p>基本上也是这样的</p>
+<p><strong>难道错的是我自己吗。。。</strong></p>
+<p>但是</p>
+<p>有一个美化</p>
+<p>也就是添加评论widget背景</p>
+<p>是一个css</p>
+<p>我突然想起，在好久之前，我的config.toml好像有一句&hellip;..</p>
+<p>就是这个！</p>
+<p><code>customCSS = [&quot;css/custom.css&quot;]</code></p>
+<p>找到custom.css，在后面复制粘贴，改链接</p>
+<p>成功！</p>
+<p>于是我目前唯一的装饰就是</p>
+<p>当当当当！</p>
+<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633708738761.png" alt="enter description here"></p>
+<p>折腾了好久，要熄灯了，就先告一段落吧！</p>
+<p>P.S.今天写博客的时候感觉室友甚是聒噪，想要使用耳塞，却发现耳塞之前睡觉的时候丢了一个。。。把耳机戴上，快写完博客的时候也快12点了，正好转到这首歌，心里突然软了一下</p>
+<hr>
+<p>这是我的旅行</p>
+<p>这是我的冒险</p>
+<p>这是我的伙伴</p>
+<p>这是我们一起走过来的一年</p>
+<p>明明是代码和图片&hellip;情感却是真实的！</p>
+<p>在门的另一端，故事还没写完&hellip;&hellip;</p>
+<p><strong>Yeye Tomo!</strong></p>
+<p><strong>Odomu dada!</strong></p>
+<p><strong>mosi mita !!!</strong></p>
+<p><strong>祝各位旅行者一周年快乐！</strong></p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1880127698&auto=0&height=66"></iframe>
+      </article>
+    </section>
+
+    
+
+    
+
+
+
+    
+    <article class="ui segment" data-html2canvas-ignore>
+      <div id="vcomments"></div>
+    </article>
+
+
+
+
+
+
+
+<script>
+new Valine({
+    el:'#vcomments',
+placeholder: "期待你的回复哦ヽ(✿ﾟ▽ﾟ)ノ\n在邮件栏目填写QQ邮箱或者在昵称栏填写QQ号可以获取QQ头像和昵称哦~\n可以使用markdown哦～",
+enableQQ:true,
+
+    appId:'euHqWEo74Ia7dhJMLhwcqBU8-gzGzoHsz',
+    appKey:'rbHg8yFAvTM0DNkJC1OAyswj',
+verify:true,
+tagMeta:["shenmo","小伙伴","访客"],
+metaPlaceholder:{"nick":"昵称 / QQ 号","mail":"邮箱 (必填)"},
+master:['3868cd2d4052241a00989a589e7fdef3','868f361381a07b9e262cd55cdc349769'],
+friends:[],
+    
+    emojiCDN: '//i0.hdslb.com/bfs/emote/', 
+    
+    emojiMaps: {
+        "tv_doge": "6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png",
+      "tv_亲亲": "a8111ad55953ef5e3be3327ef94eb4a39d535d06.png",
+      "tv_偷笑": "bb690d4107620f1c15cff29509db529a73aee261.png",
+      "tv_再见": "180129b8ea851044ce71caf55cc8ce44bd4a4fc8.png",
+      "tv_冷漠": "b9cbc755c2b3ee43be07ca13de84e5b699a3f101.png",
+      "tv_发怒": "34ba3cd204d5b05fec70ce08fa9fa0dd612409ff.png",
+      "tv_发财": "34db290afd2963723c6eb3c4560667db7253a21a.png",
+      "tv_可爱": "9e55fd9b500ac4b96613539f1ce2f9499e314ed9.png",
+      "tv_吐血": "09dd16a7aa59b77baa1155d47484409624470c77.png",
+      "tv_呆": "fe1179ebaa191569b0d31cecafe7a2cd1c951c9d.png",
+      "tv_呕吐": "9f996894a39e282ccf5e66856af49483f81870f3.png",
+      "tv_困": "241ee304e44c0af029adceb294399391e4737ef2.png",
+      "tv_坏笑": "1f0b87f731a671079842116e0991c91c2c88645a.png",
+      "tv_大佬": "093c1e2c490161aca397afc45573c877cdead616.png",
+      "tv_大哭": "23269aeb35f99daee28dda129676f6e9ea87934f.png",
+      "tv_委屈": "d04dba7b5465779e9755d2ab6f0a897b9b33bb77.png",
+      "tv_害羞": "a37683fb5642fa3ddfc7f4e5525fd13e42a2bdb1.png",
+      "tv_尴尬": "7cfa62dafc59798a3d3fb262d421eeeff166cfa4.png",
+      "tv_微笑": "70dc5c7b56f93eb61bddba11e28fb1d18fddcd4c.png",
+      "tv_思考": "90cf159733e558137ed20aa04d09964436f618a1.png",
+      "tv_惊吓": "0d15c7e2ee58e935adc6a7193ee042388adc22af.png",
+      "tv_打脸": "56ab10b624063e966bfcb76ea5dc4794d87dfd47.png",
+      "tv_抓狂": "fe31c08edad661d63762b04e17b8d5ae3c71a757.png",
+      "tv_抠鼻": "c666f55e88d471e51bbd9fab9bb308110824a6eb.png",
+      "tv_斜眼笑": "911f987aa8bc1bee12d52aafe62bc41ef4474e6c.png",
+      "tv_无奈": "ea8ed89ee9878f2fece2dda0ea8a5dbfe21b5751.png",
+      "tv_晕": "5443c22b4d07fb1907ccc610c8e6db254f2461b7.png",
+      "tv_流汗": "cead1c351ab8d79e9f369605beb90148db0fbed3.png",
+      "tv_流泪": "7e71cde7858f0cd50d74b0264aa26db612a8a167.png",
+      "tv_流鼻血": "c32d39db2737f89b904ca32700d140a9241b0767.png",
+      "tv_点赞": "f85c354995bd99e28fc76c869bfe42ba6438eff4.png",
+      "tv_生气": "26702dcafdab5e8225b43ffd23c94ac1ff932654.png",
+      "tv_生病": "8b0ec90e6b86771092a498c54f09fc94621c1900.png",
+      "tv_疑问": "0793d949b18d7be716078349c202c15ff166f314.png",
+      "tv_白眼": "c1d59f439e379ee50eef488bcb5e5378e5044ea4.png",
+      "tv_皱眉": "72ccad6679fea0d14cce648b4d818e09b8ffea2d.png",
+      "tv_目瞪口呆": "0b8cb81a68de5d5365212c99375e7ace3e7891b7.png",
+      "tv_睡着": "8b196675b53af58264f383c50ad0945048290b33.png",
+      "tv_笑哭": "1abc628f6d4f4caf9d0e7800878f4697abbc8273.png",
+      "tv_腼腆": "89712c0d4af73e67f89e35cbc518420380a7f6f4.png",
+      "tv_色": "61822c7e9aae5da76475e7892534545336b23a6f.png",
+      "tv_调侃": "4bc022533ef31544ca0d72c12c808cf4a1cce3e3.png",
+      "tv_调皮": "b9c41de8e82dd7a8515ae5e3cb63e898bf245186.png",
+      "tv_鄙视": "6e72339f346a692a495b123174b49e4e8e781303.png",
+      "tv_闭嘴": "c9e990da7f6e93975e25fd8b70e2e290aa4086ef.png",
+      "tv_难过": "87f46748d3f142ebc6586ff58860d0e2fc8263ba.png",
+      "tv_馋": "fc7e829b845c43c623c8b490ee3602b7f0e76a31.png",
+      "tv_鬼脸": "0ffbbddf8a94d124ca2f54b360bbc04feb6bbfea.png",
+      "tv_黑人问号": "45821a01f51bc867da9edbaa2e070410819a95b2.png",
+      "tv_鼓掌": "1d21793f96ef4e6f48b23e53e3b9e42da833a0f6.png"
+        
+    } 
+})
+</script>
+
+
+
+    
+  </div>
+</div>
+
+
+            <footer class="ui basic center aligned segment" style="background-color: transparent;">
+	<p><script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1280406540'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1280406540%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script></p>
+              
+              <p>© 2019 - 2021 shenmo的世界</p>
+              
+
+              <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
+
+              
+              <p>看不见我～</p>
+              
+            </footer>
+          </div>
+        </section>
+        <section class="back">
+          <div class="dream-max-width">
+            <header class="ui basic very padded segment dream-header">
+  
+  <div class="ui small circular image">
+    <img src="/img/avatar.jpeg" alt="avatar" />
+  </div>
+  
+
+  <div class="content">
+    <h1 class="ui medium header">shenmo的世界<span class="sub header">安柏单推人~</span>
+    </h1>
+
+    <article class="ui horizontal list">
+      
+      <a class="item" href="/categories">
+        <i class="th list icon" title="所有分类"></i>
+      </a>
+      <a class="item" href="/tags">
+        <i class="tags icon" title="所有标签"></i>
+      </a>
+    </article>
+
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+
+    
+
+    
+    
+    
+          <div class="dream-tags">
+          
+          
+          
+            <a class="ui label" href="/tags/linux/" title="Linux">
+              Linux
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/" title="折腾博客">
+              折腾博客
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/%E6%98%9F%E7%81%AB%E5%85%AC%E5%91%8A/" title="星火公告">
+              星火公告
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/%E9%97%B2%E8%81%8A/" title="闲聊">
+              闲聊
+            </a>
+          
+          </div>
+    
+
+    
+  </div>
+</header>
+
+
+<div class="ui relaxed grid dream-grid dream-back">
+  
+  
+  
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment markdown-body">
+      <div class="ui medium header">关于我</div>
+      <p>星火应用商店项目 Leader</p>
+  <div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	 <img class="ava" src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633868669142.png" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://gitee.com/deepin-community-store/spark-store">星火应用商店</a> 
+        </div> 
+        <div class="info">
+         第三方Linux应用商店
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+<p>Minecraft BE 服务器交流群：913146678</p>
+<div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	 <img class="ava" src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633868669136.png" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://jq.qq.com/?_wv=1027&k=bbAHpP6d">点击加入QQ群</a> 
+        </div> 
+        <div class="info">
+         shenmo服务器
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+<p>bilibili:</p>
+<div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	 <img class="ava" src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633869153285.jpg" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://space.bilibili.com/151990660">神末shenmo</a> 
+        </div> 
+        <div class="info">
+         深度科技论坛一枚小白版主QAQ~
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+<p>深度论坛账号：</p>
+<div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	 <img class="ava" src="https://avatar.cdn.deepin.com/public/avatar/2021/06/28/20-22-43-99f32bff.png" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://bbs.deepin.org/zh/user/223313">神末shenmo</a> 
+        </div> 
+        <div class="info">
+         星火首席爆料官~
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+  <div class="post-body"> 
+   <div id="links"> 
+    <style>
+    .links-content
+    {
+      	margin-top:1rem;
+      }
+      .link-navigation::after
+      {
+      	content:" ";
+      	display:block;
+      	clear:both;
+      }
+      .card
+      {
+	      max-width:250px;
+	      font-size:1rem;
+      	border-radius:5px;
+	      transition-duration:.15s;
+	      margin-bottom:1rem;
+	      display:flex;
+	      padding:10px 25px;
+      }
+      .card:hover
+      {
+      	transform:scale(1.1);
+      	box-shadow:0 2px 6px 0 rgba(0,0,0,0.12), 0 0 6px 0 rgba(0,0,0,0.04);
+      }
+      .card a
+      {
+      	border:none;
+      }
+      .card .ava
+      {
+      	width:3rem!important;
+        height:3rem!important;
+      	border-radius:4px;
+      	margin:0 1em 0 0 !important;
+      }
+      .card .card-header
+      {
+      	font-style:italic;
+      	overflow:hidden;
+      	width:100%;
+      }
+      .card .card-header a
+      {
+      	font-style:normal;
+      	color:#333;
+      	font-weight:700;
+      	text-decoration:none;
+      }
+      .card .card-header a:hover
+      {
+      	color:#79aeff;
+      	text-decoration:none;
+      }
+      .card .card-header .info
+      {
+      	font-style:normal;
+      	color:#a3a3a3;
+      	font-size:14px;
+      	min-width:0;
+      	text-overflow:ellipsis;
+      	overflow:hidden;
+      	white-space:nowrap;
+      }
+      .card:nth-child(odd)
+      {
+      	float:left;
+      }
+      .card:nth-child(even)
+      {
+      	float:left;
+      }
+     </style> 
+
+    </article>
+  </div>
+  
+
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment">
+      <div class="ui medium header">社交链接</div>
+      <nav class="ui secondary menu dream-menu dream-socials">
+  
+  <a class="item" href="/index.xml">
+    <i class="large rss square icon" title="RSS"></i>
+  </a>
+  
+
+  
+  <a class="item" href="mailto:jifengshenmo@outlook.com">
+    <i class="large mail icon" title="Email"></i>
+  </a>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  <a class="item" href="https://github.com/SuperEndermanSM" target="_blank">
+    <i class="large github icon" title="GitHub"></i>
+  </a>
+  
+
+  
+
+  
+
+  
+
+
+
+  <div class="post-body"> 
+<hr class="xsj_hr xsj_minus">
+  <p class="xsj_paragraph xsj_paragraph_level_0" data-source-line="37" data-source-line-display="true">
+<p><strong>友链</strong></p>
+
+   <div id="links"> 
+    <style>
+    .links-content
+    {
+      	margin-top:1rem;
+      }
+      .link-navigation::after
+      {
+      	content:" ";
+      	display:block;
+      	clear:both;
+      }
+      .card
+      {
+	      max-width:250px;
+	      font-size:1rem;
+      	border-radius:5px;
+	      transition-duration:.15s;
+	      margin-bottom:1rem;
+	      display:flex;
+	      padding:10px 25px;
+      }
+      .card:hover
+      {
+      	transform:scale(1.1);
+      	box-shadow:0 2px 6px 0 rgba(0,0,0,0.12), 0 0 6px 0 rgba(0,0,0,0.04);
+      }
+      .card a
+      {
+      	border:none;
+      }
+      .card .ava
+      {
+      	width:3rem!important;
+        height:3rem!important;
+      	border-radius:4px;
+      	margin:0 1em 0 0 !important;
+      }
+      .card .card-header
+      {
+      	font-style:italic;
+      	overflow:hidden;
+      	width:100%;
+      }
+      .card .card-header a
+      {
+      	font-style:normal;
+      	color:#333;
+      	font-weight:700;
+      	text-decoration:none;
+      }
+      .card .card-header a:hover
+      {
+      	color:#79aeff;
+      	text-decoration:none;
+      }
+      .card .card-header .info
+      {
+      	font-style:normal;
+      	color:#a3a3a3;
+      	font-size:14px;
+      	min-width:0;
+      	text-overflow:ellipsis;
+      	overflow:hidden;
+      	white-space:nowrap;
+      }
+      .card:nth-child(odd)
+      {
+      	float:left;
+      }
+      .card:nth-child(even)
+      {
+      	float:left;
+      }
+     </style> 
+    <div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	  <img class="ava" src="https://img11.360buyimg.com/ddimg/jfs/t1/199313/28/4759/36424/6124e67aE6b16b6da/c23322e4a0242148.jpg" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://www.cnblogs.com/maicss/">Maicss's Blog</a> 
+        </div> 
+        <div class="info">
+         wonderful to have a beginner's mind.
+        </div> 
+       </div> 
+      </div>
+     </div> 
+    </div> 
+   </div> 
+  </div>
+  <div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	  <img class="ava" src="https://crisq.tk/images/logo@2x.png" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://crisq.tk/">CRIS的小站</a> 
+        </div> 
+        <div class="info">
+         Superbia.
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+</nav>
+
+    </article>
+  </div>
+
+
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    
+    <article class="ui segment">
+
+
+
+<p class="xsj_paragraph xsj_paragraph_level_0" data-source-line="9" data-source-line-display="true">本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</p>
+<p class="xsj_paragraph xsj_paragraph_level_0" data-source-line="11" data-source-line-display="true">这意味着你可以在署名并标明出处的情况下进行非商业转载（转载的文章也需要遵守CC-BY-NC-SA-4.0协议），但不可以进行商业转载</p>
+
+    </article>
+
+    
+  </div>
+
+  
+</div>
+
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0"></script><div id="vcomments"></div>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    
+    
+    <div class="ui segment" id="dream-search">
+  <div class="ui search">
+    <div class="ui transparent input">
+      <input class="prompt" type="text" placeholder="搜索" />
+    </div>
+    <div class="results"></div>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    $.getJSON('https:\/\/superendermansm.gitee.io/index.json', function (data) {
+      $('.ui.search').search({
+        source: data,
+        searchFields: ['title'],
+        showNoResults: false,
+      })
+    })
+  })
+</script>
+<script src="/js/search.js"></script>
+
+    
+
+    
+
+    <script>
+  window.background = "#f7f7f7"
+  window.defaultDark =  false 
+  window.backgroundDark = "black"
+  window.backgroundImageDark = "/img/wallpaper.jpg"
+  window.darkNav =  true 
+  window.maxTags =  null 
+  window.hasTwitterEmbed =  null 
+  window.fixedNav =  true 
+
+  if (window.hasTwitterEmbed) {
+    
+    window.twttr = (function (d, s, id) {
+      var js,
+        fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {}
+      if (d.getElementById(id)) return t
+      js = d.createElement(s)
+      js.id = id
+      js.src = 'https://platform.twitter.com/widgets.js'
+      fjs.parentNode.insertBefore(js, fjs)
+
+      t._e = []
+      t.ready = function (f) {
+        t._e.push(f)
+      }
+
+      return t
+    })(document, 'script', 'twitter-wjs')
+  }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/overlayscrollbars@1.13.1/js/jquery.overlayScrollbars.min.js"></script>
+<script src="/js/header.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/theme.js"></script>
+
+
+
+    
+
+
+<script src="https://cdn.jsdelivr.net/npm/luxon@1.26.0"></script>
+
+<script>
+  format()
+
+  function format() {
+    $('span[data-format="luxon"]').each(function () {
+      var date = $(this).text()
+
+      $(this).text(luxon.DateTime.fromISO(date, { locale: "zh" }).toFormat("yyyy年MM月dd日"))
+    })
+  }
+</script>
+
+
+
+<script src="/js/scrollToTop.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/languages/ocaml.min.js"></script>
+
+
+
+<script>
+  hljs.highlightAll()
+  setHighlightTheme()
+
+  function setHighlightTheme() {
+    var isDark = localStore.getItem('hugo-theme-dream-is-dark')
+    isDark = isDark ? isDark : window.defaultDark ? 'y' : isDark
+
+    var lightTheme = "gruvbox-light"
+    var darkTheme = "gruvbox-dark"
+    var theme = isDark === 'y' ? darkTheme : lightTheme
+
+    $('link[data-highlight]').attr('href', 'https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/' + theme + '.min.css')
+    $('pre').css('background', isDark === 'y' ? '#333' : '')
+  }
+</script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.1"></script>
+<script src="/js/post.js" defer></script>
+
+
+    
+    <script src="/js/autoload.js"></script>
+    
+
+    
+</body>
+</html>
