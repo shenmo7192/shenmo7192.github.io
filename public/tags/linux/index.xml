@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on shenmo的世界</title>
+    <link>https://superendermansm.gitee.io/tags/linux/</link>
+    <description>Recent content in Linux on shenmo的世界</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</copyright>
+    <lastBuildDate>Wed, 27 Oct 2021 15:15:00 +0800</lastBuildDate><atom:link href="https://superendermansm.gitee.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使wine QQ不用宋体的方法</title>
+      <link>https://superendermansm.gitee.io/post/%E4%BD%BFwine-qq%E4%B8%8D%E7%94%A8%E5%AE%8B%E4%BD%93%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Wed, 27 Oct 2021 15:15:00 +0800</pubDate>
+      
+      <guid>https://superendermansm.gitee.io/post/%E4%BD%BFwine-qq%E4%B8%8D%E7%94%A8%E5%AE%8B%E4%BD%93%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <description>&lt;p&gt;摘抄自 &lt;a href=&#34;https://blog.zhullyb.top/2021/04/27/hide-simsun-from-deepin-wine-tim/&#34;&gt;https://blog.zhullyb.top/2021/04/27/hide-simsun-from-deepin-wine-tim/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>通过热区唤出侧边栏的折腾实践</title>
+      <link>https://superendermansm.gitee.io/post/second/</link>
+      <pubDate>Fri, 08 Oct 2021 12:29:20 +0800</pubDate>
+      
+      <guid>https://superendermansm.gitee.io/post/second/</guid>
+      <description>&lt;p&gt;最开始把Linux当做主力系统是deepin 15.9，本人是非常习惯热区操作的
+什么是热区呢？就是屏幕四个角用鼠标戳的时候进行某些操作&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
