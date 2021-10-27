@@ -11,6 +11,7 @@ theme = "dream"
 # disqusShortname = ""
 
  enableRobotsTXT = true
+enableGitInfo = true
 
 [params]
   background = "#f7f7f7"
