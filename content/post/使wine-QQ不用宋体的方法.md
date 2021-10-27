@@ -11,7 +11,7 @@ cover: https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/163
 categories:
   - 啥都有
 tags:
-  - 闲聊
+  - Linux
 # nolastmod: true
 draft: false
 ---
