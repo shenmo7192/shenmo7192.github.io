@@ -1,7 +1,7 @@
 baseurl = "https://superendermansm.gitee.io"
 languageCode = "en"
 defaultContentLanguage = "zh"
-title = "shenmo的世界                     "
+title = "shenmo的世界——一个普通人用来记录生活，记录折腾历程，还有些杂七杂八的随感的地方"
 theme = "dream"
 
  copyright = "本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议"
@@ -27,7 +27,7 @@ enableGitInfo = true
    dark404 = true
 
   author = "shenmo"
-  description = "shenmo的世界：主要是一个普通人用来记录生活，记录折腾历程，还有些杂七杂八的随感的地方"
+  description = "shenmo的世界：是一个普通人用来记录生活，记录折腾历程，还有些杂七杂八的随感的地方"
   avatar = "/img/avatar.jpeg"
   headerTitle = "shenmo的世界"
   motto = "安柏单推人~"
