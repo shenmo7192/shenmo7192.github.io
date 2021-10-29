@@ -1,5 +1,5 @@
 ---
-title: 2021 10 29 Opinion Essay Demo
+title: 2021 10 29 Opinion Essay 
 date: 2021-10-29T15:59:26+08:00
 lastmod: 2021-10-29T15:59:26+08:00
 author: shenmo
@@ -16,8 +16,18 @@ tags:
 draft: false
 ---
 
-这里输入的内容会出现在主页也在正文里
+Homework of the 3rd writting class
 
 <!--more-->
 
-这里是正文开始的内容
+# Is using linux distribution in daily lives meaningful or meaningless
+
+
+
+Some people thinks using Linux distributions in daily lives is nothing more than looking for trouble, some others may think it is meaningful to use it.
+
+As for me, I think Using Linux Distributions is meaningful
+
+As we all know, most of people choose windows as their operating system on desktops, laptops and even tablets. There are a lot of reasons to do so, such as it has the best software support and has a better hardware compatibility. However, that doesn’t means that using Linux Distros is purely looking for trouble.
+
+Firstly, Linux distros are mostly opensourced. If a software is opensourced, that means everyone can get access to its source code conveniently, and everyone can get the product by compiling by themselves. That means, if the developer tried to make backdoors or trojan viruses embedded in their operating system, they have to make it exposed to everyone, which is very dangerous. Also, opensource encourages people to join in the developing process, which also benifitial. Secondly, Monopoly always leads to problems, if Microsoft get the most market share of operating system, they would do evil. Now they are incerting A.D. plugins in the dock bar of Windows. So it’s wise to support the competitor to inhibit the process.
