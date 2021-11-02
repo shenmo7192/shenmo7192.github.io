@@ -58,7 +58,7 @@ draft: false
 
 按照官方的“快速开始”进行了配置
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633701207218.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633701207218.png)
 
 -----
 
@@ -68,7 +68,7 @@ draft: false
 
 接下来。。。怎么做？
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633701334953.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633701334953.png)
 
 ## ？？？
 
@@ -78,7 +78,7 @@ draft: false
 
 然后呢？再往下一步
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633703302575.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633703302575.png)
 
 ## 这是什么东西？？？？？？
 
@@ -86,7 +86,7 @@ draft: false
 
 下一步，有npm部署方式
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633703368039.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633703368039.png)
 
 复制粘贴大法
 
@@ -136,7 +136,7 @@ HTML片段姑且是看懂了
 
 就且看直接百度“初始化对象”能搜到什么
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633703772779.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633703772779.png)
 
 不同的语言都有结果
 
@@ -178,7 +178,7 @@ https://www.bilibili.com/video/av84392015
 
 bilibili上有“手把手”的教程，通过的是valine-admin
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633702293717.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633702293717.png)
 
 问题来了
 
@@ -207,17 +207,17 @@ bilibili上有“手把手”的教程，通过的是valine-admin
 找百度找到了这个
 [https://blog.csdn.net/u012208219/article/details/106883083/](https://blog.csdn.net/u012208219/article/details/106883083/)
 
-![](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633702746095.png)
+![](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633702746095.png)
 
 按照步骤一步步来
 
 首先搞一个可爱的Qmsg酱（这个小姐姐一下把我的心情搞好了不少）
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633702805788.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633702805788.png)
 
 然后
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633702827250.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633702827250.png)
 
 获取api key
 
@@ -225,14 +225,14 @@ bilibili上有“手把手”的教程，通过的是valine-admin
 
 看起来这个版本的admin面板功能很多啊！
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633704964783.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633704964783.png)
 （这里只展示一部分）
 
 **接下来是重头戏了**
 
 **部署**
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633702900413.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633702900413.png)
 
 当我复制粘贴到LeanCloud操作界面后点击部署
 
@@ -248,7 +248,7 @@ bilibili上有“手把手”的教程，通过的是valine-admin
 
 果不其然
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633703051508.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633703051508.png)
 
 **404**
 
@@ -258,7 +258,7 @@ https://github.com/DreamyTZK
 
 结果还是
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633703144061.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633703144061.png)
 
 完了，这回完的很彻底了
 
@@ -278,7 +278,7 @@ https://hub.fastgit.org/DesertsP/Valine-Admin
 
 然而
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633704413016.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633704413016.png)
 
 支持的太少了
 
@@ -300,7 +300,7 @@ QQ提醒没有，邮箱提醒模板没有，评论管理后端没有。。。
 
 https://gitee.com/xiaozhidage/Valine-Admin-Server
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633704724887.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633704724887.png)
 
 这是一个私人定制魔改版
 
@@ -308,13 +308,13 @@ https://gitee.com/xiaozhidage/Valine-Admin-Server
 
 硬着头皮上吧！fork！
 
-https://gitee.com/superendermansm/valin-admin
+https://gitee.com/shenmo7192/valin-admin
 
 接着按教程走，又踩坑了！
 
 后台管理设置
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633705030744.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633705030744.png)
 
 备案域名......
 
@@ -353,7 +353,7 @@ https://gitee.com/superendermansm/valin-admin
 
 找一个文章直接回复就是这个
 
-https://superendermansm.gitee.io/posts/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/
+https://shenmo7192.gitee.io/posts/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%B5%8B%E8%AF%95/
 
 没错就是这个文章（现在你没看到评论是因为我在调试结束后删除了所有测试用的回复）
 
@@ -375,7 +375,7 @@ https://superendermansm.gitee.io/posts/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%B
 一看Qmsg控制台
 
 好家伙
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633705580284.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633705580284.png)
 
 只要有链接就算是恶意推广。。。
 
@@ -394,7 +394,7 @@ https://superendermansm.gitee.io/posts/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%B
 
 提交记录如下
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633705883629.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633705883629.png)
 
 改完好家伙，直接挂。。。
 
@@ -439,7 +439,7 @@ https://superendermansm.gitee.io/posts/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%B
 
 我的目光逐渐盯到了“域名白名单”，也就是"web安全域名"
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633706861957.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633706861957.png)
 
 我在本地调试的时候显然是localhost，这就是白名单之内的
 
@@ -455,7 +455,7 @@ https://superendermansm.gitee.io/posts/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%B
 
 这时候看到了这个
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633707038726.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633707038726.png)
 
 三分钟，等就是了
 
@@ -595,7 +595,7 @@ new Valine({
 
 当当当当！
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633708738761.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633708738761.png)
 
 折腾了好久，要熄灯了，就先告一段落吧！
 

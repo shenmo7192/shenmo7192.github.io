@@ -58,4 +58,4 @@ WSL-deepin准备一波，kirigaya做的，现在叫justforlxy
 
 就这样。。。略略略
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633959699835.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633959699835.png)

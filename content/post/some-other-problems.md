@@ -5,7 +5,7 @@ lastmod: 2021-10-24T00:45:08+08:00
 author: shenmo
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site
-cover: https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/for-achievement-small.jpg
+cover: https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/for-achievement-small.jpg
 # images:
 #   - /img/cover.jpg
 categories:
@@ -20,7 +20,7 @@ draft: false
 
 <!--more-->
 
-[软件包投递标准](https://superendermansm.gitee.io/post/must-know-before-upload/)
+[软件包投递标准](https://shenmo7192.gitee.io/post/must-know-before-upload/)
 
 [反馈已上架应用问题（暂定）](https://www.deepinos.org/)
 

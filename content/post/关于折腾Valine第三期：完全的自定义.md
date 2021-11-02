@@ -5,7 +5,7 @@ lastmod: 2021-10-10T16:06:14+08:00
 author: shenmo
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site
-cover: https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633853103267.png
+cover: https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633853103267.png
 # images:
 #   - /img/cover.jpg
 categories:
@@ -24,11 +24,11 @@ draft: false
 
 进入网页的时候，还是没有任何参数的原版
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633849839328.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633849839328.png)
 
 然而，当我点击了一个已有评论再点击回复之后
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633849901651.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633849901651.png)
 
 成功启动了
 
@@ -60,7 +60,7 @@ draft: false
 
 当然也包括魔改版！
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633850507231.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633850507231.png)
 
 我准备完全废弃主题提供的配置方式，于是
 
@@ -244,7 +244,7 @@ enableQQ:true,
 
 就是。。。
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633852234913.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633852234913.png)
 
 看来还是只能手改html了（笑）
 

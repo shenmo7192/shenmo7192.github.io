@@ -50,13 +50,13 @@ deepin的一个经典操作就是猛戳右下角出控制中心
 
 下载kde系统设置
 
-![](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633670043825.png)
+![](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633670043825.png)
 
 打开后找到
 
 工作空间行为——>屏幕边缘
 
-![](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633670043845.png)
+![](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633670043845.png)
 
 右下角戳一下，随便选一个效果，然后apply
 

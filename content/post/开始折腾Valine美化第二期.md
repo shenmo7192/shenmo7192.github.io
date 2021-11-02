@@ -16,13 +16,13 @@ tags:
 draft: false
 ---
 
-首先我们看看刚才那个博文有用的地方（上一集传送门：[点我](https://superendermansm.gitee.io/posts/%E5%B0%9D%E8%AF%95%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E6%97%B6%E7%9A%84%E7%81%B5%E6%84%9F/)）
+首先我们看看刚才那个博文有用的地方（上一集传送门：[点我](https://shenmo7192.gitee.io/posts/%E5%B0%9D%E8%AF%95%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E6%97%B6%E7%9A%84%E7%81%B5%E6%84%9F/)）
 
 <!--more-->
 
 首先是这里
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633749575679.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633749575679.png)
 
 我们可以知道，在博客根目录的文件比同目录下theme里面的文件读取优先级更高，也就是说我们可以直接从theme复制出来并修改，不需要直接更改theme
 
@@ -38,11 +38,11 @@ draft: false
 
 找到这里
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633749740609.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633749740609.png)
 
 emmmm，应该是塞到baseof里面的，但是主题提供的配置直接可以启动
 
-![enter description here](https://gitee.com/superendermansm/shenmo-map-bed/raw/master/小书匠/1633749793209.png)
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633749793209.png)
 
 也就是说，引入Valine框架的工作，我们不需要自己做
 

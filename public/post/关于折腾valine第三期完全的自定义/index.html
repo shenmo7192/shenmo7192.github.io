@@ -213,15 +213,15 @@ var _hmt = _hmt || [];
 
       <article class="main">
         
-        <img class="cover" src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%e5%b0%8f%e4%b9%a6%e5%8c%a0/1633853103267.png" />
+        <img class="cover" src="https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/%e5%b0%8f%e4%b9%a6%e5%8c%a0/1633853103267.png" />
         
 
         <p>之前尝试了修改<code>bilibili-img.js</code>来添加更多表情包，成功了</p>
 <p>但是，当尝试更多参数（比如说placeholder和QQ解析）时，出现了奇怪的症状</p>
 <p>进入网页的时候，还是没有任何参数的原版</p>
-<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633849839328.png" alt="enter description here"></p>
+<p><img src="https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633849839328.png" alt="enter description here"></p>
 <p>然而，当我点击了一个已有评论再点击回复之后</p>
-<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633849901651.png" alt="enter description here"></p>
+<p><img src="https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633849901651.png" alt="enter description here"></p>
 <p>成功启动了</p>
 <p>因此，我猜测，是主题自己的Valine设置先加载了，点击回复之后才加载了我的自定义设置</p>
 <p>然而，主题所提供的接口很少，只有appID、appKey和一个已经弃用的lang参数</p>
@@ -239,7 +239,7 @@ var _hmt = _hmt || [];
 </code></pre><p>也就是说，这里判断有这个参数之后，从这里引入Valine.min.js
 然而&hellip;其实我们可以使用官方CDN</p>
 <p>当然也包括魔改版！</p>
-<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633850507231.png" alt="enter description here"></p>
+<p><img src="https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633850507231.png" alt="enter description here"></p>
 <p>我准备完全废弃主题提供的配置方式，于是</p>
 <pre tabindex="0"><code>!-- 这里是引入Valine.min.js，为了引入魔改版，把官方版的屏蔽--&gt;
 &lt;!--
@@ -379,7 +379,7 @@ enableQQ:true,
 <p>修改bilibili-img.js（并改名为valine-custom.js，现在它的用途更多了，当然也要改名），并在config中加入</p>
 <p>显示倒是显示了，placeholder也正常了</p>
 <p>就是。。。</p>
-<p><img src="https://gitee.com/superendermansm/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633852234913.png" alt="enter description here"></p>
+<p><img src="https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633852234913.png" alt="enter description here"></p>
 <p>看来还是只能手改html了（笑）</p>
 <p>这次折腾成功了，哈哈！</p>
 <p>接着看番剧，冲着核爆神曲来的，没想到正在限免，开心！</p>
