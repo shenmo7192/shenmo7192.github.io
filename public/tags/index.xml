@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on shenmo的世界——一个普通人用来记录生活，记录折腾历程，还有些杂七杂八的随感的地方</title>
+    <title>Tags on shenmo的世界——一个普通人用来记录生活，折腾历程，还有些杂七杂八的随感的地方</title>
     <link>https://superendermansm.gitee.io/tags/</link>
-    <description>Recent content in Tags on shenmo的世界——一个普通人用来记录生活，记录折腾历程，还有些杂七杂八的随感的地方</description>
+    <description>Recent content in Tags on shenmo的世界——一个普通人用来记录生活，折腾历程，还有些杂七杂八的随感的地方</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</copyright>
     <lastBuildDate>Mon, 01 Nov 2021 19:46:35 +0800</lastBuildDate><atom:link href="https://superendermansm.gitee.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>折腾博客</title>
+      <link>https://superendermansm.gitee.io/tags/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 01 Nov 2021 19:46:35 +0800</pubDate>
+      
+      <guid>https://superendermansm.gitee.io/tags/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>日记</title>
       <link>https://superendermansm.gitee.io/tags/%E6%97%A5%E8%AE%B0/</link>
-      <pubDate>Mon, 01 Nov 2021 19:46:35 +0800</pubDate>
+      <pubDate>Mon, 01 Nov 2021 18:45:35 +0800</pubDate>
       
       <guid>https://superendermansm.gitee.io/tags/%E6%97%A5%E8%AE%B0/</guid>
       <description></description>
@@ -41,15 +50,6 @@
       <pubDate>Sun, 24 Oct 2021 00:45:08 +0800</pubDate>
       
       <guid>https://superendermansm.gitee.io/tags/%E6%98%9F%E7%81%AB%E5%85%AC%E5%91%8A/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>折腾博客</title>
-      <link>https://superendermansm.gitee.io/tags/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</link>
-      <pubDate>Sun, 10 Oct 2021 20:35:46 +0800</pubDate>
-      
-      <guid>https://superendermansm.gitee.io/tags/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</guid>
       <description></description>
     </item>
     
