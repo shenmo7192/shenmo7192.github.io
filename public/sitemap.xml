@@ -2,22 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://shenmo7192.gitee.io/post/2021-11-10-%E5%A4%96%E6%95%99%E5%90%AC%E8%AF%B4/</loc>
-    <lastmod>2021-11-10T13:17:49+08:00</lastmod>
-  </url><url>
     <loc>https://shenmo7192.gitee.io/categories/</loc>
-    <lastmod>2021-11-10T13:17:49+08:00</lastmod>
+    <lastmod>2021-11-11T00:47:27+08:00</lastmod>
+  </url><url>
+    <loc>https://shenmo7192.gitee.io/tags/linux/</loc>
+    <lastmod>2021-11-11T00:47:27+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/post/</loc>
-    <lastmod>2021-11-10T13:17:49+08:00</lastmod>
+    <lastmod>2021-11-11T00:47:27+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/</loc>
-    <lastmod>2021-11-10T13:17:49+08:00</lastmod>
+    <lastmod>2021-11-11T00:47:27+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/tags/</loc>
-    <lastmod>2021-11-10T13:17:49+08:00</lastmod>
+    <lastmod>2021-11-11T00:47:27+08:00</lastmod>
+  </url><url>
+    <loc>https://shenmo7192.gitee.io/post/%E5%8F%91%E7%8E%B0deepin%E7%99%BB%E9%99%86%E5%A3%81%E7%BA%B8%E5%AF%BB%E6%89%BE%E9%80%BB%E8%BE%91/</loc>
+    <lastmod>2021-11-11T00:47:27+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/categories/%E5%95%A5%E9%83%BD%E6%9C%89/</loc>
+    <lastmod>2021-11-11T00:47:27+08:00</lastmod>
+  </url><url>
+    <loc>https://shenmo7192.gitee.io/post/%E5%81%B6%E7%84%B6%E5%8F%91%E7%8E%B0deepin%E6%96%B0%E7%94%A8%E6%88%B7%E9%BB%98%E8%AE%A4%E4%B8%BB%E7%9B%AE%E5%BD%95%E6%A8%A1%E6%9D%BF%E4%BD%8D%E7%BD%AE/</loc>
+    <lastmod>2021-11-11T00:42:08+08:00</lastmod>
+  </url><url>
+    <loc>https://shenmo7192.gitee.io/post/2021-11-10-%E5%A4%96%E6%95%99%E5%90%AC%E8%AF%B4/</loc>
     <lastmod>2021-11-10T13:17:49+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/tags/%E6%97%A5%E8%AE%B0/</loc>
@@ -40,9 +49,6 @@
   </url><url>
     <loc>https://shenmo7192.gitee.io/post/2021.11.03-%E5%A4%96%E6%95%99%E5%90%AC%E8%AF%B4/</loc>
     <lastmod>2021-11-03T13:23:27+08:00</lastmod>
-  </url><url>
-    <loc>https://shenmo7192.gitee.io/tags/linux/</loc>
-    <lastmod>2021-11-02T21:40:48+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/post/%E4%BF%AE%E5%A4%8Ddeepin%E8%AE%BA%E5%9D%9B%E6%96%B0%E7%BC%96%E8%BE%91%E5%99%A8%E8%A1%A8%E6%83%85%E8%BF%87%E5%B0%8F/</loc>
     <lastmod>2021-11-02T21:12:40+08:00</lastmod>
