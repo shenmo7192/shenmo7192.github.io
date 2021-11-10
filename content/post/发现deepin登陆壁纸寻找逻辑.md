@@ -70,7 +70,7 @@ P.S. 我首先是想要让几个壁纸循环更换，但是默认的壁纸我不
 
 ![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1636565205775.png)
 
-顺藤摸瓜后发现，/proc里映射了我的完整主目录！（这怎么这么眼熟？参看上一篇传送门）
+顺藤摸瓜后发现，/proc里映射了我的完整主目录！（这怎么这么眼熟？参看上一篇[传送门](https://shenmo7192.gitee.io/post/%E5%81%B6%E7%84%B6%E5%8F%91%E7%8E%B0deepin%E6%96%B0%E7%94%A8%E6%88%B7%E9%BB%98%E8%AE%A4%E4%B8%BB%E7%9B%AE%E5%BD%95%E6%A8%A1%E6%9D%BF%E4%BD%8D%E7%BD%AE/)）
 
 ![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1636565253341.png)
 
