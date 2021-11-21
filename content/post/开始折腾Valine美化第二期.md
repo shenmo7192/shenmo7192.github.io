@@ -16,7 +16,7 @@ tags:
 draft: false
 ---
 
-首先我们看看刚才那个博文有用的地方（上一集传送门：[点我](https://shenmo7192.gitee.io/posts/%E5%B0%9D%E8%AF%95%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E6%97%B6%E7%9A%84%E7%81%B5%E6%84%9F/)）
+首先我们看看刚才那个博文有用的地方（上一集传送门：[点我](https://shenmo7192.gitee.io/post/%E5%B0%9D%E8%AF%95%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E6%97%B6%E7%9A%84%E7%81%B5%E6%84%9F/)）
 
 <!--more-->
 
