@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</copyright>
-    <lastBuildDate>Thu, 18 Nov 2021 21:03:54 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Nov 2021 15:21:08 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UOS 免开发者模式安装第三方应用工具</title>
+      <link>https://shenmo7192.gitee.io/post/uos-%E5%85%8D%E5%BC%80%E5%8F%91%E8%80%85%E6%A8%A1%E5%BC%8F%E5%AE%89%E8%A3%85%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Tue, 23 Nov 2021 15:21:08 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/uos-%E5%85%8D%E5%BC%80%E5%8F%91%E8%80%85%E6%A8%A1%E5%BC%8F%E5%AE%89%E8%A3%85%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8%E5%B7%A5%E5%85%B7/</guid>
+      <description>&lt;p&gt;早在去年UOS发布证书认证工具的时候我就想这样了，但是想到星火商店专门为UOS单独开发版本，还要收集用户的证书就很难受，遂作罢。然而QQ群里一位神人向我亲自演示了这东西可行，我就想搞一个脚本来处理，反正也没什么事可做&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>天理做错了吗</title>
+      <link>https://shenmo7192.gitee.io/post/%E5%A4%A9%E7%90%86%E5%81%9A%E9%94%99%E4%BA%86%E5%90%97/</link>
+      <pubDate>Sun, 21 Nov 2021 20:44:09 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E5%A4%A9%E7%90%86%E5%81%9A%E9%94%99%E4%BA%86%E5%90%97/</guid>
+      <description>&lt;p&gt;原文链接&lt;a href=&#34;https://bbs.nga.cn/read.php?tid=26305900&#34;&gt;https://bbs.nga.cn/read.php?tid=26305900&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>火狐浏览器国际版启动双击关闭标签页等中国版功能</title>
       <link>https://shenmo7192.gitee.io/post/%E7%81%AB%E7%8B%90%E6%B5%8F%E8%A7%88%E5%99%A8%E5%90%AF%E5%8A%A8%E5%8F%8C%E5%87%BB%E5%85%B3%E9%97%AD%E6%A0%87%E7%AD%BE%E9%A1%B5%E7%AD%89%E4%BC%98%E5%8C%96%E5%8A%9F%E8%83%BD/</link>
@@ -324,7 +342,7 @@
       <pubDate>Sat, 09 Oct 2021 12:01:32 +0800</pubDate>
       
       <guid>https://shenmo7192.gitee.io/post/%E5%BC%80%E5%A7%8B%E6%8A%98%E8%85%BEvaline%E7%BE%8E%E5%8C%96%E7%AC%AC%E4%BA%8C%E6%9C%9F/</guid>
-      <description>&lt;p&gt;首先我们看看刚才那个博文有用的地方（上一集传送门：&lt;a href=&#34;https://shenmo7192.gitee.io/posts/%E5%B0%9D%E8%AF%95%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E6%97%B6%E7%9A%84%E7%81%B5%E6%84%9F/&#34;&gt;点我&lt;/a&gt;）&lt;/p&gt;</description>
+      <description>&lt;p&gt;首先我们看看刚才那个博文有用的地方（上一集传送门：&lt;a href=&#34;https://shenmo7192.gitee.io/post/%E5%B0%9D%E8%AF%95%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E6%97%B6%E7%9A%84%E7%81%B5%E6%84%9F/&#34;&gt;点我&lt;/a&gt;）&lt;/p&gt;</description>
     </item>
     
     <item>
