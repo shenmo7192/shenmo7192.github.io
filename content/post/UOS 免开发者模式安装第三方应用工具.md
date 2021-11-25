@@ -37,7 +37,7 @@ draft: false
 以下为脚本内容
 
 ```bash
-#!/bin/sh
+#!/bin/bash
 reset
 if [ -f "/usr/bin/deepin-deb-installer" ]
 then 
@@ -63,7 +63,6 @@ do
 
 echo "该工具的原理是利用UOS的自签名安装包免开发者的特性，需要您的UOS ID账号和密码，请在使用工具前确保在应用商店中已安装过“证书工具”这个应用"
 echo "如果没有安装，则无法使用。请确认安装后再进行下一步操作"
-sleep 3
 echo "如果你确认已经安装了该应用，请按回车"
 read renyijian
 
@@ -111,14 +110,18 @@ if [ ! $1 ]
     then 
     echo "没有检测到参数，以交互式安装运行"
     echo "请输入deb文件的绝对路径或直接拖入deb文件(仅限支持的文件管理器，比如深度文管），结束后回车"
+    echo "生成的签名过的deb将保存在/tmp/signed_deb"
     read debpath
-    echo "生成的签名过的deb保存在/tmp/signed_deb"
 else
     echo "参数存在，直接开始签名\n生成的签名过的deb保存在/tmp/signed_deb"
     debpath="$1"
     echo "读取到的deb路径为：$debpath"
 fi
-if [ -f "$debpath" ]
+debpath=`echo "$debpath" | sed $'s/\'//g'`
+echo "去除可能的单引号后得到：$debpath"
+
+
+if [ -f $debpath ]
 then
 echo "文件有效，开始签名"
 deepin-elf-sign-deb "$debpath"
@@ -132,5 +135,6 @@ done
 file_name=$(basename "$debpath")
 
 deepin-deb-installer "/tmp/signed_deb/$file_name"
+
 
 ```

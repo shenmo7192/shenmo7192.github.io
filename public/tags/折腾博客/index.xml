@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</copyright>
-    <lastBuildDate>Thu, 18 Nov 2021 21:03:54 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/tags/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Nov 2021 15:35:15 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/tags/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>修复火狐b站加载卡顿</title>
+      <link>https://shenmo7192.gitee.io/post/%E4%BF%AE%E5%A4%8D%E7%81%AB%E7%8B%90b%E7%AB%99%E5%8A%A0%E8%BD%BD%E5%8D%A1%E9%A1%BF/</link>
+      <pubDate>Thu, 25 Nov 2021 15:35:15 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E4%BF%AE%E5%A4%8D%E7%81%AB%E7%8B%90b%E7%AB%99%E5%8A%A0%E8%BD%BD%E5%8D%A1%E9%A1%BF/</guid>
+      <description>&lt;p&gt;打开&lt;code&gt;about:config&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>火狐浏览器国际版启动双击关闭标签页等中国版功能</title>
       <link>https://shenmo7192.gitee.io/post/%E7%81%AB%E7%8B%90%E6%B5%8F%E8%A7%88%E5%99%A8%E5%90%AF%E5%8A%A8%E5%8F%8C%E5%87%BB%E5%85%B3%E9%97%AD%E6%A0%87%E7%AD%BE%E9%A1%B5%E7%AD%89%E4%BC%98%E5%8C%96%E5%8A%9F%E8%83%BD/</link>

@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</copyright>
-    <lastBuildDate>Tue, 23 Nov 2021 15:21:08 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Nov 2021 15:35:15 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>修复火狐b站加载卡顿</title>
+      <link>https://shenmo7192.gitee.io/post/%E4%BF%AE%E5%A4%8D%E7%81%AB%E7%8B%90b%E7%AB%99%E5%8A%A0%E8%BD%BD%E5%8D%A1%E9%A1%BF/</link>
+      <pubDate>Thu, 25 Nov 2021 15:35:15 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E4%BF%AE%E5%A4%8D%E7%81%AB%E7%8B%90b%E7%AB%99%E5%8A%A0%E8%BD%BD%E5%8D%A1%E9%A1%BF/</guid>
+      <description>&lt;p&gt;打开&lt;code&gt;about:config&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>UOS 免开发者模式安装第三方应用工具</title>
       <link>https://shenmo7192.gitee.io/post/uos-%E5%85%8D%E5%BC%80%E5%8F%91%E8%80%85%E6%A8%A1%E5%BC%8F%E5%AE%89%E8%A3%85%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8%E5%B7%A5%E5%85%B7/</link>

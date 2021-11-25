@@ -221,7 +221,7 @@ var _hmt = _hmt || [];
 <p>完全够了！</p>
 <p>于是直接开搞</p>
 <p>以下为脚本内容</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/sh
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/bash
 </span><span style="color:#75715e"></span>reset
 <span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> -f <span style="color:#e6db74">&#34;/usr/bin/deepin-deb-installer&#34;</span> <span style="color:#f92672">]</span>
 <span style="color:#66d9ef">then</span> 
@@ -247,7 +247,6 @@ exit <span style="color:#ae81ff">1</span>
 
 echo <span style="color:#e6db74">&#34;该工具的原理是利用UOS的自签名安装包免开发者的特性，需要您的UOS ID账号和密码，请在使用工具前确保在应用商店中已安装过“证书工具”这个应用&#34;</span>
 echo <span style="color:#e6db74">&#34;如果没有安装，则无法使用。请确认安装后再进行下一步操作&#34;</span>
-sleep <span style="color:#ae81ff">3</span>
 echo <span style="color:#e6db74">&#34;如果你确认已经安装了该应用，请按回车&#34;</span>
 read renyijian
 
@@ -295,14 +294,18 @@ cd /tmp
     <span style="color:#66d9ef">then</span> 
     echo <span style="color:#e6db74">&#34;没有检测到参数，以交互式安装运行&#34;</span>
     echo <span style="color:#e6db74">&#34;请输入deb文件的绝对路径或直接拖入deb文件(仅限支持的文件管理器，比如深度文管），结束后回车&#34;</span>
+    echo <span style="color:#e6db74">&#34;生成的签名过的deb将保存在/tmp/signed_deb&#34;</span>
     read debpath
-    echo <span style="color:#e6db74">&#34;生成的签名过的deb保存在/tmp/signed_deb&#34;</span>
 <span style="color:#66d9ef">else</span>
     echo <span style="color:#e6db74">&#34;参数存在，直接开始签名\n生成的签名过的deb保存在/tmp/signed_deb&#34;</span>
     debpath<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">&#34;</span>
     echo <span style="color:#e6db74">&#34;读取到的deb路径为：</span>$debpath<span style="color:#e6db74">&#34;</span>
 <span style="color:#66d9ef">fi</span>
-<span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> -f <span style="color:#e6db74">&#34;</span>$debpath<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">]</span>
+debpath<span style="color:#f92672">=</span><span style="color:#e6db74">`</span>echo <span style="color:#e6db74">&#34;</span>$debpath<span style="color:#e6db74">&#34;</span> | sed <span style="color:#e6db74">$&#39;s/\&#39;//g&#39;</span><span style="color:#e6db74">`</span>
+echo <span style="color:#e6db74">&#34;去除可能的单引号后得到：</span>$debpath<span style="color:#e6db74">&#34;</span>
+
+
+<span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> -f $debpath <span style="color:#f92672">]</span>
 <span style="color:#66d9ef">then</span>
 echo <span style="color:#e6db74">&#34;文件有效，开始签名&#34;</span>
 deepin-elf-sign-deb <span style="color:#e6db74">&#34;</span>$debpath<span style="color:#e6db74">&#34;</span>
@@ -316,6 +319,7 @@ clear
 file_name<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>basename <span style="color:#e6db74">&#34;</span>$debpath<span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">)</span>
 
 deepin-deb-installer <span style="color:#e6db74">&#34;/tmp/signed_deb/</span>$file_name<span style="color:#e6db74">&#34;</span>
+
 
 </code></pre></div>
       </article>
