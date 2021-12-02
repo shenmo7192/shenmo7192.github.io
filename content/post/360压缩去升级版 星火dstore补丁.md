@@ -5,7 +5,7 @@ lastmod: 2021-12-02T17:12:07+08:00
 author: shenmo
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site
-cover:https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1638436446003.png
+cover: https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1638436446003.png
 # images:
 #   - /img/cover.jpg
 categories:
