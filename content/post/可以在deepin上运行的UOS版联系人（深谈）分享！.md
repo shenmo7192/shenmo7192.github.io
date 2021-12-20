@@ -29,15 +29,15 @@ draft: false
 
 所以我们就自己实现吧！
 
-负责登陆deepin-contacts的UOS账号的组件是deepin-deepinid-client。然而，deepin的账号系统并不支持接入deepin-contacts，这导致直接安装后登陆deepinid会显示错误无法进入
+负责登陆`deepin-contacts`的UOS账号的组件是`deepin-deepinid-client`。然而，deepin的账号系统并不支持接入`deepin-contacts`，这导致直接安装后登陆`deepinid`会显示错误无法进入
 
-那么核心思路就是提取UOS的deepin-deepinid-client包给社区版使用！
+那么核心思路就是提取UOS的`deepin-deepinid-client`包给社区版使用！
 
-提取出来之后试过用bwrap，不好用，推测是deepin-contacts利用dbus/daemon唤起deepin-deeppinid-client而不是自己拉
+提取出来之后试过用`bwrap`，不好用，推测是`deepin-contacts`利用`dbus/daemon`唤起`deepin-deeppinid-client`而不是自己拉
 
-但是之前排障的时候发现过，dde-dock杀死后在daemon没反应过来的时候启动一个新的dock,daemon不会再次尝试拉起
+但是之前排障的时候发现过，`dde-dock`杀死后在`daemon`没反应过来的时候启动一个新的dock,`daemon`不会再次尝试拉起
 
-这就是解决的方法了：在登陆前杀死deepin-deepinid*，然后瞬间启动UOS版本的deepin-deeppinid-client用于登陆，登陆成功后再拉回原版deepin的deepin-deeppinid-client
+这就是解决的方法了：在登陆前杀死`deepin-deepinid*`，然后瞬间启动UOS版本的`eepin-deepinid-client`用于登陆，登陆成功后再拉回原版deepin的`deepin-deeppinid-client`
 
 效果如下
 
