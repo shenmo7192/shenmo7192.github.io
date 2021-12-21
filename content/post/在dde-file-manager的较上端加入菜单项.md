@@ -22,15 +22,26 @@ draft: false
 
 官方并没有相关的文档，但是万能的星火群友发现了位置
 
+![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1640084723774.png)
+
 `usr/share/applications/context-menus`
 
 ![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1640084305977.png)
 
 
+------
+
+
 在这里添加`.conf`文件可以在较为靠上的位置添加菜单项，类似这样
+
+
 ![类似这样](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1640084386599.png)
 
 附上`.conf`文件 *1，语法似乎和`.desktop`一致，参考开头的[https://gitee.com/shenmo7192/dde-file-manager-menu-oem](https://gitee.com/shenmo7192/dde-file-manager-menu-oem)大家魔改着用即可
+
+
+------
+
 
 文件名：`compressor-multicompress.conf`
 
