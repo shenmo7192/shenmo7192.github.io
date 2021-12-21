@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</copyright>
-    <lastBuildDate>Tue, 21 Dec 2021 01:21:52 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Dec 2021 18:51:40 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在dde File Manager的较上端加入菜单项（类似深度压缩）</title>
+      <link>https://shenmo7192.gitee.io/post/%E5%9C%A8dde-file-manager%E7%9A%84%E8%BE%83%E4%B8%8A%E7%AB%AF%E5%8A%A0%E5%85%A5%E8%8F%9C%E5%8D%95%E9%A1%B9/</link>
+      <pubDate>Tue, 21 Dec 2021 18:51:40 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E5%9C%A8dde-file-manager%E7%9A%84%E8%BE%83%E4%B8%8A%E7%AB%AF%E5%8A%A0%E5%85%A5%E8%8F%9C%E5%8D%95%E9%A1%B9/</guid>
+      <description>&lt;p&gt;在官方给出的文档里，有&lt;code&gt;oem-extenshen&lt;/code&gt;的写法（不会用请点&lt;a href=&#34;https://gitee.com/shenmo7192/dde-file-manager-menu-oem&#34;&gt;这里&lt;/a&gt;），但是这样插入的插件位置都比较靠下。那么，类似深度压缩的菜单项这样位置靠上的插件是怎么实现的呢？&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>可以在deepin上运行的UOS版联系人（深谈）分享！</title>
       <link>https://shenmo7192.gitee.io/post/%E5%8F%AF%E4%BB%A5%E5%9C%A8deepin%E4%B8%8A%E8%BF%90%E8%A1%8C%E7%9A%84uos%E7%89%88%E8%81%94%E7%B3%BB%E4%BA%BA%E6%B7%B1%E8%B0%88%E5%88%86%E4%BA%AB/</link>
