@@ -11,7 +11,7 @@ cover: https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/16400840
 categories:
   - 啥都有
 tags:
-  - Linux
+  - linux
 # nolastmod: true
 draft: false
 ---
