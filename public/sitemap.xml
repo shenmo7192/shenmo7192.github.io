@@ -2,22 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://shenmo7192.gitee.io/categories/</loc>
-    <lastmod>2021-12-25T02:24:11+08:00</lastmod>
+    <loc>https://shenmo7192.gitee.io/post/2021-12-19%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2021-12-29T16:25:38+08:00</lastmod>
   </url><url>
-    <loc>https://shenmo7192.gitee.io/tags/linux/</loc>
-    <lastmod>2021-12-25T02:24:11+08:00</lastmod>
+    <loc>https://shenmo7192.gitee.io/categories/</loc>
+    <lastmod>2021-12-29T16:25:38+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/post/</loc>
-    <lastmod>2021-12-25T02:24:11+08:00</lastmod>
+    <lastmod>2021-12-29T16:25:38+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/</loc>
-    <lastmod>2021-12-25T02:24:11+08:00</lastmod>
+    <lastmod>2021-12-29T16:25:38+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/tags/</loc>
-    <lastmod>2021-12-25T02:24:11+08:00</lastmod>
+    <lastmod>2021-12-29T16:25:38+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/categories/%E5%95%A5%E9%83%BD%E6%9C%89/</loc>
+    <lastmod>2021-12-29T16:25:38+08:00</lastmod>
+  </url><url>
+    <loc>https://shenmo7192.gitee.io/tags/%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2021-12-29T16:25:38+08:00</lastmod>
+  </url><url>
+    <loc>https://shenmo7192.gitee.io/tags/linux/</loc>
     <lastmod>2021-12-25T02:24:11+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/post/%E7%A7%BB%E6%A4%8Ddtk%E6%9B%B4%E6%96%B0%E5%88%B05.4%E5%8F%AF%E4%BB%A5%E8%BF%90%E8%A1%8C%E6%B7%B1%E8%B0%88%E4%BA%86/</loc>
@@ -31,9 +37,6 @@
   </url><url>
     <loc>https://shenmo7192.gitee.io/post/%E6%88%91%E5%A5%BD%E4%B8%8D%E5%AE%B9%E6%98%93%E5%BF%83%E5%8A%A8%E4%B8%80%E6%AC%A1/</loc>
     <lastmod>2021-12-12T15:22:52+08:00</lastmod>
-  </url><url>
-    <loc>https://shenmo7192.gitee.io/tags/%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2021-12-12T16:22:23+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/post/%E4%B8%AD%E5%9B%BD%E8%BF%91%E4%BB%A3%E5%8F%B2%E9%80%9F%E8%AE%B0/</loc>
     <lastmod>2021-12-08T09:52:17+08:00</lastmod>
