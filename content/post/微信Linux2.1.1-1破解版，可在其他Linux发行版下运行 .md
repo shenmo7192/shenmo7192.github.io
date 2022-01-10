@@ -1,5 +1,5 @@
 ---
-title: 星火微信Linux2.1.1-1开始测试 
+title: 微信Linux2.1.1-1破解版，可在其他Linux发行版下运行 
 date: 2022-01-10T18:32:21+08:00
 lastmod: 2022-01-10T18:32:21+08:00
 author: shenmo
