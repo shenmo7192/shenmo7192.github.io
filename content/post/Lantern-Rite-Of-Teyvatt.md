@@ -5,7 +5,7 @@ lastmod: 2022-02-02T21:59:39+08:00
 author: shenmo
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site
-# cover: /img/Icey-view.png
+cover: https://xiaoshujiang-shenmo.oss-accelerate.aliyuncs.com/小书匠/liyue_amber_01.png
 # images:
 #   - /img/cover.jpg
 categories:
@@ -24,7 +24,6 @@ draft: false
 
 ![20220202212224](https://xiaoshujiang-shenmo.oss-accelerate.aliyuncs.com/小书匠/20220202212224.png)
 
-![liyue_amber_01](https://xiaoshujiang-shenmo.oss-accelerate.aliyuncs.com/小书匠/liyue_amber_01.png)
 
 ![海灯夜景](https://xiaoshujiang-shenmo.oss-accelerate.aliyuncs.com/小书匠/海灯夜景.png)
 
