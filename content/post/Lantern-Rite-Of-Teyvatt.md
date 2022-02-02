@@ -32,3 +32,4 @@ draft: false
 ![群星与明灯](https://xiaoshujiang-shenmo.oss-accelerate.aliyuncs.com/小书匠/群星与明灯.png)
 
 ![群玉阁重现](https://xiaoshujiang-shenmo.oss-accelerate.aliyuncs.com/小书匠/群玉阁重现.png)
+![1643812312340](https://xiaoshujiang-shenmo.oss-accelerate.aliyuncs.com/小书匠/1643812312340.png)
