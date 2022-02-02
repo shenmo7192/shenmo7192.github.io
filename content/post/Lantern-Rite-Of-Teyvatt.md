@@ -11,7 +11,7 @@ cover: https://xiaoshujiang-shenmo.oss-accelerate.aliyuncs.com/小书匠/liyue_a
 categories:
   - 啥都有
 tags:
-  - 日记
+  - 闲聊
 # nolastmod: true
 draft: false
 ---
