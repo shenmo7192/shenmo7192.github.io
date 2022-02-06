@@ -20,14 +20,21 @@ draft: false
 
 <!--more-->
 
+更新说明：2.1.2-2修改了启动脚本，修复了原版进程退出不干净导致的下次启动失败
 
-![图片.png](https://storage.deepin.org/thread/202201281533495194_%E5%9B%BE%E7%89%87.png)
+感谢 [@sgb76](https://bbs.deepin.org/user/145764)
 
-![图片.png](https://storage.deepin.org/thread/20220128153402563_%E5%9B%BE%E7%89%87.png)
+分享地址：
+
+1.  全发行版可用：[http://core.shenmo.tech/index.php?share/file&user=1&sid=iNdCxIPB](http://core.shenmo.tech:38324/index.php?share/file&user=1&sid=iNdCxIPB)
+
+2.  仅适用于deepin/UOS/安装了星火商店的发行版版本（有这个东西是因为我在尝试把这个魔改包扔到deepin商店）
+
+    [http://core.shenmo.tech/index.php?share/file&user=1&sid=3JVGupjR](http://core.shenmo.tech:38324/index.php?share/file&user=1&sid=3JVGupjR)
 
 * * *
 
-
+优麒麟源的微信Linux更新了，在此同步更新星火版微信Linux
 
 优麒麟包的破解方法是用银河麒麟的lsb-release信息替换系统的lsb-release
 
@@ -36,4 +43,3 @@ draft: false
 [http://core.shenmo.tech/index.php?share/file&user=1&sid=a6j3ARvf](http://core.shenmo.tech:38324/index.php?share/file&user=1&sid=a6j3ARvf)
 
 ![图片.png](https://storage.deepin.org/thread/202201281550106159_%E5%9B%BE%E7%89%87.png)
-
