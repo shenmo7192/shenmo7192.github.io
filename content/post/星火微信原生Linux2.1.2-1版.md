@@ -1,7 +1,6 @@
 ---
 title: 星火微信原生Linux2.1.2 1版
 date: 2022-01-28T15:37:51+08:00
-# lastmod: 2022-01-28T15:37:51+08:00
 author: shenmo
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site
