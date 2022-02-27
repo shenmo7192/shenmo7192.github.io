@@ -20,10 +20,12 @@ draft: false
 
 <!--more-->
 
->需求来自看懂zty199的提交 and 看懂 abcfy的压制脚本。我自己还是习惯用if。路过大佬能否讲解下if差在哪里
+> 需求来自看懂zty199的提交 and 看懂 abcfy的压制脚本。我自己还是习惯用if。路过大佬能否讲解下if差在哪里
 
-zty199的提交：https://gitee.com/deepin-community-store/spark-store/commit/3bfc183c895718a669e673be6b4678a2f87727c3  
-abcfy的脚本：https://gitee.com/abcfy2/simple_video_compress_build
+-------
+
+zty199的提交： https://gitee.com/deepin-community-store/spark-store/commit/3bfc183c895718a669e673be6b4678a2f87727c3  
+abcfy的脚本： https://gitee.com/abcfy2/simple_video_compress_build
 
 ## 转载内容：
 
@@ -86,8 +88,8 @@ case/esac的标准用法大致如下: 
  esac 
  ```
  
- arg是您所引入的参数，如果arg内容符合pattern项目的话，那麽便会执行pattern以下的程式码，而该段程式码则以两个分号";;"做结尾。 
- 可以注意到"case"及"esac"是对称的，如果记不起来的话，把"case"颠倒过来即可。 
+ arg是您所引入的参数，如果arg内容符合pattern项目的话，那麽便会执行pattern以下的程式码，而该段程式码则以两个分号";;"做结尾。 
+ 可以注意到"case"及"esac"是对称的，如果记不起来的话，把"case"颠倒过来即可。 
 
 case语句匹配的是通配符，如果加上双引号后就不是按通配符处理，而是按文本处理。
 
