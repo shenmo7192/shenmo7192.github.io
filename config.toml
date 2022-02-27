@@ -10,7 +10,7 @@ theme = "dream"
 
 # disqusShortname = ""
 
- enableRobotsTXT = true
+enableRobotsTXT = true
 enableGitInfo = true
 
 [params]
@@ -96,3 +96,12 @@ enableRobotsTXT = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+
+
+[frontmatter]
+  date = ['date', 'publishDate', 'lastmod']
+  expiryDate = ['expiryDate']
+  lastmod = [':git', 'lastmod', 'date', 'publishDate']
+  publishDate = ['publishDate', 'date']
+

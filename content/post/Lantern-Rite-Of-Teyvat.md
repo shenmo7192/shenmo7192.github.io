@@ -1,5 +1,5 @@
 ---
-title: Lantern Rite of Teyvatt
+title: Lantern Rite of Teyvat
 date: 2022-02-02T21:59:39+08:00
 lastmod: 2022-02-02T21:59:39+08:00
 author: shenmo
