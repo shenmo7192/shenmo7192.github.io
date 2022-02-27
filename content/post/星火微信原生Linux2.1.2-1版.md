@@ -29,7 +29,7 @@ draft: false
 
 2.  仅适用于deepin/UOS/安装了星火商店的发行版版本（有这个东西是因为我在尝试把这个魔改包扔到deepin商店）
 
-    [http://core.shenmo.tech/index.php?share/file&user=1&sid=3JVGupjR](http://core.shenmo.tech:38324/index.php?share/file&user=1&sid=3JVGupjR)
+    [https://com-store-packages.uniontech.com/appstore/pool/appstore/s/store.spark-app.wechat-linux-spark/store.spark-app.wechat-linux-spark_2.1.2-2~dstore0_amd64.deb](https://com-store-packages.uniontech.com/appstore/pool/appstore/s/store.spark-app.wechat-linux-spark/store.spark-app.wechat-linux-spark_2.1.2-2~dstore0_amd64.deb)
 
 * * *
 
