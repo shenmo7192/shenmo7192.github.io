@@ -167,6 +167,14 @@ var _hmt = _hmt || [];
   
   <aside class="sixteen wide mobile sixteen wide tablet three wide computer column dream-single-aside">
     
+    <div class="ui segment toc">
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#转载内容">转载内容：</a></li>
+  </ul>
+</nav>
+    </div>
+    
 
     
     <div class="ui segment">
@@ -227,7 +235,7 @@ var _hmt = _hmt || [];
 </blockquote>
 <p>zty199的提交：https://gitee.com/deepin-community-store/spark-store/commit/3bfc183c895718a669e673be6b4678a2f87727c3<br>
 abcfy的脚本：https://gitee.com/abcfy2/simple_video_compress_build</p>
-<p>转载内容：</p>
+<h2 id="转载内容">转载内容：</h2>
 <p>看到一些很实用的脚本，由于之前对于bash脚本的积累都比较离散，没有一个全面的了解，在这里记录一下：</p>
 <p>bash的case语句用法</p>
 <p>case语句的语法规则是：</p>
@@ -277,6 +285,19 @@ echo <span style="color:#e6db74">&#34;It&#39;s function keys、Spacebar or other
  可以注意到&quot;case&quot;及&quot;esac&quot;是对称的，如果记不起来的话，把&quot;case&quot;颠倒过来即可。 </p>
 <p>case语句匹配的是通配符，如果加上双引号后就不是按通配符处理，而是按文本处理。</p>
 <p>使用双引号后通配符就不再生效 ，只是作为普通字符对待。</p>
+<hr>
+<p>分号&amp;:and功能，满足其中任一条件即可
+例子：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/bash
+</span><span style="color:#75715e"></span>read -p <span style="color:#e6db74">&#34;你喜欢编程么：（y/n）：&#34;</span> ans
+<span style="color:#66d9ef">case</span> $ans in
+    y<span style="color:#f92672">)</span>;&amp;
+    Y<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;我也是&#34;</span>;;
+    n<span style="color:#f92672">)</span>;&amp;
+    N<span style="color:#f92672">)</span> echo <span style="color:#e6db74">&#34;sorry,跟你没什么好谈的&#34;</span>;;
+<span style="color:#66d9ef">esac</span>
+
+</code></pre></div>
       </article>
     </section>
 
