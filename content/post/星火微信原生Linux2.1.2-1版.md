@@ -25,7 +25,7 @@ draft: false
 
 分享地址：
 
-1.  全发行版可用：[http://core.shenmo.tech/index.php?share/file&user=1&sid=iNdCxIPB](http://core.shenmo.tech:38324/index.php?share/file&user=1&sid=iNdCxIPB)
+1.  全发行版可用：[https://d.store.deepinos.org.cn//store/chat/wechat-linux-spark/wechat-linux-spark_2.1.2-1_amd64.deb](https://d.store.deepinos.org.cn//store/chat/wechat-linux-spark/wechat-linux-spark_2.1.2-1_amd64.deb)
 
 2.  仅适用于deepin/UOS/安装了星火商店的发行版版本（有这个东西是因为我在尝试把这个魔改包扔到deepin商店）
 
