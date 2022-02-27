@@ -1,5 +1,5 @@
 ---
-title: UOS 免开发者模式安装第三方应用工具
+title: UOS 免开发者模式安装第三方应用工具（UOS安装应用）
 date: 2021-11-23T15:21:08+08:00
 lastmod: 2021-11-23T15:21:08+08:00
 author: shenmo
@@ -32,7 +32,8 @@ draft: false
 
 完全够了！
 
-于是直接开搞
+于是直接开搞  
+下载地址： https://gitee.com/deepin-community-store/spark-store-uos/blob/master/ussinstall
 
 以下为脚本内容
 
