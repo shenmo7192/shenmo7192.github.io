@@ -35,21 +35,21 @@ QString cmd = QString("qdbus com.home.appstore.client "
 
 ---
 
-于是我搞了这个东西
-星火dpk链接补丁
+于是我搞了这个东西  
+星火dpk链接补丁  
 ![store.spark-app.spark-dpk-patch.png](https://storage.deepin.org/thread/202202282137396831_store.spark-app.spark-dpk-patch.png)
 
-参照spk为深度商店制作了dpk以直接进入应用详情
-可以做到点击链接后直接拉起应用商店的对应APP详情页！
+参照spk为深度商店制作了dpk以直接进入应用详情  
+可以做到点击链接后直接拉起应用商店的对应APP详情页！  
 
-目前官方api提供的功能有两个：`app_detail_info`和`searchApp`
-所以目前dpk链接支持直接进入应用详情或者进行应用搜索
-提供两个示例
+目前官方api提供的功能有两个：`app_detail_info`和`searchApp`  
+所以目前dpk链接支持直接进入应用详情或者进行应用搜索  
+提供两个示例  
 
 1. [dpk://app_detail_info/net.hmcl.huangyuhui](dpk://app_detail_info/net.hmcl.huangyuhui)
 2. [dpk://searchApp/hmcl](dpk://searchApp/hmcl)
 
-体验dpk/spk链接和下载补丁：点击下方链接
+体验dpk/spk链接和下载补丁：点击下方链接  
 
 https://www.shenmo.tech/2022/02/28/dpk%e9%93%be%e6%8e%a5%e8%a1%a5%e4%b8%81/
 
