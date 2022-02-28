@@ -46,10 +46,12 @@ QString cmd = QString("qdbus com.home.appstore.client "
 所以目前dpk链接支持直接进入应用详情或者进行应用搜索
 提供两个示例
 
-1. `dpk://app_detail_info/net.hmcl.huangyuhui`
-2. `dpk://searchApp/hmcl`
+1. [dpk://app_detail_info/net.hmcl.huangyuhui](dpk://app_detail_info/net.hmcl.huangyuhui)
+2. [dpk://searchApp/hmcl](dpk://searchApp/hmcl)
 
 体验dpk/spk链接和下载补丁：点击下方链接
 
 https://www.shenmo.tech/2022/02/28/dpk%e9%93%be%e6%8e%a5%e8%a1%a5%e4%b8%81/
+
+
 
