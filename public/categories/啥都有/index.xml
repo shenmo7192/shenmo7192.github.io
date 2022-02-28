@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</copyright>
-    <lastBuildDate>Sun, 27 Feb 2022 22:43:21 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/categories/%E5%95%A5%E9%83%BD%E6%9C%89/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Feb 2022 22:08:19 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/categories/%E5%95%A5%E9%83%BD%E6%9C%89/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dpk链接解析补丁：适用于深度商店的spk链接</title>
+      <link>https://shenmo7192.gitee.io/post/dpk%E9%93%BE%E6%8E%A5%E8%A7%A3%E6%9E%90%E8%A1%A5%E4%B8%81%E9%80%82%E7%94%A8%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%95%86%E5%BA%97%E7%9A%84spk%E9%93%BE%E6%8E%A5/</link>
+      <pubDate>Mon, 28 Feb 2022 22:08:19 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/dpk%E9%93%BE%E6%8E%A5%E8%A7%A3%E6%9E%90%E8%A1%A5%E4%B8%81%E9%80%82%E7%94%A8%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%95%86%E5%BA%97%E7%9A%84spk%E9%93%BE%E6%8E%A5/</guid>
+      <description>&lt;p&gt;我在 &lt;code&gt;ccc-app-manager&lt;/code&gt;这个应用中发现这个应用居然支持“在应用商店中显示”&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Bash中case的用法</title>
       <link>https://shenmo7192.gitee.io/post/bash%E4%B8%ADcase%E7%9A%84%E7%94%A8%E6%B3%95/</link>
