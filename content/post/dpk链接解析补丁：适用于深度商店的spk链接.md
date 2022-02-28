@@ -53,5 +53,5 @@ QString cmd = QString("qdbus com.home.appstore.client "
 
 https://www.shenmo.tech/2022/02/28/dpk%e9%93%be%e6%8e%a5%e8%a1%a5%e4%b8%81/
 
-
+> 补丁开源地址是 https://gitee.com/shenmo7192/spark-dpk-patch/releases/
 
