@@ -1,8 +1,9 @@
 ---
-title: 星火微信原生Linux2.1.2-1版
+title: 星火微信原生Linux2.1.2-2版
 date: 2022-01-28T15:37:51+08:00
 author: shenmo
 avatar: /img/avatar.jpeg
+lastmod:
 # authorlink: https://author.site
 # cover: /img/Icey-view.png
 # images:
@@ -29,7 +30,11 @@ draft: false
 
 2.  仅适用于deepin/UOS/安装了星火商店的发行版版本（有这个东西是因为我在尝试把这个魔改包扔到deepin商店）
 
-    [https://com-store-packages.uniontech.com/appstore/pool/appstore/s/store.spark-app.wechat-linux-spark/store.spark-app.wechat-linux-spark_2.1.2-2~dstore0_amd64.deb](https://com-store-packages.uniontech.com/appstore/pool/appstore/s/store.spark-app.wechat-linux-spark/store.spark-app.wechat-linux-spark_2.1.2-2~dstore0_amd64.deb)
+    [http://core.shenmo.tech/index.php?share/file&user=1&sid=3JVGupjR](http://core.shenmo.tech:38324/index.php?share/file&user=1&sid=3JVGupjR)
+
+> 如果你想在非UOS/deepin发行版上使用UOS包，你可以下载这个
+
+https://shenmo.lanzoul.com/icDyn00cglxi
 
 * * *
 
