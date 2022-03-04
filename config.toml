@@ -100,7 +100,7 @@ enableRobotsTXT = true
 
 
 [frontmatter]
-  date = ['date', 'publishDate', 'lastmod']
+  date = [':git', 'date', 'publishDate', 'lastmod']
   expiryDate = ['expiryDate']
   lastmod = [':git', 'lastmod', 'date', 'publishDate']
   publishDate = ['publishDate', 'date']
