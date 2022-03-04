@@ -11,7 +11,7 @@
     <item>
       <title>星火微信原生Linux2.1.2-2版</title>
       <link>https://shenmo7192.gitee.io/post/%E6%98%9F%E7%81%AB%E5%BE%AE%E4%BF%A1%E5%8E%9F%E7%94%9Flinux2.1.2-1%E7%89%88/</link>
-      <pubDate>Fri, 04 Mar 2022 11:42:53 +0800</pubDate>
+      <pubDate>Fri, 04 Mar 2022 11:44:34 +0800</pubDate>
       
       <guid>https://shenmo7192.gitee.io/post/%E6%98%9F%E7%81%AB%E5%BE%AE%E4%BF%A1%E5%8E%9F%E7%94%9Flinux2.1.2-1%E7%89%88/</guid>
       <description>&lt;p&gt;发布时间：2022-01-28T15:37:51+08:00&lt;/p&gt;
@@ -423,6 +423,16 @@
       <guid>https://shenmo7192.gitee.io/post/linux-desktop-hotspot/</guid>
       <description>&lt;p&gt;最开始把Linux当做主力系统是deepin 15.9，本人是非常习惯热区操作的
 什么是热区呢？就是屏幕四个角用鼠标戳的时候进行某些操作&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>批量重命名/获取文件相对路径/绝对路径/获取文件名的方法</title>
+      <link>https://shenmo7192.gitee.io/post/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <description>&lt;p&gt;发布时间： 2022-03-04T13:46:02+08:00&lt;/p&gt;
+&lt;p&gt;对全部文件/某种文件进行重命名&lt;/p&gt;</description>
     </item>
     
   </channel>
