@@ -30,7 +30,9 @@ draft: false
 ![](https://attach.52pojie.cn/forum/202112/02/170629bgesx44z5j34l63j.png)
 
 下载链接
-https://shenmo.lanzoux.com/iW31kx5891g
+
+~~https://shenmo.lanzoux.com/iW31kx5891g~~
+新版本可以和星火共存 https://shenmo.lanzoul.com/iqj2vyrkhgj
 
 注意：UOS/deepin用户不需要安装此补丁，自带的深度商店就可以正确处理软件包。为防呆，已设置与深度商店冲突
 
