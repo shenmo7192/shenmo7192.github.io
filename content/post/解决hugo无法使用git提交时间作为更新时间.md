@@ -48,3 +48,11 @@ Alternatively:
 `git config --global core.precomposeunicode true`
 
 更改后即可按git时间更改
+
+---
+
+为了让主页的排序转为修改日期，我把`:git`也加入了`date`优先序列，指定优先，不指定则为git时间，这样只要更新帖子就会放到最前面
+
+更改位置：`config.toml`
+
+同时更改了`archetypes`，以后的新的Post不会再指定创建日期，转而在帖子正文写明
