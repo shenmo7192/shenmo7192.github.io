@@ -13,10 +13,11 @@ tags:
 # nolastmod: true
 draft: false
 ---
+发布时间： {{ .Date }}
 
 这里输入的内容会出现在主页也在正文里
 
 <!--more-->
-发布时间： {{ .Date }}
+
 
 这里是正文开始的内容
