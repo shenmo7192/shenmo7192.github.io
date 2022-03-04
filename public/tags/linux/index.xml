@@ -161,5 +161,25 @@
 什么是热区呢？就是屏幕四个角用鼠标戳的时候进行某些操作&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>Shenmo的奇妙脑洞</title>
+      <link>https://shenmo7192.gitee.io/post/shenmo%E7%9A%84%E5%A5%87%E5%A6%99%E8%84%91%E6%B4%9E/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/shenmo%E7%9A%84%E5%A5%87%E5%A6%99%E8%84%91%E6%B4%9E/</guid>
+      <description>&lt;p&gt;发布时间： 2022-03-04T20:16:27+08:00&lt;/p&gt;
+&lt;p&gt;收集shenmo的奇思妙想，有的是代码有的不是~&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>快速把好康的图集提取用的脚本/格式化输出printf</title>
+      <link>https://shenmo7192.gitee.io/post/%E5%BF%AB%E9%80%9F%E6%8A%8A%E5%A5%BD%E5%BA%B7%E7%9A%84%E5%9B%BE%E9%9B%86%E6%8F%90%E5%8F%96%E7%94%A8%E7%9A%84%E8%84%9A%E6%9C%AC/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E5%BF%AB%E9%80%9F%E6%8A%8A%E5%A5%BD%E5%BA%B7%E7%9A%84%E5%9B%BE%E9%9B%86%E6%8F%90%E5%8F%96%E7%94%A8%E7%9A%84%E8%84%9A%E6%9C%AC/</guid>
+      <description>&lt;p&gt;发布时间： 2022-03-05T03:57:47+08:00&lt;/p&gt;
+&lt;p&gt;虽然很简单但是还是踩了一下午的坑，可以点进来看看我的解决方法多神奇&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
