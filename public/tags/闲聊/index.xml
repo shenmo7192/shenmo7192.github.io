@@ -7,38 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</copyright>
-    <lastBuildDate>Fri, 04 Mar 2022 11:24:53 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/tags/%E9%97%B2%E8%81%8A/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Mar 2022 11:35:33 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/tags/%E9%97%B2%E8%81%8A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tert</title>
+      <link>https://shenmo7192.gitee.io/post/tert/</link>
+      <pubDate>Fri, 04 Mar 2022 11:35:33 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/tert/</guid>
+      <description>&lt;p&gt;这里输入的内容会出现在主页也在正文里&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Lantern Rite of Teyvat</title>
       <link>https://shenmo7192.gitee.io/post/lantern-rite-of-teyvat/</link>
-      <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
+      <pubDate>Wed, 02 Feb 2022 21:59:39 +0800</pubDate>
       
       <guid>https://shenmo7192.gitee.io/post/lantern-rite-of-teyvat/</guid>
       <description>&lt;p&gt;海灯节的照片&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>一周年一路有你</title>
-      <link>https://shenmo7192.gitee.io/post/%E4%B8%80%E5%91%A8%E5%B9%B4%E4%B8%80%E8%B7%AF%E6%9C%89%E4%BD%A0/</link>
-      <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
+      <title>如何请求说话者重复</title>
+      <link>https://shenmo7192.gitee.io/post/%E5%A6%82%E4%BD%95%E8%AF%B7%E6%B1%82%E8%AF%B4%E8%AF%9D%E8%80%85%E9%87%8D%E5%A4%8D/</link>
+      <pubDate>Wed, 01 Dec 2021 15:09:04 +0800</pubDate>
       
-      <guid>https://shenmo7192.gitee.io/post/%E4%B8%80%E5%91%A8%E5%B9%B4%E4%B8%80%E8%B7%AF%E6%9C%89%E4%BD%A0/</guid>
-      <description>&lt;p&gt;在门的另一端，故事还没写完&amp;hellip;&amp;hellip;&lt;/p&gt;</description>
+      <guid>https://shenmo7192.gitee.io/post/%E5%A6%82%E4%BD%95%E8%AF%B7%E6%B1%82%E8%AF%B4%E8%AF%9D%E8%80%85%E9%87%8D%E5%A4%8D/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m sorry, I&amp;rsquo;m not sure I understand. Could you please explain/repeat that?&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>关于Valine Admin的后续&#43;最近的想法</title>
-      <link>https://shenmo7192.gitee.io/post/%E5%85%B3%E4%BA%8Evaline-admin%E7%9A%84%E5%90%8E%E7%BB%AD/</link>
-      <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
+      <title>天理做错了吗</title>
+      <link>https://shenmo7192.gitee.io/post/%E5%A4%A9%E7%90%86%E5%81%9A%E9%94%99%E4%BA%86%E5%90%97/</link>
+      <pubDate>Sun, 21 Nov 2021 20:44:09 +0800</pubDate>
       
-      <guid>https://shenmo7192.gitee.io/post/%E5%85%B3%E4%BA%8Evaline-admin%E7%9A%84%E5%90%8E%E7%BB%AD/</guid>
-      <description>&lt;p&gt;博客折腾告一段落了（反正也不会有人看），差不多该补充下这期间对Valine-admin的后续了&lt;/p&gt;</description>
+      <guid>https://shenmo7192.gitee.io/post/%E5%A4%A9%E7%90%86%E5%81%9A%E9%94%99%E4%BA%86%E5%90%97/</guid>
+      <description>&lt;p&gt;原文链接&lt;a href=&#34;https://bbs.nga.cn/read.php?tid=26305900&#34;&gt;https://bbs.nga.cn/read.php?tid=26305900&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>可以在线使用的几个小工具</title>
       <link>https://shenmo7192.gitee.io/post/%E5%90%8C%E5%9F%9F%E5%90%8D%E4%B8%8B/</link>
-      <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
+      <pubDate>Wed, 27 Oct 2021 17:11:56 +0800</pubDate>
       
       <guid>https://shenmo7192.gitee.io/post/%E5%90%8C%E5%9F%9F%E5%90%8D%E4%B8%8B/</guid>
       <description>&lt;p&gt;目前只有sans模拟战和原神抽卡分析&lt;/p&gt;</description>
@@ -47,39 +56,39 @@
     <item>
       <title>可能再打几次我就比小宝自己还熟悉小宝了</title>
       <link>https://shenmo7192.gitee.io/post/%E5%8F%AF%E8%83%BD%E5%86%8D%E6%89%93%E5%87%A0%E6%AC%A1%E6%88%91%E5%B0%B1%E6%AF%94%E5%B0%8F%E5%AE%9D%E8%87%AA%E5%B7%B1%E8%BF%98%E7%86%9F%E6%82%89%E5%B0%8F%E5%AE%9D%E4%BA%86/</link>
-      <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
+      <pubDate>Thu, 14 Oct 2021 18:15:02 +0800</pubDate>
       
       <guid>https://shenmo7192.gitee.io/post/%E5%8F%AF%E8%83%BD%E5%86%8D%E6%89%93%E5%87%A0%E6%AC%A1%E6%88%91%E5%B0%B1%E6%AF%94%E5%B0%8F%E5%AE%9D%E8%87%AA%E5%B7%B1%E8%BF%98%E7%86%9F%E6%82%89%E5%B0%8F%E5%AE%9D%E4%BA%86/</guid>
       <description>&lt;p&gt;视频在下面（锅巴确实挺好玩的）&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>天理做错了吗</title>
-      <link>https://shenmo7192.gitee.io/post/%E5%A4%A9%E7%90%86%E5%81%9A%E9%94%99%E4%BA%86%E5%90%97/</link>
-      <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
-      
-      <guid>https://shenmo7192.gitee.io/post/%E5%A4%A9%E7%90%86%E5%81%9A%E9%94%99%E4%BA%86%E5%90%97/</guid>
-      <description>&lt;p&gt;原文链接&lt;a href=&#34;https://bbs.nga.cn/read.php?tid=26305900&#34;&gt;https://bbs.nga.cn/read.php?tid=26305900&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>如何请求说话者重复</title>
-      <link>https://shenmo7192.gitee.io/post/%E5%A6%82%E4%BD%95%E8%AF%B7%E6%B1%82%E8%AF%B4%E8%AF%9D%E8%80%85%E9%87%8D%E5%A4%8D/</link>
-      <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
-      
-      <guid>https://shenmo7192.gitee.io/post/%E5%A6%82%E4%BD%95%E8%AF%B7%E6%B1%82%E8%AF%B4%E8%AF%9D%E8%80%85%E9%87%8D%E5%A4%8D/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m sorry, I&amp;rsquo;m not sure I understand. Could you please explain/repeat that?&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>记一次知乎上与佛教徒辩论</title>
       <link>https://shenmo7192.gitee.io/post/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%9F%A5%E4%B9%8E%E4%B8%8A%E4%B8%8E%E4%BD%9B%E6%95%99%E5%BE%92%E8%BE%A9%E8%AE%BA/</link>
-      <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
+      <pubDate>Mon, 11 Oct 2021 22:33:52 +0800</pubDate>
       
       <guid>https://shenmo7192.gitee.io/post/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%9F%A5%E4%B9%8E%E4%B8%8A%E4%B8%8E%E4%BD%9B%E6%95%99%E5%BE%92%E8%BE%A9%E8%AE%BA/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;关于克隆绵羊和轮回理论的论述得展开讨论了…&lt;/p&gt;
 &lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于Valine Admin的后续&#43;最近的想法</title>
+      <link>https://shenmo7192.gitee.io/post/%E5%85%B3%E4%BA%8Evaline-admin%E7%9A%84%E5%90%8E%E7%BB%AD/</link>
+      <pubDate>Mon, 11 Oct 2021 21:24:47 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E5%85%B3%E4%BA%8Evaline-admin%E7%9A%84%E5%90%8E%E7%BB%AD/</guid>
+      <description>&lt;p&gt;博客折腾告一段落了（反正也不会有人看），差不多该补充下这期间对Valine-admin的后续了&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>一周年一路有你</title>
+      <link>https://shenmo7192.gitee.io/post/%E4%B8%80%E5%91%A8%E5%B9%B4%E4%B8%80%E8%B7%AF%E6%9C%89%E4%BD%A0/</link>
+      <pubDate>Sat, 09 Oct 2021 01:01:06 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E4%B8%80%E5%91%A8%E5%B9%B4%E4%B8%80%E8%B7%AF%E6%9C%89%E4%BD%A0/</guid>
+      <description>&lt;p&gt;在门的另一端，故事还没写完&amp;hellip;&amp;hellip;&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -1,5 +1,6 @@
 ---
-title: {{ replace .TranslationBaseName "-" " " | title }}
+title: Tert
+lastmod: 2022-03-04T11:35:33+08:00
 author: shenmo
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site
@@ -17,6 +18,6 @@ draft: false
 这里输入的内容会出现在主页也在正文里
 
 <!--more-->
-发布时间： {{ .Date }}
+发布时间： 2022-03-04T11:35:33+08:00
 
 这里是正文开始的内容

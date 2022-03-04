@@ -9,98 +9,6 @@
     <copyright>本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</copyright>
     <lastBuildDate>Fri, 04 Mar 2022 11:24:53 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Bash中case的用法</title>
-      <link>https://shenmo7192.gitee.io/post/bash%E4%B8%ADcase%E7%9A%84%E7%94%A8%E6%B3%95/</link>
-      <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
-      
-      <guid>https://shenmo7192.gitee.io/post/bash%E4%B8%ADcase%E7%9A%84%E7%94%A8%E6%B3%95/</guid>
-      <description>&lt;p&gt;转载自：https://www.cnblogs.com/J1ac/p/10988210.html&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Dpk链接解析补丁：适用于深度商店的spk链接</title>
-      <link>https://shenmo7192.gitee.io/post/dpk%E9%93%BE%E6%8E%A5%E8%A7%A3%E6%9E%90%E8%A1%A5%E4%B8%81%E9%80%82%E7%94%A8%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%95%86%E5%BA%97%E7%9A%84spk%E9%93%BE%E6%8E%A5/</link>
-      <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
-      
-      <guid>https://shenmo7192.gitee.io/post/dpk%E9%93%BE%E6%8E%A5%E8%A7%A3%E6%9E%90%E8%A1%A5%E4%B8%81%E9%80%82%E7%94%A8%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%95%86%E5%BA%97%E7%9A%84spk%E9%93%BE%E6%8E%A5/</guid>
-      <description>&lt;p&gt;我在 &lt;code&gt;ccc-app-manager&lt;/code&gt;这个应用中发现这个应用居然支持“在应用商店中显示”&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>UOS 免开发者模式安装第三方应用工具（UOS安装应用）</title>
-      <link>https://shenmo7192.gitee.io/post/uos-%E5%85%8D%E5%BC%80%E5%8F%91%E8%80%85%E6%A8%A1%E5%BC%8F%E5%AE%89%E8%A3%85%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8%E5%B7%A5%E5%85%B7/</link>
-      <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
-      
-      <guid>https://shenmo7192.gitee.io/post/uos-%E5%85%8D%E5%BC%80%E5%8F%91%E8%80%85%E6%A8%A1%E5%BC%8F%E5%AE%89%E8%A3%85%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8%E5%B7%A5%E5%85%B7/</guid>
-      <description>&lt;p&gt;早在去年UOS发布证书认证工具的时候我就想这样了，但是想到星火商店专门为UOS单独开发版本，还要收集用户的证书就很难受，遂作罢。然而QQ群里一位神人向我亲自演示了这东西可行，我就想搞一个脚本来处理，反正也没什么事可做&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>使wine QQ不用宋体的方法</title>
-      <link>https://shenmo7192.gitee.io/post/%E4%BD%BFwine-qq%E4%B8%8D%E7%94%A8%E5%AE%8B%E4%BD%93%E7%9A%84%E6%96%B9%E6%B3%95/</link>
-      <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
-      
-      <guid>https://shenmo7192.gitee.io/post/%E4%BD%BFwine-qq%E4%B8%8D%E7%94%A8%E5%AE%8B%E4%BD%93%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
-      <description>&lt;p&gt;摘抄自 &lt;a href=&#34;https://blog.zhullyb.top/2021/04/27/hide-simsun-from-deepin-wine-tim/&#34;&gt;https://blog.zhullyb.top/2021/04/27/hide-simsun-from-deepin-wine-tim/&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>修复deepin论坛新编辑器表情过小</title>
-      <link>https://shenmo7192.gitee.io/post/%E4%BF%AE%E5%A4%8Ddeepin%E8%AE%BA%E5%9D%9B%E6%96%B0%E7%BC%96%E8%BE%91%E5%99%A8%E8%A1%A8%E6%83%85%E8%BF%87%E5%B0%8F/</link>
-      <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
-      
-      <guid>https://shenmo7192.gitee.io/post/%E4%BF%AE%E5%A4%8Ddeepin%E8%AE%BA%E5%9D%9B%E6%96%B0%E7%BC%96%E8%BE%91%E5%99%A8%E8%A1%A8%E6%83%85%E8%BF%87%E5%B0%8F/</guid>
-      <description>&lt;p&gt;以下为解决方法&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>偶然发现deepin新用户默认主目录模板位置</title>
-      <link>https://shenmo7192.gitee.io/post/%E5%81%B6%E7%84%B6%E5%8F%91%E7%8E%B0deepin%E6%96%B0%E7%94%A8%E6%88%B7%E9%BB%98%E8%AE%A4%E4%B8%BB%E7%9B%AE%E5%BD%95%E6%A8%A1%E6%9D%BF%E4%BD%8D%E7%BD%AE/</link>
-      <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
-      
-      <guid>https://shenmo7192.gitee.io/post/%E5%81%B6%E7%84%B6%E5%8F%91%E7%8E%B0deepin%E6%96%B0%E7%94%A8%E6%88%B7%E9%BB%98%E8%AE%A4%E4%B8%BB%E7%9B%AE%E5%BD%95%E6%A8%A1%E6%9D%BF%E4%BD%8D%E7%BD%AE/</guid>
-      <description>&lt;p&gt;事情的缘起是因为我在deepin id同步的一张壁纸找不到了，于是直接在&lt;code&gt;/&lt;/code&gt;搜索&lt;code&gt;.jpg&lt;/code&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>发现deepin登陆壁纸寻找逻辑&amp;/proc里面映射的主目录</title>
-      <link>https://shenmo7192.gitee.io/post/%E5%8F%91%E7%8E%B0deepin%E7%99%BB%E9%99%86%E5%A3%81%E7%BA%B8%E5%AF%BB%E6%89%BE%E9%80%BB%E8%BE%91/</link>
-      <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
-      
-      <guid>https://shenmo7192.gitee.io/post/%E5%8F%91%E7%8E%B0deepin%E7%99%BB%E9%99%86%E5%A3%81%E7%BA%B8%E5%AF%BB%E6%89%BE%E9%80%BB%E8%BE%91/</guid>
-      <description>&lt;p&gt;书接上文的搜索&lt;code&gt;.jpg&lt;/code&gt;，发现了更多好玩的东西&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>可以在deepin上运行的UOS版联系人（深谈）分享！</title>
-      <link>https://shenmo7192.gitee.io/post/%E5%8F%AF%E4%BB%A5%E5%9C%A8deepin%E4%B8%8A%E8%BF%90%E8%A1%8C%E7%9A%84uos%E7%89%88%E8%81%94%E7%B3%BB%E4%BA%BA%E6%B7%B1%E8%B0%88%E5%88%86%E4%BA%AB/</link>
-      <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
-      
-      <guid>https://shenmo7192.gitee.io/post/%E5%8F%AF%E4%BB%A5%E5%9C%A8deepin%E4%B8%8A%E8%BF%90%E8%A1%8C%E7%9A%84uos%E7%89%88%E8%81%94%E7%B3%BB%E4%BA%BA%E6%B7%B1%E8%B0%88%E5%88%86%E4%BA%AB/</guid>
-      <description>&lt;p&gt;我特别喜欢说一句话：众所周知&lt;/p&gt;
-&lt;p&gt;但是实际上并不是众所周知的是&lt;/p&gt;
-&lt;p&gt;我在账号更新的时候说过这么一句话&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>在dde File Manager的较上端加入菜单项（类似深度压缩）</title>
-      <link>https://shenmo7192.gitee.io/post/%E5%9C%A8dde-file-manager%E7%9A%84%E8%BE%83%E4%B8%8A%E7%AB%AF%E5%8A%A0%E5%85%A5%E8%8F%9C%E5%8D%95%E9%A1%B9/</link>
-      <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
-      
-      <guid>https://shenmo7192.gitee.io/post/%E5%9C%A8dde-file-manager%E7%9A%84%E8%BE%83%E4%B8%8A%E7%AB%AF%E5%8A%A0%E5%85%A5%E8%8F%9C%E5%8D%95%E9%A1%B9/</guid>
-      <description>&lt;p&gt;在官方给出的文档里，有&lt;code&gt;oem-extenshen&lt;/code&gt;的写法（不会用请点&lt;a href=&#34;https://gitee.com/shenmo7192/dde-file-manager-menu-oem&#34;&gt;这里&lt;/a&gt;），但是这样插入的插件位置都比较靠下。那么，类似深度压缩的菜单项这样位置靠上的插件是怎么实现的呢？&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>微信Linux2.1.1-1破解版，可在其他Linux发行版下运行</title>
-      <link>https://shenmo7192.gitee.io/post/%E5%BE%AE%E4%BF%A1linux2.1.1-1%E7%A0%B4%E8%A7%A3%E7%89%88%E5%8F%AF%E5%9C%A8%E5%85%B6%E4%BB%96linux%E5%8F%91%E8%A1%8C%E7%89%88%E4%B8%8B%E8%BF%90%E8%A1%8C-/</link>
-      <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
-      
-      <guid>https://shenmo7192.gitee.io/post/%E5%BE%AE%E4%BF%A1linux2.1.1-1%E7%A0%B4%E8%A7%A3%E7%89%88%E5%8F%AF%E5%9C%A8%E5%85%B6%E4%BB%96linux%E5%8F%91%E8%A1%8C%E7%89%88%E4%B8%8B%E8%BF%90%E8%A1%8C-/</guid>
-      <description>&lt;p&gt;因升级网盘系统，原下载链接已失效，现下载链接已更新，请使用新链接下载&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>星火微信原生Linux2.1.2-2版</title>
       <link>https://shenmo7192.gitee.io/post/%E6%98%9F%E7%81%AB%E5%BE%AE%E4%BF%A1%E5%8E%9F%E7%94%9Flinux2.1.2-1%E7%89%88/</link>
       <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
@@ -110,9 +18,47 @@
     </item>
     
     <item>
+      <title>Dpk链接解析补丁：适用于深度商店的spk链接</title>
+      <link>https://shenmo7192.gitee.io/post/dpk%E9%93%BE%E6%8E%A5%E8%A7%A3%E6%9E%90%E8%A1%A5%E4%B8%81%E9%80%82%E7%94%A8%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%95%86%E5%BA%97%E7%9A%84spk%E9%93%BE%E6%8E%A5/</link>
+      <pubDate>Mon, 28 Feb 2022 22:08:19 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/dpk%E9%93%BE%E6%8E%A5%E8%A7%A3%E6%9E%90%E8%A1%A5%E4%B8%81%E9%80%82%E7%94%A8%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%95%86%E5%BA%97%E7%9A%84spk%E9%93%BE%E6%8E%A5/</guid>
+      <description>&lt;p&gt;我在 &lt;code&gt;ccc-app-manager&lt;/code&gt;这个应用中发现这个应用居然支持“在应用商店中显示”&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Bash中case的用法</title>
+      <link>https://shenmo7192.gitee.io/post/bash%E4%B8%ADcase%E7%9A%84%E7%94%A8%E6%B3%95/</link>
+      <pubDate>Sun, 27 Feb 2022 22:43:21 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/bash%E4%B8%ADcase%E7%9A%84%E7%94%A8%E6%B3%95/</guid>
+      <description>&lt;p&gt;转载自：https://www.cnblogs.com/J1ac/p/10988210.html&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>微信Linux2.1.1-1破解版，可在其他Linux发行版下运行</title>
+      <link>https://shenmo7192.gitee.io/post/%E5%BE%AE%E4%BF%A1linux2.1.1-1%E7%A0%B4%E8%A7%A3%E7%89%88%E5%8F%AF%E5%9C%A8%E5%85%B6%E4%BB%96linux%E5%8F%91%E8%A1%8C%E7%89%88%E4%B8%8B%E8%BF%90%E8%A1%8C-/</link>
+      <pubDate>Mon, 10 Jan 2022 18:32:21 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E5%BE%AE%E4%BF%A1linux2.1.1-1%E7%A0%B4%E8%A7%A3%E7%89%88%E5%8F%AF%E5%9C%A8%E5%85%B6%E4%BB%96linux%E5%8F%91%E8%A1%8C%E7%89%88%E4%B8%8B%E8%BF%90%E8%A1%8C-/</guid>
+      <description>&lt;p&gt;因升级网盘系统，原下载链接已失效，现下载链接已更新，请使用新链接下载&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>阻止搜狗输入法强制使用内建英文输入</title>
+      <link>https://shenmo7192.gitee.io/post/%E9%98%BB%E6%AD%A2%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E5%BC%BA%E5%88%B6%E4%BD%BF%E7%94%A8%E5%86%85%E5%BB%BA%E8%8B%B1%E6%96%87%E8%BE%93%E5%85%A5/</link>
+      <pubDate>Mon, 10 Jan 2022 18:22:24 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E9%98%BB%E6%AD%A2%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E5%BC%BA%E5%88%B6%E4%BD%BF%E7%94%A8%E5%86%85%E5%BB%BA%E8%8B%B1%E6%96%87%E8%BE%93%E5%85%A5/</guid>
+      <description>&lt;p&gt;一般情况下，我们切换到英文输入会输入密码等敏感内容&lt;/p&gt;
+&lt;p&gt;我个人的习惯是只要使用国产输入法，在输入英文时都换回原fcitx&lt;/p&gt;
+&lt;p&gt;但是，搜狗输入法强制你使用他的英文输入&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>移植dtk，更新到5</title>
       <link>https://shenmo7192.gitee.io/post/%E7%A7%BB%E6%A4%8Ddtk%E6%9B%B4%E6%96%B0%E5%88%B05.4%E5%8F%AF%E4%BB%A5%E8%BF%90%E8%A1%8C%E6%B7%B1%E8%B0%88%E4%BA%86/</link>
-      <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
+      <pubDate>Sat, 25 Dec 2021 02:24:11 +0800</pubDate>
       
       <guid>https://shenmo7192.gitee.io/post/%E7%A7%BB%E6%A4%8Ddtk%E6%9B%B4%E6%96%B0%E5%88%B05.4%E5%8F%AF%E4%BB%A5%E8%BF%90%E8%A1%8C%E6%B7%B1%E8%B0%88%E4%BA%86/</guid>
       <description>&lt;p&gt;在微信上有位朋友向我提出了问题，能不能让UOS的联系人在Debian系上推广开&lt;/p&gt;
@@ -121,33 +67,87 @@
     </item>
     
     <item>
-      <title>通过热区唤出侧边栏的折腾实践</title>
-      <link>https://shenmo7192.gitee.io/post/linux-desktop-hotspot/</link>
-      <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
+      <title>在dde File Manager的较上端加入菜单项（类似深度压缩）</title>
+      <link>https://shenmo7192.gitee.io/post/%E5%9C%A8dde-file-manager%E7%9A%84%E8%BE%83%E4%B8%8A%E7%AB%AF%E5%8A%A0%E5%85%A5%E8%8F%9C%E5%8D%95%E9%A1%B9/</link>
+      <pubDate>Tue, 21 Dec 2021 18:51:40 +0800</pubDate>
       
-      <guid>https://shenmo7192.gitee.io/post/linux-desktop-hotspot/</guid>
-      <description>&lt;p&gt;最开始把Linux当做主力系统是deepin 15.9，本人是非常习惯热区操作的
-什么是热区呢？就是屏幕四个角用鼠标戳的时候进行某些操作&lt;/p&gt;</description>
+      <guid>https://shenmo7192.gitee.io/post/%E5%9C%A8dde-file-manager%E7%9A%84%E8%BE%83%E4%B8%8A%E7%AB%AF%E5%8A%A0%E5%85%A5%E8%8F%9C%E5%8D%95%E9%A1%B9/</guid>
+      <description>&lt;p&gt;在官方给出的文档里，有&lt;code&gt;oem-extenshen&lt;/code&gt;的写法（不会用请点&lt;a href=&#34;https://gitee.com/shenmo7192/dde-file-manager-menu-oem&#34;&gt;这里&lt;/a&gt;），但是这样插入的插件位置都比较靠下。那么，类似深度压缩的菜单项这样位置靠上的插件是怎么实现的呢？&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>可以在deepin上运行的UOS版联系人（深谈）分享！</title>
+      <link>https://shenmo7192.gitee.io/post/%E5%8F%AF%E4%BB%A5%E5%9C%A8deepin%E4%B8%8A%E8%BF%90%E8%A1%8C%E7%9A%84uos%E7%89%88%E8%81%94%E7%B3%BB%E4%BA%BA%E6%B7%B1%E8%B0%88%E5%88%86%E4%BA%AB/</link>
+      <pubDate>Tue, 21 Dec 2021 01:21:52 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E5%8F%AF%E4%BB%A5%E5%9C%A8deepin%E4%B8%8A%E8%BF%90%E8%A1%8C%E7%9A%84uos%E7%89%88%E8%81%94%E7%B3%BB%E4%BA%BA%E6%B7%B1%E8%B0%88%E5%88%86%E4%BA%AB/</guid>
+      <description>&lt;p&gt;我特别喜欢说一句话：众所周知&lt;/p&gt;
+&lt;p&gt;但是实际上并不是众所周知的是&lt;/p&gt;
+&lt;p&gt;我在账号更新的时候说过这么一句话&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>UOS 免开发者模式安装第三方应用工具（UOS安装应用）</title>
+      <link>https://shenmo7192.gitee.io/post/uos-%E5%85%8D%E5%BC%80%E5%8F%91%E8%80%85%E6%A8%A1%E5%BC%8F%E5%AE%89%E8%A3%85%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Tue, 23 Nov 2021 15:21:08 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/uos-%E5%85%8D%E5%BC%80%E5%8F%91%E8%80%85%E6%A8%A1%E5%BC%8F%E5%AE%89%E8%A3%85%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%94%E7%94%A8%E5%B7%A5%E5%85%B7/</guid>
+      <description>&lt;p&gt;早在去年UOS发布证书认证工具的时候我就想这样了，但是想到星火商店专门为UOS单独开发版本，还要收集用户的证书就很难受，遂作罢。然而QQ群里一位神人向我亲自演示了这东西可行，我就想搞一个脚本来处理，反正也没什么事可做&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>重制打包教程</title>
       <link>https://shenmo7192.gitee.io/post/%E9%87%8D%E5%88%B6%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/</link>
-      <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
+      <pubDate>Thu, 11 Nov 2021 17:15:28 +0800</pubDate>
       
       <guid>https://shenmo7192.gitee.io/post/%E9%87%8D%E5%88%B6%E6%89%93%E5%8C%85%E6%95%99%E7%A8%8B/</guid>
       <description>&lt;p&gt;一年前搞了个打包教程，做的很粗糙，一年后重制了一下，依旧很粗糙&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>阻止搜狗输入法强制使用内建英文输入</title>
-      <link>https://shenmo7192.gitee.io/post/%E9%98%BB%E6%AD%A2%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E5%BC%BA%E5%88%B6%E4%BD%BF%E7%94%A8%E5%86%85%E5%BB%BA%E8%8B%B1%E6%96%87%E8%BE%93%E5%85%A5/</link>
-      <pubDate>Fri, 04 Mar 2022 11:24:53 +0800</pubDate>
+      <title>发现deepin登陆壁纸寻找逻辑&amp;/proc里面映射的主目录</title>
+      <link>https://shenmo7192.gitee.io/post/%E5%8F%91%E7%8E%B0deepin%E7%99%BB%E9%99%86%E5%A3%81%E7%BA%B8%E5%AF%BB%E6%89%BE%E9%80%BB%E8%BE%91/</link>
+      <pubDate>Thu, 11 Nov 2021 00:47:27 +0800</pubDate>
       
-      <guid>https://shenmo7192.gitee.io/post/%E9%98%BB%E6%AD%A2%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E5%BC%BA%E5%88%B6%E4%BD%BF%E7%94%A8%E5%86%85%E5%BB%BA%E8%8B%B1%E6%96%87%E8%BE%93%E5%85%A5/</guid>
-      <description>&lt;p&gt;一般情况下，我们切换到英文输入会输入密码等敏感内容&lt;/p&gt;
-&lt;p&gt;我个人的习惯是只要使用国产输入法，在输入英文时都换回原fcitx&lt;/p&gt;
-&lt;p&gt;但是，搜狗输入法强制你使用他的英文输入&lt;/p&gt;</description>
+      <guid>https://shenmo7192.gitee.io/post/%E5%8F%91%E7%8E%B0deepin%E7%99%BB%E9%99%86%E5%A3%81%E7%BA%B8%E5%AF%BB%E6%89%BE%E9%80%BB%E8%BE%91/</guid>
+      <description>&lt;p&gt;书接上文的搜索&lt;code&gt;.jpg&lt;/code&gt;，发现了更多好玩的东西&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>偶然发现deepin新用户默认主目录模板位置</title>
+      <link>https://shenmo7192.gitee.io/post/%E5%81%B6%E7%84%B6%E5%8F%91%E7%8E%B0deepin%E6%96%B0%E7%94%A8%E6%88%B7%E9%BB%98%E8%AE%A4%E4%B8%BB%E7%9B%AE%E5%BD%95%E6%A8%A1%E6%9D%BF%E4%BD%8D%E7%BD%AE/</link>
+      <pubDate>Thu, 11 Nov 2021 00:42:08 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E5%81%B6%E7%84%B6%E5%8F%91%E7%8E%B0deepin%E6%96%B0%E7%94%A8%E6%88%B7%E9%BB%98%E8%AE%A4%E4%B8%BB%E7%9B%AE%E5%BD%95%E6%A8%A1%E6%9D%BF%E4%BD%8D%E7%BD%AE/</guid>
+      <description>&lt;p&gt;事情的缘起是因为我在deepin id同步的一张壁纸找不到了，于是直接在&lt;code&gt;/&lt;/code&gt;搜索&lt;code&gt;.jpg&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>修复deepin论坛新编辑器表情过小</title>
+      <link>https://shenmo7192.gitee.io/post/%E4%BF%AE%E5%A4%8Ddeepin%E8%AE%BA%E5%9D%9B%E6%96%B0%E7%BC%96%E8%BE%91%E5%99%A8%E8%A1%A8%E6%83%85%E8%BF%87%E5%B0%8F/</link>
+      <pubDate>Tue, 02 Nov 2021 21:12:40 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E4%BF%AE%E5%A4%8Ddeepin%E8%AE%BA%E5%9D%9B%E6%96%B0%E7%BC%96%E8%BE%91%E5%99%A8%E8%A1%A8%E6%83%85%E8%BF%87%E5%B0%8F/</guid>
+      <description>&lt;p&gt;以下为解决方法&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>使wine QQ不用宋体的方法</title>
+      <link>https://shenmo7192.gitee.io/post/%E4%BD%BFwine-qq%E4%B8%8D%E7%94%A8%E5%AE%8B%E4%BD%93%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Wed, 27 Oct 2021 15:15:00 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E4%BD%BFwine-qq%E4%B8%8D%E7%94%A8%E5%AE%8B%E4%BD%93%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <description>&lt;p&gt;摘抄自 &lt;a href=&#34;https://blog.zhullyb.top/2021/04/27/hide-simsun-from-deepin-wine-tim/&#34;&gt;https://blog.zhullyb.top/2021/04/27/hide-simsun-from-deepin-wine-tim/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>通过热区唤出侧边栏的折腾实践</title>
+      <link>https://shenmo7192.gitee.io/post/linux-desktop-hotspot/</link>
+      <pubDate>Fri, 08 Oct 2021 12:29:20 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/linux-desktop-hotspot/</guid>
+      <description>&lt;p&gt;最开始把Linux当做主力系统是deepin 15.9，本人是非常习惯热区操作的
+什么是热区呢？就是屏幕四个角用鼠标戳的时候进行某些操作&lt;/p&gt;</description>
     </item>
     
   </channel>
