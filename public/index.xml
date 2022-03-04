@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</copyright>
-    <lastBuildDate>Mon, 28 Feb 2022 22:08:19 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Mar 2022 11:04:56 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>解决hugo无法使用git提交时间作为更新时间</title>
+      <link>https://shenmo7192.gitee.io/post/%E8%A7%A3%E5%86%B3hugo%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8git%E6%8F%90%E4%BA%A4%E6%97%B6%E9%97%B4%E4%BD%9C%E4%B8%BA%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4/</link>
+      <pubDate>Fri, 04 Mar 2022 11:04:56 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E8%A7%A3%E5%86%B3hugo%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8git%E6%8F%90%E4%BA%A4%E6%97%B6%E9%97%B4%E4%BD%9C%E4%B8%BA%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4/</guid>
+      <description>&lt;p&gt;在此之前我一直以为是&lt;code&gt;dream theme&lt;/code&gt;不支持git date作为修改日期，提了issue，直到&amp;hellip;&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Dpk链接解析补丁：适用于深度商店的spk链接</title>
       <link>https://shenmo7192.gitee.io/post/dpk%E9%93%BE%E6%8E%A5%E8%A7%A3%E6%9E%90%E8%A1%A5%E4%B8%81%E9%80%82%E7%94%A8%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%95%86%E5%BA%97%E7%9A%84spk%E9%93%BE%E6%8E%A5/</link>
