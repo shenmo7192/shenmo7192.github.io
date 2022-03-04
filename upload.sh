@@ -1,5 +1,5 @@
 #!/bin/sh
-
+git config  core.quotepath false
 hugo -D
 git add .
 git commit -m 更新博客
