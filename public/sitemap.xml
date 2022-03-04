@@ -3,19 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://shenmo7192.gitee.io/categories/</loc>
-    <lastmod>2022-03-04T13:55:11+08:00</lastmod>
+    <lastmod>2022-03-04T20:17:14+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/tags/linux/</loc>
-    <lastmod>2022-03-04T13:55:11+08:00</lastmod>
+    <lastmod>2022-03-04T20:17:14+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/</loc>
-    <lastmod>2022-03-04T13:55:11+08:00</lastmod>
+    <lastmod>2022-03-04T20:17:14+08:00</lastmod>
+  </url><url>
+    <loc>https://shenmo7192.gitee.io/post/shenmo%E7%9A%84%E5%A5%87%E5%A6%99%E8%84%91%E6%B4%9E/</loc>
+    <lastmod>2022-03-04T20:17:14+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/tags/</loc>
-    <lastmod>2022-03-04T13:55:11+08:00</lastmod>
+    <lastmod>2022-03-04T20:17:14+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/categories/%E5%95%A5%E9%83%BD%E6%9C%89/</loc>
-    <lastmod>2022-03-04T13:55:11+08:00</lastmod>
+    <lastmod>2022-03-04T20:17:14+08:00</lastmod>
+  </url><url>
+    <loc>https://shenmo7192.gitee.io/post/%E5%BF%AB%E9%80%9F%E6%8A%8A%E5%A5%BD%E5%BA%B7%E7%9A%84%E5%9B%BE%E9%9B%86%E6%8F%90%E5%8F%96%E7%94%A8%E7%9A%84%E8%84%9A%E6%9C%AC/</loc>
+    <lastmod>2022-03-04T20:17:14+08:00</lastmod>
+  </url><url>
+    <loc>https://shenmo7192.gitee.io/tags/%E9%97%B2%E8%81%8A/</loc>
+    <lastmod>2022-03-04T20:17:14+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/post/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D%E7%9A%84%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2022-03-04T13:55:11+08:00</lastmod>
@@ -39,9 +48,6 @@
     <lastmod>2022-03-04T11:24:53+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/post/lantern-rite-of-teyvat/</loc>
-    <lastmod>2022-03-04T11:24:53+08:00</lastmod>
-  </url><url>
-    <loc>https://shenmo7192.gitee.io/tags/%E9%97%B2%E8%81%8A/</loc>
     <lastmod>2022-03-04T11:24:53+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/post/%E5%BE%AE%E4%BF%A1linux2.1.1-1%E7%A0%B4%E8%A7%A3%E7%89%88%E5%8F%AF%E5%9C%A8%E5%85%B6%E4%BB%96linux%E5%8F%91%E8%A1%8C%E7%89%88%E4%B8%8B%E8%BF%90%E8%A1%8C-/</loc>
@@ -166,9 +172,5 @@
   </url><url>
     <loc>https://shenmo7192.gitee.io/post/linux-desktop-hotspot/</loc>
     <lastmod>2022-03-04T11:24:53+08:00</lastmod>
-  </url><url>
-    <loc>https://shenmo7192.gitee.io/post/shenmo%E7%9A%84%E5%A5%87%E5%A6%99%E8%84%91%E6%B4%9E/</loc>
-  </url><url>
-    <loc>https://shenmo7192.gitee.io/post/%E5%BF%AB%E9%80%9F%E6%8A%8A%E5%A5%BD%E5%BA%B7%E7%9A%84%E5%9B%BE%E9%9B%86%E6%8F%90%E5%8F%96%E7%94%A8%E7%9A%84%E8%84%9A%E6%9C%AC/</loc>
   </url>
 </urlset>
