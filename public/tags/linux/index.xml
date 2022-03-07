@@ -181,5 +181,15 @@
 什么是热区呢？就是屏幕四个角用鼠标戳的时候进行某些操作&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>如何优雅地插入b站视频</title>
+      <link>https://shenmo7192.gitee.io/post/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E6%8F%92%E5%85%A5b%E7%AB%99%E8%A7%86%E9%A2%91/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E6%8F%92%E5%85%A5b%E7%AB%99%E8%A7%86%E9%A2%91/</guid>
+      <description>&lt;p&gt;发布时间： 2022-03-07T19:12:08+08:00&lt;/p&gt;
+&lt;p&gt;在b站官方的分享链接复制的代码现在专为移动端设计了，在桌面端上非常小，通过使用旧版的分享链接播放器来解决这个问题&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>
