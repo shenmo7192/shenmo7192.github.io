@@ -11,7 +11,7 @@ avatar: /img/avatar.jpeg
 categories:
   - 啥都有
 tags:
-  - 日记
+  - 笔记
 # nolastmod: true
 draft: false
 ---

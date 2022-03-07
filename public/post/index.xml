@@ -9,6 +9,16 @@
     <copyright>本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</copyright>
     <lastBuildDate>Fri, 04 Mar 2022 11:24:53 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>如何优雅地插入b站视频</title>
+      <link>https://shenmo7192.gitee.io/post/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E6%8F%92%E5%85%A5b%E7%AB%99%E8%A7%86%E9%A2%91/</link>
+      <pubDate>Mon, 07 Mar 2022 19:25:02 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E6%8F%92%E5%85%A5b%E7%AB%99%E8%A7%86%E9%A2%91/</guid>
+      <description>&lt;p&gt;发布时间： 2022-03-07T19:12:08+08:00&lt;/p&gt;
+&lt;p&gt;在b站官方的分享链接复制的代码现在专为移动端设计了，在桌面端上非常小，通过使用旧版的分享链接播放器来解决这个问题&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>风之翼的故事背景记录</title>
       <link>https://shenmo7192.gitee.io/post/%E9%A3%8E%E4%B9%8B%E7%BF%BC%E7%9A%84%E6%95%85%E4%BA%8B%E8%83%8C%E6%99%AF%E8%AE%B0%E5%BD%95/</link>
       <pubDate>Sat, 05 Mar 2022 10:33:32 +0800</pubDate>
@@ -463,16 +473,6 @@
       <guid>https://shenmo7192.gitee.io/post/linux-desktop-hotspot/</guid>
       <description>&lt;p&gt;最开始把Linux当做主力系统是deepin 15.9，本人是非常习惯热区操作的
 什么是热区呢？就是屏幕四个角用鼠标戳的时候进行某些操作&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>如何优雅地插入b站视频</title>
-      <link>https://shenmo7192.gitee.io/post/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E6%8F%92%E5%85%A5b%E7%AB%99%E8%A7%86%E9%A2%91/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://shenmo7192.gitee.io/post/%E5%A6%82%E4%BD%95%E4%BC%98%E9%9B%85%E5%9C%B0%E6%8F%92%E5%85%A5b%E7%AB%99%E8%A7%86%E9%A2%91/</guid>
-      <description>&lt;p&gt;发布时间： 2022-03-07T19:12:08+08:00&lt;/p&gt;
-&lt;p&gt;在b站官方的分享链接复制的代码现在专为移动端设计了，在桌面端上非常小，通过使用旧版的分享链接播放器来解决这个问题&lt;/p&gt;</description>
     </item>
     
   </channel>
