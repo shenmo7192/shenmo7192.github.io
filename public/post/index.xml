@@ -9,6 +9,16 @@
     <copyright>本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</copyright>
     <lastBuildDate>Fri, 04 Mar 2022 11:24:53 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Apt卸载残留的清理</title>
+      <link>https://shenmo7192.gitee.io/post/apt%E5%8D%B8%E8%BD%BD%E6%AE%8B%E7%95%99%E7%9A%84%E6%B8%85%E7%90%86/</link>
+      <pubDate>Thu, 10 Mar 2022 23:03:09 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/apt%E5%8D%B8%E8%BD%BD%E6%AE%8B%E7%95%99%E7%9A%84%E6%B8%85%E7%90%86/</guid>
+      <description>&lt;p&gt;发布时间： 2022-03-10T23:01:36+08:00&lt;/p&gt;
+&lt;p&gt;当你使用 apt remove卸载软件的时候，其实软件的配置文件会残留到系统里&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>2022.3.10.English Listening</title>
       <link>https://shenmo7192.gitee.io/post/2022.3.10.english-reading/</link>
       <pubDate>Thu, 10 Mar 2022 22:49:17 +0800</pubDate>
@@ -484,16 +494,6 @@
       <guid>https://shenmo7192.gitee.io/post/linux-desktop-hotspot/</guid>
       <description>&lt;p&gt;最开始把Linux当做主力系统是deepin 15.9，本人是非常习惯热区操作的
 什么是热区呢？就是屏幕四个角用鼠标戳的时候进行某些操作&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Apt卸载残留的清理</title>
-      <link>https://shenmo7192.gitee.io/post/apt%E5%8D%B8%E8%BD%BD%E6%AE%8B%E7%95%99%E7%9A%84%E6%B8%85%E7%90%86/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://shenmo7192.gitee.io/post/apt%E5%8D%B8%E8%BD%BD%E6%AE%8B%E7%95%99%E7%9A%84%E6%B8%85%E7%90%86/</guid>
-      <description>&lt;p&gt;发布时间： 2022-03-10T23:01:36+08:00&lt;/p&gt;
-&lt;p&gt;当你使用 apt remove卸载软件的时候，其实软件的配置文件会残留到系统里&lt;/p&gt;</description>
     </item>
     
   </channel>
