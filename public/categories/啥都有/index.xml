@@ -7,11 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</copyright>
-    <lastBuildDate>Tue, 08 Mar 2022 12:21:55 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/categories/%E5%95%A5%E9%83%BD%E6%9C%89/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Mar 2022 22:49:17 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/categories/%E5%95%A5%E9%83%BD%E6%9C%89/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022.3.10.English Listening</title>
+      <link>https://shenmo7192.gitee.io/post/2022.3.10.english-reading/</link>
+      <pubDate>Thu, 10 Mar 2022 22:49:17 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/2022.3.10.english-reading/</guid>
+      <description>&lt;p&gt;发布时间： 2022-03-10T18:28:35+08:00&lt;/p&gt;
+&lt;p&gt;Listening&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>2022.3.8 Andy Writting</title>
       <link>https://shenmo7192.gitee.io/post/2022.3.8-andy-writting/</link>
-      <pubDate>Tue, 08 Mar 2022 12:21:55 +0800</pubDate>
+      <pubDate>Thu, 10 Mar 2022 22:49:17 +0800</pubDate>
       
       <guid>https://shenmo7192.gitee.io/post/2022.3.8-andy-writting/</guid>
       <description>&lt;p&gt;发布时间： 2022-03-08T09:06:30+08:00&lt;/p&gt;
@@ -477,13 +487,13 @@
     </item>
     
     <item>
-      <title>2022.3.10.English Listening</title>
-      <link>https://shenmo7192.gitee.io/post/2022.3.10.english-reading/</link>
+      <title>Apt卸载残留的清理</title>
+      <link>https://shenmo7192.gitee.io/post/apt%E5%8D%B8%E8%BD%BD%E6%AE%8B%E7%95%99%E7%9A%84%E6%B8%85%E7%90%86/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://shenmo7192.gitee.io/post/2022.3.10.english-reading/</guid>
-      <description>&lt;p&gt;发布时间： 2022-03-10T18:28:35+08:00&lt;/p&gt;
-&lt;p&gt;Listening&lt;/p&gt;</description>
+      <guid>https://shenmo7192.gitee.io/post/apt%E5%8D%B8%E8%BD%BD%E6%AE%8B%E7%95%99%E7%9A%84%E6%B8%85%E7%90%86/</guid>
+      <description>&lt;p&gt;发布时间： 2022-03-10T23:01:36+08:00&lt;/p&gt;
+&lt;p&gt;当你使用 apt remove卸载软件的时候，其实软件的配置文件会残留到系统里&lt;/p&gt;</description>
     </item>
     
   </channel>
