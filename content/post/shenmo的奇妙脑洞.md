@@ -26,7 +26,7 @@ draft: false
 * https://gitee.com/shenmo7192/genshin-voice-unpacker  原神解包工具，踩了几个坑之后发现来源不同的两个工具分别由一部分是有用的，果断驴头接马嘴
 * https://gitee.com/deepin-community-store/web-packer  SWRT的小工具，仍然是脚本略略略，话说回来SWRT也算是我的奇思妙想了也许（原来还有个webcore的
 * https://gitee.com/shenmo7192/omu-requ  怀念dde的热区，这是从可爱的柚柚那里拆出来的独立组件（oh my dde:受害者
-* https://gitee.com/shenmo7192/dcs-submitter  不客气的说星火的最初架构就是我设计的，而这个投稿工具见证了我与zty199的相识，以及这直接在我的XP跳舞的2233
+* https://gitee.com/shenmo7192/dcs-submitter 这个投稿工具见证了我与zty199的相识，以及这直接在我的XP跳舞的2233
 https://gitee.com/shenmo7192/dcs-submitter/blob/master/images/background.png  
 https://gitee.com/shenmo7192/dcs-submitter/blob/master/images/background2.png  
 > 在pixiv闲游居然找到了一个原图 https://www.pixiv.net/artworks/69723292 大数据のXP官方认证
