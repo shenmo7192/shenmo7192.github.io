@@ -20,7 +20,7 @@ draft: false
 
 <!--more-->
 
-* https://shenmo7192.gitee.io/post/%E5%BF%AB%E9%80%9F%E6%8A%8A%E5%A5%BD%E5%BA%B7%E7%9A%84%E5%9B%BE%E9%9B%86%E6%8F%90%E5%8F%96%E7%94%A8%E7%9A%84%E8%84%9A%E6%9C%AC/  快速把好康的图集提取用的脚本/格式化输出printf
+* https://gitee.com/shenmo7192/momo-and-mox-tool-scripts  魔改kodexplorer的各种小脚本，包括一个把图包中图移动出来的东西 （[这里有一个介绍](https://shenmo7192.gitee.io/post/%E5%BF%AB%E9%80%9F%E6%8A%8A%E5%A5%BD%E5%BA%B7%E7%9A%84%E5%9B%BE%E9%9B%86%E6%8F%90%E5%8F%96%E7%94%A8%E7%9A%84%E8%84%9A%E6%9C%AC/)）
 * https://gitee.com/shenmo7192/shenmo-map-bed  神tm图床，已废弃
 * https://gitee.com/shenmo7192/spark-timer-shell  家长控制小脚本，可以控制玩游戏的时间（哈哈哈反正现在没人能管我打游戏了
 * https://gitee.com/shenmo7192/genshin-voice-unpacker  原神解包工具，踩了几个坑之后发现来源不同的两个工具分别由一部分是有用的，果断驴头接马嘴
