@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</copyright>
-    <lastBuildDate>Sat, 12 Mar 2022 23:44:55 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Mar 2022 18:51:42 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deepin常用资源整理</title>
+      <link>https://shenmo7192.gitee.io/post/deepin%E5%B8%B8%E7%94%A8%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86/</link>
+      <pubDate>Tue, 15 Mar 2022 18:51:42 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/deepin%E5%B8%B8%E7%94%A8%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86/</guid>
+      <description>&lt;p&gt;发布时间： 2022-03-15T18:42:43+08:00&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s a mirror of &lt;a href=&#34;https://www.yuque.com/pzm9012/ct5ume/nte586/&#34;&gt;https://www.yuque.com/pzm9012/ct5ume/nte586/&lt;/a&gt;
+这是 &lt;a href=&#34;https://www.yuque.com/pzm9012/ct5ume/nte586/&#34;&gt;https://www.yuque.com/pzm9012/ct5ume/nte586/&lt;/a&gt; 的镜像，方便访问&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>shenmo的奇妙脑洞</title>
       <link>https://shenmo7192.gitee.io/post/shenmo%E7%9A%84%E5%A5%87%E5%A6%99%E8%84%91%E6%B4%9E/</link>
@@ -218,17 +229,6 @@
       <guid>https://shenmo7192.gitee.io/post/linux-desktop-hotspot/</guid>
       <description>&lt;p&gt;最开始把Linux当做主力系统是deepin 15.9，本人是非常习惯热区操作的
 什么是热区呢？就是屏幕四个角用鼠标戳的时候进行某些操作&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Deepin常用资源整理</title>
-      <link>https://shenmo7192.gitee.io/post/deepin%E5%B8%B8%E7%94%A8%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://shenmo7192.gitee.io/post/deepin%E5%B8%B8%E7%94%A8%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86/</guid>
-      <description>&lt;p&gt;发布时间： 2022-03-15T18:42:43+08:00&lt;/p&gt;
-&lt;p&gt;It&amp;rsquo;s a mirror of &lt;a href=&#34;https://www.yuque.com/pzm9012/ct5ume/nte586/&#34;&gt;https://www.yuque.com/pzm9012/ct5ume/nte586/&lt;/a&gt;
-这是 &lt;a href=&#34;https://www.yuque.com/pzm9012/ct5ume/nte586/&#34;&gt;https://www.yuque.com/pzm9012/ct5ume/nte586/&lt;/a&gt; 的镜像，方便访问&lt;/p&gt;</description>
     </item>
     
   </channel>
