@@ -1,6 +1,9 @@
 #!/bin/sh
 git config  core.quotepath false
+git add .
+git commit -m �make-timestamps
 hugo -D
 git add .
-git commit -m 更新博客
+git commit -m update-blogs
 git push
+
