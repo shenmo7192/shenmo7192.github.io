@@ -16,12 +16,17 @@ draft: false
 发布时间： 2022-03-15T18:42:43+08:00
 
 It's a mirror of https://www.yuque.com/pzm9012/ct5ume/nte586/
+
 这是 https://www.yuque.com/pzm9012/ct5ume/nte586/ 的镜像，方便访问
 
 <!--more-->
-本文创建于2021-05-15，目前正在缓慢更新。愿意协作的人可以在论坛私信我。
 
-感谢 [nanming](https://bbs.deepin.org/user/239615) 参加了本文的协作。
+
+----
+文章原作者：[pzm9012](https://bbs.deepin.org/user/217969)
+
+>本文创建于2021-05-15，目前正在缓慢更新。愿意协作的人可以在论坛私信我。
+>感谢 [nanming](https://bbs.deepin.org/user/239615) 参加了本文的协作。
 
 我在此整理了一些与deepin有关的资源（包括教程、问题解决、应用分享、壁纸等），希望能帮助大家更好地使用deepin。
 

@@ -1,7 +1,7 @@
 #!/bin/sh
 git config  core.quotepath false
 git add .
-git commit -m æmake-timestamps
+git commit -m make-timestamps
 hugo -D
 git add .
 git commit -m update-blogs
