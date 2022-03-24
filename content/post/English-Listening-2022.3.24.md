@@ -45,5 +45,27 @@ e.g.
 * I finished talking this,and then I will come to ....
 * 
 
+-----
+![enter description here](https://xiaoshujiang-shenmo.oss-accelerate.aliyuncs.com/小书匠/1648118534786.png)
+
+| immediate effect       | Longterm effects |
+| ---------------------- | ---------------- |
+| lower grades in school | weight gain      |
+| mistakes at work       |                  |
+| car accidents          |                  |
+
+![enter description here](https://xiaoshujiang-shenmo.oss-accelerate.aliyuncs.com/小书匠/1648120300738.png)
 
 
+----
+![enter description here](https://xiaoshujiang-shenmo.oss-accelerate.aliyuncs.com/小书匠/1648120427531.png)
+
+1. B
+2. B
+3. A
+4. A
+5. C
+6. A
+7. A
+8. C
+9. A
