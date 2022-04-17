@@ -1,5 +1,5 @@
 ---
-title: Lantern Rite of Teyvat
+title: 海灯节 of Teyvat
 date: 2022-02-02T21:59:39+08:00
 lastmod: 2022-02-02T21:59:39+08:00
 author: shenmo
@@ -20,6 +20,7 @@ draft: false
 
 <!--more-->
 
+原本想写lantern rite的
 
 
 ![20220202212224](https://xiaoshujiang-shenmo.oss-accelerate.aliyuncs.com/小书匠/20220202212224.png)
