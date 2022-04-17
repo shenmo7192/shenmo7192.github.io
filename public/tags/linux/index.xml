@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</copyright>
-    <lastBuildDate>Sun, 17 Apr 2022 19:26:05 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Apr 2022 22:49:47 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>终于发现dtk应用移植的效果问题的解决方案了</title>
+      <link>https://shenmo7192.gitee.io/post/%E7%BB%88%E4%BA%8E%E5%8F%91%E7%8E%B0dtk%E5%BA%94%E7%94%A8%E7%A7%BB%E6%A4%8D%E7%9A%84%E6%95%88%E6%9E%9C%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E4%BA%86/</link>
+      <pubDate>Sun, 17 Apr 2022 22:49:47 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E7%BB%88%E4%BA%8E%E5%8F%91%E7%8E%B0dtk%E5%BA%94%E7%94%A8%E7%A7%BB%E6%A4%8D%E7%9A%84%E6%95%88%E6%9E%9C%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E4%BA%86/</guid>
+      <description>&lt;p&gt;发布时间： 2022-04-07T15:56:33+08:00&lt;/p&gt;
+&lt;p&gt;就差这个&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Ccc App Manager 查看包信息，可在线或离线提取安装包</title>
       <link>https://shenmo7192.gitee.io/post/ccc-app-manager-%E6%9F%A5%E7%9C%8B%E5%8C%85%E4%BF%A1%E6%81%AF%E5%8F%AF%E5%9C%A8%E7%BA%BF%E6%88%96%E7%A6%BB%E7%BA%BF%E6%8F%90%E5%8F%96%E5%AE%89%E8%A3%85%E5%8C%85/</link>
@@ -17,16 +27,6 @@
       <description>&lt;p&gt;发布时间： 2022-04-17T19:22:20+08:00&lt;/p&gt;
 &lt;p&gt;开发者是： &lt;a href=&#34;https://bbs.deepin.org/user/183568&#34;&gt;@ct243768648&lt;/a&gt; 原帖：https://bbs.deepin.org/zh/post/228853&lt;/p&gt;
 &lt;p&gt;因为原开发者似乎弃坑了。。。根据自己需求修改了下&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>终于发现dtk应用移植的效果问题的解决方案了</title>
-      <link>https://shenmo7192.gitee.io/post/%E7%BB%88%E4%BA%8E%E5%8F%91%E7%8E%B0dtk%E5%BA%94%E7%94%A8%E7%A7%BB%E6%A4%8D%E7%9A%84%E6%95%88%E6%9E%9C%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E4%BA%86/</link>
-      <pubDate>Thu, 07 Apr 2022 16:00:00 +0800</pubDate>
-      
-      <guid>https://shenmo7192.gitee.io/post/%E7%BB%88%E4%BA%8E%E5%8F%91%E7%8E%B0dtk%E5%BA%94%E7%94%A8%E7%A7%BB%E6%A4%8D%E7%9A%84%E6%95%88%E6%9E%9C%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E4%BA%86/</guid>
-      <description>&lt;p&gt;发布时间： 2022-04-07T15:56:33+08:00&lt;/p&gt;
-&lt;p&gt;就差这个&lt;/p&gt;</description>
     </item>
     
     <item>
