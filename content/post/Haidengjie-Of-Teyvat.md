@@ -20,7 +20,7 @@ draft: false
 
 <!--more-->
 
-原本想写lantern rite的
+原本想写灯笼节（蓝腾瑞特）的，结果码云以为我在推销梯子。。。
 
 
 ![20220202212224](https://xiaoshujiang-shenmo.oss-accelerate.aliyuncs.com/小书匠/20220202212224.png)
