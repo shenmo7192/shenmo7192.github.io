@@ -2,28 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://shenmo7192.gitee.io/categories/</loc>
+    <lastmod>2022-04-17T19:38:48+08:00</lastmod>
+  </url><url>
+    <loc>https://shenmo7192.gitee.io/</loc>
+    <lastmod>2022-04-17T19:38:48+08:00</lastmod>
+  </url><url>
+    <loc>https://shenmo7192.gitee.io/tags/</loc>
+    <lastmod>2022-04-17T19:38:48+08:00</lastmod>
+  </url><url>
+    <loc>https://shenmo7192.gitee.io/categories/%E5%95%A5%E9%83%BD%E6%9C%89/</loc>
+    <lastmod>2022-04-17T19:38:48+08:00</lastmod>
+  </url><url>
+    <loc>https://shenmo7192.gitee.io/post/%E5%9B%A0%E4%B8%BA%E6%B5%B7%E7%81%AF%E8%8A%82%E8%A2%AB%E7%A0%81%E4%BA%91%E8%AD%A6%E5%91%8A%E4%BA%86%E8%BF%99%E4%BB%B6%E4%BA%8B.../</loc>
+    <lastmod>2022-04-17T19:38:48+08:00</lastmod>
+  </url><url>
+    <loc>https://shenmo7192.gitee.io/tags/%E9%97%B2%E8%81%8A/</loc>
+    <lastmod>2022-04-17T19:38:48+08:00</lastmod>
+  </url><url>
     <loc>https://shenmo7192.gitee.io/post/2022-4-14-andy-speaking/</loc>
     <lastmod>2022-04-17T19:26:05+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/post/2022-4-7-writing/</loc>
     <lastmod>2022-04-17T19:26:05+08:00</lastmod>
   </url><url>
-    <loc>https://shenmo7192.gitee.io/categories/</loc>
-    <lastmod>2022-04-17T19:26:05+08:00</lastmod>
-  </url><url>
     <loc>https://shenmo7192.gitee.io/post/ccc-app-manager-%E6%9F%A5%E7%9C%8B%E5%8C%85%E4%BF%A1%E6%81%AF%E5%8F%AF%E5%9C%A8%E7%BA%BF%E6%88%96%E7%A6%BB%E7%BA%BF%E6%8F%90%E5%8F%96%E5%AE%89%E8%A3%85%E5%8C%85/</loc>
     <lastmod>2022-04-17T19:26:05+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/tags/linux/</loc>
-    <lastmod>2022-04-17T19:26:05+08:00</lastmod>
-  </url><url>
-    <loc>https://shenmo7192.gitee.io/</loc>
-    <lastmod>2022-04-17T19:26:05+08:00</lastmod>
-  </url><url>
-    <loc>https://shenmo7192.gitee.io/tags/</loc>
-    <lastmod>2022-04-17T19:26:05+08:00</lastmod>
-  </url><url>
-    <loc>https://shenmo7192.gitee.io/categories/%E5%95%A5%E9%83%BD%E6%9C%89/</loc>
     <lastmod>2022-04-17T19:26:05+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/tags/%E7%AC%94%E8%AE%B0/</loc>
@@ -33,9 +39,6 @@
     <lastmod>2022-04-07T16:00:00+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/post/2022-4-5-bonus-week-story/</loc>
-    <lastmod>2022-04-05T09:19:52+08:00</lastmod>
-  </url><url>
-    <loc>https://shenmo7192.gitee.io/tags/%E9%97%B2%E8%81%8A/</loc>
     <lastmod>2022-04-05T09:19:52+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/post/2022-4-4-homework-listening/</loc>
@@ -119,8 +122,8 @@
     <loc>https://shenmo7192.gitee.io/post/bash%E4%B8%ADcase%E7%9A%84%E7%94%A8%E6%B3%95/</loc>
     <lastmod>2022-03-04T11:24:53+08:00</lastmod>
   </url><url>
-    <loc>https://shenmo7192.gitee.io/post/lantern-rite-of-teyvat/</loc>
-    <lastmod>2022-03-04T11:24:53+08:00</lastmod>
+    <loc>https://shenmo7192.gitee.io/post/haidengjie-of-teyvat/</loc>
+    <lastmod>2022-04-17T19:38:48+08:00</lastmod>
   </url><url>
     <loc>https://shenmo7192.gitee.io/post/%E5%BE%AE%E4%BF%A1linux2.1.1-1%E7%A0%B4%E8%A7%A3%E7%89%88%E5%8F%AF%E5%9C%A8%E5%85%B6%E4%BB%96linux%E5%8F%91%E8%A1%8C%E7%89%88%E4%B8%8B%E8%BF%90%E8%A1%8C-/</loc>
     <lastmod>2022-03-04T11:24:53+08:00</lastmod>
