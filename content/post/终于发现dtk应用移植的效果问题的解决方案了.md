@@ -30,3 +30,6 @@ deepin-contacts的补丁也打上了
 
 
 新版本已发布（3.0.3.10/1.6.3），给ubuntu用户一个惊喜吧
+
+----
+可能需要`XDG_CURRENT_DESKTOP="Deepin"`才能消去双标题栏
