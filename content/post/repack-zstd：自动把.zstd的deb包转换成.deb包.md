@@ -1,5 +1,5 @@
 ---
-title: repack-zstd：自动把.zstd的deb包转换成.deb包
+title: repack-zstd：自动把.zstd的deb包转换成UOS/deepin能识别的.xz deb包
 author: shenmo
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site
