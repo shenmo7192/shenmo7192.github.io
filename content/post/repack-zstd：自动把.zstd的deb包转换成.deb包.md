@@ -40,8 +40,7 @@ E: Sub-process /usr/bin/dpkg returned an error code (1)
 
 我紧急写了个脚本，可以验证这个软件包是否为.zstd包，如果是，就自动重新打包
 
-脚本地址：https://gitee.com/deepin-community-store/repo_auto_update_script/blob/master/repack-zstd
-
+脚本地址：  [https://gitee.com/deepin-community-store/repo_auto_update_script/blob/master/repack-zstd](https://gitee.com/deepin-community-store/repo_auto_update_script/blob/master/repack-zstd)
 ```bash
 用法：repack-zstd [-h|--help] [-i|--in] [-o|out] [-t|-tmpdir] [-s|--scan] path
 -h|--help     显示这个帮助
