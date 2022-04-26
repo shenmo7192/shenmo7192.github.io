@@ -9,9 +9,9 @@
     <copyright>本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</copyright>
     <lastBuildDate>Fri, 04 Mar 2022 11:24:53 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>repack-zstd：自动把.zstd的deb包转换成.deb包</title>
+      <title>repack-zstd：自动把.zstd的deb包转换成UOS/deepin能识别的.xz deb包</title>
       <link>https://shenmo7192.gitee.io/post/repack-zstd%E8%87%AA%E5%8A%A8%E6%8A%8A.zstd%E7%9A%84deb%E5%8C%85%E8%BD%AC%E6%8D%A2%E6%88%90.deb%E5%8C%85/</link>
-      <pubDate>Tue, 26 Apr 2022 23:17:51 +0800</pubDate>
+      <pubDate>Tue, 26 Apr 2022 23:23:54 +0800</pubDate>
       
       <guid>https://shenmo7192.gitee.io/post/repack-zstd%E8%87%AA%E5%8A%A8%E6%8A%8A.zstd%E7%9A%84deb%E5%8C%85%E8%BD%AC%E6%8D%A2%E6%88%90.deb%E5%8C%85/</guid>
       <description>&lt;p&gt;发布时间： 2022-04-26T23:06:54+08:00&lt;/p&gt;
