@@ -55,7 +55,7 @@ E: Sub-process /usr/bin/dpkg returned an error code (1)
 repack-zstd -i ./spark-store_3.0.3-13_amd64.deb -o ./ -t ./
 repack-zstd ./spark-store_3.0.3-13_amd64.deb ./ ./
 repack-zstd ./spark-store_3.0.3-13_amd64.deb
-
+repack-zstd --scan ./
 
 ```
 
