@@ -29,7 +29,7 @@ dpkg-deb: error: archive &#39;linux-headers-5.14.15-051415_5.14.15-051415.202110
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shenmo7192.gitee.io/post/repack-zstd%E8%87%AA%E5%8A%A8%E6%8A%8A.zstd%E7%9A%84deb%E5%8C%85%E8%BD%AC%E6%8D%A2%E6%88%90.deb%E5%8C%85/" /><meta property="article:section" content="post" />
 
-<meta property="article:modified_time" content="2022-04-26T23:15:43+08:00" />
+<meta property="article:modified_time" content="2022-04-26T23:17:51+08:00" />
 
 
 
@@ -207,7 +207,7 @@ var _hmt = _hmt || [];
               
 
               | 
-                  <span data-format="luxon">2022-04-26T23:15:43&#43;08:00</span>
+                  <span data-format="luxon">2022-04-26T23:17:51&#43;08:00</span>
                 
 
               | 1 分钟阅读
@@ -215,7 +215,7 @@ var _hmt = _hmt || [];
               
               | 更新于
                 
-                  <span data-format="luxon">2022-04-26T23:15:43&#43;08:00</span>
+                  <span data-format="luxon">2022-04-26T23:17:51&#43;08:00</span>
                 
               
             </span>
@@ -243,7 +243,7 @@ dpkg-deb --control 子进程返回错误状态 <span style="color:#ae81ff">2</sp
 E: Sub-process /usr/bin/dpkg returned an error code <span style="color:#f92672">(</span>1<span style="color:#f92672">)</span>
 </code></pre></div><p>出现了这样的错误</p>
 <p>我紧急写了个脚本，可以验证这个软件包是否为.zstd包，如果是，就自动重新打包</p>
-<p>脚本地址：https://gitee.com/deepin-community-store/repo_auto_update_script/blob/master/repack-zstd</p>
+<p>脚本地址：  <a href="https://gitee.com/deepin-community-store/repo_auto_update_script/blob/master/repack-zstd">https://gitee.com/deepin-community-store/repo_auto_update_script/blob/master/repack-zstd</a></p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">用法：repack-zstd <span style="color:#f92672">[</span>-h|--help<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>-i|--in<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>-o|out<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>-t|-tmpdir<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>-s|--scan<span style="color:#f92672">]</span> path
 -h|--help     显示这个帮助
 -i|--in       输入的文件路径
