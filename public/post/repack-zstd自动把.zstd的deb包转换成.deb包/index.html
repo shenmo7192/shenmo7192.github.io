@@ -29,7 +29,7 @@ dpkg-deb: error: archive &#39;linux-headers-5.14.15-051415_5.14.15-051415.202110
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shenmo7192.gitee.io/post/repack-zstd%E8%87%AA%E5%8A%A8%E6%8A%8A.zstd%E7%9A%84deb%E5%8C%85%E8%BD%AC%E6%8D%A2%E6%88%90.deb%E5%8C%85/" /><meta property="article:section" content="post" />
 
-<meta property="article:modified_time" content="2022-04-26T23:08:41+08:00" />
+<meta property="article:modified_time" content="2022-04-26T23:15:43+08:00" />
 
 
 
@@ -207,7 +207,7 @@ var _hmt = _hmt || [];
               
 
               | 
-                  <span data-format="luxon">2022-04-26T23:08:41&#43;08:00</span>
+                  <span data-format="luxon">2022-04-26T23:15:43&#43;08:00</span>
                 
 
               | 1 分钟阅读
@@ -215,7 +215,7 @@ var _hmt = _hmt || [];
               
               | 更新于
                 
-                  <span data-format="luxon">2022-04-26T23:08:41&#43;08:00</span>
+                  <span data-format="luxon">2022-04-26T23:15:43&#43;08:00</span>
                 
               
             </span>
@@ -256,7 +256,7 @@ E: Sub-process /usr/bin/dpkg returned an error code <span style="color:#f92672">
 repack-zstd -i ./spark-store_3.0.3-13_amd64.deb -o ./ -t ./
 repack-zstd ./spark-store_3.0.3-13_amd64.deb ./ ./
 repack-zstd ./spark-store_3.0.3-13_amd64.deb
-
+repack-zstd --scan ./
 
 </code></pre></div><p>原理：用<code>file</code>检查是否是.zstd格式包，如果是，则解包到指定目录</p>
 <hr>
