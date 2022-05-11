@@ -32,6 +32,9 @@ draft: false
 
 ```
 
+用于复制：
+> `<iframe src="https://player.bilibili.com/player.html?bvid=这里替换为bv号&page=1" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>`
+
 --------
 
 例子：
