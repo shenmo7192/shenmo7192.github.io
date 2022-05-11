@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</copyright>
-    <lastBuildDate>Wed, 11 May 2022 21:05:03 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 May 2022 00:21:28 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>linux</title>
+      <link>https://shenmo7192.gitee.io/tags/linux/</link>
+      <pubDate>Thu, 12 May 2022 00:21:28 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>笔记</title>
       <link>https://shenmo7192.gitee.io/tags/%E7%AC%94%E8%AE%B0/</link>
@@ -23,15 +32,6 @@
       <pubDate>Thu, 28 Apr 2022 10:33:50 +0000</pubDate>
       
       <guid>https://shenmo7192.gitee.io/tags/%E9%97%B2%E8%81%8A/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
-      <link>https://shenmo7192.gitee.io/tags/linux/</link>
-      <pubDate>Tue, 26 Apr 2022 23:23:54 +0800</pubDate>
-      
-      <guid>https://shenmo7192.gitee.io/tags/linux/</guid>
       <description></description>
     </item>
     
