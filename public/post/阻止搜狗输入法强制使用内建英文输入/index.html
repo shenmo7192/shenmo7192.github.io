@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>阻止搜狗输入法强制使用内建英文输入 | shenmo的世界</title>
+    
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+
+
+
+<meta name="author" content="shenmo" />
+<meta name="description" content="shenmo的世界：是一个普通人用来记录生活，记录折腾历程，还有些杂七杂八的随感的地方" />
+
+
+
+<meta name="generator" content="Hugo 0.88.1" />
+
+<link rel="canonical" href="https://shenmo7192.gitee.io/post/%E9%98%BB%E6%AD%A2%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E5%BC%BA%E5%88%B6%E4%BD%BF%E7%94%A8%E5%86%85%E5%BB%BA%E8%8B%B1%E6%96%87%E8%BE%93%E5%85%A5/" />
+
+
+<meta property="og:title" content="阻止搜狗输入法强制使用内建英文输入" />
+<meta property="og:description" content="一般情况下，我们切换到英文输入会输入密码等敏感内容
+我个人的习惯是只要使用国产输入法，在输入英文时都换回原fcitx
+但是，搜狗输入法强制你使用他的英文输入" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://shenmo7192.gitee.io/post/%E9%98%BB%E6%AD%A2%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E5%BC%BA%E5%88%B6%E4%BD%BF%E7%94%A8%E5%86%85%E5%BB%BA%E8%8B%B1%E6%96%87%E8%BE%93%E5%85%A5/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-01-10T18:22:24+08:00" />
+<meta property="article:modified_time" content="2022-03-04T11:24:53+08:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="阻止搜狗输入法强制使用内建英文输入"/>
+<meta name="twitter:description" content="一般情况下，我们切换到英文输入会输入密码等敏感内容
+我个人的习惯是只要使用国产输入法，在输入英文时都换回原fcitx
+但是，搜狗输入法强制你使用他的英文输入"/>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+<link rel="stylesheet" href="/css/icomoon.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/overlayscrollbars@1.13.1/css/OverlayScrollbars.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css">
+<link rel="stylesheet" href="/css/site.css" />
+
+<style>
+  .ui.header a:not(.item, .ui.button):hover {
+    text-decoration: underline;
+  }
+
+  
+  a:not(.item, .ui.button) {
+    color: seagreen !important;
+  }
+  
+
+  
+  .inverted a:not(.item, .ui.button) {
+     color: darkseagreen !important;
+  }
+  
+
+  
+  body.default {
+    
+    background-color: #f7f7f7;
+    
+
+    
+    background-image: url(https://s4.ax1x.com/2022/03/04/bUV2tS.png);
+    
+  }
+  
+
+  
+  body.dark {
+    
+    background-color: black;
+    
+
+    
+    background-image: url(https://s4.ax1x.com/2022/03/04/bUV46s.jpg);
+    
+  }
+  
+</style>
+
+
+    
+
+
+
+<link rel="stylesheet" data-highlight href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/gruvbox-light.min.css" />
+
+
+
+
+
+
+
+
+	
+
+
+	<script src='//gitee.com/shenmo7192/valine-hclonely/raw/master/dist/Valine.min.js'></script>
+
+	
+	
+
+
+
+
+
+
+
+    
+    <link rel="stylesheet" href="https://gitee.com/shenmo7192/live2d-widget-left-and-right/raw/master/fontawesome/css/all.min.css" />
+    
+    <link rel="stylesheet" href="/css/amber-icon.css" />
+    
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?3d70b01070747130571116f0bc67baa9";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+  </head>
+
+  <body class="default">
+    
+<nav class="ui secondary menu dream-menu dream-nav">
+
+  <a class="item dream-flip-toggle" title="翻转！">
+    <i class="large link bullseye icon"></i>
+  </a>
+  <a class="item" href="https://shenmo7192.gitee.io" title="首页">
+    <i class="large link home icon"></i>
+  </a>
+  
+  <a class="item" onclick="themeSwitch(event)">
+    <i class="large link icon theme-switch"></i>
+  </a>
+  
+  
+  <a class="item" title="搜索" onclick="toggleSearch(event)">
+    <i class="large link search icon"></i>
+  </a>
+  
+</nav>
+
+    <div class="flip-container">
+      <div class="flipper">
+        <section class="front">
+          <div class="dream-max-width">
+            
+<div class="ui relaxed centered grid dream-grid dream-grid-single"style="flex-direction: row-reverse;">
+  
+  
+  
+  
+
+  
+  <aside class="sixteen wide mobile sixteen wide tablet three wide computer column dream-single-aside">
+    
+
+    
+    <div class="ui segment">
+  <button
+    class="ui circular icon button save-as-image"
+    title="保存为图片"
+    onclick="savePostAsImg()">
+    <i class="save icon"></i>
+  </button>
+  <a href="https://twitter.com/intent/tweet?text=%e9%98%bb%e6%ad%a2%e6%90%9c%e7%8b%97%e8%be%93%e5%85%a5%e6%b3%95%e5%bc%ba%e5%88%b6%e4%bd%bf%e7%94%a8%e5%86%85%e5%bb%ba%e8%8b%b1%e6%96%87%e8%be%93%e5%85%a5&url=https%3a%2f%2fshenmo7192.gitee.io%2fpost%2f%25E9%2598%25BB%25E6%25AD%25A2%25E6%2590%259C%25E7%258B%2597%25E8%25BE%2593%25E5%2585%25A5%25E6%25B3%2595%25E5%25BC%25BA%25E5%2588%25B6%25E4%25BD%25BF%25E7%2594%25A8%25E5%2586%2585%25E5%25BB%25BA%25E8%258B%25B1%25E6%2596%2587%25E8%25BE%2593%25E5%2585%25A5%2f" class="ui circular twitter icon button">
+    <i class="twitter icon"></i>
+  </a>
+  <a href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fshenmo7192.gitee.io%2fpost%2f%25E9%2598%25BB%25E6%25AD%25A2%25E6%2590%259C%25E7%258B%2597%25E8%25BE%2593%25E5%2585%25A5%25E6%25B3%2595%25E5%25BC%25BA%25E5%2588%25B6%25E4%25BD%25BF%25E7%2594%25A8%25E5%2586%2585%25E5%25BB%25BA%25E8%258B%25B1%25E6%2596%2587%25E8%25BE%2593%25E5%2585%25A5%2f" class="ui circular facebook icon button">
+    <i class="facebook icon"></i>
+  </a>
+</div>
+
+    
+  </aside>
+  
+  <div class="sixteen wide mobile sixteen wide tablet ten wide computer column markdown-body dream-single" id="dream-save-post-as-img">
+    <section class="ui top attached segment">
+      <header>
+        <h1 class="ui large header">阻止搜狗输入法强制使用内建英文输入<span class="sub header">
+            <span class="left">
+              @
+              
+                
+                  shenmo
+                
+              
+
+              | 
+                  <span data-format="luxon">2022-01-10T18:22:24&#43;08:00</span>
+                
+
+              | 2 分钟阅读
+
+              
+              | 更新于
+                
+                  <span data-format="luxon">2022-03-04T11:24:53&#43;08:00</span>
+                
+              
+            </span>
+
+            
+          </span>
+        </h1>
+      </header>
+
+      <article class="main">
+        
+
+        <p>一般情况下，我们切换到英文输入会输入密码等敏感内容</p>
+<p>我个人的习惯是只要使用国产输入法，在输入英文时都换回原fcitx</p>
+<p>但是，搜狗输入法强制你使用他的英文输入</p>
+<p><img src="https://storage.deepin.org/thread/202201101816071053_%E5%9B%BE%E7%89%87.png" alt="图片.png"></p>
+<hr>
+<p>正常情况下，要实现点击 <code>shift</code>时切换回fcitx，只要在fcitx设置里把“额外的输入法切换键”设置为 <code>L SHIFT</code>即可</p>
+<p><img src="https://storage.deepin.org/thread/202201101817065166_%E5%9B%BE%E7%89%87.png" alt="图片.png"></p>
+<p>配置完成后，只要重启就可以保存设置</p>
+<p>但是</p>
+<p>搜狗会在重启输入法之后覆盖配置，导致设置回到“无”</p>
+<blockquote>
+<p>题外话：为什么搜狗强制使用内置的英文输入？你需要我的密码？？？</p>
+<p>建议国内输入法使用的时候选择不联网模式</p>
+<p><img src="https://storage.deepin.org/thread/202201101827179859_184_1641810424_hd.jpeg" alt="184_1641810424_hd.jpeg"></p>
+</blockquote>
+<p>所以我们通过手动修改配置文件并更改权限为只读</p>
+<p>配置文件在 <code>~/.config/fcitx/config</code></p>
+<p>分享下自己的配置文件，实际上这个文件已经把所有的填法写明了，照着写就好了，前面加 <code>#</code>代表这一行不生效</p>
+<pre>      `[Hotkey]
+        # 切换激活/非激活输入法
+        #TriggerKey=CTRL_SPACE
+        # 只在用额外切换键取消激活后才使用它进行切换
+        # 可选值：
+        # True False
+        UseExtraTriggerKeyOnlyWhenUseItToInactivate=
+        True
+        # 额外的激活输入法快捷键
+        # 可选值：
+        # R_CTRL
+        # R_SHIFT
+        # L_SHIFT
+        # L_CTRL
+        # ALT_L_SHIFT
+        # ALT_R_SHIFT
+        # CTRL Both
+        # SHIFT Both
+        # L_ALT
+        # R_ALT
+        # ALT Both
+        # Left Super
+        # Right Super
+        # Super Both
+        # Ctrl+Left Super
+        # Ctrl+Right Super
+        # Super+Left Ctrl
+        # Super+Right Ctrl
+        # Disabled
+        # Custom
+        SwitchKey=L_SHIFT
+        # 自定义切换键
+        #CustomSwitchKey=
+        # 激活输入法
+        #ActivateKey=
+        # 取消激活输入法
+        #InactivateKey=
+        # 启用输入法间切换
+        # 可选值：
+        # True False
+        #IMSwitchKey=True
+        # 输入法间切换时包含未激活状态
+        # 可选值：
+        # True False
+        #IMSwitchIncludeInactive=True
+        # 输入法切换键
+        # 可选值：
+        # CTRL_SHIFT
+        # ALT_SHIFT
+        # CTRL_SUPER
+        # ALT_SUPER
+        #IMSwitchHotkey=CTRL_SHIFT
+        # 重新载入配置
+        #ReloadConfig=CTRL_5
+        # 输入间隔
+        #TimeInterval=250
+        # 切换虚拟键盘
+        #VKSwitchKey=CTRL_ALT_B
+        # 切换联想模式
+        #RemindSwitchKey=
+        # 切换全角
+        #FullWidthSwitchKey=
+        # 切换全角标点
+        #PuncSwitchKey=CTRL_.
+        # 上一页
+        #PrevPageKey=- UP
+        # 下一页
+        #NextPageKey== DOWN
+        # 选择第二第三候选词
+        #SecondThirdCandWordKey=
+        # 保存配置及输入历史
+        #SaveAllKey=CTRL_ALT_S
+        # 切换嵌入预编辑字符串
+        #SwitchPreedit=CTRL_ALT_P
+        # 上一个候选词
+        #PrevWord=SHIFT_TAB
+        # 下一个候选词
+        #NextWord=TAB
+
+        [Program]
+        # 输入法真正启动前延迟的秒数
+        #DelayStart=0
+        # 在窗口间共享状态
+        # 可选值：
+        # No
+        # All
+        # PerProgram
+        #ShareStateAmongWindow=All
+        # 默认输入法状态
+        # 可选值：
+        # Inactive
+        # Active
+        #DefaultInputMethodState=Inactive
+
+        [Output]
+        # 数字后跟半角符号
+        # 可选值：
+        # True False
+        #HalfPuncAfterNumber=True
+        # 联想模式禁用翻页
+        # 可选值：
+        # True False
+        #RemindModeDisablePaging=True
+        # 切换状态时提交
+        # 可选值：
+        # True False
+        #SendTextWhenSwitchEng=True
+        # 候选词个数
+        #CandidateWordNumber=5
+        # 提示词库中词组
+        # 可选值：
+        # True False
+        #PhraseTips=True
+        # 窗口失去焦点时不提交预编辑文本
+        # 可选值：
+        # True False
+        #DontCommitPreeditWhenUnfocus=False
+
+        [Appearance]
+        # 切换输入法时显示输入法提示
+        # 可选值：
+        # True False
+        #ShowInputWindowAfterTriggering=False
+        # 获得输入焦点并且输入法变化时显示输入法提示
+        # 可选值：
+        # True False
+        #ShowInputWindowWhenFocusIn=False
+        # 输入法提示只在激活状态显示
+        # 可选值：
+        # True False
+        #ShowInputWindowOnlyWhenActive=False
+        # 显示输入速度
+        # 可选值：
+        # True False
+        #ShowInputSpeed=False
+        # 显示版本
+        # 可选值：
+        # True False
+        #ShowVersion=False
+        # 只有预编辑字符串时不显示输入窗口
+        # 可选值：
+        # True False
+        #HideInputWindowWhenOnlyPreeditString=False
+        # 只有一个候选词和预编辑字符串时不显示输入窗口
+        # 可选值：
+        # True False
+        #HideInputWindowWhenOnlyOneCandidate=False` 
+    </pre>
+<p>然后在文件管理器里右键&mdash;&gt;属性&mdash;&gt;权限管理</p>
+<p>把所有的权限改成只读</p>
+<p><img src="https://storage.deepin.org/thread/202201101831019867_%E5%9B%BE%E7%89%87.png" alt="图片.png"></p>
+<p>然后手动重启fcitx即可</p>
+      </article>
+    </section>
+
+    
+
+    
+
+
+
+    
+    <article class="ui segment" data-html2canvas-ignore>
+      <div id="vcomments"></div>
+    </article>
+
+
+
+
+
+
+
+<script>
+new Valine({
+    el:'#vcomments',
+placeholder: "期待你的回复哦ヽ(✿ﾟ▽ﾟ)ノ\n在邮件栏目填写QQ邮箱或者在昵称栏填写QQ号可以获取QQ头像和昵称哦~\n可以使用markdown哦～",
+enableQQ:true,
+
+    appId:'euHqWEo74Ia7dhJMLhwcqBU8-gzGzoHsz',
+    appKey:'rbHg8yFAvTM0DNkJC1OAyswj',
+verify:true,
+tagMeta:["shenmo","小伙伴","访客"],
+metaPlaceholder:{"nick":"昵称 / QQ 号","mail":"邮箱 (必填)"},
+master:['3868cd2d4052241a00989a589e7fdef3','868f361381a07b9e262cd55cdc349769'],
+friends:[],
+    
+    emojiCDN: '//i0.hdslb.com/bfs/emote/', 
+    
+    emojiMaps: {
+        "tv_doge": "6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png",
+      "tv_亲亲": "a8111ad55953ef5e3be3327ef94eb4a39d535d06.png",
+      "tv_偷笑": "bb690d4107620f1c15cff29509db529a73aee261.png",
+      "tv_再见": "180129b8ea851044ce71caf55cc8ce44bd4a4fc8.png",
+      "tv_冷漠": "b9cbc755c2b3ee43be07ca13de84e5b699a3f101.png",
+      "tv_发怒": "34ba3cd204d5b05fec70ce08fa9fa0dd612409ff.png",
+      "tv_发财": "34db290afd2963723c6eb3c4560667db7253a21a.png",
+      "tv_可爱": "9e55fd9b500ac4b96613539f1ce2f9499e314ed9.png",
+      "tv_吐血": "09dd16a7aa59b77baa1155d47484409624470c77.png",
+      "tv_呆": "fe1179ebaa191569b0d31cecafe7a2cd1c951c9d.png",
+      "tv_呕吐": "9f996894a39e282ccf5e66856af49483f81870f3.png",
+      "tv_困": "241ee304e44c0af029adceb294399391e4737ef2.png",
+      "tv_坏笑": "1f0b87f731a671079842116e0991c91c2c88645a.png",
+      "tv_大佬": "093c1e2c490161aca397afc45573c877cdead616.png",
+      "tv_大哭": "23269aeb35f99daee28dda129676f6e9ea87934f.png",
+      "tv_委屈": "d04dba7b5465779e9755d2ab6f0a897b9b33bb77.png",
+      "tv_害羞": "a37683fb5642fa3ddfc7f4e5525fd13e42a2bdb1.png",
+      "tv_尴尬": "7cfa62dafc59798a3d3fb262d421eeeff166cfa4.png",
+      "tv_微笑": "70dc5c7b56f93eb61bddba11e28fb1d18fddcd4c.png",
+      "tv_思考": "90cf159733e558137ed20aa04d09964436f618a1.png",
+      "tv_惊吓": "0d15c7e2ee58e935adc6a7193ee042388adc22af.png",
+      "tv_打脸": "56ab10b624063e966bfcb76ea5dc4794d87dfd47.png",
+      "tv_抓狂": "fe31c08edad661d63762b04e17b8d5ae3c71a757.png",
+      "tv_抠鼻": "c666f55e88d471e51bbd9fab9bb308110824a6eb.png",
+      "tv_斜眼笑": "911f987aa8bc1bee12d52aafe62bc41ef4474e6c.png",
+      "tv_无奈": "ea8ed89ee9878f2fece2dda0ea8a5dbfe21b5751.png",
+      "tv_晕": "5443c22b4d07fb1907ccc610c8e6db254f2461b7.png",
+      "tv_流汗": "cead1c351ab8d79e9f369605beb90148db0fbed3.png",
+      "tv_流泪": "7e71cde7858f0cd50d74b0264aa26db612a8a167.png",
+      "tv_流鼻血": "c32d39db2737f89b904ca32700d140a9241b0767.png",
+      "tv_点赞": "f85c354995bd99e28fc76c869bfe42ba6438eff4.png",
+      "tv_生气": "26702dcafdab5e8225b43ffd23c94ac1ff932654.png",
+      "tv_生病": "8b0ec90e6b86771092a498c54f09fc94621c1900.png",
+      "tv_疑问": "0793d949b18d7be716078349c202c15ff166f314.png",
+      "tv_白眼": "c1d59f439e379ee50eef488bcb5e5378e5044ea4.png",
+      "tv_皱眉": "72ccad6679fea0d14cce648b4d818e09b8ffea2d.png",
+      "tv_目瞪口呆": "0b8cb81a68de5d5365212c99375e7ace3e7891b7.png",
+      "tv_睡着": "8b196675b53af58264f383c50ad0945048290b33.png",
+      "tv_笑哭": "1abc628f6d4f4caf9d0e7800878f4697abbc8273.png",
+      "tv_腼腆": "89712c0d4af73e67f89e35cbc518420380a7f6f4.png",
+      "tv_色": "61822c7e9aae5da76475e7892534545336b23a6f.png",
+      "tv_调侃": "4bc022533ef31544ca0d72c12c808cf4a1cce3e3.png",
+      "tv_调皮": "b9c41de8e82dd7a8515ae5e3cb63e898bf245186.png",
+      "tv_鄙视": "6e72339f346a692a495b123174b49e4e8e781303.png",
+      "tv_闭嘴": "c9e990da7f6e93975e25fd8b70e2e290aa4086ef.png",
+      "tv_难过": "87f46748d3f142ebc6586ff58860d0e2fc8263ba.png",
+      "tv_馋": "fc7e829b845c43c623c8b490ee3602b7f0e76a31.png",
+      "tv_鬼脸": "0ffbbddf8a94d124ca2f54b360bbc04feb6bbfea.png",
+      "tv_黑人问号": "45821a01f51bc867da9edbaa2e070410819a95b2.png",
+      "tv_鼓掌": "1d21793f96ef4e6f48b23e53e3b9e42da833a0f6.png"
+        
+    } 
+})
+</script>
+
+
+
+    
+  </div>
+</div>
+
+
+            <footer class="ui basic center aligned segment" style="background-color: transparent;">
+	<p><script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1280406540'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1280406540%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script></p>
+              
+              <p>© 2019 - 2022 shenmo的世界</p>
+              
+
+              <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
+
+              
+              <p>看不见我～</p>
+              
+            </footer>
+          </div>
+        </section>
+        <section class="back">
+          <div class="dream-max-width">
+            <header class="ui basic very padded segment dream-header">
+  
+  <div class="ui small circular image">
+    <img src="/img/avatar.jpeg" alt="avatar" />
+  </div>
+  
+
+  <div class="content">
+    <h1 class="ui medium header">shenmo的世界<span class="sub header">安柏单推人~</span>
+    </h1>
+
+    <article class="ui horizontal list">
+      
+      <a class="item" href="/categories">
+        <i class="th list icon" title="所有分类"></i>
+      </a>
+      <a class="item" href="/tags">
+        <i class="tags icon" title="所有标签"></i>
+      </a>
+    </article>
+
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+
+    
+
+    
+    
+    
+          <div class="dream-tags">
+          
+          
+          
+            <a class="ui label" href="/tags/linux/" title="linux">
+              linux
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/" title="折腾博客">
+              折腾博客
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/%E7%AC%94%E8%AE%B0/" title="笔记">
+              笔记
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/%E9%97%B2%E8%81%8A/" title="闲聊">
+              闲聊
+            </a>
+          
+          </div>
+    
+
+    
+  </div>
+</header>
+
+
+<div class="ui relaxed grid dream-grid dream-back">
+  
+  
+  
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment markdown-body">
+      <div class="ui medium header">关于我</div>
+      <p>星火应用商店项目 Leader</p>
+  <div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	 <img class="ava" src="https://s1.ax1x.com/2022/05/18/OosPeK.png" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://gitee.com/deepin-community-store/spark-store">星火应用商店</a> 
+        </div> 
+        <div class="info">
+         第三方Linux应用商店
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+<p>Minecraft BE 服务器交流群：913146678</p>
+<div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	 <img class="ava" src="https://s1.ax1x.com/2022/05/18/Oosnyt.png" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://jq.qq.com/?_wv=1027&k=bbAHpP6d">点击加入QQ群</a> 
+        </div> 
+        <div class="info">
+         shenmo服务器
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+<p>bilibili:</p>
+<div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	 <img class="ava" src="https://s1.ax1x.com/2022/05/18/Oos0TU.jpg" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://space.bilibili.com/151990660">神末shenmo</a> 
+        </div> 
+        <div class="info">
+         风说，可以飞了
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+<p>深度论坛账号：</p>
+<div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	 <img class="ava" src="https://avatar.cdn.deepin.com/public/avatar/2022/05/11/22-15-27-92ffc20b.png" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://bbs.deepin.org/zh/user/223313">神末shenmo</a> 
+        </div> 
+        <div class="info">
+         星火首席爆料官~
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+  <div class="post-body"> 
+   <div id="links"> 
+    <style>
+    .links-content
+    {
+      	margin-top:1rem;
+      }
+      .link-navigation::after
+      {
+      	content:" ";
+      	display:block;
+      	clear:both;
+      }
+      .card
+      {
+	      max-width:250px;
+	      font-size:1rem;
+      	border-radius:5px;
+	      transition-duration:.15s;
+	      margin-bottom:1rem;
+	      display:flex;
+	      padding:10px 25px;
+      }
+      .card:hover
+      {
+      	transform:scale(1.1);
+      	box-shadow:0 2px 6px 0 rgba(0,0,0,0.12), 0 0 6px 0 rgba(0,0,0,0.04);
+      }
+      .card a
+      {
+      	border:none;
+      }
+      .card .ava
+      {
+      	width:3rem!important;
+        height:3rem!important;
+      	border-radius:4px;
+      	margin:0 1em 0 0 !important;
+      }
+      .card .card-header
+      {
+      	font-style:italic;
+      	overflow:hidden;
+      	width:100%;
+      }
+      .card .card-header a
+      {
+      	font-style:normal;
+      	color:#333;
+      	font-weight:700;
+      	text-decoration:none;
+      }
+      .card .card-header a:hover
+      {
+      	color:#79aeff;
+      	text-decoration:none;
+      }
+      .card .card-header .info
+      {
+      	font-style:normal;
+      	color:#a3a3a3;
+      	font-size:14px;
+      	min-width:0;
+      	text-overflow:ellipsis;
+      	overflow:hidden;
+      	white-space:nowrap;
+      }
+      .card:nth-child(odd)
+      {
+      	float:left;
+      }
+      .card:nth-child(even)
+      {
+      	float:left;
+      }
+     </style> 
+
+    </article>
+  </div>
+  
+
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment">
+      <div class="ui medium header">社交链接</div>
+      <nav class="ui secondary menu dream-menu dream-socials">
+  
+  <a class="item" href="/index.xml">
+    <i class="large rss square icon" title="RSS"></i>
+  </a>
+  
+
+  
+  <a class="item" href="mailto:jifengshenmo@outlook.com">
+    <i class="large mail icon" title="Email"></i>
+  </a>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  <a class="item" href="https://github.com/shenmo7192" target="_blank">
+    <i class="large github icon" title="GitHub"></i>
+  </a>
+  
+
+  
+
+  
+
+  
+
+
+
+  <div class="post-body"> 
+<hr class="xsj_hr xsj_minus">
+  <p class="xsj_paragraph xsj_paragraph_level_0" data-source-line="37" data-source-line-display="true">
+<p><strong>友链</strong></p>
+
+   <div id="links"> 
+    <style>
+    .links-content
+    {
+      	margin-top:1rem;
+      }
+      .link-navigation::after
+      {
+      	content:" ";
+      	display:block;
+      	clear:both;
+      }
+      .card
+      {
+	      max-width:250px;
+	      font-size:1rem;
+      	border-radius:5px;
+	      transition-duration:.15s;
+	      margin-bottom:1rem;
+	      display:flex;
+	      padding:10px 25px;
+      }
+      .card:hover
+      {
+      	transform:scale(1.1);
+      	box-shadow:0 2px 6px 0 rgba(0,0,0,0.12), 0 0 6px 0 rgba(0,0,0,0.04);
+      }
+      .card a
+      {
+      	border:none;
+      }
+      .card .ava
+      {
+      	width:3rem!important;
+        height:3rem!important;
+      	border-radius:4px;
+      	margin:0 1em 0 0 !important;
+      }
+      .card .card-header
+      {
+      	font-style:italic;
+      	overflow:hidden;
+      	width:100%;
+      }
+      .card .card-header a
+      {
+      	font-style:normal;
+      	color:#333;
+      	font-weight:700;
+      	text-decoration:none;
+      }
+      .card .card-header a:hover
+      {
+      	color:#79aeff;
+      	text-decoration:none;
+      }
+      .card .card-header .info
+      {
+      	font-style:normal;
+      	color:#a3a3a3;
+      	font-size:14px;
+      	min-width:0;
+      	text-overflow:ellipsis;
+      	overflow:hidden;
+      	white-space:nowrap;
+      }
+      .card:nth-child(odd)
+      {
+      	float:left;
+      }
+      .card:nth-child(even)
+      {
+      	float:left;
+      }
+     </style> 
+    <div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	  <img class="ava" src="https://img11.360buyimg.com/ddimg/jfs/t1/199313/28/4759/36424/6124e67aE6b16b6da/c23322e4a0242148.jpg" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://www.cnblogs.com/maicss/">Maicss's Blog</a> 
+        </div> 
+        <div class="info">
+         wonderful to have a beginner's mind.
+        </div> 
+       </div> 
+      </div>
+     </div> 
+    </div> 
+   </div> 
+  </div>
+
+
+
+
+  <div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	  <img class="ava" src="https://crisq.tk/images/logo@2x.png" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://crisq.tk/">CRIS的小站</a> 
+        </div> 
+        <div class="info">
+         Superbia.
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+
+
+<div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	  <img class="ava" src="https://gravatar.loli.net/avatar/c917530cb70a2a7ec12b57f523d2ca0c?s=120&r=G&d=" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://fspark.me/">FSpark</a> 
+        </div> 
+        <div class="info">
+         「0」が過去で 「1」が未来
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+
+</nav>
+
+    </article>
+  </div>
+
+
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    
+    <article class="ui segment">
+
+
+
+<p class="xsj_paragraph xsj_paragraph_level_0" data-source-line="9" data-source-line-display="true">本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</p>
+<p class="xsj_paragraph xsj_paragraph_level_0" data-source-line="11" data-source-line-display="true">这意味着你可以在署名并标明出处的情况下进行非商业转载（转载的文章也需要遵守CC-BY-NC-SA-4.0协议），但不可以进行商业转载</p>
+
+    </article>
+
+    
+  </div>
+
+  
+</div>
+
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0"></script><div id="vcomments"></div>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    
+    
+    <div class="ui segment" id="dream-search">
+  <div class="ui search">
+    <div class="ui transparent input">
+      <input class="prompt" type="text" placeholder="搜索" />
+    </div>
+    <div class="results"></div>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    $.getJSON('https:\/\/shenmo7192.gitee.io/index.json', function (data) {
+      $('.ui.search').search({
+        source: data,
+        searchFields: ['title'],
+        showNoResults: false,
+      })
+    })
+  })
+</script>
+<script src="/js/search.js"></script>
+
+    
+
+    
+
+    <script>
+  window.background = "#f7f7f7"
+  window.defaultDark =  false 
+  window.backgroundDark = "black"
+  window.backgroundImageDark = "https://s4.ax1x.com/2022/03/04/bUV46s.jpg"
+  window.darkNav =  true 
+  window.maxTags =  null 
+  window.hasTwitterEmbed =  null 
+  window.fixedNav =  true 
+
+  if (window.hasTwitterEmbed) {
+    
+    window.twttr = (function (d, s, id) {
+      var js,
+        fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {}
+      if (d.getElementById(id)) return t
+      js = d.createElement(s)
+      js.id = id
+      js.src = 'https://platform.twitter.com/widgets.js'
+      fjs.parentNode.insertBefore(js, fjs)
+
+      t._e = []
+      t.ready = function (f) {
+        t._e.push(f)
+      }
+
+      return t
+    })(document, 'script', 'twitter-wjs')
+  }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/overlayscrollbars@1.13.1/js/jquery.overlayScrollbars.min.js"></script>
+<script src="/js/header.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/theme.js"></script>
+
+
+
+    
+
+
+<script src="https://cdn.jsdelivr.net/npm/luxon@1.26.0"></script>
+
+<script>
+  format()
+
+  function format() {
+    $('span[data-format="luxon"]').each(function () {
+      var date = $(this).text()
+
+      $(this).text(luxon.DateTime.fromISO(date, { locale: "zh" }).toFormat("yyyy年MM月dd日"))
+    })
+  }
+</script>
+
+
+
+<script src="/js/scrollToTop.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/languages/ocaml.min.js"></script>
+
+
+
+<script>
+  hljs.highlightAll()
+  setHighlightTheme()
+
+  function setHighlightTheme() {
+    var isDark = localStore.getItem('hugo-theme-dream-is-dark')
+    isDark = isDark ? isDark : window.defaultDark ? 'y' : isDark
+
+    var lightTheme = "gruvbox-light"
+    var darkTheme = "gruvbox-dark"
+    var theme = isDark === 'y' ? darkTheme : lightTheme
+
+    $('link[data-highlight]').attr('href', 'https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/' + theme + '.min.css')
+    $('pre').css('background', isDark === 'y' ? '#333' : '')
+  }
+</script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.1"></script>
+<script src="/js/post.js" defer></script>
+
+
+    
+    <script src="https://gitee.com/shenmo7192/live2d-widget-left-and-right/raw/master/autoload.js"></script>
+    
+
+    
+</body>
+</html>
