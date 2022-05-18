@@ -9,7 +9,7 @@ draft: false
   <div class="links-content"> 
      <div class="link-navigation"> 
       <div class="card"> 
-	 <img class="ava" src="https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633868669142.png" /> 
+	 <img class="ava" src="https://s1.ax1x.com/2022/05/18/OosPeK.png" /> 
        <div class="card-header"> 
         <div> 
          <a href="https://gitee.com/deepin-community-store/spark-store">星火应用商店</a> 
@@ -28,7 +28,7 @@ Minecraft BE 服务器交流群：913146678
 <div class="links-content"> 
      <div class="link-navigation"> 
       <div class="card"> 
-	 <img class="ava" src="https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633868669136.png" /> 
+	 <img class="ava" src="https://s1.ax1x.com/2022/05/18/Oosnyt.png" /> 
        <div class="card-header"> 
         <div> 
          <a href="https://jq.qq.com/?_wv=1027&k=bbAHpP6d">点击加入QQ群</a> 
@@ -46,13 +46,13 @@ bilibili:
 <div class="links-content"> 
      <div class="link-navigation"> 
       <div class="card"> 
-	 <img class="ava" src="https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1633869153285.jpg" /> 
+	 <img class="ava" src="https://s1.ax1x.com/2022/05/18/Oos0TU.jpg" /> 
        <div class="card-header"> 
         <div> 
          <a href="https://space.bilibili.com/151990660">神末shenmo</a> 
         </div> 
         <div class="info">
-         深度科技论坛一枚小白版主QAQ~
+         风说，可以飞了
 		 </div>
 		 </div>
 		 </div>
@@ -64,7 +64,7 @@ bilibili:
 <div class="links-content"> 
      <div class="link-navigation"> 
       <div class="card"> 
-	 <img class="ava" src="https://avatar.cdn.deepin.com/public/avatar/2021/06/28/20-22-43-99f32bff.png" /> 
+	 <img class="ava" src="https://avatar.cdn.deepin.com/public/avatar/2022/05/11/22-15-27-92ffc20b.png" /> 
        <div class="card-header"> 
         <div> 
          <a href="https://bbs.deepin.org/zh/user/223313">神末shenmo</a> 
