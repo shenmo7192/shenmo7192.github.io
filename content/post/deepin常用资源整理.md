@@ -15,26 +15,27 @@ draft: false
 ---
 发布时间： 2022-03-15T18:42:43+08:00
 
-It's a mirror of https://www.yuque.com/pzm9012/ct5ume/nte586/
 
 这是 https://www.yuque.com/pzm9012/ct5ume/nte586/ 的镜像，方便访问
+
 
 <!--more-->
 
 
 ----
-文章原作者：[pzm9012](https://bbs.deepin.org/user/217969)
+> 本文创建于2021-05-15，于2022-03发布最终版，2022-06发布+1版。
+> 感谢 nanming 参加了本文的协作。 
 
->本文创建于2021-05-15，目前正在缓慢更新。愿意协作的人可以在论坛私信我。
->感谢 [nanming](https://bbs.deepin.org/user/239615) 参加了本文的协作。
+在这里你可以发现很多有帮助的资源，它们由社区中的热心网友分享。
 
-我在此整理了一些与deepin有关的资源（包括教程、问题解决、应用分享、壁纸等），希望能帮助大家更好地使用deepin。
-
-感谢所有提供资源的网友。若你知道更多对他人有用的资源，或觉得本文需要改进，欢迎在评论中补充或是参与协作。
+感谢所有提供了资源的网友。若你知道更多对他人有用的资源，或觉得本文需要改进，欢迎在评论中补充或是参与协作。
 
 部分资料来源于互联网，仅供学习交流使用，版权归原作者所有，若涉及侵权请联系我删除；解决方案仅供参考，不一定有效，请以实际操作为准。
 
-（提示：点击大纲中的标题可跳转到对应的位置）
+## 提示
+
+1.  点击“大纲”中的标题可跳转到对应的位置。（移动版页面在左下角打开大纲）
+2.  若要从 GitHub/Gitee 下载软件之类的成品，请访问项目地址，在网页的右侧找到“Releases”或“发行版”版块，点击下载最新版本，或跳转到Releases页面查看所有版本。
 
 ## 一、综合
 
@@ -83,6 +84,7 @@ It's a mirror of https://www.yuque.com/pzm9012/ct5ume/nte586/
 14.  我的Deepin初始化脚本：<https://bbs.deepin.org/post/228930>
 15.  使用VMware workstation 安装和管理deepin：<https://bbs.deepin.org/zh/post/232573>
 16.  使用kvm安装和管理deepin：<https://bbs.deepin.org/zh/post/232573>
+17.  自制 deepin Live CD——1.1.0——支持本地安装启动：<https://bbs.deepin.org/zh/post/236521>
 
 #### 附 在U盘上安装deepin
 
@@ -116,6 +118,7 @@ It's a mirror of https://www.yuque.com/pzm9012/ct5ume/nte586/
 7.  20.3打印成功经验分享：<https://bbs.deepin.org/zh/post/228900>
 8.  关于使用虚拟机解决驱动问题的可能性探讨：<https://bbs.deepin.org/zh/post/228005>
 9.  linux下外设辅助软件推荐：<https://bbs.deepin.org/zh/post/226246>
+10.  安装兄弟Brother打印机扫描驱动及配置文件的方法：<https://bbs.deepin.org/zh/post/232569>
 
 ### 2.5 问题解决
 
@@ -126,6 +129,7 @@ It's a mirror of https://www.yuque.com/pzm9012/ct5ume/nte586/
 5.  dde-control-center的快捷键设置无法拉起deepin-screen-recorder：<https://bbs.deepin.org/zh/post/227910>
 6.  禁止kwin的自动关闭3D窗管的方法：<https://bbs.deepin.org/zh/post/232810>
 7.  重设密码（见2楼）：<https://bbs.deepin.org/zh/post/232829>
+8.  还在为没有公钥导致的无法更新而烦恼吗？这里有解决方案：<https://bbs.deepin.org/zh/post/237312>
 
 ### 2.6 系统使用
 
@@ -136,6 +140,7 @@ It's a mirror of https://www.yuque.com/pzm9012/ct5ume/nte586/
 3.  通过外部应用实现的热区：omd-requ：<https://bbs.deepin.org/zh/post/226623>
 4.  在Linux下配置人脸识别：<https://bbs.deepin.org/zh/post/224848>
 5.  深度Linux Deepin设置分辨率为1920x1080：<https://www.jianshu.com/p/89a1bf1905d8>
+6.  手把手教你用deepin20——多任务视图与窗口技巧：<https://bbs.deepin.org/post/233111>
 
 #### 2.6.2 应用处理
 
@@ -156,6 +161,7 @@ It's a mirror of https://www.yuque.com/pzm9012/ct5ume/nte586/
 8.  中州韵98五笔助手：<https://bbs.deepin.org/zh/post/231400>
 9.  输入法不跟随光标：[https://bbs.deepin.org/zh/post/231849](https://bbs.deepin.org/post/231849)
 10.  默认输入法配置：<https://bbs.deepin.org/zh/post/232652>
+11.  【deepin个性化配置(2)】安装和配置Fcitx5输入法：<https://bbs.deepin.org/zh/post/233230>
 
 #### 2.6.4 性能
 
@@ -166,6 +172,7 @@ It's a mirror of https://www.yuque.com/pzm9012/ct5ume/nte586/
 5.  deepin桌面卡死处理：<https://bbs.deepin.org/zh/post/225151>
 6.  启动wine qq时偶发性使桌面崩溃：<https://bbs.deepin.org/zh/post/207380>
 7.  性能与功耗之间的权衡与调整第三版：<https://bbs.deepin.org/zh/post/223793>
+8.  nvidia显卡firefox硬解在线视频：<https://bbs.deepin.org/zh/post/233052>
 
 #### 2.6.5 命令与终端
 
@@ -248,6 +255,7 @@ It's a mirror of https://www.yuque.com/pzm9012/ct5ume/nte586/
 10.  20.4新版本特性②安装器：<https://bbs.deepin.org/zh/post/231570>
 11.  【视频】怀一腔孤勇，筑梦前行：<https://bbs.deepin.org/zh/post/231100>
 12.  20.4深度使用体验：<https://bbs.deepin.org/zh/post/231912>
+13.  deepin 20.5——人脸解锁背后的那些事：<https://bbs.deepin.org/zh/post/234359>
 
 ## 三、应用软件
 
@@ -284,6 +292,7 @@ It's a mirror of https://www.yuque.com/pzm9012/ct5ume/nte586/
 25.  一个类似uTools的快速启动器Albert：<https://bbs.deepin.org/post/142027>
 26.  自己写的小工具：folder-merger文件夹合并：<https://bbs.deepin.org/zh/post/232545>
 27.  开发了一款自定义触摸板手势的管理工具，有需要的朋友可以试试：<https://bbs.deepin.org/zh/post/232824>
+28.  Steam++ 加速你的github 和 steam游戏商店：<https://bbs.deepin.org/zh/post/233231>
 
 #### 3.1.2 网络应用
 
@@ -292,6 +301,7 @@ It's a mirror of https://www.yuque.com/pzm9012/ct5ume/nte586/
 3.  如何让火狐国际版拥有中国版的功能：<https://bbs.deepin.org/zh/post/228249>
 4.  优雅地使用坚果云：<https://bbs.deepin.org/zh/post/225170>
 5.  解决megasync不能打开的问题：<https://bbs.deepin.org/zh/post/206774>
+6.  写了一个简单的图床管理软件，欢迎各位试用：<https://bbs.deepin.org/zh/post/233372>
 
 #### 3.1.3 办公学习
 
@@ -306,6 +316,7 @@ It's a mirror of https://www.yuque.com/pzm9012/ct5ume/nte586/
 9.  WPS for linux字体显示问题：<https://blog.csdn.net/qq_36191272/article/details/105596225>
 10.  使用 Dtk 开发了一个 MarkDown 编辑器，欢迎大家试用：<https://bbs.deepin.org/zh/post/228829>
 11.  一款词典工具：<https://bbs.deepin.org/zh/post/227166>
+12.  Pixso上架deepin应用商店，设计应用生态强势补充：<https://bbs.deepin.org/zh/post/235058>
 
 #### 3.1.4 社交沟通
 
@@ -313,6 +324,7 @@ It's a mirror of https://www.yuque.com/pzm9012/ct5ume/nte586/
 2.  解决QQ(wine)因字体卡死&宋体发虚太难看的一种方法：<https://bbs.deepin.org/post/213530>
 3.  Wechat（微信） Linux升级版：freechat-spark 可过验证：<https://bbs.deepin.org/zh/post/226549>
 4.  星火微信Linux2.1.2-2已更新：<https://bbs.deepin.org/zh/post/231200>
+5.  deepin foxmail通信录导入：<https://bbs.deepin.org/post/233037>
 
 #### 3.1.5 音乐视频
 
@@ -333,6 +345,7 @@ It's a mirror of https://www.yuque.com/pzm9012/ct5ume/nte586/
 4.  linux下玩24点(题目生成+计算)：<https://bbs.deepin.org/zh/post/217418>
 5.  用 mame 命令玩 MAME 街机游戏：<https://bbs.deepin.org/zh/post/208391>
 6.  植物大战僵尸中文版打包分享：<https://bbs.deepin.org/zh/post/195096>
+7.  谁说deepin不能玩游戏：<https://bbs.deepin.org/zh/post/235387>
 
 #### 3.1.7 多设备协同
 
@@ -371,7 +384,7 @@ Uengine用来在deepin/UOS上运行安卓应用，应用商店中的手机应用
 1.  Deepin-Wine适配知识库：<https://docs.qq.com/mind/DWFBpbmpjd0RtV2Z0>
 2.  deepin-wine5 折腾过程兼新手教程：<https://bbs.deepin.org/zh/post/200942>
 3.  Wine助手初体验，一款跨平台应用安装兼容工具：<https://bbs.deepin.org/zh/post/223564>
-4.  wine 运行器1.3.1：[论坛页面](https://bbs.deepin.org/zh/post/220706) [Gitee页面(点击“发行版”中的deb包下载)](https://gitee.com/gfdgd-xi/deep-wine-runner)
+4.  wine 运行器1.3.1：[论坛页面](https://bbs.deepin.org/zh/post/220706) [Gitee页面](https://gitee.com/gfdgd-xi/deep-wine-runner)
 5.  deepin-wine5 应用打包器：<https://bbs.deepin.org/zh/post/214306>
 6.  wine自动打包程序：<https://bbs.deepin.org/zh/post/221842>
 7.  Deepin用wine安装的Windows软件目录在哪：<https://bbs.deepin.org/zh/post/227183>
@@ -385,6 +398,7 @@ Uengine用来在deepin/UOS上运行安卓应用，应用商店中的手机应用
 1.  VMware 虚拟机3种安装方法： <https://bbs.deepin.org/zh/post/221632>
 2.  开箱即用的虚拟机软件——GNOME Boxes，应用商店可下载！：<https://bbs.deepin.org/zh/post/220484>
 3.  在kde或者gnome实现类 "linux subsystem for windows"体验：<https://bbs.deepin.org/zh/post/228448> (可能不适用于deepin)
+4.  【deepin安装系列(1)】使用VMware workstation 安装和管理deepin：<https://bbs.deepin.org/post/232566>
 
 ### 3.3 开发程序
 
@@ -404,6 +418,9 @@ Uengine用来在deepin/UOS上运行安卓应用，应用商店中的手机应用
 14.  pyside6开发环境搭建——基于pycharm：<https://bbs.deepin.org/zh/post/226994>
 15.  从源码编译安装GnuCash-4.8：<https://bbs.deepin.org/zh/post/228255>
 16.  最近在跟QtQuick教程，想搞Qt的一起来耍呀：<https://bbs.deepin.org/zh/post/232135>
+17.  微信开发者工具 Linux版 v1.05.2203070 免wine：<https://bbs.deepin.org/post/232284>
+18.  deepin，做一个开发者友好的发行版：<https://bbs.deepin.org/zh/post/234593>
+19.  使用go语言重新实现一款软件包管理器：<https://bbs.deepin.org/zh/post/233959>
 
 ## 四、社区与论坛
 
@@ -427,7 +444,10 @@ Uengine用来在deepin/UOS上运行安卓应用，应用商店中的手机应用
 6.  DDUC活动礼品设计灵感：<https://bbs.deepin.org/zh/post/228868>
 7.  DDUC2021——开源你我，始终如一：<https://bbs.deepin.org/zh/post/228582>
 8.  deepin开源社区中心星火行动启动：<https://bbs.deepin.org/zh/post/230086>
-9.  deepin高校开源社区中心招募啦！就等你来：<https://bbs.deepin.org/zh/post/232405>
+9.  深度开源社区版主轮值活动：<https://bbs.deepin.org/zh/post/233938>
+10.  deepin高校开源社区中心招募啦！就等你来：<https://bbs.deepin.org/zh/post/232405>
+11.  deepin荣获2021年度“科创中国”开源创新榜优秀开源产品：<https://bbs.deepin.org/zh/post/232217>
+12.  深度社区全新规划：打造中国主导的桌面系统根社区：<https://bbs.deepin.org/zh/post/237175>
 
 ## 五、更多
 
@@ -446,13 +466,15 @@ Uengine用来在deepin/UOS上运行安卓应用，应用商店中的手机应用
 
 1.  UOS各版本系统说明：<http://bbs.chinauos.com/post/6514>
 2.  在其他发行版使用Deepin-Wine的终级方案：<https://zhuanlan.zhihu.com/p/379196410>
-3.  在ubuntu上完美使用deepin-wine5：<https://bbs.deepin.org/zh/post/204884>
-4.  关于 Deepin 桌面移植到 Gentoo Linux 发行版：<https://bbs.deepin.org/zh/post/221216>
-5.  WSL Deepin：<https://bbs.deepin.org/zh/post/206395>
-6.  Deepin鼠标指针：<https://bbs.deepin.org/zh/post/199527>
-7.  <https://www.yuque.com/pzm9012/ct5ume/ohlxhr>
-8.  CutefishOS 0.5 安装搜狗输入法教程：<https://bbs.cutefishos.com/d/283-cutefishos-05>
-9.  移植deepin-contacts到其他Debian系发行版：<https://bbs.deepin.org/zh/post/229606>
+3.  嫁接Deepin到一个兼容你设备的Linux系统：<https://bbs.deepin.org/zh/post/206117>
+4.  在ubuntu上完美使用deepin-wine5：<https://bbs.deepin.org/zh/post/204884>
+5.  关于 Deepin 桌面移植到 Gentoo Linux 发行版：<https://bbs.deepin.org/zh/post/221216>
+6.  WSL Deepin：<https://bbs.deepin.org/zh/post/206395>
+7.  Deepin鼠标指针：<https://bbs.deepin.org/zh/post/199527>
+8.  <https://www.yuque.com/pzm9012/ct5ume/ohlxhr>
+9.  CutefishOS 0.5 安装搜狗输入法教程：<https://bbs.cutefishos.com/d/283-cutefishos-05> （Cutefish OS网站关闭，此资源过时）
+10.  移植deepin-contacts到其他Debian系发行版：<https://bbs.deepin.org/zh/post/229606>
+11.  用 Nix 制作自定义的 live 镜像：<https://bbs.deepin.org/zh/post/236303>
 
 ### 5.3 壁纸
 
@@ -462,7 +484,7 @@ Uengine用来在deepin/UOS上运行安卓应用，应用商店中的手机应用
 4.  两张失散已久的壁纸：<https://bbs.deepin.org/zh/post/223085>
 5.  从微博搬过来的两张壁纸：<https://bbs.deepin.org/zh/post/215923>
 6.  一个果里果气的桌面——CuteFish Desktop：<https://bbs.deepin.org/zh/post/223226>
-7.  “深度”壁纸的remix：<https://bbs.deepin.org/zh/post/195567>
+7.  deepin壁纸大赛优质壁纸分享：<https://bbs.deepin.org/zh/post/236372>
 
 ### 5.4 PPT SHOW
 
