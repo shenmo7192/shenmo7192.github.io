@@ -18,14 +18,14 @@
 
 <meta name="generator" content="Hugo 0.88.1" />
 
-<link rel="canonical" href="https://shenmo7192.github.io/post/%E7%BB%88%E4%BA%8E%E5%8F%91%E7%8E%B0dtk%E5%BA%94%E7%94%A8%E7%A7%BB%E6%A4%8D%E7%9A%84%E6%95%88%E6%9E%9C%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E4%BA%86/" />
+<link rel="canonical" href="https://shenmo7192.gitee.io/post/%E7%BB%88%E4%BA%8E%E5%8F%91%E7%8E%B0dtk%E5%BA%94%E7%94%A8%E7%A7%BB%E6%A4%8D%E7%9A%84%E6%95%88%E6%9E%9C%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E4%BA%86/" />
 
 
 <meta property="og:title" content="终于发现dtk应用移植的效果问题的解决方案了" />
 <meta property="og:description" content="发布时间： 2022-04-07T15:56:33&#43;08:00
 就差这个" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://shenmo7192.github.io/post/%E7%BB%88%E4%BA%8E%E5%8F%91%E7%8E%B0dtk%E5%BA%94%E7%94%A8%E7%A7%BB%E6%A4%8D%E7%9A%84%E6%95%88%E6%9E%9C%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E4%BA%86/" /><meta property="article:section" content="post" />
+<meta property="og:url" content="https://shenmo7192.gitee.io/post/%E7%BB%88%E4%BA%8E%E5%8F%91%E7%8E%B0dtk%E5%BA%94%E7%94%A8%E7%A7%BB%E6%A4%8D%E7%9A%84%E6%95%88%E6%9E%9C%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E4%BA%86/" /><meta property="article:section" content="post" />
 
 <meta property="article:modified_time" content="2022-04-17T22:49:47+08:00" />
 
@@ -115,7 +115,7 @@
 
 
     
-    <link rel="stylesheet" href="https://shenmo7192.gitee.io/extra-extensions/live2d-widget-left-and-right/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="/extra-extensions/live2d-widget-left-and-right/fontawesome/css/all.min.css" />
     
     <link rel="stylesheet" href="/css/amber-icon.css" />
     
@@ -141,7 +141,7 @@ var _hmt = _hmt || [];
   <a class="item dream-flip-toggle" title="翻转！">
     <i class="large link bullseye icon"></i>
   </a>
-  <a class="item" href="https://shenmo7192.github.io/" title="首页">
+  <a class="item" href="https://shenmo7192.gitee.io/" title="首页">
     <i class="large link home icon"></i>
   </a>
   
@@ -179,10 +179,10 @@ var _hmt = _hmt || [];
     onclick="savePostAsImg()">
     <i class="save icon"></i>
   </button>
-  <a href="https://twitter.com/intent/tweet?text=%e7%bb%88%e4%ba%8e%e5%8f%91%e7%8e%b0dtk%e5%ba%94%e7%94%a8%e7%a7%bb%e6%a4%8d%e7%9a%84%e6%95%88%e6%9e%9c%e9%97%ae%e9%a2%98%e7%9a%84%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88%e4%ba%86&url=https%3a%2f%2fshenmo7192.github.io%2fpost%2f%25E7%25BB%2588%25E4%25BA%258E%25E5%258F%2591%25E7%258E%25B0dtk%25E5%25BA%2594%25E7%2594%25A8%25E7%25A7%25BB%25E6%25A4%258D%25E7%259A%2584%25E6%2595%2588%25E6%259E%259C%25E9%2597%25AE%25E9%25A2%2598%25E7%259A%2584%25E8%25A7%25A3%25E5%2586%25B3%25E6%2596%25B9%25E6%25A1%2588%25E4%25BA%2586%2f" class="ui circular twitter icon button">
+  <a href="https://twitter.com/intent/tweet?text=%e7%bb%88%e4%ba%8e%e5%8f%91%e7%8e%b0dtk%e5%ba%94%e7%94%a8%e7%a7%bb%e6%a4%8d%e7%9a%84%e6%95%88%e6%9e%9c%e9%97%ae%e9%a2%98%e7%9a%84%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88%e4%ba%86&url=https%3a%2f%2fshenmo7192.gitee.io%2fpost%2f%25E7%25BB%2588%25E4%25BA%258E%25E5%258F%2591%25E7%258E%25B0dtk%25E5%25BA%2594%25E7%2594%25A8%25E7%25A7%25BB%25E6%25A4%258D%25E7%259A%2584%25E6%2595%2588%25E6%259E%259C%25E9%2597%25AE%25E9%25A2%2598%25E7%259A%2584%25E8%25A7%25A3%25E5%2586%25B3%25E6%2596%25B9%25E6%25A1%2588%25E4%25BA%2586%2f" class="ui circular twitter icon button">
     <i class="twitter icon"></i>
   </a>
-  <a href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fshenmo7192.github.io%2fpost%2f%25E7%25BB%2588%25E4%25BA%258E%25E5%258F%2591%25E7%258E%25B0dtk%25E5%25BA%2594%25E7%2594%25A8%25E7%25A7%25BB%25E6%25A4%258D%25E7%259A%2584%25E6%2595%2588%25E6%259E%259C%25E9%2597%25AE%25E9%25A2%2598%25E7%259A%2584%25E8%25A7%25A3%25E5%2586%25B3%25E6%2596%25B9%25E6%25A1%2588%25E4%25BA%2586%2f" class="ui circular facebook icon button">
+  <a href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fshenmo7192.gitee.io%2fpost%2f%25E7%25BB%2588%25E4%25BA%258E%25E5%258F%2591%25E7%258E%25B0dtk%25E5%25BA%2594%25E7%2594%25A8%25E7%25A7%25BB%25E6%25A4%258D%25E7%259A%2584%25E6%2595%2588%25E6%259E%259C%25E9%2597%25AE%25E9%25A2%2598%25E7%259A%2584%25E8%25A7%25A3%25E5%2586%25B3%25E6%2596%25B9%25E6%25A1%2588%25E4%25BA%2586%2f" class="ui circular facebook icon button">
     <i class="facebook icon"></i>
   </a>
 </div>
@@ -785,7 +785,7 @@ friends:[],
 </div>
 <script>
   $(document).ready(function () {
-    $.getJSON('https:\/\/shenmo7192.github.io\//index.json', function (data) {
+    $.getJSON('https:\/\/shenmo7192.gitee.io\//index.json', function (data) {
       $('.ui.search').search({
         source: data,
         searchFields: ['title'],
@@ -892,7 +892,7 @@ friends:[],
 
 
     
-    <script src="https://shenmo7192.gitee.io/extra-extensions/live2d-widget-left-and-right/autoload.js"></script>
+    <script src="/extra-extensions/live2d-widget-left-and-right/autoload.js"></script>
     
 
     

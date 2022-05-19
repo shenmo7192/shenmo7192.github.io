@@ -18,14 +18,14 @@
 
 <meta name="generator" content="Hugo 0.88.1" />
 
-<link rel="canonical" href="https://shenmo7192.github.io/post/%E5%85%B3%E4%BA%8E%E6%8A%98%E8%85%BEvaline%E7%AC%AC%E4%B8%89%E6%9C%9F%E5%AE%8C%E5%85%A8%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89/" />
+<link rel="canonical" href="https://shenmo7192.gitee.io/post/%E5%85%B3%E4%BA%8E%E6%8A%98%E8%85%BEvaline%E7%AC%AC%E4%B8%89%E6%9C%9F%E5%AE%8C%E5%85%A8%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89/" />
 
 
 <meta property="og:title" content="关于折腾Valine第三期：完全的自定义" />
 <meta property="og:description" content="之前尝试了修改bilibili-img.js来添加更多表情包，成功了
 但是，当尝试更多参数（比如说placeholder和QQ解析）时，出现了奇怪的症状" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://shenmo7192.github.io/post/%E5%85%B3%E4%BA%8E%E6%8A%98%E8%85%BEvaline%E7%AC%AC%E4%B8%89%E6%9C%9F%E5%AE%8C%E5%85%A8%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89/" /><meta property="article:section" content="post" />
+<meta property="og:url" content="https://shenmo7192.gitee.io/post/%E5%85%B3%E4%BA%8E%E6%8A%98%E8%85%BEvaline%E7%AC%AC%E4%B8%89%E6%9C%9F%E5%AE%8C%E5%85%A8%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2021-10-10T16:06:14+08:00" />
 <meta property="article:modified_time" content="2022-03-04T11:24:53+08:00" />
 
@@ -115,7 +115,7 @@
 
 
     
-    <link rel="stylesheet" href="https://shenmo7192.gitee.io/extra-extensions/live2d-widget-left-and-right/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="/extra-extensions/live2d-widget-left-and-right/fontawesome/css/all.min.css" />
     
     <link rel="stylesheet" href="/css/amber-icon.css" />
     
@@ -141,7 +141,7 @@ var _hmt = _hmt || [];
   <a class="item dream-flip-toggle" title="翻转！">
     <i class="large link bullseye icon"></i>
   </a>
-  <a class="item" href="https://shenmo7192.github.io/" title="首页">
+  <a class="item" href="https://shenmo7192.gitee.io/" title="首页">
     <i class="large link home icon"></i>
   </a>
   
@@ -179,10 +179,10 @@ var _hmt = _hmt || [];
     onclick="savePostAsImg()">
     <i class="save icon"></i>
   </button>
-  <a href="https://twitter.com/intent/tweet?text=%e5%85%b3%e4%ba%8e%e6%8a%98%e8%85%beValine%e7%ac%ac%e4%b8%89%e6%9c%9f%ef%bc%9a%e5%ae%8c%e5%85%a8%e7%9a%84%e8%87%aa%e5%ae%9a%e4%b9%89&url=https%3a%2f%2fshenmo7192.github.io%2fpost%2f%25E5%2585%25B3%25E4%25BA%258E%25E6%258A%2598%25E8%2585%25BEvaline%25E7%25AC%25AC%25E4%25B8%2589%25E6%259C%259F%25E5%25AE%258C%25E5%2585%25A8%25E7%259A%2584%25E8%2587%25AA%25E5%25AE%259A%25E4%25B9%2589%2f" class="ui circular twitter icon button">
+  <a href="https://twitter.com/intent/tweet?text=%e5%85%b3%e4%ba%8e%e6%8a%98%e8%85%beValine%e7%ac%ac%e4%b8%89%e6%9c%9f%ef%bc%9a%e5%ae%8c%e5%85%a8%e7%9a%84%e8%87%aa%e5%ae%9a%e4%b9%89&url=https%3a%2f%2fshenmo7192.gitee.io%2fpost%2f%25E5%2585%25B3%25E4%25BA%258E%25E6%258A%2598%25E8%2585%25BEvaline%25E7%25AC%25AC%25E4%25B8%2589%25E6%259C%259F%25E5%25AE%258C%25E5%2585%25A8%25E7%259A%2584%25E8%2587%25AA%25E5%25AE%259A%25E4%25B9%2589%2f" class="ui circular twitter icon button">
     <i class="twitter icon"></i>
   </a>
-  <a href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fshenmo7192.github.io%2fpost%2f%25E5%2585%25B3%25E4%25BA%258E%25E6%258A%2598%25E8%2585%25BEvaline%25E7%25AC%25AC%25E4%25B8%2589%25E6%259C%259F%25E5%25AE%258C%25E5%2585%25A8%25E7%259A%2584%25E8%2587%25AA%25E5%25AE%259A%25E4%25B9%2589%2f" class="ui circular facebook icon button">
+  <a href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fshenmo7192.gitee.io%2fpost%2f%25E5%2585%25B3%25E4%25BA%258E%25E6%258A%2598%25E8%2585%25BEvaline%25E7%25AC%25AC%25E4%25B8%2589%25E6%259C%259F%25E5%25AE%258C%25E5%2585%25A8%25E7%259A%2584%25E8%2587%25AA%25E5%25AE%259A%25E4%25B9%2589%2f" class="ui circular facebook icon button">
     <i class="facebook icon"></i>
   </a>
 </div>
@@ -946,7 +946,7 @@ friends:[],
 </div>
 <script>
   $(document).ready(function () {
-    $.getJSON('https:\/\/shenmo7192.github.io\//index.json', function (data) {
+    $.getJSON('https:\/\/shenmo7192.gitee.io\//index.json', function (data) {
       $('.ui.search').search({
         source: data,
         searchFields: ['title'],
@@ -1053,7 +1053,7 @@ friends:[],
 
 
     
-    <script src="https://shenmo7192.gitee.io/extra-extensions/live2d-widget-left-and-right/autoload.js"></script>
+    <script src="/extra-extensions/live2d-widget-left-and-right/autoload.js"></script>
     
 
     
