@@ -450,11 +450,11 @@
     </item>
     
     <item>
-      <title>在dde File Manager的较上端加入菜单项（类似深度压缩）</title>
-      <link>https://shenmo7192.gitee.io/post/%E5%9C%A8dde-file-manager%E7%9A%84%E8%BE%83%E4%B8%8A%E7%AB%AF%E5%8A%A0%E5%85%A5%E8%8F%9C%E5%8D%95%E9%A1%B9/</link>
+      <title>在深度文管的较上端加入菜单项和在文管首页添加desktop</title>
+      <link>https://shenmo7192.gitee.io/post/%E5%9C%A8%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AE%A1%E7%9A%84%E8%BE%83%E4%B8%8A%E7%AB%AF%E5%8A%A0%E5%85%A5%E8%8F%9C%E5%8D%95%E9%A1%B9%E5%92%8C%E5%9C%A8%E6%96%87%E7%AE%A1%E9%A6%96%E9%A1%B5%E6%B7%BB%E5%8A%A0desktop/</link>
       <pubDate>Tue, 21 Dec 2021 18:51:40 +0800</pubDate>
       
-      <guid>https://shenmo7192.gitee.io/post/%E5%9C%A8dde-file-manager%E7%9A%84%E8%BE%83%E4%B8%8A%E7%AB%AF%E5%8A%A0%E5%85%A5%E8%8F%9C%E5%8D%95%E9%A1%B9/</guid>
+      <guid>https://shenmo7192.gitee.io/post/%E5%9C%A8%E6%B7%B1%E5%BA%A6%E6%96%87%E7%AE%A1%E7%9A%84%E8%BE%83%E4%B8%8A%E7%AB%AF%E5%8A%A0%E5%85%A5%E8%8F%9C%E5%8D%95%E9%A1%B9%E5%92%8C%E5%9C%A8%E6%96%87%E7%AE%A1%E9%A6%96%E9%A1%B5%E6%B7%BB%E5%8A%A0desktop/</guid>
       <description>&lt;p&gt;在官方给出的文档里，有&lt;code&gt;oem-extenshen&lt;/code&gt;的写法（不会用请点&lt;a href=&#34;https://gitee.com/shenmo7192/dde-file-manager-menu-oem&#34;&gt;这里&lt;/a&gt;），但是这样插入的插件位置都比较靠下。那么，类似深度压缩的菜单项这样位置靠上的插件是怎么实现的呢？&lt;/p&gt;</description>
     </item>
     
