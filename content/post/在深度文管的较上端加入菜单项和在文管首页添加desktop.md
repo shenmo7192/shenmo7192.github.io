@@ -1,5 +1,5 @@
 ---
-title: 在dde File Manager的较上端加入菜单项（类似深度压缩）
+title: 在深度文管的较上端加入菜单项和在文管首页添加desktop
 date: 2021-12-21T18:51:40+08:00
 lastmod: 2021-12-21T18:51:40+08:00
 author: shenmo
@@ -142,3 +142,8 @@ Name[zh_HK]=添加到"%d.zip"
 Name[zh_TW]=添加到"%d.zip"
 
 ```
+
+---
+## 文管首页添加desktop
+
+放到`/usr/share/dde-file-manager/extensions/appEntry/`
