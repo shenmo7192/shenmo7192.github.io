@@ -24,7 +24,7 @@ draft: false
 
 ![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1640084723774.png)
 
-`usr/share/applications/context-menus`
+`/usr/share/applications/context-menus`
 
 ![enter description here](https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/小书匠/1640084305977.png)
 
