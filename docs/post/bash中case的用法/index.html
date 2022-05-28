@@ -16,7 +16,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.88.1" />
+<meta name="generator" content="Hugo 0.90.0" />
 
 <link rel="canonical" href="https://shenmo7192.gitee.io/post/bash%E4%B8%ADcase%E7%9A%84%E7%94%A8%E6%B3%95/" />
 
@@ -260,7 +260,7 @@ abcfy的脚本： <a href="https://gitee.com/abcfy2/simple_video_compress_build"
 <li>另外要记住通配符(pattern)和规则表达式(regular expression)的区别。</li>
 <li>匹配模式中可是使用方括号表示一个连续的范围，如[0-9]；使用竖杠符号“|”表示或。 最后的“<em>）”表示默认模式，当使用前面的各种模式均无法匹配该变量时，将执行“</em>）”后的命令序列。</li>
 </ol>
-<p>case语句实例：由用户从键盘输入一个字符，并判断该字符是否为字母、数字或者其他字符， 并输出相应的提示信息。</p>
+<p>case语句实例：由用户从键盘输入一个字符，并判断该字符是否为字母、数字或者其他字符， 并输出相应的提示信息。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/bash
 </span><span style="color:#75715e"></span>read -p <span style="color:#e6db74">&#34;press some key ,then press return :&#34;</span> KEY
 <span style="color:#66d9ef">case</span> $KEY in
@@ -274,7 +274,7 @@ echo <span style="color:#e6db74">&#34;It&#39;s a digit.&#34;</span>
 echo <span style="color:#e6db74">&#34;It&#39;s function keys、Spacebar or other ksys.&#34;</span>
 <span style="color:#66d9ef">esac</span>
 
-</code></pre></div><p>case/esac的标准用法大致如下: </p>
+</code></pre></div><p>case/esac的标准用法大致如下: </p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"> <span style="color:#66d9ef">case</span> $arg in 
      pattern | sample<span style="color:#f92672">)</span> <span style="color:#75715e"># arg in pattern or sample </span>
      ;; 
@@ -283,7 +283,7 @@ echo <span style="color:#e6db74">&#34;It&#39;s function keys、Spacebar or other
      *<span style="color:#f92672">)</span> <span style="color:#75715e">#default </span>
      ;; 
  <span style="color:#66d9ef">esac</span> 
-</code></pre></div><p>arg是您所引入的参数，如果arg内容符合pattern项目的话，那麽便会执行pattern以下的程式码，而该段程式码则以两个分号&quot;;;&ldquo;做结尾。 
+</code></pre></div><p>arg是您所引入的参数，如果arg内容符合pattern项目的话，那麽便会执行pattern以下的程式码，而该段程式码则以两个分号&quot;;;&ldquo;做结尾。
 可以注意到&quot;case&quot;及&quot;esac&quot;是对称的，如果记不起来的话，把&quot;case&quot;颠倒过来即可。</p>
 <p>case语句匹配的是通配符，如果加上双引号后就不是按通配符处理，而是按文本处理。</p>
 <p>使用双引号后通配符就不再生效 ，只是作为普通字符对待。</p>
@@ -939,7 +939,7 @@ friends:[],
 
 
 
-<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/languages/ocaml.min.js"></script>
+<script src="https://shenmo7192.gitee.io/cdn-release/build/languages/ocaml.min.js"></script>
 
 
 
@@ -955,7 +955,7 @@ friends:[],
     var darkTheme = "gruvbox-dark"
     var theme = isDark === 'y' ? darkTheme : lightTheme
 
-    $('link[data-highlight]').attr('href', 'https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/' + theme + '.min.css')
+    $('link[data-highlight]').attr('href', 'https://shenmo7192.gitee.io/cdn-release/build/styles/' + theme + '.min.css')
     $('pre').css('background', isDark === 'y' ? '#333' : '')
   }
 </script>
