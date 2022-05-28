@@ -63,7 +63,7 @@ enableGitInfo = true
    highlightjs = true
    highlightjsCDN = "https://shenmo7192.gitee.io/cdn-release/build/highlight.min.js"
    highlightjsExtraLanguages = ["ocaml"]
-   highlightjsTheme = "gruvbox-light"
+   highlightjsTheme = "gruvbox-dark"
    highlightjsThemeDark = "gruvbox-dark"
 
   # search
