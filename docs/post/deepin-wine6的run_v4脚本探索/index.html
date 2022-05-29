@@ -26,7 +26,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shenmo7192.gitee.io/post/deepin-wine6%E7%9A%84run_v4%E8%84%9A%E6%9C%AC%E6%8E%A2%E7%B4%A2/" /><meta property="article:section" content="post" />
 
-<meta property="article:modified_time" content="2022-05-29T20:01:01+08:00" />
+<meta property="article:modified_time" content="2022-05-29T20:05:32+08:00" />
 
 
 
@@ -177,7 +177,11 @@ var _hmt = _hmt || [];
         <li><a href="#更新行为">更新行为</a></li>
       </ul>
     </li>
-    <li><a href="#分析过程">分析过程</a></li>
+    <li><a href="#分析过程">分析过程</a>
+      <ul>
+        <li><a href="#关于updatepolicy">关于update.policy</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
     </div>
@@ -215,7 +219,7 @@ var _hmt = _hmt || [];
               
 
               | 
-                  <span data-format="luxon">2022-05-29T20:01:01&#43;08:00</span>
+                  <span data-format="luxon">2022-05-29T20:05:32&#43;08:00</span>
                 
 
               | 2 分钟阅读
@@ -223,7 +227,7 @@ var _hmt = _hmt || [];
               
               | 更新于
                 
-                  <span data-format="luxon">2022-05-29T20:01:01&#43;08:00</span>
+                  <span data-format="luxon">2022-05-29T20:05:32&#43;08:00</span>
                 
               
             </span>
@@ -370,6 +374,46 @@ export WINEPREDLL<span style="color:#f92672">=</span><span style="color:#e6db74"
 </li>
 <li>对于某些文件需要保留的，或者源文件夹中某些文件不需要同步的（比如update.policy自己），则可以通过设置<code>update.policy</code>来精确配置保留哪个，</li>
 </ul>
+<hr>
+<h3 id="关于updatepolicy">关于update.policy</h3>
+<p>官方没有给出文档，在此附上一份样本，可以按需修改</p>
+<p>这是来自Deepin-Wechat的policy文件，似乎默认会使用这个，因为发现其他星火的包都是这个策略，而在此之前大家都没发现这个更新系统，推测可能是默认生成的。当然，也可能是大家都基于这个容器打的包(</p>
+<p>位置在~/.deepinwine/Deepin-WeChat/update.policy</p>
+<pre tabindex="0"><code>[File]
+;;=============================================================
+;; Registry   - Mask this file is a registry file.
+;; Keep       - Default. Use template file.
+;; Override   - Use file in current prefix.
+;; Replace    - If it's different type in current prefix and
+;;              in template, use template one to replace it.
+;; Ingore     - Ingore file when copy.
+
+;; Ingore update.policy itself.
+&quot;^update.policy$&quot; = &quot;Ingore&quot;
+&quot;^.update-timestamp$&quot; = &quot;Ingore&quot;
+
+;; System registry files.
+&quot;^(system|userdef|user).reg$&quot; = &quot;Registry&quot;
+
+;; Addtional assist files.
+&quot;^drive_c/Deepin&quot; = &quot;Keep&quot;
+
+;; Microsoft Office files.
+&quot;^drive_c/Windows/(?:control\.ini|hh\.dat|mapiuid\.ini|Reg Save Log\.txt)$&quot; = &quot;Override&quot;
+
+
+
+[Registry]
+;;=============================================================
+;; Keep       - Use template key section
+;; Override   - Use user current key section
+;; Merge      - Default. Merge two section, user current values
+                override template
+
+&quot;^Software\\\\Wine\\\\DllOverrides$&quot; = &quot;Keep&quot;
+&quot;^Software\\\\Wine\\\\Fonts\\\\Replacements$&quot; = &quot;Keep&quot;
+
+</code></pre>
       </article>
     </section>
 
