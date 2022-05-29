@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</copyright>
-    <lastBuildDate>Thu, 19 May 2022 16:09:21 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/tags/%E9%97%B2%E8%81%8A/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 May 2022 20:01:01 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/tags/%E9%97%B2%E8%81%8A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deepin Wine6的run_v4脚本探索——更新系统</title>
+      <link>https://shenmo7192.gitee.io/post/deepin-wine6%E7%9A%84run_v4%E8%84%9A%E6%9C%AC%E6%8E%A2%E7%B4%A2/</link>
+      <pubDate>Sun, 29 May 2022 20:01:01 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/deepin-wine6%E7%9A%84run_v4%E8%84%9A%E6%9C%AC%E6%8E%A2%E7%B4%A2/</guid>
+      <description>&lt;p&gt;发布时间： 2022-05-29T19:30:37+08:00&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>2022 3 30 英语阅读</title>
       <link>https://shenmo7192.gitee.io/post/2022-3-30-%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB/</link>
