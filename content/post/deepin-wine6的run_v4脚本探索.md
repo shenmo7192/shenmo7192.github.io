@@ -181,3 +181,48 @@ shenmo@shenmo-PC:/opt/deepinwine/tools$ ./updater
   *  举例：原来的软件在自己的目录放置了conf，而新的包里没有这个文件，这个文件会被跳过
 * 对于某些文件需要保留的，或者源文件夹中某些文件不需要同步的（比如update.policy自己），则可以通过设置`update.policy`来精确配置保留哪个，
 
+---
+### 关于update.policy
+
+官方没有给出文档，在此附上一份样本，可以按需修改
+
+这是来自Deepin-Wechat的policy文件，似乎默认会使用这个，因为发现其他星火的包都是这个策略，而在此之前大家都没发现这个更新系统，推测可能是默认生成的。当然，也可能是大家都基于这个容器打的包(
+
+位置在~/.deepinwine/Deepin-WeChat/update.policy
+
+```
+[File]
+;;=============================================================
+;; Registry   - Mask this file is a registry file.
+;; Keep       - Default. Use template file.
+;; Override   - Use file in current prefix.
+;; Replace    - If it's different type in current prefix and
+;;              in template, use template one to replace it.
+;; Ingore     - Ingore file when copy.
+
+;; Ingore update.policy itself.
+"^update.policy$" = "Ingore"
+"^.update-timestamp$" = "Ingore"
+
+;; System registry files.
+"^(system|userdef|user).reg$" = "Registry"
+
+;; Addtional assist files.
+"^drive_c/Deepin" = "Keep"
+
+;; Microsoft Office files.
+"^drive_c/Windows/(?:control\.ini|hh\.dat|mapiuid\.ini|Reg Save Log\.txt)$" = "Override"
+
+
+
+[Registry]
+;;=============================================================
+;; Keep       - Use template key section
+;; Override   - Use user current key section
+;; Merge      - Default. Merge two section, user current values
+                override template
+
+"^Software\\\\Wine\\\\DllOverrides$" = "Keep"
+"^Software\\\\Wine\\\\Fonts\\\\Replacements$" = "Keep"
+
+```
