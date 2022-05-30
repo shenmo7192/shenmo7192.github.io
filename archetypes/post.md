@@ -1,6 +1,6 @@
 ---
 title: {{ replace .TranslationBaseName "-" " " | title }}
-author: shenmo
+date: {{ .Date }}
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site
 # cover: /img/Icey-view.png
@@ -13,7 +13,6 @@ tags:
 # nolastmod: true
 draft: false
 ---
-发布时间： {{ .Date }}
 
 这里输入的内容会出现在主页也在正文里
 
