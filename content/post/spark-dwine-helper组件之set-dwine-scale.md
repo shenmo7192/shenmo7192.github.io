@@ -77,6 +77,7 @@ env WINEPREFIX="$CONTAINER_PATH" $APPRUN_CMD reg ADD 'HKCU\Control Panel\Desktop
 在`HKEY_CURRENT_USER\Control Panel\Desktop`和`HKEY_CURRENT_USER\Software\Wine\Fonts`中，以DWORD储存
 
 ![enter description here](https://xiaoshujiang-shenmo.oss-accelerate.aliyuncs.com/小书匠/1653895721239.png)
+
 替换为指定的值
 
 ```bash
