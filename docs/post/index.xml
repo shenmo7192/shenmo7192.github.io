@@ -9,6 +9,26 @@
     <copyright>本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</copyright>
     <lastBuildDate>Thu, 19 May 2022 16:09:21 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>删除所有git历史记录</title>
+      <link>https://shenmo7192.gitee.io/post/%E5%88%A0%E9%99%A4%E6%89%80%E6%9C%89git%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Mon, 30 May 2022 12:42:17 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E5%88%A0%E9%99%A4%E6%89%80%E6%9C%89git%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/</guid>
+      <description>&lt;p&gt;发布时间： 2022-05-19T16:00:37+08:00&lt;/p&gt;
+&lt;p&gt;原文链接：https://blog.csdn.net/yc1022/article/details/56487680&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>替换jsdelivr等迁移操作</title>
+      <link>https://shenmo7192.gitee.io/post/%E6%9B%BF%E6%8D%A2jsdelivr/</link>
+      <pubDate>Mon, 30 May 2022 12:42:17 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E6%9B%BF%E6%8D%A2jsdelivr/</guid>
+      <description>&lt;p&gt;发布时间： 2022-05-19T14:40:18+08:00&lt;/p&gt;
+&lt;p&gt;这里输入的内容会出现在主页也在正文里&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Deepin Wine6的run_v4脚本探索——更新系统</title>
       <link>https://shenmo7192.gitee.io/post/deepin-wine6%E7%9A%84run_v4%E8%84%9A%E6%9C%AC%E6%8E%A2%E7%B4%A2/</link>
       <pubDate>Sun, 29 May 2022 20:07:18 +0800</pubDate>
@@ -271,16 +291,6 @@
     </item>
     
     <item>
-      <title>删除所有git历史记录</title>
-      <link>https://shenmo7192.gitee.io/post/%E5%88%A0%E9%99%A4%E6%89%80%E6%9C%89git%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/</link>
-      <pubDate>Thu, 19 May 2022 16:09:21 +0800</pubDate>
-      
-      <guid>https://shenmo7192.gitee.io/post/%E5%88%A0%E9%99%A4%E6%89%80%E6%9C%89git%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/</guid>
-      <description>&lt;p&gt;发布时间： 2022-05-19T16:00:37+08:00&lt;/p&gt;
-&lt;p&gt;原文链接：https://blog.csdn.net/yc1022/article/details/56487680&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>劳动教育答案</title>
       <link>https://shenmo7192.gitee.io/post/%E5%8A%B3%E5%8A%A8%E6%95%99%E8%82%B2%E7%AD%94%E6%A1%88/</link>
       <pubDate>Thu, 19 May 2022 16:09:21 +0800</pubDate>
@@ -340,16 +350,6 @@
       <guid>https://shenmo7192.gitee.io/post/%E6%98%9F%E7%81%AB%E5%BE%AE%E4%BF%A1%E5%8E%9F%E7%94%9Flinux2.1.2-1%E7%89%88/</guid>
       <description>&lt;p&gt;发布时间：2022-01-28T15:37:51+08:00&lt;/p&gt;
 &lt;p&gt;优麒麟源的微信Linux更新了，在此同步更新星火版微信Linux&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>替换jsdelivr等迁移操作</title>
-      <link>https://shenmo7192.gitee.io/post/%E6%9B%BF%E6%8D%A2jsdelivr/</link>
-      <pubDate>Thu, 19 May 2022 16:09:21 +0800</pubDate>
-      
-      <guid>https://shenmo7192.gitee.io/post/%E6%9B%BF%E6%8D%A2jsdelivr/</guid>
-      <description>&lt;p&gt;发布时间： 2022-05-19T14:40:18+08:00&lt;/p&gt;
-&lt;p&gt;这里输入的内容会出现在主页也在正文里&lt;/p&gt;</description>
     </item>
     
     <item>
