@@ -26,7 +26,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shenmo7192.gitee.io/post/deepin-wine6%E7%9A%84run_v4%E8%84%9A%E6%9C%AC%E6%8E%A2%E7%B4%A2%E5%90%AF%E5%8A%A8%E6%96%B9%E5%BC%8F/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-05-30T21:33:21+08:00" />
-<meta property="article:modified_time" content="2022-05-30T22:35:15+08:00" />
+<meta property="article:modified_time" content="2022-05-30T22:45:28+08:00" />
 
 
 
@@ -215,12 +215,12 @@ var _hmt = _hmt || [];
                   <span data-format="luxon">2022-05-30T21:33:21&#43;08:00</span>
                 
 
-              | 1 分钟阅读
+              | 2 分钟阅读
 
               
               | 更新于
                 
-                  <span data-format="luxon">2022-05-30T22:35:15&#43;08:00</span>
+                  <span data-format="luxon">2022-05-30T22:45:28&#43;08:00</span>
                 
               
             </span>
@@ -286,6 +286,44 @@ export APPRUN_CMD<span style="color:#f92672">=</span><span style="color:#e6db74"
 </code></pre></div><p>会用 &ldquo;C:/windows/command/start.exe&rdquo; 启动</p>
 <h5 id="22-第四个参数不是unix">2.2 第四个参数不是/Unix</h5>
 <p>进入case阶段</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#66d9ef">case</span> $4 in
+	<span style="color:#e6db74">&#34;-r&#34;</span> | <span style="color:#e6db74">&#34;--reset&#34;</span><span style="color:#f92672">)</span>
+		ResetApp
+		;;
+	<span style="color:#e6db74">&#34;-c&#34;</span> | <span style="color:#e6db74">&#34;--create&#34;</span><span style="color:#f92672">)</span>
+		CreateBottle
+		;;
+	<span style="color:#e6db74">&#34;-e&#34;</span> | <span style="color:#e6db74">&#34;--remove&#34;</span><span style="color:#f92672">)</span>
+		RemoveApp
+		;;
+	<span style="color:#e6db74">&#34;-u&#34;</span> | <span style="color:#e6db74">&#34;--uri&#34;</span><span style="color:#f92672">)</span>
+        ParseArgs <span style="color:#e6db74">&#34;</span>$@<span style="color:#e6db74">&#34;</span>
+		;;
+	<span style="color:#e6db74">&#34;-f&#34;</span> | <span style="color:#e6db74">&#34;--file&#34;</span><span style="color:#f92672">)</span>
+        ParseArgs <span style="color:#e6db74">&#34;</span>$@<span style="color:#e6db74">&#34;</span>
+		;;
+	<span style="color:#e6db74">&#34;-h&#34;</span> | <span style="color:#e6db74">&#34;--help&#34;</span><span style="color:#f92672">)</span>
+		HelpApp
+		;;
+	*<span style="color:#f92672">)</span>
+		echo <span style="color:#e6db74">&#34;Invalid option: </span>$4<span style="color:#e6db74">&#34;</span>
+		echo <span style="color:#e6db74">&#34;Use -h|--help to get help&#34;</span>
+		exit <span style="color:#ae81ff">1</span>
+		;;
+</code></pre></div><p>-r是重置，-c是创建，-e是删除，-u和-f都会转到参数分析</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">ParseArgs<span style="color:#f92672">()</span>
+<span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> $# -eq <span style="color:#ae81ff">4</span> <span style="color:#f92672">]</span>;<span style="color:#66d9ef">then</span>
+	    RunApp <span style="color:#e6db74">&#34;</span>$3<span style="color:#e6db74">&#34;</span>
+    <span style="color:#66d9ef">elif</span> <span style="color:#f92672">[</span> $# -eq <span style="color:#ae81ff">5</span> <span style="color:#f92672">]</span>;<span style="color:#66d9ef">then</span>
+	    RunApp <span style="color:#e6db74">&#34;</span>$3<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#34;</span>$5<span style="color:#e6db74">&#34;</span>
+    <span style="color:#66d9ef">else</span>
+	    RunApp <span style="color:#e6db74">&#34;</span>$3<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#34;</span>$5<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#34;</span>$6<span style="color:#e6db74">&#34;</span>
+    <span style="color:#66d9ef">fi</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>嘛，反正就是把第四个跳过</p>
+<p>这个更优雅的方法应该是把<code>$@</code>输入到一个列表里，然后再从里面删除一个元素，接着放这里</p>
+<p>不过，又不是不能用&hellip;.</p>
 <h3 id="源码片段">源码片段：</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">
 BOTTLENAME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">&#34;</span>
