@@ -86,6 +86,51 @@ fi
 ##### 2.2 第四个参数不是/Unix
 
 进入case阶段
+```bash
+case $4 in
+	"-r" | "--reset")
+		ResetApp
+		;;
+	"-c" | "--create")
+		CreateBottle
+		;;
+	"-e" | "--remove")
+		RemoveApp
+		;;
+	"-u" | "--uri")
+        ParseArgs "$@"
+		;;
+	"-f" | "--file")
+        ParseArgs "$@"
+		;;
+	"-h" | "--help")
+		HelpApp
+		;;
+	*)
+		echo "Invalid option: $4"
+		echo "Use -h|--help to get help"
+		exit 1
+		;;
+```
+
+-r是重置，-c是创建，-e是删除，-u和-f都会转到参数分析
+```bash
+ParseArgs()
+{
+    if [ $# -eq 4 ];then
+	    RunApp "$3"
+    elif [ $# -eq 5 ];then
+	    RunApp "$3" "$5"
+    else
+	    RunApp "$3" "$5" "$6"
+    fi
+}
+```
+嘛，反正就是把第四个跳过
+
+这个更优雅的方法应该是把`$@`输入到一个列表里，然后再从里面删除一个元素，接着放这里
+
+不过，又不是不能用....
 
 
 
