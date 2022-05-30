@@ -9,7 +9,7 @@ avatar: /img/avatar.jpeg
 categories:
   - 啥都有
 tags:
-  - 折腾日记
+  - 折腾博客
 # nolastmod: true
 draft: false
 ---
