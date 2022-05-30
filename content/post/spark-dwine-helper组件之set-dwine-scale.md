@@ -27,7 +27,7 @@ draft: false
 ---
 
 
-位置：https://gitee.com/deepin-community-store/spark-wine/blob/master/spark-dwine-helper/pkg/opt/durapps/spark-dwine-helper/set-dwine-scale.sh
+位置:  https://gitee.com/deepin-community-store/spark-wine/blob/master/spark-dwine-helper/pkg/opt/durapps/spark-dwine-helper/set-dwine-scale.sh
 
 作用：设置wine容器的缩放
 
