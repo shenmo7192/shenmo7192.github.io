@@ -23,11 +23,11 @@
 
 <meta property="og:title" content="Deepin Wine6的kill.sh脚本探索——可清理残留进程的辅助脚本" />
 <meta property="og:description" content="发布时间： 2022-05-30T18:26:37&#43;08:00
-这里输入的内容会出现在主页也在正文里" />
+对于QQ等退出会残留进程（没有窗口也没有托盘，还在后台跑）的流氓软件，deepin-wine也做了相应的调整，在启动时杀死，防止出错" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shenmo7192.gitee.io/post/deepin-wine6%E7%9A%84kill.sh%E8%84%9A%E6%9C%AC%E6%8E%A2%E7%B4%A2%E5%8F%AF%E6%B8%85%E7%90%86%E6%AE%8B%E7%95%99%E8%BF%9B%E7%A8%8B%E7%9A%84%E8%BE%85%E5%8A%A9%E8%84%9A%E6%9C%AC/" /><meta property="article:section" content="post" />
 
-<meta property="article:modified_time" content="2022-05-30T18:43:02+08:00" />
+<meta property="article:modified_time" content="2022-05-30T18:47:36+08:00" />
 
 
 
@@ -35,7 +35,7 @@
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Deepin Wine6的kill.sh脚本探索——可清理残留进程的辅助脚本"/>
 <meta name="twitter:description" content="发布时间： 2022-05-30T18:26:37&#43;08:00
-这里输入的内容会出现在主页也在正文里"/>
+对于QQ等退出会残留进程（没有窗口也没有托盘，还在后台跑）的流氓软件，deepin-wine也做了相应的调整，在启动时杀死，防止出错"/>
 
 
 <link rel="stylesheet" href="https://unpkg.com/semantic-ui@2.4.2/dist/semantic.min.css">
@@ -203,7 +203,7 @@ var _hmt = _hmt || [];
               
 
               | 
-                  <span data-format="luxon">2022-05-30T18:43:02&#43;08:00</span>
+                  <span data-format="luxon">2022-05-30T18:47:36&#43;08:00</span>
                 
 
               | 1 分钟阅读
@@ -211,7 +211,7 @@ var _hmt = _hmt || [];
               
               | 更新于
                 
-                  <span data-format="luxon">2022-05-30T18:43:02&#43;08:00</span>
+                  <span data-format="luxon">2022-05-30T18:47:36&#43;08:00</span>
                 
               
             </span>
@@ -225,8 +225,28 @@ var _hmt = _hmt || [];
         
 
         <p>发布时间： 2022-05-30T18:26:37+08:00</p>
-<p>这里输入的内容会出现在主页也在正文里</p>
-<p>这里是正文开始的内容</p>
+<p>对于QQ等退出会残留进程（没有窗口也没有托盘，还在后台跑）的流氓软件，deepin-wine也做了相应的调整，在启动时杀死，防止出错</p>
+<p>位置：/opt/deepinwine/tools/kill.sh</p>
+<p>行为：</p>
+<ul>
+<li>在没有任何参数时，杀死QQ进程</li>
+<li>接收到参数时，会寻找第一个参数对应的容器名(在一系列骚操作下，懒得分析了，管他的，好用就完了)，找到进程，然后杀死</li>
+<li>如果存在第二个参数，如果第二个参数为<code>block</code>，会检测是不是正在残留进程（如果被标注的bottle不活跃(没有Window，也没有托盘)则认为是残留；如果发现这个bottle有Window或者托盘，则认为这是活跃中的应用，不是残留进程），则尝试杀死。</li>
+</ul>
+<p>用例：在<code>run_v4.sh</code>中，如果发现应用容器为<code>Deepin-WXWork&quot;</code>，则执行<code>CallWXWork()</code>，代码片段如下</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">CallWXWork<span style="color:#f92672">()</span>
+<span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> <span style="color:#e6db74">&#34;autostart&#34;</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;</span>$1<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
+        env WINEPREFIX<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$WINEPREFIX<span style="color:#e6db74">&#34;</span> $WINE_CMD /opt/deepinwine/tools/startbottle.exe &amp;
+    <span style="color:#66d9ef">else</span>
+        /opt/deepinwine/tools/kill.sh WXWork.exe block
+
+        env WINEPREFIX<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$WINEPREFIX<span style="color:#e6db74">&#34;</span> $WINE_CMD <span style="color:#e6db74">&#34;c:\\Program Files\\WXWork\\WXWork.exe&#34;</span> &amp;
+    <span style="color:#66d9ef">fi</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>如果是自动启动，则直接打开</p>
+<p>如果不是，先杀死残留进程（如果有）再执行启动</p>
+<p>以此原理，在spark_run_v4.sh中添加这样的<code>case</code>+Call启动，即可做到对星火wine应用的定制化启动，比如以后可以在星火的QQ启动脚本中添加此功能</p>
       </article>
     </section>
 
