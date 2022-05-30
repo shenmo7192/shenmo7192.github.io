@@ -192,4 +192,4 @@ esac
 exit 0
 ```
 
-完整脚本请看：
+完整脚本请看： https://gitee.com/deepin-community-store/spark-wine/blob/b1e08edfbe25c3e53716efe8039b1227d0e25989/spark-dwine-helper/dwine-helper-backup/run_v4.sh
