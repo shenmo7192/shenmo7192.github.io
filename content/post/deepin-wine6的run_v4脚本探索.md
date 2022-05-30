@@ -7,7 +7,7 @@ avatar: /img/avatar.jpeg
 # images:
 #   - /img/cover.jpg
 categories:
-  - 啥都有
+  - spark-dwine-helper文档
 tags:
   - linux
 # nolastmod: true
