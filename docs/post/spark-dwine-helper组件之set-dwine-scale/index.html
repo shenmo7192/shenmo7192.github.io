@@ -26,7 +26,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shenmo7192.gitee.io/post/spark-dwine-helper%E7%BB%84%E4%BB%B6%E4%B9%8Bset-dwine-scale/" /><meta property="article:section" content="post" />
 
-<meta property="article:modified_time" content="2022-05-30T23:36:05+08:00" />
+<meta property="article:modified_time" content="2022-05-31T01:03:14+08:00" />
 
 
 
@@ -201,7 +201,7 @@ var _hmt = _hmt || [];
               
 
               | 
-                  <span data-format="luxon">2022-05-30T23:36:05&#43;08:00</span>
+                  <span data-format="luxon">2022-05-31T01:03:14&#43;08:00</span>
                 
 
               | 1 分钟阅读
@@ -209,7 +209,7 @@ var _hmt = _hmt || [];
               
               | 更新于
                 
-                  <span data-format="luxon">2022-05-30T23:36:05&#43;08:00</span>
+                  <span data-format="luxon">2022-05-31T01:03:14&#43;08:00</span>
                 
               
             </span>
@@ -260,9 +260,9 @@ var _hmt = _hmt || [];
     esac
 echo &quot;用$APPRUN_CMD执行指令&quot;
 echo &quot;指令为&quot;
-echo &quot;env WINEPREFIX=&quot;$CONTAINER_PATH&quot; $APPRUN_CMD reg ADD 'HKCU\Control Panel\Desktop' LogPixels REG_DWORD $dpi&quot;
+echo &quot;env WINEPREFIX=&quot;$CONTAINER_PATH&quot; $APPRUN_CMD reg ADD 'HKCU\Control Panel\Desktop' /v LogPixels /t REG_DWORD /d $dpi /f&quot;
 
-env WINEPREFIX=&quot;$CONTAINER_PATH&quot; $APPRUN_CMD reg ADD 'HKCU\Control Panel\Desktop' LogPixels REG_DWORD $dpi
+env WINEPREFIX=&quot;$CONTAINER_PATH&quot; $APPRUN_CMD reg ADD 'HKCU\Control Panel\Desktop' /v LogPixels /t REG_DWORD /d $dpi /f
 
 </code></pre><p>读取并按对应的值替换注册表键值
 在<code>HKEY_CURRENT_USER\Control Panel\Desktop</code>和<code>HKEY_CURRENT_USER\Software\Wine\Fonts</code>中，以DWORD储存</p>
