@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>折腾博客 on shenmo的世界</title>
+    <link>https://shenmo7192.gitee.io/tags/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</link>
+    <description>Recent content in 折腾博客 on shenmo的世界</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</copyright>
+    <lastBuildDate>Mon, 30 May 2022 12:42:17 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/tags/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>删除所有git历史记录</title>
+      <link>https://shenmo7192.gitee.io/post/%E5%88%A0%E9%99%A4%E6%89%80%E6%9C%89git%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/</link>
+      <pubDate>Mon, 30 May 2022 12:42:17 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E5%88%A0%E9%99%A4%E6%89%80%E6%9C%89git%E5%8E%86%E5%8F%B2%E8%AE%B0%E5%BD%95/</guid>
+      <description>&lt;p&gt;发布时间： 2022-05-19T16:00:37+08:00&lt;/p&gt;
+&lt;p&gt;原文链接：https://blog.csdn.net/yc1022/article/details/56487680&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>替换jsdelivr等迁移操作</title>
+      <link>https://shenmo7192.gitee.io/post/%E6%9B%BF%E6%8D%A2jsdelivr/</link>
+      <pubDate>Mon, 30 May 2022 12:42:17 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E6%9B%BF%E6%8D%A2jsdelivr/</guid>
+      <description>&lt;p&gt;发布时间： 2022-05-19T14:40:18+08:00&lt;/p&gt;
+&lt;p&gt;这里输入的内容会出现在主页也在正文里&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rocket.Chat 常用配置</title>
+      <link>https://shenmo7192.gitee.io/post/rocket.chat-%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Thu, 19 May 2022 16:09:21 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/rocket.chat-%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/</guid>
+      <description>&lt;p&gt;发布时间： 2022-04-20T15:19:39+08:00&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>解决hugo无法使用git提交时间作为更新时间</title>
+      <link>https://shenmo7192.gitee.io/post/%E8%A7%A3%E5%86%B3hugo%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8git%E6%8F%90%E4%BA%A4%E6%97%B6%E9%97%B4%E4%BD%9C%E4%B8%BA%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4/</link>
+      <pubDate>Fri, 04 Mar 2022 11:04:56 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E8%A7%A3%E5%86%B3hugo%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8git%E6%8F%90%E4%BA%A4%E6%97%B6%E9%97%B4%E4%BD%9C%E4%B8%BA%E6%9B%B4%E6%96%B0%E6%97%B6%E9%97%B4/</guid>
+      <description>&lt;p&gt;在此之前我一直以为是&lt;code&gt;dream theme&lt;/code&gt;不支持git date作为修改日期，提了issue，直到&amp;hellip;&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>修复火狐b站加载卡顿</title>
+      <link>https://shenmo7192.gitee.io/post/%E4%BF%AE%E5%A4%8D%E7%81%AB%E7%8B%90b%E7%AB%99%E5%8A%A0%E8%BD%BD%E5%8D%A1%E9%A1%BF/</link>
+      <pubDate>Thu, 25 Nov 2021 15:35:15 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E4%BF%AE%E5%A4%8D%E7%81%AB%E7%8B%90b%E7%AB%99%E5%8A%A0%E8%BD%BD%E5%8D%A1%E9%A1%BF/</guid>
+      <description>&lt;p&gt;打开&lt;code&gt;about:config&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>火狐浏览器国际版启动双击关闭标签页等中国版功能</title>
+      <link>https://shenmo7192.gitee.io/post/%E7%81%AB%E7%8B%90%E6%B5%8F%E8%A7%88%E5%99%A8%E5%90%AF%E5%8A%A8%E5%8F%8C%E5%87%BB%E5%85%B3%E9%97%AD%E6%A0%87%E7%AD%BE%E9%A1%B5%E7%AD%89%E4%BC%98%E5%8C%96%E5%8A%9F%E8%83%BD/</link>
+      <pubDate>Thu, 18 Nov 2021 21:03:54 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E7%81%AB%E7%8B%90%E6%B5%8F%E8%A7%88%E5%99%A8%E5%90%AF%E5%8A%A8%E5%8F%8C%E5%87%BB%E5%85%B3%E9%97%AD%E6%A0%87%E7%AD%BE%E9%A1%B5%E7%AD%89%E4%BC%98%E5%8C%96%E5%8A%9F%E8%83%BD/</guid>
+      <description>&lt;p&gt;之前一直依赖火狐中国版的插件做到：最后一个标签页关闭后不关闭浏览器，双击关闭标签页，快捷轮换标签页而不是一直往下走，恢复刚关闭的网页，二维码分享网页等功能，现在通过替代扩展和修改&lt;code&gt;about:config&lt;/code&gt;实现了&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如何在新版手机版火狐(firefox Android) 上使用扩展</title>
+      <link>https://shenmo7192.gitee.io/post/%E5%A6%82%E4%BD%95%E5%9C%A8%E6%96%B0%E7%89%88%E5%AE%89%E5%8D%93%E7%81%AB%E7%8B%90%E4%B8%8A%E4%BD%BF%E7%94%A8%E6%89%A9%E5%B1%95/</link>
+      <pubDate>Thu, 18 Nov 2021 20:29:57 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E5%A6%82%E4%BD%95%E5%9C%A8%E6%96%B0%E7%89%88%E5%AE%89%E5%8D%93%E7%81%AB%E7%8B%90%E4%B8%8A%E4%BD%BF%E7%94%A8%E6%89%A9%E5%B1%95/</guid>
+      <description>&lt;p&gt;一切的起源是我在旧手机上起了个文件服务器&amp;hellip;..&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>微软在最新的Windows中强制使用Edge浏览器打开链接</title>
+      <link>https://shenmo7192.gitee.io/post/%E5%BE%AE%E8%BD%AF%E5%9C%A8%E6%9C%80%E6%96%B0%E7%9A%84windows%E4%B8%AD%E5%BC%BA%E5%88%B6%E4%BD%BF%E7%94%A8edge%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%93%E5%BC%80%E9%93%BE%E6%8E%A5/</link>
+      <pubDate>Sun, 14 Nov 2021 19:51:42 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E5%BE%AE%E8%BD%AF%E5%9C%A8%E6%9C%80%E6%96%B0%E7%9A%84windows%E4%B8%AD%E5%BC%BA%E5%88%B6%E4%BD%BF%E7%94%A8edge%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%93%E5%BC%80%E9%93%BE%E6%8E%A5/</guid>
+      <description>&lt;p&gt;在最新的Windows 11预览版本中，News, Search, and Weather应用被强制使用Edge打开&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>旧手机网盘计划成功</title>
+      <link>https://shenmo7192.gitee.io/post/%E6%97%A7%E6%89%8B%E6%9C%BA%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%E6%88%90%E5%8A%9F/</link>
+      <pubDate>Wed, 03 Nov 2021 22:07:26 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E6%97%A7%E6%89%8B%E6%9C%BA%E7%BD%91%E7%9B%98%E8%AE%A1%E5%88%92%E6%88%90%E5%8A%9F/</guid>
+      <description>&lt;p&gt;旧手机在手，心里痒痒，不知道要干啥好，之前的旧手机网盘计划由于不熟悉环境搭建夭折了，这回我想再发起冲击，没想到居然成了&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2021.11.1 又折腾了一下mirai</title>
+      <link>https://shenmo7192.gitee.io/post/2021.11.1-%E5%8F%88%E6%8A%98%E8%85%BE%E4%B8%80%E4%B8%8Bmirai/</link>
+      <pubDate>Mon, 01 Nov 2021 19:46:35 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/2021.11.1-%E5%8F%88%E6%8A%98%E8%85%BE%E4%B8%80%E4%B8%8Bmirai/</guid>
+      <description>&lt;p&gt;书接上文，在暑假期间我曾经折腾了一阵mirai机器人&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>继续美化blog  友链</title>
+      <link>https://shenmo7192.gitee.io/post/%E7%BB%A7%E7%BB%AD%E7%BE%8E%E5%8C%96blog-%E5%8F%8B%E9%93%BE/</link>
+      <pubDate>Sun, 10 Oct 2021 20:35:46 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E7%BB%A7%E7%BB%AD%E7%BE%8E%E5%8C%96blog-%E5%8F%8B%E9%93%BE/</guid>
+      <description>&lt;p&gt;已经在QQ空间里发布了链接，互加友链的请求就来了。然而，我的博客主题不支持友链，也就是说，我还是需要手改主题&amp;hellip;&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于折腾Valine第三期：完全的自定义</title>
+      <link>https://shenmo7192.gitee.io/post/%E5%85%B3%E4%BA%8E%E6%8A%98%E8%85%BEvaline%E7%AC%AC%E4%B8%89%E6%9C%9F%E5%AE%8C%E5%85%A8%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89/</link>
+      <pubDate>Sun, 10 Oct 2021 16:06:14 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E5%85%B3%E4%BA%8E%E6%8A%98%E8%85%BEvaline%E7%AC%AC%E4%B8%89%E6%9C%9F%E5%AE%8C%E5%85%A8%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89/</guid>
+      <description>&lt;p&gt;之前尝试了修改&lt;code&gt;bilibili-img.js&lt;/code&gt;来添加更多表情包，成功了&lt;/p&gt;
+&lt;p&gt;但是，当尝试更多参数（比如说placeholder和QQ解析）时，出现了奇怪的症状&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>开始折腾Valine美化第二期</title>
+      <link>https://shenmo7192.gitee.io/post/%E5%BC%80%E5%A7%8B%E6%8A%98%E8%85%BEvaline%E7%BE%8E%E5%8C%96%E7%AC%AC%E4%BA%8C%E6%9C%9F/</link>
+      <pubDate>Sat, 09 Oct 2021 12:01:32 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E5%BC%80%E5%A7%8B%E6%8A%98%E8%85%BEvaline%E7%BE%8E%E5%8C%96%E7%AC%AC%E4%BA%8C%E6%9C%9F/</guid>
+      <description>&lt;p&gt;首先我们看看刚才那个博文有用的地方（上一集传送门：&lt;a href=&#34;https://shenmo7192.gitee.io/post/%E5%B0%9D%E8%AF%95%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E6%97%B6%E7%9A%84%E7%81%B5%E6%84%9F/&#34;&gt;点我&lt;/a&gt;）&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>尝试插入音乐时的灵感</title>
+      <link>https://shenmo7192.gitee.io/post/%E5%B0%9D%E8%AF%95%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E6%97%B6%E7%9A%84%E7%81%B5%E6%84%9F/</link>
+      <pubDate>Sat, 09 Oct 2021 11:14:39 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E5%B0%9D%E8%AF%95%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E6%97%B6%E7%9A%84%E7%81%B5%E6%84%9F/</guid>
+      <description>&lt;p&gt;昨晚写博客的时候，想要插入一段音频&amp;hellip;&amp;hellip;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于折腾Hugo和Valine和Qmsg这档子事</title>
+      <link>https://shenmo7192.gitee.io/post/%E5%85%B3%E4%BA%8E%E6%8A%98%E8%85%BEvaline%E5%92%8Cqmsg%E8%BF%99%E6%A1%A3%E5%AD%90%E4%BA%8B/</link>
+      <pubDate>Fri, 08 Oct 2021 21:49:34 +0800</pubDate>
+      
+      <guid>https://shenmo7192.gitee.io/post/%E5%85%B3%E4%BA%8E%E6%8A%98%E8%85%BEvaline%E5%92%8Cqmsg%E8%BF%99%E6%A1%A3%E5%AD%90%E4%BA%8B/</guid>
+      <description>&lt;p&gt;经过了昨天的折腾，我总算选定了hugo作为我的博客生成器&lt;/p&gt;
+&lt;p&gt;原因很简单，在Windows上，Hexo需要装一整个nodejs环境，而hugo是go写成的，不仅执行效率高，而且文件小，单个文件不到100M，直接就可以使用&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
