@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>通过热区唤出侧边栏的折腾实践 | shenmo的世界</title>
+    
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+
+
+
+<meta name="author" content="shenmo" />
+<meta name="description" content="shenmo的世界：是一个普通人用来记录生活，记录折腾历程，还有些杂七杂八的随感的地方" />
+
+
+
+<meta name="generator" content="Hugo 0.90.0" />
+
+<link rel="canonical" href="https://shenmo7192.gitee.io/post/linux-desktop-hotspot/" />
+
+
+<meta property="og:title" content="通过热区唤出侧边栏的折腾实践" />
+<meta property="og:description" content="最开始把Linux当做主力系统是deepin 15.9，本人是非常习惯热区操作的
+什么是热区呢？就是屏幕四个角用鼠标戳的时候进行某些操作" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://shenmo7192.gitee.io/post/linux-desktop-hotspot/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-10-08T12:29:20+08:00" />
+<meta property="article:modified_time" content="2022-05-19T16:09:21+08:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="通过热区唤出侧边栏的折腾实践"/>
+<meta name="twitter:description" content="最开始把Linux当做主力系统是deepin 15.9，本人是非常习惯热区操作的
+什么是热区呢？就是屏幕四个角用鼠标戳的时候进行某些操作"/>
+
+
+<link rel="stylesheet" href="https://unpkg.com/semantic-ui@2.4.2/dist/semantic.min.css">
+<link rel="stylesheet" href="/css/icomoon.css" />
+<link rel="stylesheet" href="https://unpkg.com/overlayscrollbars@1.13.1/css/OverlayScrollbars.min.css">
+<link rel="stylesheet" href="https://unpkg.com/github-markdown-css@4.0.0/github-markdown.css">
+<link rel="stylesheet" href="/css/site.css" />
+
+<style>
+  .ui.header a:not(.item, .ui.button):hover {
+    text-decoration: underline;
+  }
+
+  
+  a:not(.item, .ui.button) {
+    color: seagreen !important;
+  }
+  
+
+  
+  .inverted a:not(.item, .ui.button) {
+     color: darkseagreen !important;
+  }
+  
+
+  
+  body.default {
+    
+    background-color: #f7f7f7;
+    
+
+    
+    background-image: url(https://s4.ax1x.com/2022/03/04/bUV2tS.png);
+    
+  }
+  
+
+  
+  body.dark {
+    
+    background-color: black;
+    
+
+    
+    background-image: url(https://s4.ax1x.com/2022/03/04/bUV46s.jpg);
+    
+  }
+  
+</style>
+
+
+    
+
+
+
+<link rel="stylesheet" data-highlight href="https://shenmo7192.gitee.io/cdn-release/build/styles/gruvbox-light.min.css" />
+
+
+
+
+
+
+
+
+	
+
+
+        <script src='//shenmo7192.gitee.io/valine-hclonely//dist/Valine.min.js'></script>
+
+	
+	
+
+
+
+
+
+
+
+    
+    <link rel="stylesheet" href="/live2d-widget-left-and-right/fontawesome/css/all.min.css" />
+    
+    <link rel="stylesheet" href="/css/amber-icon.css" />
+    
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?3d70b01070747130571116f0bc67baa9";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+
+  </head>
+
+  <body class="default">
+    
+<nav class="ui secondary menu dream-menu dream-nav">
+
+  <a class="item dream-flip-toggle" title="翻转！">
+    <i class="large link bullseye icon"></i>
+  </a>
+  <a class="item" href="https://shenmo7192.gitee.io" title="首页">
+    <i class="large link home icon"></i>
+  </a>
+  
+  <a class="item" onclick="themeSwitch(event)">
+    <i class="large link icon theme-switch"></i>
+  </a>
+  
+  
+  <a class="item" title="搜索" onclick="toggleSearch(event)">
+    <i class="large link search icon"></i>
+  </a>
+  
+</nav>
+
+    <div class="flip-container">
+      <div class="flipper">
+        <section class="front">
+          <div class="dream-max-width">
+            
+<div class="ui relaxed centered grid dream-grid dream-grid-single"style="flex-direction: row-reverse;">
+  
+  
+  
+  
+
+  
+  <aside class="sixteen wide mobile sixteen wide tablet three wide computer column dream-single-aside">
+    
+
+    
+    <div class="ui segment">
+  <button
+    class="ui circular icon button save-as-image"
+    title="保存为图片"
+    onclick="savePostAsImg()">
+    <i class="save icon"></i>
+  </button>
+  <a href="https://twitter.com/intent/tweet?text=%e9%80%9a%e8%bf%87%e7%83%ad%e5%8c%ba%e5%94%a4%e5%87%ba%e4%be%a7%e8%be%b9%e6%a0%8f%e7%9a%84%e6%8a%98%e8%85%be%e5%ae%9e%e8%b7%b5&url=https%3a%2f%2fshenmo7192.gitee.io%2fpost%2flinux-desktop-hotspot%2f" class="ui circular twitter icon button">
+    <i class="twitter icon"></i>
+  </a>
+  <a href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fshenmo7192.gitee.io%2fpost%2flinux-desktop-hotspot%2f" class="ui circular facebook icon button">
+    <i class="facebook icon"></i>
+  </a>
+</div>
+
+    
+  </aside>
+  
+  <div class="sixteen wide mobile sixteen wide tablet ten wide computer column markdown-body dream-single" id="dream-save-post-as-img">
+    <section class="ui top attached segment">
+      <header>
+        <h1 class="ui large header">通过热区唤出侧边栏的折腾实践<span class="sub header">
+            <span class="left">
+              @
+              
+                
+                  shenmo
+                
+              
+
+              | 
+                  <span data-format="luxon">2021-10-08T12:29:20&#43;08:00</span>
+                
+
+              | 2 分钟阅读
+
+              
+              | 更新于
+                
+                  <span data-format="luxon">2022-05-19T16:09:21&#43;08:00</span>
+                
+              
+            </span>
+
+            
+          </span>
+        </h1>
+      </header>
+
+      <article class="main">
+        
+        <img class="cover" src="https://z3.ax1x.com/2021/10/02/4bdqJK.gif" />
+        
+
+        <p>最开始把Linux当做主力系统是deepin 15.9，本人是非常习惯热区操作的
+什么是热区呢？就是屏幕四个角用鼠标戳的时候进行某些操作</p>
+<p>deepin的一个经典操作就是猛戳右下角出控制中心</p>
+<p>然而，后来在某些客户的要求下，热区被关闭了</p>
+<p>一直到后来某个版本开始，甚至每次启动dde-kwin都会强制覆盖kwinrc文件来防止手动开启热区……</p>
+<p>现在主力换成uk之后，发现麒麟的侧边栏设计比dde的侧边栏控制中心好很多，侧边栏只保留一个通知栏，下方有好用的widget和剪贴板（这个剪贴板操作手感比dde的那个强太多了）</p>
+<p>相比于dde单独拉出一个窗口放剪贴板，单独做一个通知列表，我个人认为ukui的设计是更好的</p>
+<p>我查了下快捷键，win+a是唤出侧边栏，心中狂喜</p>
+<p>然后踩坑了。。。</p>
+<p>不知为何ukui的快捷键很不灵敏，甚至包括win键单独按，很多时候就是不能唤起</p>
+<p>我在想要拉起侧边栏的时候，总是输入一个a……</p>
+<p>总是拉不起来，这是很难受的</p>
+<p>而如果可以通过热区来唤起，是不是会非常方便呢？直接把鼠标华丽地甩到右下角，突突！侧边栏出来了</p>
+<p>既然dde-kwin实现了，那ukui-kwin没道理不能实现啊</p>
+<p>所以第一步，拿出我们的老朋友</p>
+<p><code>sudo apt install systemsettings</code></p>
+<p>下载kde系统设置</p>
+<p><img src="https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633670043825.png" alt=""></p>
+<p>打开后找到</p>
+<p>工作空间行为——&gt;屏幕边缘</p>
+<p><img src="https://gitee.com/shenmo7192/shenmo-map-bed/raw/master/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1633670043845.png" alt=""></p>
+<p>右下角戳一下，随便选一个效果，然后apply</p>
+<p>你猜怎么着？起效了！</p>
+<p>接下来我要做的很简单了，找到~/.config/kwinrc，找到对应行并修改即可</p>
+<p>接下来踩到了第一个坑</p>
+<p>根本没有这个文件！</p>
+<p>随后发现ukui把kwin的config文件改名为ukui-kwinrc了。。。（汗）</p>
+<p>更改后</p>
+<pre tabindex="0"><code>[ElectricBorders]
+Bottom=None
+BottomLeft=None
+BottomRight=ukui-sidebar
+Left=None
+Right=None
+Top=None
+TopLeft=None
+TopRight=None
+
+</code></pre><p>满怀激动地</p>
+<p><code>pkill kwin</code></p>
+<p>然后</p>
+<p><code>kwin</code></p>
+<p>报告未找到命令…..</p>
+<p>啊这？进程名叫kwin，可执行难道是ukui-kwin？</p>
+<p><code>ukui-kwin</code></p>
+<p>启动了…（你说你改这个干啥啊你？）</p>
+<p>再次满怀激动地戳右下角。。。没有反应</p>
+<p>这是为什么呢？我启动了终端，直接在里面输入了</p>
+<p><code>ukui-sidebar</code></p>
+<p>结果如下</p>
+<pre tabindex="0"><code>21-10-02 17:09:53.105 [139927504697600] DEBUG - |PID:47799|main.cpp:69(int main(int, char**))|&quot;ukui-sidebar is already running!&quot;
+21-10-02 17:09:53.107 [139927504697600] WARN - |PID:47799|QFileSystemWatcher::removePaths: list is empty
+21-10-02 17:09:53.107 [139927504697600] WARN - |PID:47799|QFileSystemWatcher::removePaths: list is empty`
+
+</code></pre><blockquote>
+<p><code>ukui-sidebar is already running!</code></p>
+</blockquote>
+<p>看来ukui的侧边栏和dde-control-center一样，是常驻的，需要用参数调出</p>
+<p>这里踩了第二个坑</p>
+<p><code>ukui-sidebar --help</code></p>
+<pre tabindex="0"><code>21-10-02 17:09:53.105 [139927504697600] DEBUG - |PID:47799|main.cpp:69(int main(int, char**))|&quot;ukui-sidebar is already running!&quot;
+21-10-02 17:09:53.107 [139927504697600] WARN - |PID:47799|QFileSystemWatcher::removePaths: list is empty
+21-10-02 17:09:53.107 [139927504697600] WARN - |PID:47799|QFileSystemWatcher::removePaths: list is empty
+
+</code></pre><p>好嘛！干脆不鸟我</p>
+<p>那如果和dde-control-center一样用&ndash;show呢？</p>
+<p>还是不行</p>
+<p>于是我决定用我的三脚猫功夫去扒优麒麟的代码，像Linus说的，Read the fucking source</p>
+<p>在这里</p>
+<p><a href="https://gitee.com/ubuntukylin/ukui-sidebar/blob/Debian/src/main.cpp">https://gitee.com/ubuntukylin/ukui-sidebar/blob/Debian/src/main.cpp</a></p>
+<p>看这行</p>
+<pre tabindex="0"><code>QCommandLineParser parser ; QCommandLineOption debugOption ({ “d” , “debug” }, QObject :: tr ( “Display debug information” )); QCommandLineOption showSidebar ({ “s” , “show” }, QObject :: tr ( “show sidebar widget” ));
+</code></pre><p>也就是说，应该是</p>
+<p><code>ukui-sidebar -s</code></p>
+<p>尝试在终端执行，好耶！拉起来了！！！</p>
+<p>于是快乐地把ukui-kwinrc改成这样了</p>
+<pre tabindex="0"><code>[ElectricBorders]
+Bottom=None
+BottomLeft=None
+BottomRight=&quot;ukui-sidebar -s&quot;
+Left=None
+Right=None
+Top=None
+TopLeft=None
+TopRight=None
+</code></pre><p>重启kwin后，发现</p>
+<p>还是没有卵用….</p>
+<p>难道是我用的不对？</p>
+<p>改成绝对路径</p>
+<pre tabindex="0"><code>[ElectricBorders]
+Bottom=None
+BottomLeft=None
+BottomRight=sh -c &quot;/usr/bin/ukui-sidebar -s&quot;
+Left=None
+Right=None
+Top=None
+TopLeft=None
+TopRight=None
+</code></pre><p>仍旧卵用没有</p>
+<p>上百度查kwinrc的手册</p>
+<p>没有</p>
+<p>bing</p>
+<p>也没有</p>
+<p>Google</p>
+<p>也没有……</p>
+<p>于是现在只剩下一种解决方法了</p>
+<p>那就是</p>
+<p>抄deepin的作业</p>
+<p>下载deepin 15.11版本，这是最后一个经典版本了，还是用的dde-kwin，这正是我想要的</p>
+<p>挂一下squashfs，chroot进live</p>
+<p>看一下os-release，目录切到deepin live了没错</p>
+<p>这时候出了问题</p>
+<p>从15.9开始，dde不再默认启动热区</p>
+<p>也就是说，我必须启动kwin，利用dde的设置启动热区，然后查看kwinrc</p>
+<p>尝试 <code>startx</code>，果然不能用……</p>
+<p>于是重启进入Windows环境，打开livecd</p>
+<p>下一个坑来了：deepin 15.10开始，不再支持livecd试用。。。只能直接安装</p>
+<p>谁等你啊？？？</p>
+<p>于是我尝试切tty2，在deepin 20.1以上版本，这个方法被封死了，live用户也有了登录密码</p>
+<p>直接输入startx</p>
+<p>进入桌面成功</p>
+<p>设置热区，测试可以拉起（OHHHHHHH）</p>
+<p>然后我查看了kwinrc</p>
+<p>看到了这一段</p>
+<pre tabindex="0"><code>[Script-runcommandaction]
+Border3Program=sh -c “dde-control-center –show”
+BorderActivate=,3
+Enabled=true
+</code></pre><p>这啥玩意？“Script-runcommandaction”</p>
+<p>尝试复制到ukui-kwinrc</p>
+<p>果真不能用</p>
+<p>接下来全局搜索deepin live cd下script关键词</p>
+<p>发现kwin scripts目录</p>
+<p>打开一看，看不懂….尝试复制粘贴到ukui同一目录</p>
+<p>重启ukui-kwin，无效…..</p>
+<p>查看deepin-kwin文档</p>
+<p>deepin团队为了适配dde做了一系列兼容工作</p>
+<p>难不成….</p>
+<p>这个热区执行命令的功能</p>
+<p>tmd是deepin团队自己写的？</p>
+<p>啊这。。。。</p>
+<p>眼看着无望，这时候群聊“柚子的朋友们”出现新消息了，开发者放出截图，oh my dde（社区制作的dde美化+优化软件）新版本将加入热区功能</p>
+<p>woc这难道是心有灵犀？</p>
+<p>之前在我最想要动态壁纸的时候，也是这位突然做了一个一只动态壁纸，后来通过魔改dde-desktop成为deepin 20下第一个可用的动态壁纸（现在的动态壁纸方案是另一位开发者做的，原理不相同）</p>
+<p>这也许就是心有灵犀把</p>
+<p>当一个人的愿望强烈到一定程度时，神明的视线就会……启动原神（bushi</p>
+<p>题外话少说，我当即问，dde-kwin已经锁死了kwinrc，你是怎么做的？</p>
+<p>他回答是做了一个独立应用，专门用来检测鼠标位置来实现热区功能</p>
+<p>而且不和oh my dde集成</p>
+<p>这意味着我可以单独抽出这个应用，运行到其他桌面环境！</p>
+<p>理论上，甚至包括Windows！</p>
+<p>马上git clone，找到插件名称</p>
+<p>omd-requ</p>
+<p>吐个槽，这个显然是oh my dde 热区的缩写。。。但是我看了真的瞬间血压升高。。。</p>
+<p>这缩写方式从未见过，英文拼音混输</p>
+<p>人家热区 英文名是<code>ElectricBorders</code></p>
+<p>不管怎么说，直接拉出来就编译</p>
+<p><code>sudo apt install qt5-default g++</code></p>
+<p>编译一次通过，显然没有用到dtk依赖</p>
+<p>启动后没有任何提示….</p>
+<p><code>./omd-requ --help</code></p>
+<p>没有任何提示….（不是你们这样真的好么？只能翻代码？？？）</p>
+<p>翻widget.cpp，发现这东西的配置文件是config.qaq</p>
+<p>.qaq……..这也太可爱了吧！！！！</p>
+<p>就连接受配置文件的变量都叫qaq…..</p>
+<p>改了下配置文件的位置为~/.config/omd-requ/config.bunny（兔兔伯爵，出击！）</p>
+<p>管开发者要了份样本</p>
+<pre tabindex="0"><code>[General]
+LowerLeftShell=
+LowerRightShell=
+TopLeftShell=
+TopRightShell=
+
+</code></pre><p>修改为</p>
+<pre tabindex="0"><code>[General]
+LowerLeftShell=
+LowerRightShell=ukui-sidebar -s
+TopLeftShell=
+TopRightShell=
+</code></pre><p>启动</p>
+<p>戳</p>
+<p>成功！！！</p>
+<p>然鹅，把鼠标戳过去之后不停往外跳sidebar….反复执行</p>
+<p>反馈bug之后开发者快速修复并推送了</p>
+<p>这回就完美了！</p>
+<p>接下来我把配置文件位置修改为在可执行文件的位置即可</p>
+<p>这样方便单独使用</p>
+<p>于是，omd-requ单应用版改制完成！</p>
+<p>后续：为了解决有时窗口无法置顶问题，开发者柚子尝试在kwinrulesrc加入内容</p>
+<p>然后发现ukui很特，它的叫ukui-kwinrulesrc（你没事加这玩意干啥？？）</p>
+<p>所以又开始新一轮踩坑了</p>
+<hr>
+<p>华丽丽的分割线</p>
+<p>我不准备接着踩坑了，因为我换回了deepin</p>
+<p>主要是ukui灾难性的1.25缩放。。。还有怎么也调不明白的热区（在deepin下，oh my dde可以正常工作，热区也在运行，唯一问题就是没有侧边栏。。。）</p>
+<p>ukui下的测试彻底失败了，现在我的omd-requ仓库中的版本根本没法运行，最后还是只有第一个release能用</p>
+<p>最后还是拥抱了dde</p>
+<hr>
+<p>更新：现在dde-kwin也不识别<code>[Script-runcommandaction]</code>了</p>
+<p>允悲</p>
+      </article>
+    </section>
+
+    
+
+    
+
+
+
+    
+    <article class="ui segment" data-html2canvas-ignore>
+      <div id="vcomments"></div>
+    </article>
+
+
+
+
+
+
+
+<script>
+new Valine({
+    el:'#vcomments',
+placeholder: "期待你的回复哦ヽ(✿ﾟ▽ﾟ)ノ\n在邮件栏目填写QQ邮箱或者在昵称栏填写QQ号可以获取QQ头像和昵称哦~\n可以使用markdown哦～",
+enableQQ:true,
+
+    appId:'euHqWEo74Ia7dhJMLhwcqBU8-gzGzoHsz',
+    appKey:'rbHg8yFAvTM0DNkJC1OAyswj',
+verify:true,
+tagMeta:["shenmo","小伙伴","访客"],
+metaPlaceholder:{"nick":"昵称 / QQ 号","mail":"邮箱 (必填)"},
+master:['3868cd2d4052241a00989a589e7fdef3','868f361381a07b9e262cd55cdc349769'],
+friends:[],
+    
+    emojiCDN: '//i0.hdslb.com/bfs/emote/', 
+    
+    emojiMaps: {
+        "tv_doge": "6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png",
+      "tv_亲亲": "a8111ad55953ef5e3be3327ef94eb4a39d535d06.png",
+      "tv_偷笑": "bb690d4107620f1c15cff29509db529a73aee261.png",
+      "tv_再见": "180129b8ea851044ce71caf55cc8ce44bd4a4fc8.png",
+      "tv_冷漠": "b9cbc755c2b3ee43be07ca13de84e5b699a3f101.png",
+      "tv_发怒": "34ba3cd204d5b05fec70ce08fa9fa0dd612409ff.png",
+      "tv_发财": "34db290afd2963723c6eb3c4560667db7253a21a.png",
+      "tv_可爱": "9e55fd9b500ac4b96613539f1ce2f9499e314ed9.png",
+      "tv_吐血": "09dd16a7aa59b77baa1155d47484409624470c77.png",
+      "tv_呆": "fe1179ebaa191569b0d31cecafe7a2cd1c951c9d.png",
+      "tv_呕吐": "9f996894a39e282ccf5e66856af49483f81870f3.png",
+      "tv_困": "241ee304e44c0af029adceb294399391e4737ef2.png",
+      "tv_坏笑": "1f0b87f731a671079842116e0991c91c2c88645a.png",
+      "tv_大佬": "093c1e2c490161aca397afc45573c877cdead616.png",
+      "tv_大哭": "23269aeb35f99daee28dda129676f6e9ea87934f.png",
+      "tv_委屈": "d04dba7b5465779e9755d2ab6f0a897b9b33bb77.png",
+      "tv_害羞": "a37683fb5642fa3ddfc7f4e5525fd13e42a2bdb1.png",
+      "tv_尴尬": "7cfa62dafc59798a3d3fb262d421eeeff166cfa4.png",
+      "tv_微笑": "70dc5c7b56f93eb61bddba11e28fb1d18fddcd4c.png",
+      "tv_思考": "90cf159733e558137ed20aa04d09964436f618a1.png",
+      "tv_惊吓": "0d15c7e2ee58e935adc6a7193ee042388adc22af.png",
+      "tv_打脸": "56ab10b624063e966bfcb76ea5dc4794d87dfd47.png",
+      "tv_抓狂": "fe31c08edad661d63762b04e17b8d5ae3c71a757.png",
+      "tv_抠鼻": "c666f55e88d471e51bbd9fab9bb308110824a6eb.png",
+      "tv_斜眼笑": "911f987aa8bc1bee12d52aafe62bc41ef4474e6c.png",
+      "tv_无奈": "ea8ed89ee9878f2fece2dda0ea8a5dbfe21b5751.png",
+      "tv_晕": "5443c22b4d07fb1907ccc610c8e6db254f2461b7.png",
+      "tv_流汗": "cead1c351ab8d79e9f369605beb90148db0fbed3.png",
+      "tv_流泪": "7e71cde7858f0cd50d74b0264aa26db612a8a167.png",
+      "tv_流鼻血": "c32d39db2737f89b904ca32700d140a9241b0767.png",
+      "tv_点赞": "f85c354995bd99e28fc76c869bfe42ba6438eff4.png",
+      "tv_生气": "26702dcafdab5e8225b43ffd23c94ac1ff932654.png",
+      "tv_生病": "8b0ec90e6b86771092a498c54f09fc94621c1900.png",
+      "tv_疑问": "0793d949b18d7be716078349c202c15ff166f314.png",
+      "tv_白眼": "c1d59f439e379ee50eef488bcb5e5378e5044ea4.png",
+      "tv_皱眉": "72ccad6679fea0d14cce648b4d818e09b8ffea2d.png",
+      "tv_目瞪口呆": "0b8cb81a68de5d5365212c99375e7ace3e7891b7.png",
+      "tv_睡着": "8b196675b53af58264f383c50ad0945048290b33.png",
+      "tv_笑哭": "1abc628f6d4f4caf9d0e7800878f4697abbc8273.png",
+      "tv_腼腆": "89712c0d4af73e67f89e35cbc518420380a7f6f4.png",
+      "tv_色": "61822c7e9aae5da76475e7892534545336b23a6f.png",
+      "tv_调侃": "4bc022533ef31544ca0d72c12c808cf4a1cce3e3.png",
+      "tv_调皮": "b9c41de8e82dd7a8515ae5e3cb63e898bf245186.png",
+      "tv_鄙视": "6e72339f346a692a495b123174b49e4e8e781303.png",
+      "tv_闭嘴": "c9e990da7f6e93975e25fd8b70e2e290aa4086ef.png",
+      "tv_难过": "87f46748d3f142ebc6586ff58860d0e2fc8263ba.png",
+      "tv_馋": "fc7e829b845c43c623c8b490ee3602b7f0e76a31.png",
+      "tv_鬼脸": "0ffbbddf8a94d124ca2f54b360bbc04feb6bbfea.png",
+      "tv_黑人问号": "45821a01f51bc867da9edbaa2e070410819a95b2.png",
+      "tv_鼓掌": "1d21793f96ef4e6f48b23e53e3b9e42da833a0f6.png"
+        
+    } 
+})
+</script>
+
+
+
+    
+  </div>
+</div>
+
+
+            <footer class="ui basic center aligned segment" style="background-color: transparent;">
+	<p><script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1280406540'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1280406540%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script></p>
+              
+              <p>© 2019 - 2022 shenmo的世界</p>
+              
+
+              <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
+
+              
+              <p>看不见我～</p>
+              
+            </footer>
+          </div>
+        </section>
+        <section class="back">
+          <div class="dream-max-width">
+            <header class="ui basic very padded segment dream-header">
+  
+  <div class="ui small circular image">
+    <img src="/img/avatar.jpeg" alt="avatar" />
+  </div>
+  
+
+  <div class="content">
+    <h1 class="ui medium header">shenmo的世界<span class="sub header">安柏单推人~</span>
+    </h1>
+
+    <article class="ui horizontal list">
+      
+      <a class="item" href="/categories">
+        <i class="th list icon" title="所有分类"></i>
+      </a>
+      <a class="item" href="/tags">
+        <i class="tags icon" title="所有标签"></i>
+      </a>
+    </article>
+
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+
+    
+
+    
+    
+    
+          <div class="dream-tags">
+          
+          
+          
+            <a class="ui label" href="/tags/linux/" title="linux">
+              linux
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/" title="折腾博客">
+              折腾博客
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/%E7%AC%94%E8%AE%B0/" title="笔记">
+              笔记
+            </a>
+          
+          
+          
+            <a class="ui label" href="/tags/%E9%97%B2%E8%81%8A/" title="闲聊">
+              闲聊
+            </a>
+          
+          </div>
+    
+
+    
+  </div>
+</header>
+
+
+<div class="ui relaxed grid dream-grid dream-back">
+  
+  
+  
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment markdown-body">
+      <div class="ui medium header">关于我</div>
+      <p>星火应用商店项目 Leader</p>
+  <div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	 <img class="ava" src="https://s1.ax1x.com/2022/05/18/OosPeK.png" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://gitee.com/deepin-community-store/spark-store">星火应用商店</a> 
+        </div> 
+        <div class="info">
+         第三方Linux应用商店
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+<p>Minecraft BE 服务器交流群：913146678</p>
+<div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	 <img class="ava" src="https://s1.ax1x.com/2022/05/18/Oosnyt.png" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://jq.qq.com/?_wv=1027&k=bbAHpP6d">点击加入QQ群</a> 
+        </div> 
+        <div class="info">
+         shenmo服务器
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+<p>bilibili:</p>
+<div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	 <img class="ava" src="https://s1.ax1x.com/2022/05/18/Oos0TU.jpg" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://space.bilibili.com/151990660">神末shenmo</a> 
+        </div> 
+        <div class="info">
+         风说，可以飞了
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+<p>深度论坛账号：</p>
+<div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	 <img class="ava" src="https://avatar.cdn.deepin.com/public/avatar/2022/05/11/22-15-27-92ffc20b.png" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://bbs.deepin.org/zh/user/223313">神末shenmo</a> 
+        </div> 
+        <div class="info">
+         星火首席爆料官~
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+  <div class="post-body"> 
+   <div id="links"> 
+    <style>
+    .links-content
+    {
+      	margin-top:1rem;
+      }
+      .link-navigation::after
+      {
+      	content:" ";
+      	display:block;
+      	clear:both;
+      }
+      .card
+      {
+	      max-width:250px;
+	      font-size:1rem;
+      	border-radius:5px;
+	      transition-duration:.15s;
+	      margin-bottom:1rem;
+	      display:flex;
+	      padding:10px 25px;
+      }
+      .card:hover
+      {
+      	transform:scale(1.1);
+      	box-shadow:0 2px 6px 0 rgba(0,0,0,0.12), 0 0 6px 0 rgba(0,0,0,0.04);
+      }
+      .card a
+      {
+      	border:none;
+      }
+      .card .ava
+      {
+      	width:3rem!important;
+        height:3rem!important;
+      	border-radius:4px;
+      	margin:0 1em 0 0 !important;
+      }
+      .card .card-header
+      {
+      	font-style:italic;
+      	overflow:hidden;
+      	width:100%;
+      }
+      .card .card-header a
+      {
+      	font-style:normal;
+      	color:#333;
+      	font-weight:700;
+      	text-decoration:none;
+      }
+      .card .card-header a:hover
+      {
+      	color:#79aeff;
+      	text-decoration:none;
+      }
+      .card .card-header .info
+      {
+      	font-style:normal;
+      	color:#a3a3a3;
+      	font-size:14px;
+      	min-width:0;
+      	text-overflow:ellipsis;
+      	overflow:hidden;
+      	white-space:nowrap;
+      }
+      .card:nth-child(odd)
+      {
+      	float:left;
+      }
+      .card:nth-child(even)
+      {
+      	float:left;
+      }
+     </style> 
+
+    </article>
+  </div>
+  
+
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment">
+      <div class="ui medium header">社交链接</div>
+      <nav class="ui secondary menu dream-menu dream-socials">
+  
+  <a class="item" href="/index.xml">
+    <i class="large rss square icon" title="RSS"></i>
+  </a>
+  
+
+  
+  <a class="item" href="mailto:jifengshenmo@outlook.com">
+    <i class="large mail icon" title="Email"></i>
+  </a>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  <a class="item" href="https://github.com/shenmo7192" target="_blank">
+    <i class="large github icon" title="GitHub"></i>
+  </a>
+  
+
+  
+
+  
+
+  
+
+
+
+  <div class="post-body"> 
+<hr class="xsj_hr xsj_minus">
+  <p class="xsj_paragraph xsj_paragraph_level_0" data-source-line="37" data-source-line-display="true">
+<p><strong>友链</strong></p>
+
+   <div id="links"> 
+    <style>
+    .links-content
+    {
+      	margin-top:1rem;
+      }
+      .link-navigation::after
+      {
+      	content:" ";
+      	display:block;
+      	clear:both;
+      }
+      .card
+      {
+	      max-width:250px;
+	      font-size:1rem;
+      	border-radius:5px;
+	      transition-duration:.15s;
+	      margin-bottom:1rem;
+	      display:flex;
+	      padding:10px 25px;
+      }
+      .card:hover
+      {
+      	transform:scale(1.1);
+      	box-shadow:0 2px 6px 0 rgba(0,0,0,0.12), 0 0 6px 0 rgba(0,0,0,0.04);
+      }
+      .card a
+      {
+      	border:none;
+      }
+      .card .ava
+      {
+      	width:3rem!important;
+        height:3rem!important;
+      	border-radius:4px;
+      	margin:0 1em 0 0 !important;
+      }
+      .card .card-header
+      {
+      	font-style:italic;
+      	overflow:hidden;
+      	width:100%;
+      }
+      .card .card-header a
+      {
+      	font-style:normal;
+      	color:#333;
+      	font-weight:700;
+      	text-decoration:none;
+      }
+      .card .card-header a:hover
+      {
+      	color:#79aeff;
+      	text-decoration:none;
+      }
+      .card .card-header .info
+      {
+      	font-style:normal;
+      	color:#a3a3a3;
+      	font-size:14px;
+      	min-width:0;
+      	text-overflow:ellipsis;
+      	overflow:hidden;
+      	white-space:nowrap;
+      }
+      .card:nth-child(odd)
+      {
+      	float:left;
+      }
+      .card:nth-child(even)
+      {
+      	float:left;
+      }
+     </style> 
+    <div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	  <img class="ava" src="https://apple-qaq.vercel.app/assets/images/avatar.jpg" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://apple-qaq.vercel.app/">Apple_QAQの小站</a> 
+        </div> 
+        <div class="info">
+         nya~喜欢水群的apple哟~
+        </div> 
+       </div> 
+      </div>
+     </div> 
+    </div> 
+   </div> 
+  </div>
+
+
+
+
+  <div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	  <img class="ava" src="https://crisq.tk/images/logo@2x.png" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://crisq.tk/">CRIS的小站</a> 
+        </div> 
+        <div class="info">
+         Superbia.
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+
+
+<div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	  <img class="ava" src="https://gravatar.loli.net/avatar/c917530cb70a2a7ec12b57f523d2ca0c?s=120&r=G&d=" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://fspark.me/">FSpark</a> 
+        </div> 
+        <div class="info">
+         「0」が過去で 「1」が未来
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+
+</nav>
+
+    </article>
+  </div>
+
+
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    
+    <article class="ui segment">
+
+
+
+<p class="xsj_paragraph xsj_paragraph_level_0" data-source-line="9" data-source-line-display="true">本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</p>
+<p class="xsj_paragraph xsj_paragraph_level_0" data-source-line="11" data-source-line-display="true">这意味着你可以在署名并标明出处的情况下进行非商业转载（转载的文章也需要遵守CC-BY-NC-SA-4.0协议），但不可以进行商业转载</p>
+
+    </article>
+
+    
+  </div>
+
+  
+</div>
+
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/jquery@3.6.0"></script><div id="vcomments"></div>
+    <script src="https://unpkg.com/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    
+    
+    <div class="ui segment" id="dream-search">
+  <div class="ui search">
+    <div class="ui transparent input">
+      <input class="prompt" type="text" placeholder="搜索" />
+    </div>
+    <div class="results"></div>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    $.getJSON('https:\/\/shenmo7192.gitee.io/index.json', function (data) {
+      $('.ui.search').search({
+        source: data,
+        searchFields: ['title'],
+        showNoResults: false,
+      })
+    })
+  })
+</script>
+<script src="/js/search.js"></script>
+
+    
+
+    
+
+    <script>
+  window.background = "#f7f7f7"
+  window.defaultDark =  false 
+  window.backgroundDark = "black"
+  window.backgroundImageDark = "https://s4.ax1x.com/2022/03/04/bUV46s.jpg"
+  window.darkNav =  true 
+  window.maxTags =  null 
+  window.hasTwitterEmbed =  null 
+  window.fixedNav =  true 
+
+  if (window.hasTwitterEmbed) {
+    
+    window.twttr = (function (d, s, id) {
+      var js,
+        fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {}
+      if (d.getElementById(id)) return t
+      js = d.createElement(s)
+      js.id = id
+      js.src = 'https://platform.twitter.com/widgets.js'
+      fjs.parentNode.insertBefore(js, fjs)
+
+      t._e = []
+      t.ready = function (f) {
+        t._e.push(f)
+      }
+
+      return t
+    })(document, 'script', 'twitter-wjs')
+  }
+</script>
+<script src="https://unpkg.com/overlayscrollbars@1.13.1/js/jquery.overlayScrollbars.min.js"></script>
+<script src="/js/header.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/theme.js"></script>
+
+
+
+    
+
+
+<script src="https://unpkg.com/luxon@1.26.0"></script>
+
+<script>
+  format()
+
+  function format() {
+    $('span[data-format="luxon"]').each(function () {
+      var date = $(this).text()
+
+      $(this).text(luxon.DateTime.fromISO(date, { locale: "zh" }).toFormat("yyyy年MM月dd日"))
+    })
+  }
+</script>
+
+
+
+<script src="/js/scrollToTop.js"></script>
+
+
+<script src="https://shenmo7192.gitee.io/cdn-release/build/highlight.min.js"></script>
+
+
+
+<script src="https://shenmo7192.gitee.io/cdn-release/build/languages/ocaml.min.js"></script>
+
+
+
+<script>
+  hljs.highlightAll()
+  setHighlightTheme()
+
+  function setHighlightTheme() {
+    var isDark = localStore.getItem('hugo-theme-dream-is-dark')
+    isDark = isDark ? isDark : window.defaultDark ? 'y' : isDark
+
+    var lightTheme = "gruvbox-light"
+    var darkTheme = "gruvbox-dark"
+    var theme = isDark === 'y' ? darkTheme : lightTheme
+
+    $('link[data-highlight]').attr('href', 'https://shenmo7192.gitee.io/cdn-release/build/styles/' + theme + '.min.css')
+    $('pre').css('background', isDark === 'y' ? '#333' : '')
+  }
+</script>
+
+
+
+<script src="https://unpkg.com/html2canvas@1.0.0-rc.1"></script>
+<script src="/js/post.js" defer></script>
+
+
+    
+    <script src="/live2d-widget-left-and-right/autoload.js"></script>
+    
+
+    
+</body>
+</html>
