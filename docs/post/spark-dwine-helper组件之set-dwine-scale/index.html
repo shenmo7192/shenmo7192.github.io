@@ -26,7 +26,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shenmo7192.gitee.io/post/spark-dwine-helper%E7%BB%84%E4%BB%B6%E4%B9%8Bset-dwine-scale/" /><meta property="article:section" content="post" />
 
-<meta property="article:modified_time" content="2022-05-30T16:53:52+08:00" />
+<meta property="article:modified_time" content="2022-05-30T23:34:31+08:00" />
 
 
 
@@ -201,7 +201,7 @@ var _hmt = _hmt || [];
               
 
               | 
-                  <span data-format="luxon">2022-05-30T16:53:52&#43;08:00</span>
+                  <span data-format="luxon">2022-05-30T23:34:31&#43;08:00</span>
                 
 
               | 1 分钟阅读
@@ -209,7 +209,7 @@ var _hmt = _hmt || [];
               
               | 更新于
                 
-                  <span data-format="luxon">2022-05-30T16:53:52&#43;08:00</span>
+                  <span data-format="luxon">2022-05-30T23:34:31&#43;08:00</span>
                 
               
             </span>
@@ -230,11 +230,46 @@ var _hmt = _hmt || [];
 <p>位置:  <a href="https://gitee.com/deepin-community-store/spark-wine/blob/master/spark-dwine-helper/pkg/opt/durapps/spark-dwine-helper/set-dwine-scale.sh">https://gitee.com/deepin-community-store/spark-wine/blob/master/spark-dwine-helper/pkg/opt/durapps/spark-dwine-helper/set-dwine-scale.sh</a></p>
 <p>作用：设置wine容器的缩放</p>
 <p>原理：修改注册表键值</p>
-<p>如果有DEEPIN_WINE_SCALE，则读取并按对应的值替换注册表键值
+<p>如果有DEEPIN_WINE_SCALE，则把内容输出到<code>~/.config/spark-wine/scale.txt</code></p>
+<p>如果没有，则调用<code>spark-get-scale.sh</code></p>
+<ul>
+<li>如果发现是deepin/uos，这意味着是1.0缩放</li>
+<li>如果不是，检查是否有已存在的配置文件(<code>~/.config/spark-wine/scale.txt</code>)，如果有，退出</li>
+<li>如果不是且无配置文件，弹窗询问用户</li>
+</ul>
+<p>获取后，输出到<code>~/.config/spark-wine/scale.txt</code></p>
+<p>然后通过<code>~/.config/spark-wine/scale.txt</code>的数值进行设置</p>
+<p>当<code>$APPRUN_CMD</code>存在（也就是被spark_run_v4.sh调用时），利用wine的原生方式添加</p>
+<pre tabindex="0"><code>case &quot;$env_dwine_scale&quot; in
+       1.0)
+            dpi=&quot;96&quot;
+            ;;
+        1.25)
+            dpi=&quot;120&quot;
+            ;;
+        1.5)
+            dpi=&quot;144&quot;
+            ;;
+        2.0)
+            dpi=&quot;192&quot;
+            ;;
+	*)
+		dpi=&quot;96&quot;
+		#可能不是Xorg或者是其他错误
+		;;
+    esac
+echo &quot;用$APPRUN_CMD执行指令&quot;
+echo &quot;指令为&quot;
+echo &quot;env WINEPREFIX=&quot;$CONTAINER_PATH&quot; $APPRUN_CMD reg ADD 'HKCU\Control Panel\Desktop' LogPixels REG_DWORD $dpi&quot;
+
+env WINEPREFIX=&quot;$CONTAINER_PATH&quot; $APPRUN_CMD reg ADD 'HKCU\Control Panel\Desktop' LogPixels REG_DWORD $dpi
+
+</code></pre><p>读取并按对应的值替换注册表键值
 在<code>HKEY_CURRENT_USER\Control Panel\Desktop</code>和<code>HKEY_CURRENT_USER\Software\Wine\Fonts</code>中，以DWORD储存</p>
 <p><img src="https://xiaoshujiang-shenmo.oss-accelerate.aliyuncs.com/%E5%B0%8F%E4%B9%A6%E5%8C%A0/1653895721239.png" alt="enter description here">
 替换为指定的值</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;</span>$env_dwine_scale<span style="color:#e6db74">&#34;</span> in
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo <span style="color:#e6db74">&#34;没有检测到APPRUN_CMD环境变量，执行sed替换。如果要使用wine原生提供的方法，请在环境变量中指定(export)&#34;</span>
+<span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;</span>$env_dwine_scale<span style="color:#e6db74">&#34;</span> in
        1.0<span style="color:#f92672">)</span>
             reg_text<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;\&#34;LogPixels\&#34;=dword:00000060&#34;</span>
             ;;
@@ -247,13 +282,27 @@ var _hmt = _hmt || [];
         2.0<span style="color:#f92672">)</span>
             reg_text<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;\&#34;LogPixels\&#34;=dword:000000C0&#34;</span>
             ;;
+	*<span style="color:#f92672">)</span>
+		reg_text<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;\&#34;LogPixels\&#34;=dword:00000060&#34;</span>
+		<span style="color:#75715e">#可能不是Xorg</span>
+		;;
+    <span style="color:#66d9ef">esac</span>
 
-</code></pre></div><p>如果没有，则调用<code>spark-get-scale.sh</code></p>
-<ul>
-<li>如果发现是deepin/uos，这意味着是1.0缩放</li>
-<li>如果不是，检查是否有已存在的配置文件，如果有，退出</li>
-<li>如果不是且无配置文件，弹窗询问用户</li>
-</ul>
+<span style="color:#75715e">#####根据scale设置dword值</span>
+
+
+LogPixels_line<span style="color:#f92672">=(</span><span style="color:#e6db74">`</span>sed -n -e <span style="color:#e6db74">&#34;/&#34;</span>LogPixels<span style="color:#e6db74">&#34;/=&#34;</span> $CONTAINER_PATH/user.reg<span style="color:#e6db74">`</span><span style="color:#f92672">)</span>
+<span style="color:#75715e">#####关键词行数取得</span>
+<span style="color:#66d9ef">until</span> <span style="color:#f92672">[</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">${#</span>LogPixels_line[@]<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0&#34;</span> <span style="color:#f92672">]</span>;<span style="color:#66d9ef">do</span>
+
+
+line_num<span style="color:#f92672">=</span><span style="color:#e6db74">${</span>LogPixels_line[0]<span style="color:#e6db74">}</span>
+
+sed -i <span style="color:#e6db74">&#34;</span>$line_num<span style="color:#e6db74">&#34;</span>c<span style="color:#ae81ff">\ </span><span style="color:#e6db74">&#34;</span>$reg_text<span style="color:#e6db74">&#34;</span> <span style="color:#e6db74">&#34;</span>$CONTAINER_PATH<span style="color:#e6db74">/user.reg&#34;</span>
+LogPixels_line<span style="color:#f92672">=(</span><span style="color:#e6db74">${</span>LogPixels_line[@]:1<span style="color:#e6db74">}</span><span style="color:#f92672">)</span>
+<span style="color:#66d9ef">done</span>
+
+</code></pre></div>
       </article>
     </section>
 
