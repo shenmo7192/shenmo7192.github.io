@@ -16,6 +16,8 @@ tags:
 draft: false
 ---
 
-内容已经被删除，请转到 https://spark-store-project.coding.net/p/blog-blocked/d/blog/git/raw/master/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%9F%A5%E4%B9%8E%E4%B8%8A%E4%B8%8E%E4%BD%9B%E6%95%99%E5%BE%92%E8%BE%A9%E8%AE%BA.md   查看
+内容已经被删除，请转到 
+
+https://www.gitlink.org.cn/shenmo7192/blocked_blogs/tree/master/%E8%AE%B0%E4%B8%80%E6%AC%A1%E7%9F%A5%E4%B9%8E%E4%B8%8A%E4%B8%8E%E4%BD%9B%E6%95%99%E5%BE%92%E8%BE%A9%E8%AE%BA.md 
 
 <!--more-->
