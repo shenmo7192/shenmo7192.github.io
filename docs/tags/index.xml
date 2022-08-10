@@ -2,54 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on shenmo的世界</title>
-    <link>https://shenmo7192.gitee.io/tags/</link>
+    <link>https://blog.shenmo.tech/tags/</link>
     <description>Recent content in Tags on shenmo的世界</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议</copyright>
-    <lastBuildDate>Wed, 10 Aug 2022 14:44:29 +0800</lastBuildDate><atom:link href="https://shenmo7192.gitee.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Aug 2022 14:44:29 +0800</lastBuildDate><atom:link href="https://blog.shenmo.tech/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>笔记</title>
-      <link>https://shenmo7192.gitee.io/tags/%E7%AC%94%E8%AE%B0/</link>
+      <link>https://blog.shenmo.tech/tags/%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Wed, 10 Aug 2022 14:44:29 +0800</pubDate>
       
-      <guid>https://shenmo7192.gitee.io/tags/%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://blog.shenmo.tech/tags/%E7%AC%94%E8%AE%B0/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>https://shenmo7192.gitee.io/tags/linux/</link>
+      <link>https://blog.shenmo.tech/tags/linux/</link>
       <pubDate>Fri, 05 Aug 2022 16:35:01 +0800</pubDate>
       
-      <guid>https://shenmo7192.gitee.io/tags/linux/</guid>
+      <guid>https://blog.shenmo.tech/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>折腾博客</title>
-      <link>https://shenmo7192.gitee.io/tags/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://blog.shenmo.tech/tags/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Fri, 29 Jul 2022 00:35:11 +0800</pubDate>
       
-      <guid>https://shenmo7192.gitee.io/tags/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://blog.shenmo.tech/tags/%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python学习</title>
-      <link>https://shenmo7192.gitee.io/tags/python%E5%AD%A6%E4%B9%A0/</link>
+      <link>https://blog.shenmo.tech/tags/python%E5%AD%A6%E4%B9%A0/</link>
       <pubDate>Tue, 31 May 2022 11:49:17 +0800</pubDate>
       
-      <guid>https://shenmo7192.gitee.io/tags/python%E5%AD%A6%E4%B9%A0/</guid>
+      <guid>https://blog.shenmo.tech/tags/python%E5%AD%A6%E4%B9%A0/</guid>
       <description></description>
     </item>
     
     <item>
       <title>闲聊</title>
-      <link>https://shenmo7192.gitee.io/tags/%E9%97%B2%E8%81%8A/</link>
+      <link>https://blog.shenmo.tech/tags/%E9%97%B2%E8%81%8A/</link>
       <pubDate>Thu, 19 May 2022 16:09:21 +0800</pubDate>
       
-      <guid>https://shenmo7192.gitee.io/tags/%E9%97%B2%E8%81%8A/</guid>
+      <guid>https://blog.shenmo.tech/tags/%E9%97%B2%E8%81%8A/</guid>
       <description></description>
     </item>
     
