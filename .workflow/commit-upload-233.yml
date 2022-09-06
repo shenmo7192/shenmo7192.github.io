@@ -1,0 +1,44 @@
+version: '1.0'
+name: commit-upload-233
+displayName: commit-upload
+triggers:
+  trigger: manual
+  push:
+    branches:
+      precise:
+        - master
+variables:
+  global:
+    - accessKeyID
+    - accessKeySecret
+stages:
+  - name: stage-39b81bd3
+    displayName: 推送博客
+    strategy: naturally
+    trigger: auto
+    executor: []
+    steps:
+      - step: execute@docker
+        name: execute_by_docker
+        displayName: 基于镜像的脚本执行
+        certificate: ''
+        image: docker.io/ubuntu:latest
+        command:
+          - cat << EOF >  .ossutilconfig
+          - '[Credentials]'
+          - language=CH
+          - accessKeyID=$accessKeyID
+          - accessKeySecret=$accessKeySecret
+          - endpoint=oss-cn-beijing.aliyuncs.com
+          - EOF
+          - sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
+          - apt update
+          - apt install wget -y
+          - wget  https://gosspublic.alicdn.com/ossutil/1.7.13/ossutil64
+          - chmod +x ./ossutil64
+          - ./ossutil64 sync ./docs/ oss://blog-shenmo/ -uf  --delete --config-file=.ossutilconfig
+        notify: []
+        strategy:
+          retry: '0'
+strategy:
+  blocking: true
