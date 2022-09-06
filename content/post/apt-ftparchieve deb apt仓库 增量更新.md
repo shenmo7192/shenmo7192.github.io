@@ -95,7 +95,7 @@ gpg --clearsign -o InRelease Release
 
 ```bash
 wget https://gitee.com/deepin-community-store/repo_auto_update_script/raw/master/repo-maintain/incremental-updating-packages.sh
-chmod +x incremental-updating-packages.sh
+chmod +x ./incremental-updating-packages.sh
 ```
 
 然后用编辑器打开这个`incremental-updating-packages.sh`，把第一行的`REPO_DIR=""`中的内容替换成你的仓库的**绝对路径**
@@ -104,6 +104,21 @@ chmod +x incremental-updating-packages.sh
 
 更好的是，这个脚本支持多线程生成`Packages`，对于固态硬盘来说，速度会大大提升（机械硬盘就没啥效果了）
 
+若要使用该脚本，上一节的指令应当是
+
+```bash
+cd /abosolute/path/to/repo
+./incremental-updating-packages.sh
+apt-ftparchive release . > Release
+gpg --clearsign -o InRelease Release
+
+
+```
+
+### 配置crontab
+
+把上一节的脚本保存为文件，给予可执行权限并配置到crontab每日任务中，实现自动刷新
+
 ### 开启网络服务，对外提供apt仓库服务
 
 推荐的方法是使用nginx等专业工具，然而，如果你不想或者不想学如何配置nginx，那么你可以用我提供的这个极简的python脚本
@@ -111,6 +126,10 @@ chmod +x incremental-updating-packages.sh
 先`sudo apt install python2`安装py2，然后`wget https://gitee.com/shenmo7192/momo-and-mox-tool-scripts/raw/master/python2-scripts/server.py`
 
 使用这个脚本创建服务器的方法非常简单，`python2 ./server.py 端口号`
+
+在服务器上后台运行，请先安装screen，再在screen中运行，这样断开连接之后仍然可以host服务器
+
+退出screen的方法是ctrl+A+D，再次进入用的是screen -r 对应的id，终结screen的方法是在screen内部输入exit
 
 如果你的对应端口放通了，那么不出意外的话，你已经可以从`ip:端口`上访问你的仓库了~（如果有域名可换成域名）
 
