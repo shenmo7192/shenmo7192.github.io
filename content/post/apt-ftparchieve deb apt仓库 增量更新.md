@@ -21,7 +21,7 @@ draft: false
 #### 使用方法
 很多网站都有使用apt-ftparchieve的使用教程，我在这里再讲一下
 
-##### 首先创建gpg密钥
+### 首先创建gpg密钥
 
 ```bash
 gpg --gen-key
@@ -74,7 +74,7 @@ generator a better chance to gain enough entropy.
 ```
 正在生成密钥，做点什么事，让系统创建出足够的熵即可。等待完成
 
-##### 创建仓库
+### 创建仓库
 
 在放置deb的位置创建文件夹，cd到文件夹中执行
 
@@ -89,9 +89,9 @@ gpg --clearsign -o InRelease Release
 
 即可创建仓库
 
-##### 但是：每次你更新仓库，都会从头生成一遍Packages，随着你的仓库大小增加，每次刷新Packages的时间会越来越长，而且这对你的磁盘也是一种损伤！
+### 但是：每次你更新仓库，都会从头生成一遍Packages，随着你的仓库大小增加，每次刷新Packages的时间会越来越长，而且这对你的磁盘也是一种损伤！
 
-##### 解决方法：
+### 解决方法：
 
 ```bash
 wget https://gitee.com/deepin-community-store/repo_auto_update_script/raw/master/repo-maintain/incremental-updating-packages.sh
@@ -104,7 +104,7 @@ chmod +x incremental-updating-packages.sh
 
 更好的是，这个脚本支持多线程生成`Packages`，对于固态硬盘来说，速度会大大提升（机械硬盘就没啥效果了）
 
-##### 开启网络服务，对外提供apt仓库服务
+### 开启网络服务，对外提供apt仓库服务
 
 推荐的方法是使用nginx等专业工具，然而，如果你不想或者不想学如何配置nginx，那么你可以用我提供的这个极简的python脚本
 
@@ -114,7 +114,7 @@ chmod +x incremental-updating-packages.sh
 
 如果你的对应端口放通了，那么不出意外的话，你已经可以从`ip:端口`上访问你的仓库了~（如果有域名可换成域名）
 
-##### 用户如何使用此仓库
+### 用户如何使用此仓库
 
 用户只需要在`/etc/apt/sources.list`中加入
 
