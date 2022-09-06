@@ -1,6 +1,6 @@
 ---
 title: 安装微信Linux原生版本的方法
-# date: 2022-09-07T00:51:14+08:00
+date: 2022-09-07T00:51:14+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site
 # cover: /img/Icey-view.png
