@@ -2,7 +2,7 @@ version: '1.0'
 name: commit-upload-233
 displayName: commit-upload
 triggers:
-  trigger: manual
+  trigger: auto
   push:
     branches:
       precise:
