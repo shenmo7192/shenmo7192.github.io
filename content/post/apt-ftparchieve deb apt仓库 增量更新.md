@@ -135,10 +135,14 @@ gpg --clearsign -o InRelease Release
 
 ### 用户如何使用此仓库
 
+正确的做法是把你刚生成的gpg公钥导出，再发送到用户的电脑上安装，源才能使用
+
+然而，你也可以像这样要求客户端不验证签名以把事情简单化。请注意，这样可能有一定风险，如果追求安全还是建议导出之后让用户导入再用
+
 用户只需要在`/etc/apt/sources.list`中加入
 
 ```bash
-deb [by-hash=force] ip:端口 / 
+deb [trusted=yes] ip:端口 / 
 ```
 
 然后`sudo apt update`即可连接到你的apt仓库！
