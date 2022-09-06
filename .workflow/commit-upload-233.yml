@@ -33,7 +33,8 @@ stages:
           - EOF
           - sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
           - apt update
-          - apt install wget -y
+          - apt install wget hugo -y
+          - hugo -d ./docs/
           - wget  https://gosspublic.alicdn.com/ossutil/1.7.13/ossutil64
           - chmod +x ./ossutil64
           - ./ossutil64 sync ./docs/ oss://blog-shenmo/ -uf  --delete --config-file=.ossutilconfig
