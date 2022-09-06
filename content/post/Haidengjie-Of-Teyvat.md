@@ -1,5 +1,5 @@
 ---
-title: 海灯节 of Teyvat
+title: Lantern Rite of Teyvat
 date: 2022-02-02T21:59:39+08:00
 lastmod: 2022-02-02T21:59:39+08:00
 author: shenmo
@@ -20,7 +20,7 @@ draft: false
 
 <!--more-->
 
-原本想写灯笼节（蓝腾瑞特）的，结果码云以为我在推销梯子。。。
+
 
 
 ![20220202212224](https://xiaoshujiang-shenmo.oss-accelerate.aliyuncs.com/小书匠/20220202212224.png)
