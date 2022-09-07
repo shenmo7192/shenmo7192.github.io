@@ -1,6 +1,6 @@
 ---
 title: {{ replace .TranslationBaseName "-" " " | title }}
-# date: {{ .Date }}
+date: {{ .Date }}
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site
 # cover: /img/Icey-view.png
