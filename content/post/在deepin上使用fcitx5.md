@@ -61,13 +61,13 @@ draft: false
 
 把`/usr/share/fcitx5/punctuation/punc.mb.zh_CN`的18、19行改为：
 
-
-> [ 【
-> 
-> ] 】
-
+```
+[ 【
+] 】
+```
 并在尾部添加
->` ·
-
+```
+` ·
+```
 
 
