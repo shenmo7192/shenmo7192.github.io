@@ -21,22 +21,22 @@ draft: false
 
 ### 1\. 安装Fcitx5输入法
 
-1.  卸载fcitx4：sudo apt purge fcitx*
-2.  安装fcitx5：sudo apt install fcitx5
+1.  卸载fcitx4：`sudo apt purge fcitx*`
+2.  安装fcitx5：`sudo apt install fcitx5`
 
 1.  启动器中设置Fcitx 5开机自启动，并注销重新登陆系统
-2.  安装中文输入法：sudo apt install fcitx5-chinese-addons（fcitx5-pinyin只安装拼音和双拼，fcitx5-table只安装五笔、自然码、晚风、二笔、电报码、仓颉等，fcitx5-rime和fcitx5-chinese-addons类似，中文默认繁体），在托盘位置右键输入法图标并选择重新启动
+2.  安装中文输入法：`sudo apt install fcitx5-chinese-addons`（fcitx5-pinyin只安装拼音和双拼，fcitx5-table只安装五笔、自然码、晚风、二笔、电报码、仓颉等，fcitx5-rime和fcitx5-chinese-addons类似，中文默认繁体），在托盘位置右键输入法图标并选择重新启动
 3.  启动器中打开Fcitx 5配置
 4.  在配置窗口的`输入法`tab下将拼音从右边添加到左边
 
 ![](https://cdn.nlark.com/yuque/0/2021/png/667108/1629255447588-054a9707-23e0-43cf-81f4-41eed4a42cca.png)
 
-7.  手动添加fcitx5中文输入法默认词库：从 https://github.com/felixonmars/fcitx5-pinyin-zhwiki 下载.dict后缀的符合版权的词库文件，放到`~/.local/share/fcitx5/pinyin/dictionaries/`目录下，没有则创建目录 
+7.  手动添加fcitx5中文输入法默认词库：从 https://kgithub.com/felixonmars/fcitx5-pinyin-zhwiki 下载.dict后缀的符合版权的词库文件，放到`~/.local/share/fcitx5/pinyin/dictionaries/`目录下，没有则创建目录 
 9.  在fcitx5配置窗口的附加组件tab下，点击拼音选项后面的齿轮按钮进入配置窗口，点击词典后面的齿轮按钮，打开另一个配置窗口，选择导入并选择在线浏览搜狗细胞词典，在打开的页面中选择对应的词典并点击立即下载，下载完成后会自动添加到拼音词典管理器中。 
     ![](https://cdn.nlark.com/yuque/0/2021/png/667108/1629336138623-64365ba8-33a3-4d51-9c6e-983cdcf02d2d.png)
 
-1.  启用表情符号：sudo apt install fonts-noto-color-emoji，安装后在fcitx5配置页面的`附加组件`tab下选择`拼音`后面的齿轮进入配置页面，勾选`启用颜文字`。
-2.  启用云拼音：sudo apt install fcitx5-module-cloudpinyin，安装后在fcitx5配置页面的`附加组件`tab下选择`云拼音`，点击齿轮进入云拼音配置页面，后端选择Baidu。
+1.  启用表情符号：`sudo apt install fonts-noto-color-emoji`，安装后在fcitx5配置页面的`附加组件`tab下选择`拼音`后面的齿轮进入配置页面，勾选`启用颜文字`。
+2.  启用云拼音：`sudo apt install fcitx5-module-cloudpinyin`，安装后在fcitx5配置页面的`附加组件`tab下选择`云拼音`，点击齿轮进入云拼音配置页面，后端选择Baidu。
 3.  启用单行模式：打开fcitx5配置页面，选择`附加组件`tab，选择`拼音`并勾选`在程序中显示预编辑文本`
 
 ### 2\. 配置优化Fcitx5（每次修改完成后重启输入法）
@@ -55,3 +55,18 @@ draft: false
 > dedit支持在安装此应用后可使用
 
 [spk://store/office/tech.shenmo.dedit](spk://store/office/tech.shenmo.dedit)
+
+
+### 3\. fcitx5中文输入法方括号问题的解决
+
+把`/usr/share/fcitx5/punctuation/punc.mb.zh_CN`的18、19行改为：
+
+
+> [ 【
+> ] 】
+
+and add 
+>` ·
+
+in the end 
+
