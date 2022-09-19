@@ -57,16 +57,17 @@ draft: false
 [spk://store/office/tech.shenmo.dedit](spk://store/office/tech.shenmo.dedit)
 
 
-### 3\. fcitx5中文输入法方括号问题的解决
+### 3\. fcitx5中文输入法方括号和无法输入`·`问题的解决
 
 把`/usr/share/fcitx5/punctuation/punc.mb.zh_CN`的18、19行改为：
 
 
 > [ 【
+> 
 > ] 】
 
-and add 
+并在尾部添加
 >` ·
 
-in the end 
+
 
