@@ -42,11 +42,14 @@ draft: false
 ### 2\. 配置优化Fcitx5（每次修改完成后重启输入法）
 
 1.  修改输入法：打开fcitx5配置页面，选择`附加组件`tab，选择`经典用户界面`后面的齿轮进入经典用户界面窗口，可以修改输入法主题，字体，字号，菜单字体等。或者在~/.confit/fcitx5/conf/classicui.conf中修改这些选项。
-2.  修改托盘拼音图标：替换/usr/share/icons/hicolor/48x48/apps/org.fcitx.Fcitx5.fcitx-pinyin.png成你自己的图片
+2.  推荐使用的皮肤：Fcitx5-Material-Color
+  
+   `sudo apt install fcitx5-material-color` 即可
+   在经典用户界面窗口中设置此皮肤
 3.  使用第三方皮肤，所有的皮肤都必须将文件夹放到目录~/.local/share/fcitx5/themes/下，然后按照第13的方法修改主题即可
 
 *   使用搜狗输入法皮肤：下载[搜狗输入法皮肤(https://pinyin.sogou.com/skins/)](https://pinyin.sogou.com/skins/)和[搜狗输入法皮肤转换器(https://gitee.com/zzgkly/ssfconv.git)](https://gitee.com/zzgkly/ssfconv.git) ，比如使用皮肤转换器通过这条命令./ssfconv -t fcitx5 ～/Downloads/哪吒之魔童降世.ssf ～/Downloads/哪吒之魔童降世 将搜狗输入法皮肤转为fcitx5皮肤，将转换后的皮肤文件夹复制到~/.local/share/fcitx5/themes/下面
-*   其他开源皮肤：比如win10风格输入法主题（https://github.com/hosxy/Fcitx5-Material-Color） ，将下载的主题包文件夹放到~/.local/share/fcitx5/themes/下面
+*   其他开源皮肤：将下载的主题包文件夹放到~/.local/share/fcitx5/themes/下面
 
 1.  修改候选词个数：Fcitx配置->拼音->页大小
 2.  修复快捷键无法打开截图和录屏：`sudo apt install qdbus-qt5`
