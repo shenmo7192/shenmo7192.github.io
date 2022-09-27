@@ -27,7 +27,7 @@ draft: false
 1. 卸载fcitx4：`sudo apt purge fcitx*`
 2. 安装fcitx5：`sudo apt install fcitx5`
 3. 启动器中设置Fcitx 5开机自启动，并注销重新登陆系统
-4. 安装中文输入法：`sudo apt install fcitx5-chinese-addons`（fcitx5-pinyin只安装拼音和双拼，fcitx5-table只安装五笔、自然码、晚风、二笔、电报码、仓颉等，fcitx5-rime和fcitx5-chinese-addons类似，中文默认繁体），在托盘位置右键输入法图标并选择重新启动
+4. 安装中文输入法：`sudo apt install fcitx5-chinese-addons`
 5. 启动器中打开Fcitx 5配置
 6. 在配置窗口的`输入法`tab下将拼音从右边添加到左边
 ![截图_fcitx5-config-qt_20210818105532](https://xiaoshujiang-shenmo.oss-accelerate.aliyuncs.com/小书匠/截图_fcitx5-config-qt_20210818105532.png)
