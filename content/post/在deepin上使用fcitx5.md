@@ -53,7 +53,7 @@ draft: false
 > 你也可以使用spk链接来安装 [spk://store/themes/fcitx5-material-color](spk://store/themes/fcitx5-material-color)
 
 
-3.  使用第三方皮肤，所有的皮肤都必须将文件夹放到目录~/.local/share/fcitx5/themes/下，然后按照第13的方法修改主题即可
+3.  使用第三方皮肤，所有的皮肤都必须将文件夹放到目录~/.local/share/fcitx5/themes/下
 
 * 使用搜狗输入法皮肤：下载[搜狗输入法皮肤](https://pinyin.sogou.com/skins/)和[搜狗输入法皮肤转换器](https://kgithub.com/fkxxyz/ssfconv) ，比如使用皮肤转换器通过这条命令
  ` ./ssfconv -t fcitx5 ～/Downloads/哪吒之魔童降世.ssf ～/Downloads/哪吒之魔童降世`
