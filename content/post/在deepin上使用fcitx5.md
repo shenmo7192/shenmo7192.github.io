@@ -39,7 +39,7 @@ draft: false
 10. 启用云拼音：`sudo apt install fcitx5-module-cloudpinyin`，安装后在fcitx5配置页面的`附加组件`tab下选择`云拼音`，点击齿轮进入云拼音配置页面，后端选择Baidu。
 11. 启用单行模式：打开fcitx5配置页面，选择`附加组件`tab，选择`拼音`并勾选`在程序中显示预编辑文本` （在一些应用中会有问题，不建议启用）
 
-### 2\. 配置优化Fcitx5（每次修改完成后重启输入法）
+### 2\. 配置优化Fcitx5（修改完成后重启输入法生效）
 
 1. 修改输入法：打开fcitx5配置页面，选择`附加组件`tab，选择`经典用户界面`后面的齿轮进入经典用户界面窗口，可以修改输入法主题，字体，字号，菜单字体等。或者在~/.confit/fcitx5/conf/classicui.conf中修改这些选项。
 2. 推荐使用的皮肤：Fcitx5-Material-Color
