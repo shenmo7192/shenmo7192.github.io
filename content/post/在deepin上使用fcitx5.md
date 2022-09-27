@@ -46,7 +46,10 @@ draft: false
 
 `sudo aptss install fcitx5-material-color` 即可在经典用户界面窗口中设置此皮肤
 
-> 使用此指令的前提是安装星火应用商店
+> 因为deepin源中无此包，使用星火商店的cli安装指令
+> 
+> 使用此指令的前提是安装星火应用商店 
+> 
 > 你也可以使用spk链接来安装 [spk://store/themes/fcitx5-material-color](spk://store/themes/fcitx5-material-color)
 
 
@@ -60,8 +63,8 @@ draft: false
 3. 修改按键输出字符：`sudo dedit /usr/share/fcitx5/punctuation/punc.mb.zh_CN`，每一行第一个字符代表按键，第二个开始的所有字符代表该按键的Fcitx5中文输入法下的输出字符
 
 > dedit支持在安装此应用后可使用
-
-[spk://store/office/tech.shenmo.dedit](spk://store/office/tech.shenmo.dedit)
+>
+>[spk://store/office/tech.shenmo.dedit](spk://store/office/tech.shenmo.dedit)
 
 ### 3\. fcitx5中文输入法方括号和无法输入`·`问题的解决
 
