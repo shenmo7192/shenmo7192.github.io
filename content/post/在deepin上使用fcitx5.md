@@ -60,17 +60,13 @@ draft: false
  将搜狗输入法皮肤转为fcitx5皮肤，将转换后的皮肤文件夹复制到`~/.local/share/fcitx5/themes/`下面
 * 其他开源皮肤：将下载的主题包文件夹放到~/.local/share/fcitx5/themes/下面
 
-1. 修改候选词个数：Fcitx配置->拼音->页大小
-2. 修复快捷键无法打开截图和录屏：`sudo apt install qdbus-qt5`
-3. 修改按键输出字符：`sudo dedit /usr/share/fcitx5/punctuation/punc.mb.zh_CN`，每一行第一个字符代表按键，第二个开始的所有字符代表该按键的Fcitx5中文输入法下的输出字符
 
-> dedit支持在安装此应用后可使用
->
->[spk://store/office/tech.shenmo.dedit](spk://store/office/tech.shenmo.dedit)
+
+
 
 ### 3\. fcitx5中文输入法方括号和无法输入`·`问题的解决
 
-把`/usr/share/fcitx5/punctuation/punc.mb.zh_CN`的18、19行改为：
+`sudo dedit /usr/share/fcitx5/punctuation/punc.mb.zh_CN`，把其中的的18、19行改为：
 
 ```
 [ 【
@@ -83,3 +79,14 @@ draft: false
 ` ·
 ```
 
+这个文件的每一行第一个字符代表按键，第二个开始的所有字符代表该按键的Fcitx5中文输入法下的输出字符
+
+> dedit在安装此应用后可使用
+>
+>[spk://store/office/tech.shenmo.dedit](spk://store/office/tech.shenmo.dedit)
+>也可把操作中的dedit换成对应的编辑器，比如nano
+
+### 4\. 其他常见问题
+
+1. 修改候选词个数：Fcitx配置->拼音->页大小
+2. 修复快捷键无法打开截图和录屏：`sudo apt install qdbus-qt5`
