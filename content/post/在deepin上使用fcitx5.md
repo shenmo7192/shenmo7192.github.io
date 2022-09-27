@@ -44,8 +44,12 @@ draft: false
 1. 修改输入法：打开fcitx5配置页面，选择`附加组件`tab，选择`经典用户界面`后面的齿轮进入经典用户界面窗口，可以修改输入法主题，字体，字号，菜单字体等。或者在~/.confit/fcitx5/conf/classicui.conf中修改这些选项。
 2. 推荐使用的皮肤：Fcitx5-Material-Color
 
-`sudo apt install fcitx5-material-color` 即可
-在经典用户界面窗口中设置此皮肤
+`sudo aptss install fcitx5-material-color` 即可在经典用户界面窗口中设置此皮肤
+
+> 使用此指令的前提是安装星火应用商店
+> 你也可以使用spk链接来安装 [spk://store/themes/fcitx5-material-color](spk://store/themes/fcitx5-material-color)
+
+
 3.  使用第三方皮肤，所有的皮肤都必须将文件夹放到目录~/.local/share/fcitx5/themes/下，然后按照第13的方法修改主题即可
 
 * 使用搜狗输入法皮肤：下载[搜狗输入法皮肤](https://pinyin.sogou.com/skins/)和[搜狗输入法皮肤转换器](https://kgithub.com/fkxxyz/ssfconv) ，比如使用皮肤转换器通过这条命令./ssfconv -t fcitx5 ～/Downloads/哪吒之魔童降世.ssf ～/Downloads/哪吒之魔童降世 将搜狗输入法皮肤转为fcitx5皮肤，将转换后的皮肤文件夹复制到~/.local/share/fcitx5/themes/下面
