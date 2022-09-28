@@ -33,6 +33,9 @@ draft: false
 ![截图_fcitx5-config-qt_20210818105532](https://xiaoshujiang-shenmo.oss-accelerate.aliyuncs.com/小书匠/截图_fcitx5-config-qt_20210818105532.png)
 
 7. 手动添加fcitx5中文输入法默认词库：从 https://kgithub.com/felixonmars/fcitx5-pinyin-zhwiki 下载.dict后缀的符合版权的词库文件，放到`~/.local/share/fcitx5/pinyin/dictionaries/`目录下，没有则创建目录
+> 如果你加入了better dde源，你可以直接 `sudo apt install fcitx5-pinyin-zhwiki` 来安装词库
+
+
 8. 在fcitx5配置窗口的附加组件tab下，点击拼音选项后面的齿轮按钮进入配置窗口，点击词典后面的齿轮按钮，打开另一个配置窗口，选择导入并选择在线浏览搜狗细胞词典，在打开的页面中选择对应的词典并点击立即下载，下载完成后会自动添加到拼音词典管理器中。
 ![截图_选择区域_20210819092158](https://xiaoshujiang-shenmo.oss-accelerate.aliyuncs.com/小书匠/截图_选择区域_20210819092158.png)
 9. 启用表情符号：`sudo apt install fonts-noto-color-emoji`，安装后在fcitx5配置页面的`附加组件`tab下选择`拼音`后面的齿轮进入配置页面，勾选`启用颜文字`。
@@ -89,4 +92,4 @@ draft: false
 ### 4\. 其他常见问题
 
 1. 修改候选词个数：Fcitx配置->拼音->页大小
-2. 修复快捷键无法打开截图和录屏：`sudo apt install qdbus-qt5`
+
