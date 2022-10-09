@@ -27,7 +27,9 @@ draft: false
 
 2. wan-->ipv6--->如下设置
 
-![enter description here](https://xiaoshujiang-shenmo.oss-accelerate.aliyuncs.com/小书匠/1665326724820.png)
+https://zhuanlan.zhihu.com/p/91901946
+
+已经购买的刷好的机器不需要点那个重置，到ipv6了之后再照做即可
 
 此时已可访问ipv6地址（如果你所在的网络不是校园网，不需要nat6，则不需要第一步，直接到这里设置个自动，ipv6内网也用dhcpv6获取即可）
 
