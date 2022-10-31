@@ -69,7 +69,7 @@ draft: false
 
 ### 3\. fcitx5中文输入法方括号和无法输入`·`问题的解决
 
-`sudo dedit /usr/share/fcitx5/punctuation/punc.mb.zh_CN`，把其中的的18、19行改为：
+`sudo deepin-editor /usr/share/fcitx5/punctuation/punc.mb.zh_CN`，把其中的的18、19行改为：
 
 ```
 [ 【
@@ -84,10 +84,7 @@ draft: false
 
 这个文件的每一行第一个字符代表按键，第二个开始的所有字符代表该按键的Fcitx5中文输入法下的输出字符
 
-> dedit在安装此应用后可使用
->
->[spk://store/office/tech.shenmo.dedit](spk://store/office/tech.shenmo.dedit)
->也可把操作中的dedit换成对应的编辑器，比如nano
+
 
 ### 4\. 其他常见问题
 
