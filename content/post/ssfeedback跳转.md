@@ -1,5 +1,5 @@
 ---
-title: Ssfeedback跳转
+title: ssfeedback跳转
 date: 2022-11-19T21:24:20+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site
@@ -7,9 +7,9 @@ avatar: /img/avatar.jpeg
 # images:
 #   - /img/cover.jpg
 categories:
-  - 啥都有
+  - spk跳转
 tags:
-  - 闲聊
+  - spk跳转
 # nolastmod: true
 draft: false
 ---
