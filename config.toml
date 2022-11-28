@@ -15,13 +15,13 @@ enableGitInfo = true
 
 [params]
   background = "#f7f7f7"
-  #backgroundImage = "img/light.png"
+  backgroundImage = "https://s4.ax1x.com/2022/03/04/bUV2tS.png"
   linkColor = "seagreen"
 
    #dark mode
-   defaultDark = false
+   defaultDark = true
    backgroundDark = "black"
-   backgroundImageDark = "img/dark.png"
+   backgroundImageDark = "https://blog.shenmo.tech/img/dark.png"
    darkLinkColor = "darkseagreen"
    darkNav = true
    dark404 = true
