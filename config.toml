@@ -19,7 +19,7 @@ enableGitInfo = true
   linkColor = "seagreen"
 
    #dark mode
-   defaultDark = true
+   defaultDark = false
    backgroundDark = "black"
    backgroundImageDark = "https://blog.shenmo.tech/img/dark.png"
    darkLinkColor = "darkseagreen"
