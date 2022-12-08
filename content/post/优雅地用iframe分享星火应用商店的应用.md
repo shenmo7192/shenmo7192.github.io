@@ -39,6 +39,19 @@ draft: false
 
 ## 效果展示
 
+```
+<iframe
+    frameborder="no"
+    border="0"
+    marginwidth="0"
+    marginheight="0"
+    width=600
+    height=300
+    src="https://deepin-community-store.gitee.io/spk-resolv/?spk=spk://store/chat/store.spark-app.feedback">
+</iframe>
+
+```
+
 <iframe
     frameborder="no"
     border="0"
