@@ -35,7 +35,7 @@ enableGitInfo = true
   # categoriesLimitInHeader = 6 # deprecated
   # headerBottomText = "???????" # deprecated
 
-   footerBottomText = "看不见我～"
+   footerBottomText = "上面有备案号的"
 
    rss = true
 
