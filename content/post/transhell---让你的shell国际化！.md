@@ -34,7 +34,7 @@ transhell 是一个bash国际化方案
 0. 导入函数
 
 ```
-source /opt/dupps/transhell/transhell. sh
+source /opt/durapps/transhell/transhell. sh
 load_transhell
 
 ```
