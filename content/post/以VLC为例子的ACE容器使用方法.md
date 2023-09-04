@@ -96,4 +96,4 @@ UOS比较旧版本/非x86平台/deepin 23的朋友，会需要这个，可以接
 因为没有制作wrapper deb，deepin 启动器无法直接操作卸载。我们不想要的时候，需要手动清理
 
 * 去~/.local/share/applications下手动删掉我们制作的desktop
-* `sudo bookworm-run autoremove vlc -y`
+* `sudo bookworm-run apt autoremove vlc -y`
