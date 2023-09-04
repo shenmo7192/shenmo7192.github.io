@@ -1,4 +1,18 @@
-
+---
+title: 琥珀兼容环境——书虫兼容模式的一个使用例
+date: 2023-09-03T19:46:35+08:00
+author: shenmo
+avatar: /img/avatar.jpeg
+# authorlink: https://author.site
+# images:
+#   - /img/cover.jpg
+categories:
+  - 啥都有
+tags:
+  - 折腾博客
+# nolastmod: true
+draft: false
+---
 琥珀兼容环境——书虫兼容模式的一个使用例（不包含打包）
 
 <!--more-->
