@@ -1,5 +1,5 @@
 ---
-title: 琥珀兼容环境——书虫兼容模式的一个使用例
+title: 使用ACE容器运行deepin不支持的新应用的教程:以VLC为例
 date: 2023-09-03T19:46:35+08:00
 author: shenmo
 avatar: /img/avatar.jpeg
@@ -9,17 +9,17 @@ avatar: /img/avatar.jpeg
 categories:
   - 啥都有
 tags:
-  - 折腾博客
+  - linux
 # nolastmod: true
 draft: false
 ---
-琥珀兼容环境——书虫兼容模式的一个使用例（不包含打包）
+琥珀兼容环境——书虫兼容模式的一个使用例
 
 <!--more-->
 
 
 这里是正文开始的内容
-以下为 琥珀兼容环境——书虫兼容模式的一个使用例（不包含打包），想要体验书虫兼容模式的同学可以接着往下看
+以下为 琥珀兼容环境——书虫兼容模式的一个使用例，想要体验书虫兼容模式的同学可以接着往下看
 
 ![图片.png](https://storage.deepin.org/thread/202309041648374834_图片.png)
 
