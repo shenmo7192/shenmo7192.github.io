@@ -12,7 +12,7 @@ draft: false
 	 <img class="ava" src="https://s1.ax1x.com/2022/05/18/OosPeK.png" /> 
        <div class="card-header"> 
         <div> 
-         <a href="https://gitee.com/deepin-community-store/spark-store">星火应用商店</a> 
+         <a href="https://gitee.com/spark-store-project/spark-store">星火应用商店</a> 
         </div> 
         <div class="info">
          第三方Linux应用商店
