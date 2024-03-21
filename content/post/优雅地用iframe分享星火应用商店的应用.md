@@ -33,7 +33,7 @@ draft: false
     marginheight="0"
     width=宽度，单位像素，推荐使用400+，否则可能显示不全
     height=高度，同上，推荐300+
-    src="https://deepin-community-store.gitee.io/spk-resolv/?spk=这里粘贴从商店复制出来的spk">
+    src="https://spark-store-project.gitee.io/spk-resolv/?spk=这里粘贴从商店复制出来的spk">
 </iframe>
 ```
 
@@ -47,7 +47,7 @@ draft: false
     marginheight="0"
     width=600
     height=300
-    src="https://deepin-community-store.gitee.io/spk-resolv/?spk=spk://store/chat/store.spark-app.feedback">
+    src="https://spark-stote-project.gitee.io/spk-resolv/?spk=spk://store/chat/store.spark-app.feedback">
 </iframe>
 
 ```
@@ -59,5 +59,5 @@ draft: false
     marginheight="0"
     width=600
     height=300
-    src="https://deepin-community-store.gitee.io/spk-resolv/?spk=spk://store/chat/store.spark-app.feedback">
+    src="https://spark-store-project.gitee.io/spk-resolv/?spk=spk://store/chat/store.spark-app.feedback">
 </iframe>
