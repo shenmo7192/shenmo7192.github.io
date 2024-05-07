@@ -4,9 +4,9 @@
 
 {{ if .Site.Params.highlightjs }}
 {{ if .Site.Params.highlightjsTheme }}
-<link rel="stylesheet" data-highlight href="https://shenmo7192.gitee.io/cdn-release/build/styles/{{ .Site.Params.highlightjsTheme }}.min.css" />
+<link rel="stylesheet" data-highlight href="https://cdn.shenmo.tech/cdn-release/build/styles/{{ .Site.Params.highlightjsTheme }}.min.css" />
 {{ else }}
-<link rel="stylesheet" data-highlight href="https://shenmo7192.gitee.io/cdn-release/build/styles/default.min.css" />
+<link rel="stylesheet" data-highlight href="https://cdn.shenmo.tech/cdn-release/build/styles/default.min.css" />
 {{ end }}
 {{ end }}
 
@@ -156,11 +156,11 @@
 <script src="{{ "/js/scrollToTop.js" | relURL }}"></script>
 
 {{ if .Site.Params.highlightjs }}
-<script src="{{ if .Site.Params.highlightjsCDN }}{{ .Site.Params.highlightjsCDN }}{{ else }}{{ "https://shenmo7192.gitee.io/cdn-release/build/highlight.min.js" }}{{ end}}"></script>
+<script src="{{ if .Site.Params.highlightjsCDN }}{{ .Site.Params.highlightjsCDN }}{{ else }}{{ "https://cdn.shenmo.tech/cdn-release/build/highlight.min.js" }}{{ end}}"></script>
 
 {{ if .Site.Params.highlightjsExtraLanguages }}
 {{ range .Site.Params.highlightjsExtraLanguages }}
-<script src="https://shenmo7192.gitee.io/cdn-release/build/languages/{{ . }}.min.js"></script>
+<script src="https://cdn.shenmo.tech/cdn-release/build/languages/{{ . }}.min.js"></script>
 {{ end }}
 {{ end }}
 
