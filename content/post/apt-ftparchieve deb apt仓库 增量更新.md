@@ -21,59 +21,6 @@ draft: false
 #### 使用方法
 很多网站都有使用apt-ftparchieve的使用教程，我在这里再讲一下
 
-### 首先创建gpg密钥
-
-```bash
-gpg --gen-key
-gpg (GnuPG) 1.4.20; Copyright (C) 2015 Free Software Foundation, Inc.
-This is free software: you are free to change and redistribute it.
-There is NO WARRANTY, to the extent permitted by law.
-
-Please select what kind of key you want:
-   (1) RSA and RSA (default)
-   (2) DSA and Elgamal
-   (3) DSA (sign only)
-   (4) RSA (sign only)
-
-```
-选择 4 只用于签名
-
-```bash
-RSA keys may be between 1024 and 4096 bits long.
-What keysize do you want? (2048) 1024
-Requested keysize is 1024 bits
-Please specify how long the key should be valid.
-         0 = key does not expire
-      <n>  = key expires in n days
-      <n>w = key expires in n weeks
-      <n>m = key expires in n months
-      <n>y = key expires in n years
-Key is valid for? 
-
-```
-选择 0 永不过期
-
-```bash
-You need a user ID to identify your key; the software constructs the user ID
-from the Real Name, Comment and Email Address in this form:
-    "Heinrich Heine (Der Dichter) <heinrichh@duesseldorf.de>"
-
-Real name: 要生成的密钥中的名字
-Email address:能联系到你的邮箱
-```
-
-说是真名但是不一定要是真名，可以认为是ID
-
-邮箱是会发布出去的，如果你想让你的仓库用户知道如何联系你，那就写上你自己的邮箱，否则可以留空
-
-```bash
-We need to generate a lot of random bytes. It is a good idea to perform
-some other action (type on the keyboard, move the mouse, utilize the
-disks) during the prime generation; this gives the random number
-generator a better chance to gain enough entropy.
-```
-正在生成密钥，做点什么事，让系统创建出足够的熵即可。等待完成
-
 ### 创建仓库
 
 在放置deb的位置创建文件夹，cd到文件夹中执行
@@ -87,18 +34,18 @@ gpg --clearsign -o InRelease Release
 
 ```
 
-即可创建仓库
+即可创建仓库，此时开启http server即可完成创建
 
-### 但是：每次你更新仓库，都会从头生成一遍Packages，随着你的仓库大小增加，每次刷新Packages的时间会越来越长，而且这对你的磁盘也是一种损伤！
+但是：每次更新仓库，都会从头生成一遍Packages，随着你的仓库大小增加，每次刷新Packages的时间会越来越长，而且这对你的磁盘也是一种损伤！
 
 ### 解决方法：
 
 ```bash
-wget https://gitee.com/deepin-community-store/repo_auto_update_script/raw/master/repo-maintain/incremental-updating-packages.sh
-chmod +x ./incremental-updating-packages.sh
+wget https://gitee.com/shenmo7192/momo-and-mox-tool-scripts/raw/master/other-tools/deb-repo-script/incremental-update.sh
+chmod +x ./incremental-update.sh
 ```
 
-然后用编辑器打开这个`incremental-updating-packages.sh`，把第一行的`REPO_DIR=""`中的内容替换成你的仓库的**绝对路径**
+把这个脚本放到你的仓库根目录上
 
 这个脚本可以让你的仓库的`Packages` 增量更新，只会更新相比上次更新新增的软件包，这样会大大减少较大仓库的刷新时间，也可降低磁盘损耗！
 
@@ -107,9 +54,7 @@ chmod +x ./incremental-updating-packages.sh
 若要使用该脚本，上一节的指令应当是
 
 ```bash
-cd /abosolute/path/to/repo
-./incremental-updating-packages.sh
-apt-ftparchive release . > Release
+/abosolute/path/to/repo/incremental-updating-packages.sh
 gpg --clearsign -o InRelease Release
 
 
@@ -123,26 +68,22 @@ gpg --clearsign -o InRelease Release
 
 推荐的方法是使用nginx等专业工具，然而，如果你不想或者不想学如何配置nginx，那么你可以用我提供的这个极简的python脚本
 
-先`sudo apt install python2`安装py2，然后`wget https://gitee.com/shenmo7192/momo-and-mox-tool-scripts/raw/master/python2-scripts/server.py`
+先`sudo apt install python3`，然后`wget https://gitee.com/shenmo7192/momo-and-mox-tool-scripts/raw/master/server.py`
 
-使用这个脚本创建服务器的方法非常简单，`python2 ./server.py 端口号`
+使用这个脚本创建服务器的方法非常简单，`python3 ./server.py `
 
 在服务器上后台运行，请先安装screen，再在screen中运行，这样断开连接之后仍然可以host服务器
 
 退出screen的方法是ctrl+A+D，再次进入用的是screen -r 对应的id，终结screen的方法是在screen内部输入exit
 
-如果你的对应端口放通了，那么不出意外的话，你已经可以从`ip:端口`上访问你的仓库了~（如果有域名可换成域名）
+如果你的对应端口放通了，那么不出意外的话，你已经可以从`ip:8000`上访问你的仓库了~（如果有域名可换成域名）
 
 ### 用户如何使用此仓库
 
-正确的做法是把你刚生成的gpg公钥导出，再发送到用户的电脑上安装，源才能使用
-
-然而，你也可以像这样要求客户端不验证签名以把事情简单化。请注意，这样可能有一定风险，如果追求安全还是建议导出之后让用户导入再用
-
-用户只需要在`/etc/apt/sources.list`中加入
+只需要在`/etc/apt/sources.list`中加入
 
 ```bash
-deb [trusted=yes] ip:端口 / 
+deb [trusted=yes] http://ip:8000/ / 
 ```
 
 然后`sudo apt update`即可连接到你的apt仓库！
@@ -169,9 +110,6 @@ deb [trusted=yes] ip:端口 /
 
 ---
 
-### 代码讲解：
-
-地址：  https://gitee.com/deepin-community-store/repo_auto_update_script/blob/master/repo-maintain/incremental-updating-packages.sh
 
 #### 需求
 
@@ -187,8 +125,6 @@ deb [trusted=yes] ip:端口 /
   * 若 `.deb.package`的时间比 `.deb`新，则说明此包从上次生成信息起没有改动，跳过即可；否则，说明此包在上次生成信息之后发生了变动，应该重新生成。此时执行删除信息操作，在下一个阶段时将会被认为是新增的软件包而重新生成
 * 然后对已存在的 `.deb`，查找是否存在对应的 `.deb.package`。若有，则说明此包已上架，可跳过生成；否则，则认为是新包，执行信息生成
 * 最后，合成所有的 `.deb.package`到 `Packages`，继续进行后续的签名等操作
-
-* 关于多线程：在REPO_PATH下额外放一个lock专用文件夹，每开始一个hash线程则在此处放置.lock文件，而每次创建进程之前都统计这个文件夹中lock文件的数量，这样就做到了控制线程数量最大值
 
 ---
 
