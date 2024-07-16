@@ -56,7 +56,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           TZ: Asia/Shanghai
         run: |
-          hugo -d ./public"          
+          hugo -d ./public          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
