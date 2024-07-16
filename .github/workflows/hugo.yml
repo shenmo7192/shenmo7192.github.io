@@ -41,7 +41,7 @@ jobs:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
         run: |
-          ./hugo -d public
+          pwd && ls && ./hugo -d public 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
