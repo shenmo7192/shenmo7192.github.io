@@ -16,6 +16,8 @@ draft: false
 
 transhell 是一个bash国际化方案
 
+实际上，重复造轮子了，建议去学gettext
+
 <!--more-->
 
 
