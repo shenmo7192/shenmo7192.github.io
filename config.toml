@@ -27,7 +27,7 @@ enableGitInfo = true
    dark404 = true
 
   author = "shenmo"
-  description = "shenmo的世界：是一个普通人用来记录生活，记录折腾历程，还有些杂七杂八的随感的地方"
+  description = "shenmo的世界：是用来记录生活，记录折腾历程，还有些杂七杂八的随感的地方"
   avatar = "/img/avatar-porno.jpeg"
   headerTitle = "shenmo"
   motto = "追求源于热爱"
@@ -35,7 +35,7 @@ enableGitInfo = true
   # categoriesLimitInHeader = 6 # deprecated
   # headerBottomText = "???????" # deprecated
 
-   footerBottomText = "上面有备案号的"
+   footerBottomText = "看不见我"
 
    rss = true
 
