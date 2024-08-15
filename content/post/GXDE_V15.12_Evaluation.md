@@ -3,7 +3,7 @@ title: 发行测评：GXDE V15.12：接近好用水准的混合桌面环境
 date: 2024-08-15T19:38:57+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site
-# cover: /img/Icey-view.png
+cover: https://gitee.com/GXDE-OS/GXDE/raw/master/icon.svg
 # images:
 #   - /img/cover.jpg
 categories:
