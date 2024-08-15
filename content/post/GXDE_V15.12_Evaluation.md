@@ -3,7 +3,7 @@ title: 发行测评：GXDE V15.12：接近好用水准的混合桌面环境
 date: 2024-08-15T19:38:57+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site
-#cover: https://gitee.com/GXDE-OS/GXDE/raw/master/icon.svg
+# cover: https://gitee.com/GXDE-OS/GXDE/raw/master/icon.svg
 # images:
 #   - /img/cover.jpg
 categories:
@@ -20,7 +20,7 @@ draft: false
 
 Hola大家好哦，这里是shenmo的发行版/桌面测评系列～（上一波：[TrinityDE：一款字面意义上复古的桌面环境](https://blog.shenmo.tech/post/q4os_evaluation/)）
 
-今天是deepin 23发布的日子，标志着deepin 20结束支持。**当一个故事要结束的时候，我们总会想起它的开始....(音乐起)[https://music.163.com/#/song?id=2026565329](https://music.163.com/#/song?id=2026565329)**
+今天是deepin 23发布的日子，标志着deepin 20结束支持。**当一个故事要结束的时候，我们总会想起它的开始....<a href="https://music.163.com/#/song?id=2026565329" target="_blank">(音乐起)</a>
 
 
 > 题外话：如果各位v23正式版镜像下载非常慢的话，可以用镜像站下载～
