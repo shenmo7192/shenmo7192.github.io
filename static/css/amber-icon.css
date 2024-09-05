@@ -1,8 +1,8 @@
-#veditor {
-    background-image: url(https://s1.ax1x.com/2022/05/18/Oor0Gd.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-color: rgba(255, 255, 255, 0);
-    resize: vertical
+
+#wl-edit {
+    background: url("https://s1.ax1x.com/2022/05/18/Oor0Gd.png") 100% 100% no-repeat;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: right bottom !important; 
 }
+
