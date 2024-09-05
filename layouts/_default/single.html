@@ -29,13 +29,16 @@
     import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
 
     init({
+  locale: {
+    placeholder: '欢迎评论～启用了评论先审后发，发送评论后需审核后才可见哦～',
+  },
       el: '#vcomments',
       serverURL: 'https://waline.shenmo.tech/',
       emoji: [
       '//unpkg.com/@waline/emojis@1.2.0/weibo',
       '//unpkg.com/@waline/emojis@1.2.0/bmoji',
     ],
-      locales.placeholder:"test",
+      locale,
     });
   </script>
 	
