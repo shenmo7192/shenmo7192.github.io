@@ -5,11 +5,11 @@ lastmod: 2021-10-09T19:16:38+08:00
 draft: false
 ---
 
-星火应用商店项目 Leader
+星火应用商店
   <div class="links-content"> 
      <div class="link-navigation"> 
       <div class="card"> 
-	 <img class="ava" src="https://s1.ax1x.com/2022/05/18/OosPeK.png" /> 
+	 <img class="ava" src="https://portrait.gitee.com/uploads/avatars/namespace/2086/6258778_deepin-community-store_1593773537.png" /> 
        <div class="card-header"> 
         <div> 
          <a href="https://gitee.com/spark-store-project/spark-store">星火应用商店</a> 
@@ -22,23 +22,6 @@ draft: false
 		 </div>
 		 
 		 
-
-
-Minecraft BE 服务器交流群：913146678
-<div class="links-content"> 
-     <div class="link-navigation"> 
-      <div class="card"> 
-	 <img class="ava" src="https://s1.ax1x.com/2022/05/18/Oosnyt.png" /> 
-       <div class="card-header"> 
-        <div> 
-         <a href="https://jq.qq.com/?_wv=1027&k=bbAHpP6d">点击加入QQ群</a> 
-        </div> 
-        <div class="info">
-         shenmo服务器
-		 </div>
-		 </div>
-		 </div>
-		 </div>
 
 
 bilibili:
@@ -64,13 +47,13 @@ bilibili:
 <div class="links-content"> 
      <div class="link-navigation"> 
       <div class="card"> 
-	 <img class="ava" src="https://avatar.cdn.deepin.com/public/avatar/2022/05/11/22-15-27-92ffc20b.png" /> 
+	 <img class="ava" src="https://avatar.cdn.deepin.com/public/avatar/2024/06/25/01-07-30-dbf68ad5.png" /> 
        <div class="card-header"> 
         <div> 
          <a href="https://bbs.deepin.org/zh/user/223313">神末shenmo</a> 
         </div> 
         <div class="info">
-         星火首席爆料官~
+         为世界上所有的美好而战
 		 </div>
 		 </div>
 		 </div>
