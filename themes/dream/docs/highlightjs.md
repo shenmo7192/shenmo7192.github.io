@@ -7,7 +7,7 @@ This is all params which you can setting:
 ```toml
 [params]
   highlightjs = true
-  # highlightjsCDN = "https://cdn.shenmo.tech/cdn-release/build/highlight.min.js"
+  # highlightjsCDN = "//cdn.shenmo.tech/external/cdn-release/build/highlight.min.js"
   highlightjsExtraLanguages = ["ocaml"]
   highlightjsTheme = "gruvbox-light"
   highlightjsThemeDark = "gruvbox-dark"
@@ -21,7 +21,7 @@ If you want to use this feature, you must set `highlightjs` to `true`.
 
 ### highlightjsCDN
 
-Override default cdn of highlightjs, the default is <https://cdn.shenmo.tech/cdn-release/build/highlight.min.js>.
+Override default cdn of highlightjs, the default is <//cdn.shenmo.tech/external/cdn-release/build/highlight.min.js>.
 
 ### highlightjsExtraLanguages = ["ocaml"]
 

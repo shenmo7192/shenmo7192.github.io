@@ -53,7 +53,7 @@
   favicon = "/favicon.ico"
 
   highlightjs = true
-  # highlightjsCDN = "https://cdn.shenmo.tech/cdn-release/build/highlight.min.js"
+  # highlightjsCDN = "//cdn.shenmo.tech/external/cdn-release/build/highlight.min.js"
   highlightjsExtraLanguages = ["ocaml"]
   highlightjsTheme = "gruvbox-light"
   highlightjsThemeDark = "gruvbox-dark"
