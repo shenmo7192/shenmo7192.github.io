@@ -60,7 +60,7 @@ theme = "hugo-theme-dream"
   # favicon = "/favicon.ico"
 
   # highlightjs = true
-  # highlightjsCDN = "//cdn.shenmo.tech/external/cdn-release/build/highlight.min.js"
+  # highlightjsCDN = "//blog.shenmo.tech/external/cdn-release/build/highlight.min.js"
   # highlightjsExtraLanguages = ["ocaml"]
   # highlightjsTheme = "gruvbox-light"
   # highlightjsThemeDark = "gruvbox-dark"

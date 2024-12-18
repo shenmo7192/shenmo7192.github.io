@@ -62,7 +62,7 @@ enableGitInfo = true
    favicon = "/favicon.ico"
 
    highlightjs = true
-   highlightjsCDN = "//cdn.shenmo.tech/external/cdn-release/build/highlight.min.js"
+   highlightjsCDN = "//blog.shenmo.tech/external/cdn-release/build/highlight.min.js"
    highlightjsExtraLanguages = ["ocaml"]
    highlightjsTheme = "gruvbox-light"
    highlightjsThemeDark = "gruvbox-dark"
@@ -85,7 +85,7 @@ enableRobotsTXT = true
    [params.advanced]
      customCSS = ["https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.3/css/all.min.css","css/amber-icon.css"]
      customJSBefore = []
-     customJS = ["//cdn.shenmo.tech/external/live2d-widget-left-and-right/autoload.js"]
+     customJS = ["//blog.shenmo.tech/external/live2d-widget-left-and-right/autoload.js"]
 
    [params.experimental]
      jsDate = true
