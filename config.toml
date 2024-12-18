@@ -15,7 +15,7 @@ enableGitInfo = true
 
 [params]
   background = "#f7f7f7"
-  backgroundImage = "https://s4.ax1x.com/2022/03/04/bUV2tS.png"
+  backgroundImage = "https://img.picui.cn/free/2024/12/19/6763520f2b5fc.jpeg"
   linkColor = "seagreen"
 
    #dark mode
@@ -35,7 +35,7 @@ enableGitInfo = true
   # categoriesLimitInHeader = 6 # deprecated
   # headerBottomText = "???????" # deprecated
 
-   footerBottomText = "看不见我"
+  # footerBottomText = "看不见我"
 
    rss = true
 

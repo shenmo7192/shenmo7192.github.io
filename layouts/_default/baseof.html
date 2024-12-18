@@ -23,6 +23,30 @@ var _hmt = _hmt || [];
 })();
 </script>
 
+  <style>
+    .blur-background {
+      position: relative;
+      display: inline-block;
+      padding: 10px 15px;
+      background: rgba(255, 255, 255, 0.6);
+      border-radius: 8px;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .blur-background a {
+      color: #0044cc;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .blur-background a:hover {
+      color: #002288;
+      text-decoration: underline;
+    }
+  </style>
 
 
   </head>
@@ -37,16 +61,19 @@ var _hmt = _hmt || [];
 
             <footer class="ui basic center aligned segment" style="background-color: transparent;">
 	<p><script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1280406540'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1280406540%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script></p>
+
+<div class="blur-background">	
               {{ if .Site.Params.siteStartYear }}
               <p>© {{ if eq now.Year .Site.Params.siteStartYear }}{{ now.Year }}{{ else }}{{ .Site.Params.siteStartYear }} - {{ now.Year }}{{ end }} {{ .Site.Title }}</p>
               {{ else }}
               <p>© {{ now.Year }} {{ .Site.Title }}</p>
               {{ end }}
+   
 
-              
-		
 		<p>Hugo theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
-		 <a href="https://icp.gov.moe/?keyword=20247192" target="_blank">萌ICP备20247192号</a>
+  <a href="https://icp.gov.moe/?keyword=20247192" target="_blank">萌ICP备20247192号</a>
+</div>
+
 
               {{ if .Site.Params.footerBottomText }}
               <p>{{ .Site.Params.footerBottomText | safeHTML }}</p>
