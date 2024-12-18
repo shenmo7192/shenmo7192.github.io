@@ -1,0 +1,30 @@
+browser-icon: # 添加浏览器图标
+  raw: "'<span class=\"vsys\">' + o.browser + \" \" + o.version"
+  changed: "'<span class=\"vsys\"><i class=\"browser-icon fab fa-' + ([ \"xiaomi\" ].includes(o.browser.toLowerCase()) ? \"mobile-alt fas\" : o.browser.toLowerCase()) + '\"></i>' + o.browser + \" \" + o.version"
+
+os-icon: # 添加设备图标
+  raw: "'</span> <span class=\"vsys\">' + o.os + \" \" + o.osVersion"
+  changed: "'</span> <span class=\"vsys\"><i class=\"os-icon fab fa-' + ([ \"mac os\", \"ios\" ].includes(o.os.toLowerCase()) ? \"apple\" : o.os.toLowerCase()) + '\"></i>' + o.os + \" \" + o.osVersion"
+
+friends-icon1: # 添加博主、朋友、访客等功能
+  raw: 't.get("url") + "</a>");'
+  changed: "t.get(\"url\") + \"</a>\");\nvar ism = e.cfg.master.includes((0, u.default)(t.get(\"mail\"))), isf = e.cfg.friends.includes((0, u.default)(t.get(\"mail\").toLowerCase())), gat = ism ? '<span class=\"vtag vmaster\">' + e.cfg.tagMeta[0] + \"</span>\" : isf ? '<span class=\"vtag vfriend\">' + e.cfg.tagMeta[1] + \"</span>\" : '<span class=\"vtag vvisitor\">' + e.cfg.tagMeta[2] + \"</span>\";"
+friends-icon2: # 添加博主、朋友、访客等功能
+  raw: "'\" target=\"_blank\" >' + l + \"</a>\" : '<span class=\"vnick\">' + l + \"</span>\""
+  changed: "'\" target=\"_blank\" >' + l + \"</a>\" + gat : '<span class=\"vnick\">' + l + \"</span>\" + gat"
+
+friends-config: # 添加博主、朋友、访客功能配置项
+  raw: 'clazzName: "Comment",'
+  changed: 'clazzName: "Comment",master: [],friends: [],tagMeta: [ "博主", "小伙伴", "访客" ],metaPlaceholder: {nick: "昵称/QQ号(必填)",mail: "邮箱(必填)",link: "网址(https://)"},'
+
+email-rule: # 邮箱检测规则替换
+  raw: "!/[\\w-\\.]+@([\\w-]+\\.)+[a-z]{2,3}/.test(S.mail))"
+  changed: "!/^[a-zA-Z0-9.!#$%&'*+\\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/.test(S.mail))"
+
+style: # 添加样式
+  raw: '.vcards .vcard .vhead .vnick'
+  changed: '.vcards .vcard .vhead .vtag{font-size:12px;display:inline-block;line-height:20px;border-radius:2px;color:#fff;padding:0 5px;position:inherit;margin-left:-5px;} .vcards .vcard .vhead .vtag.vmaster{background:#ffa51e} .vcards .vcard .vhead .vtag.vfriend{background:#6cf} .vcards .vcard .vhead .vtag.vvisitor{background:#828282} .vcards .vcard .vhead .browser-icon, .vcards .vcard .vhead .os-icon{margin-right:3px;} .vcards .vcard .vhead .vnick'
+
+metaPlaceholder:
+  raw: "'\" placeholder=\"' + e.i18n.t(t)"
+  changed: "'\" placeholder=\"' + (e.cfg.metaPlaceholder[t] || e.i18n.t(t))"

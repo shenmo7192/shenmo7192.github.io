@@ -1,0 +1,28 @@
+{
+  "name": "valine",
+  "version": "1.5.1",
+  "description": "A simple comment system based on Leancloud.",
+  "main": "/dist/Valine.min.js",
+  "author": "xCss <xioveliu@gmail.com> (https://github.com/xCss)",
+  "scripts": {
+    "clean": "rm -rf dist/* ",
+    "format": "uglifyjs raw/Valine.min.js --beautify comments=true -o raw/Valine.format.js",
+    "build": "node build.js"
+  },
+  "keywords": [
+    "simple",
+    "easy-to-use",
+    "fast-and-safe",
+    "comment-system"
+  ],
+  "license": "GPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xcss/Valine.git"
+  },
+  "homepage": "https://github.com/xcss/Valine#readme",
+  "devDependencies": {
+    "js-yaml": "^4.1.0",
+    "uglify-js": "^3.15.2"
+  }
+}
