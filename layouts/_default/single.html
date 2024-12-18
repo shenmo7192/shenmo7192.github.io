@@ -137,11 +137,7 @@
       </article>
     </section>
 
-    {{ if .Site.DisqusShortname }}
-    <article class="ui segment post-disqus-area" data-html2canvas-ignore>
-      {{ partial "disqus.html" (dict "Context" . "Identifier" .RelPermalink) }}
-    </article>
-    {{ end }}
+
 
     {{ if .Site.Params.utterancesRepo }}
     <article class="ui segment utterances-comments" data-html2canvas-ignore>
