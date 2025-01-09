@@ -15,7 +15,7 @@ enableGitInfo = true
 
 [params]
   background = "#f7f7f7"
-  backgroundImage = "https://img.picui.cn/free/2024/12/19/6763520f2b5fc.jpeg"
+  backgroundImage = "https://blog.shenmo.tech/img/Amber-Wall.jpeg"
   linkColor = "seagreen"
 
    #dark mode
