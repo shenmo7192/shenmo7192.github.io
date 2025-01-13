@@ -9,7 +9,8 @@ avatar: /img/avatar.jpeg
 categories:
   - Linux测评
 tags:
-  - Linux,笔记
+  - Linux
+  - 笔记
 # nolastmod: true
 draft: false
 ---
