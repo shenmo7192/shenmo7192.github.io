@@ -25,7 +25,7 @@ GXDE 是基于 deepin 15 时期的深度桌面环境重生的桌面环境，在�
 
 下载链接：
 
-* 国内镜像 https://mirrors.sdu.edu.cn/spark-store/GXDE-OS/ISO/15.14.3/
+* 国内镜像 https://mirrors.sdu.edu.cn/GXDE-OS/ISO/15.14.3/
 * 星火网盘 [https://share.spark-app.store/index.php?share/folder&user=1&sid=RTvcs6A7](https://share.spark-app.store/index.php?share/folder&user=1&sid=RTvcs6A7)
 * 海外源站 https://repo.gxde.top/ISO/15.14.3/
 
