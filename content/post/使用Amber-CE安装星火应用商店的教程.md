@@ -29,13 +29,13 @@ https://gitee.com/amber-ce/amber-ce-bookworm#%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%9
 
 **从 「手动安装」的链接中下载Debian/Fedora/Arch所需的安装包并安装，对于大多数用户来说，你不需要构建，直接下载成品即可**
 
-![](https://bbs.spark-app.store/assets/files/2024-11-28/1732814515-626882-1732814331824.png)
+![](https://shenmo7192.atomgit.net/imgs/1732814515-626882-1732814331824.png)
 
-![](https://bbs.spark-app.store/assets/files/2024-11-28/1732814526-867548-1732814350340.png)
+![](https://shenmo7192.atomgit.net/imgs/1732814526-867548-1732814350340.png)
 
-![](https://bbs.spark-app.store/assets/files/2024-11-28/1732814647-713262-76af9417-159f-4de2-af77-e61fb7abbeab.png)
+![](https://shenmo7192.atomgit.net/imgs/1732814647-713262-76af9417-159f-4de2-af77-e61fb7abbeab.png)
 
-![](https://bbs.spark-app.store/assets/files/2024-11-28/1732814736-809583-a888adee-4c2e-4b33-abd9-93c657df0a51.png)
+![](https://shenmo7192.atomgit.net/imgs/1732814736-809583-a888adee-4c2e-4b33-abd9-93c657df0a51.png)
 
 
 或直接从宿主机的星火应用商店或者星火应用商店终端版中安装 ACE兼容环境 应用
@@ -50,7 +50,7 @@ https://gitee.com/amber-ce/amber-ce-bookworm#%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%9
 
 * 到下载到的目录右键在终端中打开
 
-![](https://bbs.spark-app.store/assets/files/2023-12-12/1702393570-39331-50b96148-d3d4-4796-b2d6-9e19acb55bc1.png)
+![](https://shenmo7192.atomgit.net/imgs/1702393570-39331-50b96148-d3d4-4796-b2d6-9e19acb55bc1.png)
 
 * 输入`bookworm-run`进入ACE环境，并进行安装
 
@@ -58,7 +58,7 @@ https://gitee.com/amber-ce/amber-ce-bookworm#%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%9
 2. `sudo apt install `，注意install 后面有个空格，然后拖进来对应架构的应用包（家用一般是amd64，树莓派，飞腾，鲲鹏等是arm64），随后回车
 3. 现已不需要下载ACE特别版，直接安装普通版即可
 
-![](https://bbs.spark-app.store/assets/files/2023-12-12/1702393896-412459-3d5385c2-992e-48fb-82ab-33054750e1ed.png)
+![](https://shenmo7192.atomgit.net/imgs/1702393896-412459-3d5385c2-992e-48fb-82ab-33054750e1ed.png)
 
 ---
 
