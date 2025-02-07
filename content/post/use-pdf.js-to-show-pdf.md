@@ -35,7 +35,9 @@ PDF.js 是由Mozilla 主导推出的可以将PDF文件转换为H5页面进行展
 
 实现方法：通过`<a/>`标签链接到`viewer.html`页面，需要传递一个重要的参数`file`，设置为要显示的pdf文件的路径
 
-<a href="https://blog.shenmo.tech/external/pdf-viewer/web/viewer.html?file=https://shenmo7192.atomgit.net/imgs/demo.pdf">点击查看pdf内容</a>`
+`<a href="https://blog.shenmo.tech/external/pdf-viewer/web/viewer.html?file=https://shenmo7192.atomgit.net/imgs/demo.pdf">点击查看pdf内容</a>`
+
+<a href="https://blog.shenmo.tech/external/pdf-viewer/web/viewer.html?file=https://shenmo7192.atomgit.net/imgs/demo.pdf">点击查看pdf内容</a>
 
 * 方式2：嵌入在网页中
 
@@ -47,7 +49,7 @@ PDF.js 是由Mozilla 主导推出的可以将PDF文件转换为H5页面进行展
 
 ```
 
-    <iframe src="https://blog.shenmo.tech/external/pdf-viewer/web/viewer.html?file=https://shenmo7192.atomgit.net/imgs/demo.pdf" width="100%" height="400px;"></iframe>
+<iframe src="https://blog.shenmo.tech/external/pdf-viewer/web/viewer.html?file=https://shenmo7192.atomgit.net/imgs/demo.pdf" width="100%" height="400px;"></iframe>
 
 --->跨域设置
 
