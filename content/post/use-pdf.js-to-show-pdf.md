@@ -45,11 +45,11 @@ PDF.js 是由Mozilla 主导推出的可以将PDF文件转换为H5页面进行展
 
 ```html
 
-    <iframe src="https://blog.shenmo.tech/external/pdf-viewer/web/viewer.html?file=https://shenmo7192.atomgit.net/imgs/demo.pdf" width="100%" height="400px;"></iframe>
+    <iframe src="https://blog.shenmo.tech/external/pdf-viewer/web/viewer.html?file=https://shenmo7192.atomgit.net/imgs/demo.pdf" width="100%" height="100%;"></iframe>
 
 ```
 
-<iframe src="https://blog.shenmo.tech/external/pdf-viewer/web/viewer.html?file=https://shenmo7192.atomgit.net/imgs/demo.pdf" width="100%" height="400px;"></iframe>
+<iframe src="https://blog.shenmo.tech/external/pdf-viewer/web/viewer.html?file=https://shenmo7192.atomgit.net/imgs/demo.pdf" width="100%" height="100%;"></iframe>
 
 --->跨域设置
 
