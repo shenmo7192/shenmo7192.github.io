@@ -25,9 +25,8 @@ PDF.js 是由Mozilla 主导推出的可以将PDF文件转换为H5页面进行展
 
 用于演示的图片：
 
-![](https://shenmo7192.atomgit.net/imgs/63140487_p0.jpg)
 
-![](https://shenmo7192.atomgit.net/imgs/69723292_p0.jpg)
+![](https://shenmo7192.atomgit.net/imgs/2233/69723292_p0.jpg)
 
 2. 使用方法：
 
