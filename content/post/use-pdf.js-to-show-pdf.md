@@ -9,7 +9,7 @@ avatar: /img/avatar.jpeg
 categories:
   - 啥都有
 tags:
-  - 闲聊
+  - 笔记
 # nolastmod: true
 draft: false
 ---
