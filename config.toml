@@ -1,0 +1,108 @@
+baseurl = "https://blog.shenmo.tech"
+languageCode = "en"
+defaultContentLanguage = "zh"
+title = "shenmo的世界"
+theme = "dream"
+
+ copyright = "本博客所有文章使用《知识共享 署名-非商业性使用-相同方式共享 4.0》(CC-BY-NC-SA-4.0)协议"
+
+#googleAnalytics = "G-LH45F8QHB6"
+
+# disqusShortname = ""
+
+enableRobotsTXT = true
+enableGitInfo = true
+
+[params]
+  background = "#f7f7f7"
+  backgroundImage = "https://blog.shenmo.tech/img/Amber-Wall.jpeg"
+  linkColor = "seagreen"
+
+   #dark mode
+   defaultDark = false
+   backgroundDark = "black"
+   backgroundImageDark = "https://blog.shenmo.tech/img/dark.png"
+   darkLinkColor = "darkseagreen"
+   darkNav = true
+   dark404 = true
+
+  author = "shenmo"
+  description = "shenmo的世界：是用来记录生活，记录折腾历程，还有些杂七杂八的随感的地方"
+  avatar = "/img/avatar.jpeg"
+  headerTitle = "shenmo"
+  motto = "追求源于热爱"
+  # maxTags = 5
+  # categoriesLimitInHeader = 6 # deprecated
+  # headerBottomText = "???????" # deprecated
+
+  # footerBottomText = "看不见我"
+
+   rss = true
+
+  # utterancesRepo = ""
+
+   valine = true
+   #LEANCLOUD_APP_ID = ""
+   #LEANCLOUD_APP_KEY = ""
+   #VALINE_LANGUAGE = "zh"
+
+  email = "jifengshenmo@outlook.com"
+  # twitter = ""
+  # facebook = ""
+  # instagram = ""
+  # mastodon = ""
+  # linkedin = ""
+   github = "shenmo7192"
+  # stackoverflow = ""
+  # codepen = ""
+   gitee = "shenmo7192"
+
+  siteStartYear = 2019
+
+   favicon = "/favicon.ico"
+
+   highlightjs = true
+   highlightjsCDN = "//blog.shenmo.tech/external/cdn-release/build/highlight.min.js"
+   highlightjsExtraLanguages = ["ocaml"]
+   highlightjsTheme = "gruvbox-light"
+   highlightjsThemeDark = "gruvbox-dark"
+
+  # search
+   enableSearch = true
+
+  # options
+   showSummaryCoverInPost = true
+  # hasTwitterEmbed = true
+   reversePostAndAside = true
+   shareInAside = true
+   fixedNav = true
+  # collapsibleTags = true
+  # collapseBySummary = true
+
+
+enableRobotsTXT = true
+#原本的font awesome的css是https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.3/css/all.min.css
+   [params.advanced]
+     customCSS = ["https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.3/css/all.min.css","css/amber-icon.css"]
+     customJSBefore = []
+     customJS = ["//blog.shenmo.tech/external/live2d-widget-left-and-right/autoload.js"]
+
+   [params.experimental]
+     jsDate = true
+     jsDateFormat = "yyyy年MM月dd日"
+
+ [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+
+
+[frontmatter]
+  date = [ 'date', ':git',  'publishDate', 'lastmod']
+  expiryDate = ['expiryDate']
+  lastmod = [':git', 'lastmod', 'date', 'publishDate']
+  publishDate = ['publishDate', 'date']
+

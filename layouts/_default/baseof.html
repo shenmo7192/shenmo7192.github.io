@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>{{ block "title" . }} {{- T "home" -}} {{ end }} | {{ .Site.Title }}</title>
+    {{ partial "head.html" . }}
+
+    {{ block "css" . }} {{ end }}
+
+    {{ range .Site.Params.Advanced.customCSS }}
+    <link rel="stylesheet" href="{{ . | relURL }}" />
+    {{ end }}
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?6ae2e048bab00103f95823530b33773b";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+  <style>
+    .blur-background {
+      position: relative;
+      display: inline-block;
+      padding: 10px 15px;
+      background: rgba(255, 255, 255, 0.6);
+      border-radius: 8px;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .blur-background a {
+      color: #0044cc;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .blur-background a:hover {
+      color: #002288;
+      text-decoration: underline;
+    }
+  </style>
+
+
+  </head>
+
+  <body class="default">
+    {{ partial "nav.html" . }}
+    <div class="flip-container">
+      <div class="flipper">
+        <section class="front">
+          <div class="dream-max-width">
+            {{ block "main" . }} {{ end }}
+
+            <footer class="ui basic center aligned segment" style="background-color: transparent;">
+	<p><script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1280406540'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1280406540%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script></p>
+
+<div class="blur-background">	
+              {{ if .Site.Params.siteStartYear }}
+              <p>© {{ if eq now.Year .Site.Params.siteStartYear }}{{ now.Year }}{{ else }}{{ .Site.Params.siteStartYear }} - {{ now.Year }}{{ end }} {{ .Site.Title }}</p>
+              {{ else }}
+              <p>© {{ now.Year }} {{ .Site.Title }}</p>
+              {{ end }}
+   
+
+		<p>Hugo theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
+  <a href="https://icp.gov.moe/?keyword=20247192" target="_blank">萌ICP备20247192号</a>
+</div>
+
+
+              {{ if .Site.Params.footerBottomText }}
+              <p>{{ .Site.Params.footerBottomText | safeHTML }}</p>
+              {{ end }}
+            </footer>
+          </div>
+        </section>
+        <section class="back">
+          <div class="dream-max-width">
+            {{ partial "back.html" . }}
+          </div>
+        </section>
+      </div>
+    </div>
+
+ <script src="https://unpkg.com/jquery@3.6.0"></script><div id="vcomments"></div>
+    <script src="https://unpkg.com/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    
+    {{ if .Site.Params.enableSearch }}
+    {{ partial "search.html" . }}
+    {{ end }}
+
+    {{ range .Site.Params.Advanced.customJSBefore }}
+    <script src="{{ . | relURL }}"></script>
+    {{ end }}
+
+    {{ partial "footer.html" . }}
+    {{ block "js" . }} {{ end }}
+
+    {{ range .Site.Params.Advanced.customJS }}
+    <script src="{{ . | relURL }}"></script>
+    {{ end }}
+
+
+</body>
+</html>

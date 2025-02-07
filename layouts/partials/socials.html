@@ -1,0 +1,239 @@
+<nav class="ui secondary menu dream-menu dream-socials">
+  {{ if .Site.Params.rss }}
+  <a class="item" href="{{ "index.xml" | relLangURL }}">
+    <i class="{{ .IconSize }} rss square icon" title="RSS"></i>
+  </a>
+  {{ end }}
+
+  {{ if .Site.Params.email }}
+  <a class="item" href="mailto:{{ .Site.Params.email }}">
+    <i class="{{ .IconSize }} mail icon" title="Email"></i>
+  </a>
+  {{ end }}
+
+  {{ if .Site.Params.twitter }}
+  <a class="item" href="https://twitter.com/{{ .Site.Params.twitter }}" target="_blank">
+    <i class="{{ .IconSize }} twitter icon" title="Twitter"></i>
+  </a>
+  {{ end }}
+
+  {{ if .Site.Params.facebook }}
+  <a class="item" href="https://facebook.com/{{ .Site.Params.facebook }}" target="_blank">
+    <i class="{{ .IconSize }} facebook icon" title="Facebook"></i>
+  </a>
+  {{ end }}
+
+  {{ if .Site.Params.instagram }}
+  <a class="item" href="https://instagram.com/{{ .Site.Params.instagram }}" target="_blank">
+    <i class="{{ .IconSize }} instagram icon" title="Instagram"></i>
+  </a>
+  {{ end }}
+
+  {{ if .Site.Params.mastodon }}
+  <a class="item" href="{{ .Site.Params.mastodon }}" target="_blank">
+    <i class="{{ .IconSize }} icon-mastodon icon" title="Mastodon"></i>
+  </a>
+  {{ end }}
+
+  {{ if .Site.Params.linkedin }}
+  <a class="item" href="https://www.linkedin.com/in/{{ .Site.Params.linkedin }}" target="_blank">
+    <i class="{{ .IconSize }} linkedin icon" title="Linkedin"></i>
+  </a>
+  {{ end }}
+
+  {{ if .Site.Params.gitee }}
+  <a class="item" href="https://gitee.com/{{ .Site.Params.github }}" target="_blank">
+ <svg  width="1.5rem" height="1.5rem" xmlns="http://www.w3.org/2000/svg" name="zi_tmGitee" viewBox="0 0 2000 2000"><path d="M898 1992q183 0 344-69.5t283-191.5q122-122 191.5-283t69.5-344q0-183-69.5-344T1525 477q-122-122-283-191.5T898 216q-184 0-345 69.5T270 477Q148 599 78.5 760T9 1104q0 183 69.5 344T270 1731q122 122 283 191.5t345 69.5zm199-400H448q-17 0-30.5-14t-13.5-30V932q0-89 43.5-163.5T565 649q74-45 166-45h616q17 0 30.5 14t13.5 31v111q0 16-13.5 30t-30.5 14H731q-54 0-93.5 39.5T598 937v422q0 17 14 30.5t30 13.5h416q55 0 94.5-39.5t39.5-93.5v-22q0-17-14-30.5t-31-13.5H842q-17 0-30.5-14t-13.5-31v-111q0-16 13.5-30t30.5-14h505q17 0 30.5 14t13.5 30v250q0 121-86.5 207.5T1097 1592z"/></svg>
+  </a>
+  {{ end }}
+
+  {{ if .Site.Params.github }}
+  <a class="item" href="https://github.com/{{ .Site.Params.github }}" target="_blank">
+    <i class="{{ .IconSize }} github icon" title="GitHub"></i>
+  </a>
+  {{ end }}
+
+  
+
+  {{ if .Site.Params.codepen }}
+  <a class="item" href="https://codepen.io/{{ .Site.Params.codepen }}" target="_blank">
+    <i class="{{ .IconSize }} codepen icon" title="Codepen"></i>
+  </a>
+  {{ end }}
+
+  {{ if (fileExists "data/socials.toml") }}
+  {{ $iconSize := .IconSize }}
+  {{ range .Site.Data.socials.socials }}
+    <a class="item" href="{{ .href }}" target="{{ .target }}">
+      <i class="{{ $iconSize }} {{ .icon }} icon" title="{{ .title }}"></i>
+    </a>
+  {{ end }}
+  {{ end }}
+
+<!--这里是手改的友链-->
+
+  <div class="post-body"> 
+<hr class="xsj_hr xsj_minus">
+  <p class="xsj_paragraph xsj_paragraph_level_0" data-source-line="37" data-source-line-display="true">
+<p><strong>友链</strong></p>
+
+   <div id="links"> 
+    <style>
+    .links-content
+    {
+      	margin-top:1rem;
+      }
+      .link-navigation::after
+      {
+      	content:" ";
+      	display:block;
+      	clear:both;
+      }
+      .card
+      {
+	      max-width:250px;
+	      font-size:1rem;
+      	border-radius:5px;
+	      transition-duration:.15s;
+	      margin-bottom:1rem;
+	      display:flex;
+	      padding:10px 25px;
+      }
+      .card:hover
+      {
+      	transform:scale(1.1);
+      	box-shadow:0 2px 6px 0 rgba(0,0,0,0.12), 0 0 6px 0 rgba(0,0,0,0.04);
+      }
+      .card a
+      {
+      	border:none;
+      }
+      .card .ava
+      {
+      	width:3rem!important;
+        height:3rem!important;
+      	border-radius:4px;
+      	margin:0 1em 0 0 !important;
+      }
+      .card .card-header
+      {
+      	font-style:italic;
+      	overflow:hidden;
+      	width:100%;
+      }
+      .card .card-header a
+      {
+      	font-style:normal;
+      	color:#333;
+      	font-weight:700;
+      	text-decoration:none;
+      }
+      .card .card-header a:hover
+      {
+      	color:#79aeff;
+      	text-decoration:none;
+      }
+      .card .card-header .info
+      {
+      	font-style:normal;
+      	color:#a3a3a3;
+      	font-size:14px;
+      	min-width:0;
+      	text-overflow:ellipsis;
+      	overflow:hidden;
+      	white-space:nowrap;
+      }
+      .card:nth-child(odd)
+      {
+      	float:left;
+      }
+      .card:nth-child(even)
+      {
+      	float:left;
+      }
+     </style> 
+    <div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	  <img class="ava" src="https://apple-qaq.github.io/assets/images/avatar.jpg" /> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://apple-qaq.github.io/">Apple_QAQの小站</a> 
+        </div> 
+        <div class="info">
+         你好啊~你可以叫我猫猫~
+        </div> 
+       </div> 
+      </div>
+     </div> 
+    </div> 
+   </div> 
+  </div>
+
+
+
+<div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	  <img class="ava" src="https://www.sunnypai.top/upload/%E7%BE%8E%E6%B3%A2%E9%87%8C.webp" />
+ 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://www.sunnypai.top">SunnyPai</a> 
+        </div> 
+        <div class="info">
+          天晴了，太阳就会出来的
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+
+<div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	  <img class="ava" src="https://blog.yzzi.icu/avatar/avatar.jpeg
+" />
+ 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://blog.yzzi.icu/">柚柚</a> 
+        </div> 
+        <div class="info">
+          花径不曾缘客扫，蓬门今始为君开。 
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+
+
+<div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	  <img class="ava" src="https://gravatar.loli.net/avatar/c917530cb70a2a7ec12b57f523d2ca0c?s=120&r=G&d="/> 
+       <div class="card-header"> 
+        <div> 
+         <a href="https://fspark.me/">FSpark</a> 
+        </div> 
+        <div class="info">
+         「0」が過去で 「1」が未来
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+
+<div class="links-content"> 
+     <div class="link-navigation"> 
+      <div class="card"> 
+	  <img class="ava" src="https://q1.qlogo.cn/g?b=qq&nk=2521857263&s=640"/>
+       <div class="card-header"> 
+        <div> 
+         <a href="https://blog.inuyasha.love/">桜風の狐</a> 
+        </div> 
+        <div class="info">
+         最爱妖梦惹~
+		 </div>
+		 </div>
+		 </div>
+		 </div>
+
+</nav>
