@@ -9,7 +9,8 @@ avatar: /img/avatar.jpeg
 categories:
   - 啥都有
 tags:
-  - linux
+  - Linux
+  - 笔记
 # nolastmod: true
 draft: false
 ---
