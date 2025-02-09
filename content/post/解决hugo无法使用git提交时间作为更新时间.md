@@ -21,7 +21,7 @@ draft: false
 <!--more-->
 
 https://github.com/g1eny0ung/hugo-theme-dream/issues/259  
-这就是和作者的issue，真没想到，这个theme已经很久没更新了，没想到作者还活着  
+这就是和作者的issue，真没想到，这个theme已经很久没更新了，没想到作者还在活跃
 解决方案在这里  
 https://github.com/gohugoio/hugo/issues/3071
 
