@@ -12,8 +12,8 @@ tags:
   - linux
 # nolastmod: true
 draft: false
+date: 2022-03-10T23:01:36+08:00
 ---
-发布时间： 2022-03-10T23:01:36+08:00
 
 当你使用 apt remove卸载软件的时候，其实软件的配置文件会残留到系统里
 

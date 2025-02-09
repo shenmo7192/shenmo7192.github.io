@@ -12,8 +12,8 @@ tags:
   - linux
 # nolastmod: true
 draft: false
+date: 2022-03-15T18:42:43+08:00
 ---
-发布时间： 2022-03-15T18:42:43+08:00
 
 
 这是 https://www.yuque.com/pzm9012/ct5ume/nte586/ 的镜像，方便访问

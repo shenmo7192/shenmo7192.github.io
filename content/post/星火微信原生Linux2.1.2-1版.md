@@ -13,8 +13,8 @@ tags:
   - linux
 # nolastmod: true
 draft: false
+date: 2022-01-28T15:37:51+08:00
 ---
-发布时间：2022-01-28T15:37:51+08:00
 
 优麒麟源的微信Linux更新了，在此同步更新星火版微信Linux
 

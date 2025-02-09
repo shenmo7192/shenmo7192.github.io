@@ -12,8 +12,8 @@ tags:
   - linux
 # nolastmod: true
 draft: false
+date: 2022-04-17T19:22:20+08:00
 ---
-发布时间： 2022-04-17T19:22:20+08:00
 
 开发者是： [@ct243768648](https://bbs.deepin.org/user/183568) 原帖：https://bbs.deepin.org/zh/post/228853
 
