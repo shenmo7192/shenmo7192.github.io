@@ -44,17 +44,36 @@ chmod +x add-lastmod.sh
 directory="$1"
 files=$(find "$directory" -type f)
 for file in $files; do
-  echo "${file}"
-  lastmod_date=$(git log --no-show-signature -1 --format=%aI "$file") # example: 2024-05-16T14:23:53+08:00
-  echo "$lastmod_date"
-  # Use awk to insert the lastmod line above the second ---
-  awk -v lastmod="lastmod: $lastmod_date # remove this line if the content is actually changed" '
-  BEGIN { frontmatter = 0 }
-  /^---$/ { frontmatter++ }
-  frontmatter == 2 && !printed { print lastmod; printed = 1 }
+  echo "Processing: ${file}"
+  # 获取该文件最新一次 Git 提交的作者日期，示例格式：2024-05-16T14:23:53+08:00
+  lastmod_date=$(git log --no-show-signature -1 --format=%aI "$file")
+  echo "Last modified date: $lastmod_date"
+  
+  # 使用 awk 检查 front matter 内是否已存在 lastmod 字段：
+  # 如果存在则替换，否则在 front matter 结束前插入该字段
+  awk -v new_lastmod="lastmod: $lastmod_date # remove this line if the content is actually changed" '
+  BEGIN { frontmatter = 0; updated = 0 }
+  # 检测到 front matter 分隔符（假设单独一行 ---）
+  /^---[[:space:]]*$/ {
+    frontmatter++
+    # 当检测到第二个 --- 时，如果还没更新过，则在其前面插入 lastmod 字段
+    if (frontmatter==2 && !updated) {
+      print new_lastmod
+      updated = 1
+    }
+    print
+    next
+  }
+  # 如果当前处于 front matter 内（frontmatter==1）且发现已有 lastmod 字段，则替换
+  (frontmatter==1 && !updated && $0 ~ /^[[:space:]]*lastmod:/) {
+    print new_lastmod
+    updated = 1
+    next
+  }
   { print }
-  ' "$file" >tmpfile && mv tmpfile "$file"
+  ' "$file" > tmpfile && mv tmpfile "$file"
 done
+
 
 
 ```
