@@ -26,7 +26,7 @@ https://www.zhihu.com/question/11750512951/answer/96820955354
 
 ：
 
-[Deepseek在本地部署会有降智吗？1098 赞同 · 327 评论回答![](https://pic4.zhimg.com/v2-8046e70832000b9d1c7c5d72efcc18b7_ipico.jpg)](https://www.zhihu.com/question/11064122620/answer/93688085489)
+[Deepseek在本地部署会有降智吗？1098 赞同 · 327 评论回答](https://www.zhihu.com/question/11064122620/answer/93688085489)
 
 说在最前面。DeepSeek的模型在学习的时候明显是所有素材来者不拒的，也就是为什么很多网友表示DeepSeek“很会”。我也认为DeepSeek输出的很多内容，明显是经过深度学习相关内容的。但是它往往拒绝给出答案，或者是在给出答案后秒撤回。
 
