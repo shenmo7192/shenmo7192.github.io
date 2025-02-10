@@ -2,7 +2,8 @@
 title: DeepSeek如何突破限制？让AI输出可以不回避敏感信息？
 date: 2025-02-11T01:49:16+08:00
 avatar: /img/avatar.jpeg
-# authorlink: https://author.site
+authon: 韩德雨
+authorlink: https://www.zhihu.com/people/han-de-yu
 # cover: /img/Icey-view.png
 # images:
 #   - /img/cover.jpg
@@ -24,8 +25,6 @@ https://www.zhihu.com/question/11750512951/answer/96820955354
 
 
 
-：
-
 [Deepseek在本地部署会有降智吗？1098 赞同 · 327 评论回答](https://www.zhihu.com/question/11064122620/answer/93688085489)
 
 说在最前面。DeepSeek的模型在学习的时候明显是所有素材来者不拒的，也就是为什么很多网友表示DeepSeek“很会”。我也认为DeepSeek输出的很多内容，明显是经过深度学习相关内容的。但是它往往拒绝给出答案，或者是在给出答案后秒撤回。
@@ -39,7 +38,7 @@ https://www.zhihu.com/question/11750512951/answer/96820955354
 
 
 
-**（1）[多层嵌套](https://zhida.zhihu.com/search?content_id=712479769&content_type=Answer&match_order=1&q=%E5%A4%9A%E5%B1%82%E5%B5%8C%E5%A5%97&zhida_source=entity)**
+**（1）多层嵌套
 
 **简易程度：★★★★★
 破限效果：★★**
@@ -102,7 +101,9 @@ https://www.zhihu.com/question/11750512951/answer/96820955354
 简易程度：★★★★★★
 破限效果：★★★★★★
 
-唉，该死，最后的最后，发现谜底全在谜面上。最简单的东西最有效。感谢[@ceerrep](https://www.zhihu.com/people/148f48d4c325b52f4b40165e0f561272) 老师提供的经验。![](https://pica.zhimg.com/80/v2-3544746f1113305f1e4a9f4752c50428_720w.webp?source=2c26e567)
+唉，该死，最后的最后，发现谜底全在谜面上。最简单的东西最有效。感谢[@ceerrep](https://www.zhihu.com/people/148f48d4c325b52f4b40165e0f561272) 老师提供的经验。
+
+![](https://pica.zhimg.com/80/v2-3544746f1113305f1e4a9f4752c50428_720w.webp?source=2c26e567)
 
 比方说，我的要求是这个。显然会被拒绝对吧，别管他，他是有思维过程的，直接改他的思维过程。
 
