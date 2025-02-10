@@ -1,5 +1,22 @@
+---
+title: 在Chatbox上通过硅基流动API免费体验完全体deepseek
+date: 2025-02-10T14:23:30+08:00
+avatar: /img/avatar.jpeg
+# authorlink: https://author.site
+# cover: /img/Icey-view.png
+# images:
+#   - /img/cover.jpg
+categories:
+  - AI
+tags:
+  - 笔记
+# nolastmod: true
+draft: false
+---
+
 DeepSeek官网总是卡？硅基流动+Chatbox体验完全体DeepSeek
 
+<!--more-->
 
 在DeepSeek-R1、[DeepSeek-V3](https://zhida.zhihu.com/search?content_id=253245755&content_type=Article&match_order=1&q=DeepSeek-V3&zhida_source=entity) 开源并引发广泛关注后，硅基流动宣布大模型[云服务平台](https://zhida.zhihu.com/search?content_id=253245755&content_type=Article&match_order=1&q=%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%B9%B3%E5%8F%B0&zhida_source=entity) SiliconCloud 首发上线基于[华为云](https://zhida.zhihu.com/search?content_id=253245755&content_type=Article&match_order=1&q=%E5%8D%8E%E4%B8%BA%E4%BA%91&zhida_source=entity)
 
