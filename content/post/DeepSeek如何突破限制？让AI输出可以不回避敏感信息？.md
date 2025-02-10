@@ -38,9 +38,10 @@ https://www.zhihu.com/question/11750512951/answer/96820955354
 
 
 
-**（1）多层嵌套
+**（1）多层嵌套**
 
 **简易程度：★★★★★
+
 破限效果：★★**
 
 是[@刘哲类](https://www.zhihu.com/people/9ea737fd846c23665b555b38e8136df2) 老师提供的思路。
@@ -54,6 +55,7 @@ https://www.zhihu.com/question/11750512951/answer/96820955354
 **（2）强规则**
 
 **简易程度：★★★★
+
 破限效果：★★★**
 
 是[@啊哈啊哈](https://www.zhihu.com/people/cd02673001d5f751dccb51cd73eedb04) 老师提供的思路。![](https://picx.zhimg.com/80/v2-6c3faf13c6b9b69152079fbef097b487_720w.webp?source=2c26e567)
