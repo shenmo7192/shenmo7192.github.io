@@ -1,15 +1,15 @@
 ---
 title: AmberCE兼容环境使用指南
-date: 2024-02-03T19:46:35+08:00
+date: 2025-02-03T19:46:35+08:00
 author: shenmo
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site
 # images:
 #   - /img/cover.jpg
 categories:
-  - 啥都有
+  - 笔记
 tags:
-  - linux
+  - Linux
 # nolastmod: true
 draft: false
 ---
