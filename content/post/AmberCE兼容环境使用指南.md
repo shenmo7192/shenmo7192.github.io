@@ -7,9 +7,10 @@ avatar: /img/avatar.jpeg
 # images:
 #   - /img/cover.jpg
 categories:
-  - 笔记
+  - 啥都有
 tags:
   - Linux
+  - 笔记
 # nolastmod: true
 draft: false
 ---
