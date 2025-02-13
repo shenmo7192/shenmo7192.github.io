@@ -20,7 +20,7 @@ DeepSeek官网总是卡？硅基流动+Chatbox体验完全体DeepSeek
 
 在DeepSeek-R1、DeepSeek-V3开源并引发广泛关注后，硅基流动宣布大模型云服务平台 SiliconCloud 首发上线基于华为云昇腾云服务的 DeepSeek-V3、DeepSeek-R1。下面是使用硅基流动API在Chatbox上体验完全体DeepSeek的教程：
 
-硅基流动网址：https://cloud.siliconflow.cn/i/tlhC6Ljp
+硅基流动网址：[https://cloud.siliconflow.cn/i/tlhC6Ljp](https://cloud.siliconflow.cn/i/tlhC6Ljp)
 
 用这个链接咱也能获得拉新的一点收益，在此拜谢，打开后手机号注册比较方便
 
