@@ -10,6 +10,7 @@ categories:
   - 啥都有
 tags:
   - Linux
+  - 笔记
 # nolastmod: true
 draft: false
 ---
