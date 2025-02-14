@@ -19,7 +19,7 @@ ACE Bookworm 兼容环境迎来了久违的更新
 
 <!--more-->
 
--->如果您不知道什么是 ACE 兼容环境，请查看：[[应用分享] 使用ACE兼容环境在deepin20/23/UOS家庭版中解决依赖关系不满足](https://bbs.deepin.org.cn/post/272333)
+-->如果您不知道什么是 ACE 兼容环境，请查看：[AmberCE兼容环境使用指南](https://blog.shenmo.tech/post/amberce%E5%85%BC%E5%AE%B9%E7%8E%AF%E5%A2%83%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/)
 
 更新内容如下
 
