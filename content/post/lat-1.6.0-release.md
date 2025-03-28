@@ -19,11 +19,11 @@ draft: false
 <!--more-->
 
 
-源仓库：https://github.com/lat-opensource/lat
+源仓库： https://github.com/lat-opensource/lat
 
-Gitlink国内自动镜像（24小时同步一次）：https://gitlink.org.cn/shenmo7192/lat
+Gitlink国内自动镜像（24小时同步一次）： https://gitlink.org.cn/shenmo7192/lat
 
-下载地址：https://gitlink.org.cn/shenmo7192/lat/releases
+下载地址： https://gitlink.org.cn/shenmo7192/lat/releases
 
 ![图片.png](https://storage.deepin.org/thread/202503281138512958_图片.png)
 
