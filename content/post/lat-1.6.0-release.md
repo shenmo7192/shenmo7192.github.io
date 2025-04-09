@@ -23,7 +23,7 @@ draft: false
 
 Atom国内自动镜像（24小时同步一次）： https://atomgit.com/shenmo7192/lat
 
-下载地址： https://atomgit.com/shenmo7192/lat/releases
+下载地址： https://atomgit.com/shenmo7192/lat/tags?tab=release
 
 ![图片.png](https://storage.deepin.org/thread/202503281138512958_图片.png)
 
