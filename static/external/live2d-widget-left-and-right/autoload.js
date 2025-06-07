@@ -35,7 +35,7 @@ if (screen.width >= 768) {
 		initWidget({
 			waifuPath: live2d_path + "waifu-tips.json",
 			// apiPath: "https://live2d.fghrsh.net/api/",
-            cdnPath: "https://shenmo7192.atomgit.net/live2d_api-master/"
+			cdnPath: "https://blog-cdn.shenmo.tech/"
 			//cdnPath: "https://xiaoshujiang-shenmo.oss-cn-beijing.aliyuncs.com/other-file/live2d_api-master/"
 		});
 	});
