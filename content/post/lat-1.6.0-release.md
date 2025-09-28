@@ -7,9 +7,9 @@ avatar: /img/avatar.jpeg
 # images:
 #   - /img/cover.jpg
 categories:
-  - 啥都有
+  - Linux
 tags:
-  - 闲聊
+  - Linux
 # nolastmod: true
 draft: false
 ---
