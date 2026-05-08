@@ -1,5 +1,5 @@
 ---
-title: 星火APM琥珀包：支持Wine应用，一键转制，在任意Linux运行
+title: "星火APM琥珀包：支持Wine应用，一键转制，在任意Linux运行"
 date: 2025-10-28T14:41:06+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

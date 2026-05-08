@@ -1,5 +1,5 @@
 ---
-title: 星火应用商店 v4.9.9~alpha1 开始测试
+title: "星火应用商店 v4.9.9~alpha1 开始测试"
 date: 2026-02-19T20:56:30+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

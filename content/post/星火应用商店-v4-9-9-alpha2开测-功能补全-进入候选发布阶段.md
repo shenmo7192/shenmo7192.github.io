@@ -1,5 +1,5 @@
 ---
-title: 星火应用商店 v4.9.9~alpha2开测：功能补全，进入候选发布阶段
+title: "星火应用商店 v4.9.9~alpha2开测：功能补全，进入候选发布阶段"
 date: 2026-02-25T21:00:55+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

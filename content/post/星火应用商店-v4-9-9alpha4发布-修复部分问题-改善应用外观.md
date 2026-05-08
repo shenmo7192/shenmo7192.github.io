@@ -1,5 +1,5 @@
 ---
-title: 星火应用商店 v4.9.9alpha4发布，修复部分问题，改善应用外观
+title: "星火应用商店 v4.9.9alpha4发布，修复部分问题，改善应用外观"
 date: 2026-03-24T21:00:48+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

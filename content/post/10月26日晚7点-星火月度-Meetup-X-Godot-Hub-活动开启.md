@@ -1,5 +1,5 @@
 ---
-title: 10月26日晚7点，星火月度 Meetup X Godot Hub 活动开启
+title: "10月26日晚7点，星火月度 Meetup X Godot Hub 活动开启"
 date: 2025-10-25T17:18:21+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

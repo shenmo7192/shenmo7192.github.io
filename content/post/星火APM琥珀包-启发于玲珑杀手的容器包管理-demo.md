@@ -1,5 +1,5 @@
 ---
-title: 星火APM琥珀包: 启发于玲珑杀手的容器包管理(demo)
+title: "星火APM琥珀包: 启发于玲珑杀手的容器包管理(demo)"
 date: 2025-10-19T13:58:00+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

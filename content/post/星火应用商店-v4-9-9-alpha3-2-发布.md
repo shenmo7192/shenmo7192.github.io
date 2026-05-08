@@ -1,5 +1,5 @@
 ---
-title: 星火应用商店 v4.9.9~alpha3.2 发布
+title: "星火应用商店 v4.9.9~alpha3.2 发布"
 date: 2026-03-22T20:59:42+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

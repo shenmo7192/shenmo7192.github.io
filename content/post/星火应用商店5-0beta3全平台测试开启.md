@@ -1,5 +1,5 @@
 ---
-title: 星火应用商店5.0beta3全平台测试开启
+title: "星火应用商店5.0beta3全平台测试开启"
 date: 2026-04-05T16:21:22+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

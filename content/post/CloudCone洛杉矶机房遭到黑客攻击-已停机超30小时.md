@@ -1,5 +1,5 @@
 ---
-title: CloudCone洛杉矶机房遭到黑客攻击，已停机超30小时
+title: "CloudCone洛杉矶机房遭到黑客攻击，已停机超30小时"
 date: 2026-02-01T12:29:42+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

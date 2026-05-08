@@ -1,5 +1,5 @@
 ---
-title: APM 1.1.9 发布：实验性支持在 deepin 25 上右键卸载
+title: "APM 1.1.9 发布：实验性支持在 deepin 25 上右键卸载"
 date: 2026-03-25T21:12:15+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

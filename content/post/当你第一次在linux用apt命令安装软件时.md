@@ -1,5 +1,5 @@
 ---
-title: 当你第一次在linux用apt命令安装软件时
+title: "当你第一次在linux用apt命令安装软件时"
 date: 2025-12-09T22:30:35+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

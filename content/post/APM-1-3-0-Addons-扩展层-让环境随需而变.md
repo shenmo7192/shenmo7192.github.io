@@ -1,5 +1,5 @@
 ---
-title: APM 1.3.0 ：Addons 扩展层：让环境随需而变
+title: "APM 1.3.0 ：Addons 扩展层：让环境随需而变"
 date: 2026-04-25T11:31:13+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

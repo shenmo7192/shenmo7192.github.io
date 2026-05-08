@@ -1,5 +1,5 @@
 ---
-title: Gitee 2025 最受欢迎的开源软件投票活动开放投票
+title: "Gitee 2025 最受欢迎的开源软件投票活动开放投票"
 date: 2025-10-24T14:50:09+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

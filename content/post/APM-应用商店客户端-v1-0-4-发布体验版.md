@@ -1,5 +1,5 @@
 ---
-title: APM 应用商店客户端 v1.0.4 发布体验版
+title: "APM 应用商店客户端 v1.0.4 发布体验版"
 date: 2026-02-03T21:59:17+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

@@ -1,5 +1,5 @@
 ---
-title: 星火 APM 琥珀软件包 1.1.2 发布：沙箱上线，ARM商店开始测试
+title: "星火 APM 琥珀软件包 1.1.2 发布：沙箱上线，ARM商店开始测试"
 date: 2025-11-02T12:03:39+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

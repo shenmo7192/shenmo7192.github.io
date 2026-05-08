@@ -1,5 +1,5 @@
 ---
-title: 星火APM 琥珀软件包 ：网页商店测试上线，在任意 Linux 上安装应用
+title: "星火APM 琥珀软件包 ：网页商店测试上线，在任意 Linux 上安装应用"
 date: 2025-10-29T13:57:47+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

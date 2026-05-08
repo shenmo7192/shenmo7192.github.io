@@ -1,5 +1,5 @@
 ---
-title: 星火v5.0.0beta4：不再依赖flatpak，集成更新中心和应用管理
+title: "星火v5.0.0beta4：不再依赖flatpak，集成更新中心和应用管理"
 date: 2026-04-13T20:40:10+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

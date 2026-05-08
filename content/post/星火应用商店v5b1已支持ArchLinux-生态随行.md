@@ -1,5 +1,5 @@
 ---
-title: 星火应用商店v5b1已支持ArchLinux，生态随行
+title: "星火应用商店v5b1已支持ArchLinux，生态随行"
 date: 2026-03-31T15:00:32+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

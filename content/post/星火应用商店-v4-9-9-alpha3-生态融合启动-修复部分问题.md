@@ -1,5 +1,5 @@
 ---
-title: 星火应用商店 v4.9.9~alpha3：生态融合启动，修复部分问题
+title: "星火应用商店 v4.9.9~alpha3：生态融合启动，修复部分问题"
 date: 2026-03-15T15:36:34+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

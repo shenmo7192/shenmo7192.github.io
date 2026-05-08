@@ -1,5 +1,5 @@
 ---
-title: 星火应用商店v4.9.9~alpha4预览：更新器升级
+title: "星火应用商店v4.9.9~alpha4预览：更新器升级"
 date: 2026-03-22T17:09:12+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

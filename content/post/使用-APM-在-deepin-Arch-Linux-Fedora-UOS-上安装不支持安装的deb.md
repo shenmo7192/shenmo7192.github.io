@@ -1,5 +1,5 @@
 ---
-title: 使用 APM 在 deepin / Arch Linux / Fedora / UOS 上安装不支持安装的deb
+title: "使用 APM 在 deepin / Arch Linux / Fedora / UOS 上安装不支持安装的deb"
 date: 2026-04-19T15:11:58+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

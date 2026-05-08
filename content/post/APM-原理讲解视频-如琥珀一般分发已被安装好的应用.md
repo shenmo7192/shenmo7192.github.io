@@ -1,5 +1,5 @@
 ---
-title: APM 原理讲解视频：如琥珀一般分发已被安装好的应用
+title: "APM 原理讲解视频：如琥珀一般分发已被安装好的应用"
 date: 2026-02-03T21:43:05+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

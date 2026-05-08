@@ -1,5 +1,5 @@
 ---
-title: 修复 WPS Office 在 KDE 上无法双击打开应用的问题的解决方案
+title: "修复 WPS Office 在 KDE 上无法双击打开应用的问题的解决方案"
 date: 2026-03-15T14:45:01+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

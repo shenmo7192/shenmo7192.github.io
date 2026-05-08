@@ -1,5 +1,5 @@
 ---
-title: 大家试过GPT IMAGE 2 了吗
+title: "大家试过GPT IMAGE 2 了吗"
 date: 2026-04-23T22:11:50+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

@@ -1,5 +1,5 @@
 ---
-title: 你能识别出人类生成的图像吗？来试试GroundFlare安全验证～
+title: "你能识别出人类生成的图像吗？来试试GroundFlare安全验证～"
 date: 2026-04-25T11:16:15+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site

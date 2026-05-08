@@ -1,5 +1,5 @@
 ---
-title: 星火应用商店 V5 Beta1 发布：优雅，迅捷，全平台兼容（实验性）
+title: "星火应用商店 V5 Beta1 发布：优雅，迅捷，全平台兼容（实验性）"
 date: 2026-03-29T18:48:59+08:00
 avatar: /img/avatar.jpeg
 # authorlink: https://author.site
