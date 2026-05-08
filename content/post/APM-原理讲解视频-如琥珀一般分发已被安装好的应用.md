@@ -16,6 +16,10 @@ draft: false
 
 NotebookLLM 太好用了你们知道嘛 ，把源码丢给他就可以出视频了
 
+<!--more-->
+
+NotebookLLM 太好用了你们知道嘛 ，把源码丢给他就可以出视频了
+
 讲解视频：
 
    

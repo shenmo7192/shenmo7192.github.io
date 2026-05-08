@@ -14,6 +14,10 @@ tags:
 draft: false
 ---
 
+新更新器会支持同时检查星火和apm的应用更新，不再需要分不同的入口检测了
+
+<!--more-->
+
 ![60ca33fd17e738f9a84e7324537ec623.png](https://storage.deepin.org/thread/20260322090720576_60ca33fd17e738f9a84e7324537ec623.png)
 
 新更新器会支持同时检查星火和apm的应用更新，不再需要分不同的入口检测了

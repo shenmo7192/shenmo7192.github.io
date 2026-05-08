@@ -16,6 +16,10 @@ draft: false
 
 DTK2风格
 
+<!--more-->
+
+DTK2风格
+
 ![b3f816d3ee2edd38df9e01dfe884cea6.png](https://storage.deepin.org/thread/202605030517069092_b3f816d3ee2edd38df9e01dfe884cea6.png)
 
 DTK5风格

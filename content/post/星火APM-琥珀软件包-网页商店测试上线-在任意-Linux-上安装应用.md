@@ -14,6 +14,10 @@ tags:
 draft: false
 ---
 
+使用前请安装APM  https://gitee.com/amber-ce/amber-pm/releases/
+
+<!--more-->
+
 https://erotica.spark-app.store/amd64-apm/
 
 ![图片.png](https://storage.deepin.org/thread/202510290700122542_图片.png)

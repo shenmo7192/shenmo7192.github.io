@@ -14,6 +14,10 @@ tags:
 draft: false
 ---
 
+感谢 @罐子 的启发和 DeepSeek V3.2 的伟力，我改善了 APM 容器的 Nvidia 透传方案，现在可完整透穿 **OpenGL / GLX Vendor**的配置和库了，修复了部分应用透传驱动后仍无法正常调用 Nvidia ...
+
+<!--more-->
+
 感谢 @罐子 的启发和 DeepSeek V3.2 的伟力，我改善了 APM 容器的 Nvidia 透传方案，现在可完整透穿 **OpenGL / GLX Vendor**的配置和库了，修复了部分应用透传驱动后仍无法正常调用 Nvidia 显卡加速的问题
 
 相关代码：

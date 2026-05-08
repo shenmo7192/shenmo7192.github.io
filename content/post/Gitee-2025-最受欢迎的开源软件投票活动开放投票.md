@@ -16,6 +16,10 @@ draft: false
 
 在Gitee上托管仓库，且Star＞100即可参加~
 
+<!--more-->
+
+在Gitee上托管仓库，且Star＞100即可参加~
+
 ![S51024-14483599_io.github.forkmaintainers.iceraven.png](https://storage.deepin.org/thread/2025102406484498_S51024-14483599_io.github.forkmaintainers.iceraven.png)
 
 报名链接: https://gitee.com/activity/2025opensource

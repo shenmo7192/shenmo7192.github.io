@@ -16,6 +16,10 @@ draft: false
 
 对于 deepin / UOS ，安装完星火商店后需 `sudo aptss install apm ` 来配置 APM
 
+<!--more-->
+
+对于 deepin / UOS ，安装完星火商店后需 `sudo aptss install apm ` 来配置 APM
+
 Arch 和 Fedora 会自带 APM
 
 详情见

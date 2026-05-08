@@ -14,6 +14,10 @@ tags:
 draft: false
 ---
 
+APM 是一套基于 fuse-overlayfs + dpkg + AmberCE 的容器化兼容层，是一种在多发行版上运行应用的轻量方式，允许使用各种发行版（ deepin / UOS / Arch / Fedora / 银河麒麟等）的用户...
+
+<!--more-->
+
 APM 是一套基于 fuse-overlayfs + dpkg + AmberCE 的容器化兼容层，是一种在多发行版上运行应用的轻量方式，允许使用各种发行版（ deepin / UOS / Arch / Fedora / 银河麒麟等）的用户无感安装应用
 
 感谢 @Elysia猫猫侠⁧ 的贡献

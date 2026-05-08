@@ -16,6 +16,10 @@ draft: false
 
 感谢 @Elysia猫猫侠⁧开发的 APM 应用商店（https://amber-pm.spark-app.store/），
 
+<!--more-->
+
+感谢 @Elysia猫猫侠⁧开发的 APM 应用商店（https://amber-pm.spark-app.store/），
+
 APM 设计时就是按照星火的后端架构设计的，这使得通过 vibe coding 的简单修改即可对接到星火商店
 
 新的星火商店使用Electron和原生混合架构，不再需要依赖包即可在所有的debian系发行版上安装

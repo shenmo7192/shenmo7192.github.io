@@ -16,6 +16,10 @@ draft: false
 
 10月26日晚7点，星火社区meetup！
 
+<!--more-->
+
+10月26日晚7点，星火社区meetup！
+
 ![b6ae8d381ae9f48302714eedc8db1ffd.jpeg](https://storage.deepin.org/thread/202510250916321577_b6ae8d381ae9f48302714eedc8db1ffd.jpeg)
 
 本次meetup与 盛京开源社区 SJOSC 与 Godot Hub 社区共同举办

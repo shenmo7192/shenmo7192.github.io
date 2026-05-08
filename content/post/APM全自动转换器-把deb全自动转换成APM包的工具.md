@@ -16,6 +16,10 @@ draft: false
 
 关于 APM : https://bbs.deepin.org.cn/post/292352
 
+<!--more-->
+
+关于 APM : https://bbs.deepin.org.cn/post/292352
+
 APM 琥珀容器包管理系统启发于 玲珑杀手 ll-killer ，感谢 @System233的思路
 
 apm现已进入星火仓库，可通过 `sudo aptss install apm -y`进行安装

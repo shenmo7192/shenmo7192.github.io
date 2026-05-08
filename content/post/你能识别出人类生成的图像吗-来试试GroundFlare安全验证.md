@@ -16,6 +16,10 @@ draft: false
 
 书接上回，https://bbs.deepin.org.cn/post/297572
 
+<!--more-->
+
+书接上回，https://bbs.deepin.org.cn/post/297572
+
 @momen 以此为灵感整了个大活，隆重向大家介绍，CloudFlare的异父异母亲兄弟 GroundFlare ～
 
 ![259d2ada9c9d731be988d7145503e335_720.png](https://storage.deepin.org/thread/202604250322556509_259d2ada9c9d731be988d7145503e335_720.png)

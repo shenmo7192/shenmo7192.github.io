@@ -16,6 +16,10 @@ draft: false
 
 如果你想折腾Arch，向着Linux折腾深水区进发，但又舍不得debian的良好应用生态，那这会是一个好消息
 
+<!--more-->
+
+如果你想折腾Arch，向着Linux折腾深水区进发，但又舍不得debian的良好应用生态，那这会是一个好消息
+
 ![20260329164015467_5E7FBD4A2D12229314B6A5623C9EEA24.png](https://storage.deepin.org/thread/20260331065818369_20260329164015467_5E7FBD4A2D12229314B6A5623C9EEA24.png)
 
 星火应用商店现已支持ArchLinux，已上AUR

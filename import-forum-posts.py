@@ -242,6 +242,20 @@ def main():
 
             # Escape quotes in title for YAML
             safe_subject = subject.replace('"', '\\"')
+            # Build summary: first meaningful line, or title if none found
+            summary = subject
+            for line in md_content.strip().split('\n'):
+                line = line.strip()
+                if not line:
+                    continue
+                if line.startswith('![') or line.startswith('```') or line.startswith('---'):
+                    continue
+                if line.startswith('<') and line.endswith('>'):
+                    continue
+                if line.startswith('http'):
+                    continue
+                summary = line[:120] + ('...' if len(line) > 120 else '')
+                break
             frontmatter = f"""---
 title: "{safe_subject}"
 date: {date_str}
@@ -252,6 +266,10 @@ tags:
   - Linux
 draft: false
 ---
+
+{summary}
+
+<!--more-->
 
 {md_content}
 """

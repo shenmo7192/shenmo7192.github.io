@@ -14,6 +14,10 @@ tags:
 draft: false
 ---
 
+spk://store/music/netease-music
+
+<!--more-->
+
 ![图片.png](https://storage.deepin.org/thread/202511170141526013_图片.png)
 
 spk://store/music/netease-music

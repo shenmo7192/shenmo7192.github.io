@@ -14,4 +14,8 @@ tags:
 draft: false
 ---
 
+当你第一次在linux用apt命令安装软件时
+
+<!--more-->
+
 https://www.bilibili.com/video/BV128mJBnEW4

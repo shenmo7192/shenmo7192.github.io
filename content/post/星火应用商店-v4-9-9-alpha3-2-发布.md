@@ -16,6 +16,10 @@ draft: false
 
 主要是把新的 更新器合并进来了，支持更新 APM 应用
 
+<!--more-->
+
+主要是把新的 更新器合并进来了，支持更新 APM 应用
+
 ![60ca33fd17e738f9a84e7324537ec623.png](https://storage.deepin.org/thread/20260322090720576_60ca33fd17e738f9a84e7324537ec623.png)
 
 alpha4开始会准备All in APM 了，在此之前，需要让DDE也支持右键卸载APM应用才好
